@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | GlobeCoRe Inc. Atlanta, GA</title>
+<meta content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, psychological evaluations &amp; telehealth in Atlanta, GA. Culturally sensitive, inclusive care for individuals, couples &amp; families. Call (770) 284-1044." name="description"/>
+<meta content="psychologist Atlanta, therapy Atlanta GA, TMS therapy Atlanta, psychological evaluation Atlanta, counseling services Atlanta, telehealth therapy Georgia, medication management Atlanta, couples therapy Atlanta, family therapy Atlanta, ADHD evaluation Atlanta, GlobeCoRe" name="keywords"/>
+<meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="robots"/>
+<meta content="GlobeCoRe Inc." name="author"/>
+<link href="https://globecoreinc.com/" rel="canonical"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://globecoreinc.com/" property="og:url"/>
+<meta content="Psychological &amp; Consulting Services in Atlanta, GA | GlobeCoRe Inc." property="og:title"/>
+<meta content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, evaluations &amp; telehealth in Atlanta. Culturally sensitive, inclusive care. Call (770) 284-1044." property="og:description"/>
+<meta content="https://globecoreinc.com/assets/globecore-og-image.jpg" property="og:image"/>
+<meta content="GlobeCoRe Inc." property="og:site_name"/>
+<meta content="en_US" property="og:locale"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@Globecoreinc" name="twitter:site"/>
+<meta content="Psychological &amp; Consulting Services in Atlanta | GlobeCoRe" name="twitter:title"/>
+<meta content="Comprehensive psychological services, TMS therapy, counseling &amp; telehealth in Atlanta, GA. Inclusive, compassionate care." name="twitter:description"/>
+<meta content="https://globecoreinc.com/assets/globecore-og-image.jpg" name="twitter:image"/>
+<!-- Local SEO Geo Tags -->
+<meta content="US-GA" name="geo.region"/>
+<meta content="Atlanta" name="geo.placename"/>
+<meta content="33.846;-84.362" name="geo.position"/>
+<meta content="33.846, -84.362" name="ICBM"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts: Raleway -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config -->
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8BAF4C',
+                        secondary: '#0F7A8D',
+                        deepTeal: '#027289',
+                        textMain: '#424242',
+                        bgOffWhite: '#F3F3F3',
+                    },
+                    fontFamily: {
+                        raleway: ['Raleway', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        /* FAQ Accordion Styling */
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details summary {
+            list-style: none;
+        }
+
+        details[open] summary .faq-chevron {
+            transform: rotate(180deg);
+        }
+
+        .faq-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Line clamp utilities */
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    
+        /* Responsive Media */
+        .article-content img, .article-content iframe, .article-content video { max-width: 100%; height: auto; }
+        .article-content iframe { aspect-ratio: 16/9; width: 100%; border-radius: 1rem; margin: 2rem auto; display: block; }
+
+        /* Line Tables with Stacked Mobile View */
+        .article-content .wp-block-table { margin: 2rem 0; border-radius: 0.5rem; overflow: hidden; }
+        .article-content table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; border: 1px solid #e5e7eb; margin: 0; }
+        .article-content th, .article-content td { padding: 1rem 1.5rem; border: 1px solid #e5e7eb; vertical-align: top; }
+        .article-content th { background-color: #f8fafc; font-weight: 800; color: #071e26; border-bottom: 2px solid #e5e7eb; }
+        .article-content td { color: #4b5563; }
+        .article-content tr:hover td { background-color: #f1f5f9; }
+        .article-content tr:nth-child(even) td { background-color: #f9fafb; }
+
+        /* Mobile Responsive Stacked Tables */
+        @media (max-width: 767px) {
+            .article-content table, .article-content thead, .article-content tbody, .article-content th, .article-content td, .article-content tr { display: block; width: 100%; }
+            .article-content thead { display: none; }
+            .article-content tr.mobile-header-row { display: none !important; }
+            .article-content tr { margin-bottom: 1.5rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+            .article-content tr:last-child { margin-bottom: 0; }
+            .article-content td { 
+                border: none; border-bottom: 1px solid #e5e7eb; 
+                position: relative; padding: 1rem; padding-left: 45%; text-align: left;
+                min-height: 2.5rem; background-color: white !important;
+            }
+            .article-content td:last-child { border-bottom: 0; }
+            .article-content td::before {
+                content: attr(data-label);
+                position: absolute; left: 1rem; top: 1rem; width: 40%; padding-right: 10px;
+                white-space: normal; text-align: left; font-weight: 800; color: #071e26; font-size: 0.85rem; line-height: 1.4;
+            }
+        }
+    </style>
+</head>
+<body class="font-raleway text-textMain bg-white">
+<!-- ===================== TOP UTILITY BAR ===================== -->
+<div class="bg-[#071e26] text-gray-300 text-xs shadow-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex justify-between items-center">
+<div class="hidden md:flex items-center gap-1">
+<a class="px-3 py-1 rounded-full hover:bg-white/10 hover:text-primary transition-all duration-300" href="../client-portal.html">Client
+                    Portal</a>
+<a class="px-3 py-1 rounded-full hover:bg-white/10 hover:text-primary transition-all duration-300" href="../staff-portal.html">Staff
+                    Portal</a>
+</div>
+<div class="flex items-center gap-2 font-semibold ml-auto text-white">
+<a class="hover:text-primary transition-all duration-300 flex items-center gap-2" href="tel:7702841044">
+<svg class="w-4 h-4 text-primary" fill="currentColor" viewbox="0 0 20 20">
+<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+</svg>
+                    (770) 284-1044</a>
+</div>
+</div>
+</div>
+<!-- MAIN NAVIGATION HEADER -->
+<header class="bg-white/80 backdrop-blur-xl sticky top-0 z-50 border-b border-gray-100 shadow-sm">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+<a href="../index.html">
+<img alt="GlobeCoRe Logo" class="h-11 w-auto" src="../assets/globecore_logo-removebg-preview.png"/>
+</a>
+<nav class="hidden xl:flex items-center gap-2 text-[13px] font-semibold relative">
+<a class="px-3 py-2 text-textMain hover:text-primary transition-colors" href="../index.html">Home</a>
+<div class="group relative">
+<button class="px-3 py-2 text-textMain hover:text-primary flex items-center gap-1 transition-colors">About
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg></button>
+<div class="absolute left-0 mt-0 w-48 bg-white shadow-xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 top-full pt-2 z-50">
+<div class="p-2 flex flex-col gap-1 border border-gray-100 rounded-xl">
+<a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors" href="../about/">About
+                                Us</a>
+<a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors" href="../about/meet-our-team.html">Meet
+                                Our Team</a>
+<a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors" href="../about/philosophy-core-values.html">Philosophy
+                                &amp; Values</a>
+</div>
+</div>
+</div>
+<div class="group relative">
+<button class="px-3 py-2 text-textMain hover:text-primary flex items-center gap-1 transition-colors">Services
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg></button>
+<div class="absolute left-0 mt-0 w-72 bg-white shadow-xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 top-full pt-2 z-50">
+<div class="p-2 flex flex-col gap-1 border border-gray-100 rounded-xl"><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/counseling.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>Counseling
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/psychological-evaluations.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>Psychological Evaluations
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/medication-management.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>Medication Management
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/tms-therapy.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>TMS Therapy
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/personal-development.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>Personal Development
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/professional-development.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>Professional Development
+                            </a><a class="px-4 py-2 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors flex items-center gap-2" href="../services/tricare-tms-therapy.html">
+<div class="w-1.5 h-1.5 rounded-full bg-primary/40"></div>TRICARE-Covered TMS Therapy
+                            </a> </div>
+</div>
+</div>
+<div class="group relative">
+<button class="px-3 py-2 text-textMain hover:text-primary flex items-center gap-1 transition-colors">Specialties
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg></button>
+<div class="absolute left-1/2 -ml-[350px] mt-0 w-[700px] bg-white shadow-2xl rounded-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 top-full pt-2 z-50">
+<div class="grid grid-cols-3 gap-2 p-4 border border-gray-100 rounded-2xl"><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/addiction.html">Addiction</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/adhd.html">ADHD</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/aging-issues.html">Aging
+                                Issues</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/anger-management.html">Anger
+                                Management</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/bipolar-disorder.html">Bipolar
+                                Disorder</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/chronic-illness.html">Chronic
+                                Illness</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/codependency.html">Codependency</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/depression-anxiety.html">Depression
+                                &amp; Anxiety</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/developmental-intellectual-disabilities.html">Developmental
+                                &amp; Intellectual Disabilities</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/eating-disorders.html">Eating
+                                Disorders</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/fertility-pregnancy-parenting.html">Fertility,
+                                Pregnancy &amp; Parenting</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/finding-purpose.html">Finding
+                                Purpose</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/finding-the-love-you-deserve.html">Finding
+                                The Love You Deserve</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/grief-loss.html">Grief
+                                &amp; Loss</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/life-transitions.html">Life
+                                Transitions</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/lgbtqi.html">LGBTQI+</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/ocd.html">OCD</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/racial-ethnic-and-religious-stressors.html">Racial,
+                                Ethnic and Religious Stressors</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/relationship-marriage-issues.html">Relationship
+                                &amp; Marriage Issues</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/self-esteem.html">Self-Esteem</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/sleep-disorders.html">Sleep
+                                Disorders</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/trauma.html">Trauma</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/women-s-issues.html">Women's
+                                Issues</a><a class="px-3 py-2 rounded-lg hover:bg-primary/10 hover:text-primary text-[13px] font-medium transition-colors border border-transparent hover:border-primary/20" href="../specialties/work-related-or-academic-stressors.html">Work-Related
+                                or Academic Stressors</a> </div>
+</div>
+</div>
+<div class="group relative">
+<button class="px-3 py-2 text-textMain hover:text-primary flex items-center gap-1 transition-colors">Locations
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg></button>
+<div class="absolute left-0 mt-0 w-96 bg-white shadow-xl rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 top-full pt-2 z-50">
+<div class="grid grid-cols-2 gap-2 p-3 border border-gray-100 rounded-xl bg-gray-50/50"><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/marietta.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Marietta</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/alpharetta.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Alpharetta</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/sandy-springs.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Sandy Springs</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/brookhaven.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Brookhaven</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/decatur.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Decatur</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/smyrna.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Smyrna</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/johns-creek.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Johns Creek</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/dunwoody.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Dunwoody</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/peachtree-corners.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Peachtree Corners</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/lawrenceville.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Lawrenceville</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/duluth.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Duluth</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/woodstock.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Woodstock</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/canton.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Canton</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/newnan.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Newnan</a><a class="px-3 py-2 rounded-lg hover:bg-white hover:shadow-sm hover:text-primary text-[13px] font-medium transition-all flex items-center gap-2" href="../areas-we-serve/peachtree-city.html"><svg class="w-3 h-3 text-secondary" fill="currentColor" viewbox="0 0 20 20">
+<path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path>
+</svg>Peachtree City</a> </div>
+</div>
+</div>
+<a class="px-3 py-2 text-textMain hover:text-primary transition-colors" href="./index.html">Blog</a>
+<a class="px-3 py-2 text-textMain hover:text-primary transition-colors" href="../pricing-insurance.html">Rates</a>
+<a class="bg-primary text-white border border-primary/20 px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-primary/30 hover:bg-[#7a9e3f] transition-all duration-300 ml-3 font-bold tracking-wide" href="../contact.html">Book
+                    Now</a>
+</nav>
+<button aria-label="Open Menu" class="xl:hidden w-10 h-10 rounded-xl bg-bgOffWhite flex items-center justify-center hover:bg-gray-200 transition-all duration-300" id="mobileMenuBtn">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</div>
+<div class="hidden xl:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 px-6 pb-5 shadow-2xl absolute w-full" id="mobileMenu">
+<nav class="flex flex-col gap-2 text-sm font-semibold pt-4">
+<a class="bg-primary/10 text-primary px-4 py-3 rounded-xl" href="../index.html">Home</a>
+<a class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300" href="../about/">About</a>
+<a class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300" href="../services/counseling.html">Services</a>
+<a class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300" href="../specialties/adhd.html">Specialties</a>
+<a class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300" href="./index.html">Blog</a>
+<a class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300" href="../pricing-insurance.html">Rates</a>
+<a class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300" href="../contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<!-- Single Post Header Style -->
+<style>
+        .article-content p { margin-bottom: 1.5em; line-height: 1.8; color: #4b5563; }
+        .article-content h1, .article-content h2, .article-content h3, .article-content h4 { font-family: 'Raleway', sans-serif; color: #071e26; font-weight: 800; margin-top: 1.5em; margin-bottom: 0.75em; }
+        .article-content h2 { font-size: 2rem; margin-top: 2em; }
+        .article-content h3 { font-size: 1.5rem; }
+        .article-content ul, .article-content ol { margin-bottom: 1.5em; padding-left: 1.5em; color: #4b5563; }
+        .article-content ul { list-style-type: disc; }
+        .article-content ol { list-style-type: decimal; }
+        .article-content li { margin-bottom: 0.5em; }
+        .article-content a { color: #8BAF4C; text-decoration: none; font-weight: 600; border-bottom: 1px solid transparent; transition: border-color 0.3s; }
+        .article-content a:hover { border-color: #8BAF4C; }
+        .article-content blockquote { border-left: 4px solid #8BAF4C; padding-left: 1.5rem; font-style: italic; color: #6b7280; margin: 2rem 0; }
+        .article-content img { border-radius: 1rem; margin: 2rem auto; }
+        .article-content strong { color: #071e26; }
+    
+        /* Responsive Media */
+        .article-content img, .article-content iframe, .article-content video { max-width: 100%; height: auto; }
+        .article-content iframe { aspect-ratio: 16/9; width: 100%; border-radius: 1rem; margin: 2rem auto; display: block; }
+
+        /* Line Tables with Stacked Mobile View */
+        .article-content .wp-block-table { margin: 2rem 0; border-radius: 0.5rem; overflow: hidden; }
+        .article-content table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; border: 1px solid #e5e7eb; margin: 0; }
+        .article-content th, .article-content td { padding: 1rem 1.5rem; border: 1px solid #e5e7eb; vertical-align: top; }
+        .article-content th { background-color: #f8fafc; font-weight: 800; color: #071e26; border-bottom: 2px solid #e5e7eb; }
+        .article-content td { color: #4b5563; }
+        .article-content tr:hover td { background-color: #f1f5f9; }
+        .article-content tr:nth-child(even) td { background-color: #f9fafb; }
+
+        /* Mobile Responsive Stacked Tables */
+        @media (max-width: 767px) {
+            .article-content table, .article-content thead, .article-content tbody, .article-content th, .article-content td, .article-content tr { display: block; width: 100%; }
+            .article-content thead { display: none; }
+            .article-content tr.mobile-header-row { display: none !important; }
+            .article-content tr { margin-bottom: 1.5rem; border: 1px solid #e5e7eb; border-radius: 0.5rem; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+            .article-content tr:last-child { margin-bottom: 0; }
+            .article-content td { 
+                border: none; border-bottom: 1px solid #e5e7eb; 
+                position: relative; padding: 1rem; padding-left: 45%; text-align: left;
+                min-height: 2.5rem; background-color: white !important;
+            }
+            .article-content td:last-child { border-bottom: 0; }
+            .article-content td::before {
+                content: attr(data-label);
+                position: absolute; left: 1rem; top: 1rem; width: 40%; padding-right: 10px;
+                white-space: normal; text-align: left; font-weight: 800; color: #071e26; font-size: 0.85rem; line-height: 1.4;
+            }
+        }
+    </style>
+<main class="bg-[#f8fcfc] py-24 selection:bg-deepTeal/20 font-inter pt-32 lg:pt-40" id="main">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+<a class="inline-flex items-center gap-2 text-primary hover:text-deepTeal font-bold mb-10 transition-colors" href="./page-4.html">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
+                Back to Blog
+            </a>
+<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 p-8 md:p-14 mb-16 relative">
+<!-- Header block -->
+<div class="mb-10 text-center pb-10 border-b border-gray-100">
+<span class="bg-primary/10 text-primary text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] mb-6 inline-block">
+                        Blog
+                    </span>
+<h1 class="text-[32px] md:text-[42px] lg:text-[48px] font-extrabold text-[#071e26] leading-tight font-raleway mb-8">
+                        How Much Does TMS Therapy Cost? Full 2025 Pricing Guide for Patients
+                    </h1>
+<div class="flex items-center justify-center gap-6 text-xs text-gray-400 font-bold uppercase tracking-widest flex-wrap">
+<span class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+                            05/12/2025
+                        </span>
+<span class="w-1.5 h-1.5 rounded-full bg-gray-200"></span>
+<span class="flex items-center gap-1.5">
+                            By Kelly Lewis-Arthur
+                        </span>
+</div>
+</div>
+<!-- Hero Image -->
+<div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
+<img alt="How Much Does TMS Therapy Cost? Full 2025 Pricing Guide for Patients" class="w-full h-auto object-cover max-h-[500px]" src="https://globecoreinc.com/wp-content/uploads/2025/12/2150766884-1.jpg"/>
+</div>
+<!-- Article Content -->
+<div class="article-content text-[17px] md:text-[18px]">
+<p>If you’re searching for <strong>how much does <a href="../services/tms-therapy.html" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> cost</strong>, you want clear numbers right away. On average, TMS is a non-invasive brain stimulation treatment for <a href="../specialties/depression-anxiety.html" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, <a href="../specialties/depression-anxiety.html" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, and <a href="../specialties/ocd.html" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a> — and understanding its price helps patients plan properly. Costs matter because TMS requires multiple sessions and varies widely across clinics, locations, and insurance coverage. This guide explains real price estimates, what affects them, and how to reduce your out-of-pocket expenses. Patients in Georgia can also explore <a href="#"><strong>TMS therapy in Atlanta</strong></a> for localized pricing and treatment options.</p>
+<h2 class="wp-block-heading"><strong>Factors Affecting How Much TMS Therapy Costs</strong></h2>
+<p>The overall <strong>how much does TMS therapy cost</strong> amount depends on several clinical and financial factors. Below are the major elements that influence treatment pricing.</p>
+<h3 class="wp-block-heading"><strong>Number of Sessions Required</strong></h3>
+<p>Most patients need <strong>20–36 sessions</strong>, depending on the clinical condition and protocol.<br/>More sessions = higher total treatment cost.</p>
+<ul class="wp-block-list">
+<li>Standard depression protocol often requires daily sessions for 4–6 weeks.<br/></li>
+<li>Some patients may need additional tapering sessions to maintain results.<br/></li>
+<li>Accelerated protocols like SAINT require multiple sessions per day but fewer treatment days.<br/></li>
+</ul>
+<p>Because TMS is delivered repeatedly to strengthen neural pathways, the number of sessions directly influences <strong>how much does TMS therapy cost</strong>, especially for long-term treatment plans.</p>
+<h2 class="wp-block-heading"><strong>Type of TMS Therapy</strong></h2>
+<p>Different TMS technologies affect costs:</p>
+<h3 class="wp-block-heading"><strong>rTMS (Repetitive TMS)</strong></h3>
+<p>Most common and usually moderately priced. Often covered by insurance for major depressive disorder.</p>
+<h3 class="wp-block-heading"><strong>Deep TMS</strong></h3>
+<p>Uses H-coils to reach deeper brain regions, resulting in higher equipment and operational costs.</p>
+<h3 class="wp-block-heading"><strong>Accelerated TMS</strong></h3>
+<p>Premium, faster results but at a much higher price point. Often used for severe treatment-resistant depression or patients needing rapid improvement.</p>
+<h3 class="wp-block-heading"><strong>Theta Burst Stimulation (iTBS)</strong></h3>
+<p>A newer option with shorter session times. Some clinics offer this protocol at a reduced cost due to its efficiency.</p>
+<p>Patients can speak with a provider during a <a href="#"><strong>psychological evaluation in Atlanta</strong></a> to determine the best TMS type for their condition.</p>
+<h2 class="wp-block-heading"><strong>Geographic Location</strong></h2>
+<p>Where you live significantly affects <strong>how much does TMS therapy cost</strong>.</p>
+<ul class="wp-block-list">
+<li><strong>Large cities</strong> like New York, Los Angeles, and Chicago generally have higher fees due to higher rent, labor costs, and demand.<br/></li>
+<li><strong>Suburbs and smaller cities</strong> tend to be more affordable.<br/></li>
+<li><strong>Atlanta</strong>, for example, often has competitive pricing without sacrificing clinical quality, making<a href="#"> <strong>TMS therapy in Atlanta</strong></a> an option worth comparing.<br/></li>
+<li>International clinics may offer TMS at much lower or higher prices, depending on the country.<br/></li>
+</ul>
+<h2 class="wp-block-heading"><strong>Clinic Expertise &amp; Equipment</strong></h2>
+<p>Clinics with advanced equipment, skilled psychiatrists, and FDA-cleared systems may charge more due to:</p>
+<ul class="wp-block-list">
+<li>High technology investment<br/></li>
+<li>Experienced staff<br/></li>
+<li>Personalized treatment planning<br/></li>
+<li>Comprehensive follow-up care<br/></li>
+</ul>
+<p>This expertise often leads to better outcomes and may justify a slightly higher cost.</p>
+<h2 class="wp-block-heading"><strong>Insurance Coverage</strong></h2>
+<p>Insurance plays a major role in determining <strong>how much does TMS therapy cost</strong> and how much patients pay out of pocket. Most insurers cover TMS for treatment-resistant depression when criteria are met, such as:</p>
+<ul class="wp-block-list">
+<li>Documented history of antidepressant failures<br/></li>
+<li>Engagement in psychotherapy<br/></li>
+<li>Psychological evaluations<br/></li>
+<li>Confirmed diagnosis<br/></li>
+</ul>
+<p>Patients who already receive <a href="#"><strong>medication management in Atlanta</strong></a> may find it easier to meet certain insurance requirements due to documented treatment history.</p>
+<h2 class="wp-block-heading"><strong>Average Costs of TMS Therapy</strong></h2>
+<p>Here is the typical price range for patients researching <strong>how much does TMS therapy cost</strong>:</p>
+<ul class="wp-block-list">
+<li><strong>Per Session:</strong> $250 – $500<br/></li>
+<li><strong>Total Treatment (Standard):</strong> $6,000 – $12,000<br/></li>
+<li><strong>Accelerated TMS:</strong> $10,000 – $20,000 total<br/></li>
+</ul>
+<p>Actual prices depend on clinic expertise, session count, and insurance approval.</p>
+<h2 class="wp-block-heading"><strong>Cost Comparison Table</strong></h2>
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr class="mobile-header-row"><td><strong>Treatment Type</strong></td><td><strong>Average Cost per Session</strong></td><td><strong>Total Cost (4–6 Weeks)</strong></td><td><strong>Notes</strong></td></tr><tr><td data-label="Treatment Type"><strong>Standard rTMS</strong></td><td data-label="Average Cost per Session">$250–$400</td><td data-label="Total Cost (4–6 Weeks)">$6,000–$12,000</td><td data-label="Notes">Most common</td></tr><tr><td data-label="Treatment Type"><strong>Deep TMS</strong></td><td data-label="Average Cost per Session">$300–$500</td><td data-label="Total Cost (4–6 Weeks)">$8,000–$14,000</td><td data-label="Notes">Uses H-coil, deeper stimulation</td></tr><tr><td data-label="Treatment Type"><strong>iTBS (Theta Burst)</strong></td><td data-label="Average Cost per Session">$200–$350</td><td data-label="Total Cost (4–6 Weeks)">$4,000–$8,000</td><td data-label="Notes">Shorter session length</td></tr><tr><td data-label="Treatment Type"><strong>Accelerated TMS</strong></td><td data-label="Average Cost per Session">$10,000–$20,000 total</td><td data-label="Total Cost (4–6 Weeks)">Varies</td><td data-label="Notes">Intensive, faster results</td></tr></tbody></table></figure>
+<p>This table helps patients understand <strong>how much does TMS therapy cost</strong> under different treatment models.</p>
+<h2 class="wp-block-heading"><strong>Insurance Coverage: How Much Does TMS Therapy Cost With Insurance</strong></h2>
+<p>Patients frequently ask <strong>how much does TMS therapy cost with insurance</strong>, and the answer is promising:</p>
+<h3 class="wp-block-heading"><strong>Most major insurers now cover TMS, including:</strong></h3>
+<ul class="wp-block-list">
+<li>Aetna<br/></li>
+<li>Cigna<br/></li>
+<li>Kaiser<br/></li>
+<li>Blue Cross Blue Shield<br/></li>
+<li>UnitedHealthcare<br/></li>
+<li>Medicare (in specific conditions)<br/></li>
+</ul>
+<h3 class="wp-block-heading"><strong>When approved:</strong></h3>
+<ul class="wp-block-list">
+<li><strong>Out-of-pocket costs may drop to $0–$50 per session</strong><strong><br/></strong></li>
+<li>Deductibles and co-pays still apply<br/></li>
+<li>Pre-authorization is required<br/></li>
+<li>Documentation must prove medical necessity<br/></li>
+</ul>
+<p>On average, <strong>how much does TMS therapy cost with insurance</strong> can reduce total expenses from thousands to just <strong>a few hundred dollars</strong>.</p>
+<p>If you’re already under <a href="#"><strong>medication management in Atlanta</strong></a>, this may help strengthen your insurance approval by showing you’ve attempted standard treatments.</p>
+<h2 class="wp-block-heading"><strong>Additional Costs &amp; Considerations</strong></h2>
+<p>When calculating <strong>how much does TMS therapy cost</strong>, consider additional potential expenses:</p>
+<ul class="wp-block-list">
+<li><strong>Initial psychiatric consultation:</strong> $150–$400<br/></li>
+<li><strong><a href="../services/psychological-evaluations.html" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Psychological evaluation</a>:</strong> Part of medical clearance<br/></li>
+<li><strong>Motor threshold mapping:</strong> $150–$300<br/></li>
+<li><strong>Follow-up visits:</strong> $100–$250 each<br/></li>
+<li><strong>Transportation</strong> for daily TMS visits (4–6 weeks)<br/></li>
+<li><strong>Maintenance sessions</strong>, if symptoms return<br/></li>
+</ul>
+<p>Many clinics offer bundles that include evaluations and follow-ups to reduce total expenses. During a <a href="#"><strong>psychological evaluation in Atlanta</strong></a>, patients can get a personalized cost estimate.</p>
+<h2 class="wp-block-heading"><strong>Benefits of TMS Therapy</strong></h2>
+<p>Understanding the benefits helps justify <strong>how much does TMS therapy cost</strong>:</p>
+<ul class="wp-block-list">
+<li>Non-invasive and medication-free<br/></li>
+<li>FDA-approved for depression, OCD, and smoking cessation<br/></li>
+<li>Minimal side effects compared to antidepressants<br/></li>
+<li>Long-lasting symptom improvement<br/></li>
+<li>Effective for treatment-resistant depression<br/></li>
+<li>No sedation or downtime<br/></li>
+</ul>
+<p>Many patients experience noticeable improvement within 2–4 weeks.</p>
+<h2 class="wp-block-heading"><strong>Tips to Make TMS Therapy Affordable</strong></h2>
+<p>If you’re concerned about <strong>how much does TMS therapy cost</strong>, here are ways to reduce expenses:</p>
+<h3 class="wp-block-heading"><strong>1. Use Insurance Approval</strong></h3>
+<p>Meeting insurance requirements is the easiest way to lower costs dramatically.</p>
+<h3 class="wp-block-heading"><strong>2. Ask About Payment Plans</strong></h3>
+<p>Most clinics offer:</p>
+<ul class="wp-block-list">
+<li>Monthly installments<br/></li>
+<li>0% interest financing<br/></li>
+<li>Sliding-scale fees<br/></li>
+<li>Bundled pricing<br/></li>
+</ul>
+<h3 class="wp-block-heading"><strong>3. Compare Clinics</strong></h3>
+<p>Costs vary widely. Ask about:</p>
+<ul class="wp-block-list">
+<li>Number of included sessions<br/></li>
+<li>Assessment fees<br/></li>
+<li>Aftercare<br/></li>
+<li>Maintenance options<br/></li>
+</ul>
+<p>Comparing clinics in different areas — such as <a href="#"><strong>TMS therapy in Atlanta</strong></a> — can help patients find better pricing.</p>
+<h3 class="wp-block-heading"><strong>4. Consider University or Research Clinics</strong></h3>
+<p>These clinics often provide TMS at reduced rates.</p>
+<h3 class="wp-block-heading"><strong>5. Explore Accelerated TMS Packages</strong></h3>
+<p>Accelerated options may have higher upfront cost but fewer total treatment days, saving time and travel expenses.</p>
+<h2 class="wp-block-heading"><strong>Conclusion</strong></h2>
+<p>Understanding <strong>how much does TMS therapy cost</strong> helps patients make informed decisions about treatment. Costs vary based on session count, TMS type, location, and <strong>how much does TMS therapy cost with insurance</strong> benefits. Despite the investment, TMS is a highly effective, non-invasive option for treatment-resistant depression.Patients seeking treatment in Georgia can begin with a <a href="#"><strong>psychological evaluation in Atlanta</strong></a> and learn whether they qualify for insurance-covered sessions. Those already receiving<a href="#"><strong>medication management in Atlanta</strong></a> may have a smoother approval process. To explore treatment availability and pricing, consider consulting a provider offering<a href="#"><strong>TMS therapy in Atlanta</strong></a>.</p>
+</div>
+</article>
+</div>
+</main>
+<footer class="relative bg-gradient-to-b from-deepTeal to-[#024d5e] text-gray-200 overflow-hidden" id="contact">
+<!-- Decorative Background Elements -->
+<div class="absolute top-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2">
+</div>
+<div class="absolute bottom-0 right-0 w-96 h-96 bg-secondary/5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3">
+</div>
+<!-- Top CTA Banner -->
+<div class="relative border-b border-white/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<div>
+<h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Ready to Start Your Healing Journey?
+                        </h3>
+<p class="text-gray-400 text-sm max-w-lg">Take the first step toward better mental health. Our
+                            compassionate team is here to support you every step of the way.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+<a class="inline-flex items-center justify-center gap-2 bg-primary text-white font-bold py-3.5 px-8 rounded-xl hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-300" href="tel:7702841044">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+                            (770) 284-1044
+                        </a>
+<a class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-bold py-3.5 px-8 rounded-xl hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-300" href="#services">
+                            View Services
+                        </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Footer Grid -->
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 pt-14 pb-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
+<!-- Col 1: About -->
+<div>
+<a class="inline-block mb-5" href="#">
+<img alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert" src="../assets/globecore_logo-removebg-preview.png"/>
+</a>
+<p class="text-sm leading-relaxed text-gray-400">
+                        Providing expert psychological services, testing, and consulting in the Atlanta area, tailored
+                        for
+                        multicultural and diverse communities. Empowering you toward lasting well-being.
+                    </p>
+<div class="flex gap-2.5 mt-6">
+<a aria-label="Facebook" class="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 group" href="https://www.facebook.com/globecoreinc/" target="_blank">
+<svg class="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="currentColor" viewbox="0 0 24 24">
+<path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+</svg>
+</a>
+<a aria-label="Twitter" class="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 group" href="https://twitter.com/Globecoreinc" target="_blank">
+<svg class="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="currentColor" viewbox="0 0 24 24">
+<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+</svg>
+</a>
+<a aria-label="LinkedIn" class="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 group" href="https://www.linkedin.com/company/global-consulting-&amp;-research-globecore-inc/about/" target="_blank">
+<svg class="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="currentColor" viewbox="0 0 24 24">
+<path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+</svg>
+</a>
+<a aria-label="Instagram" class="w-10 h-10 bg-white/5 rounded-xl flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 group" href="https://www.instagram.com/globecoreinc/" target="_blank">
+<svg class="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="currentColor" viewbox="0 0 24 24">
+<path d="M16 4H8a4 4 0 00-4 4v8a4 4 0 004 4h8a4 4 0 004-4V8a4 4 0 00-4-4zm2 12a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2v8zm-6-7a3 3 0 100 6 3 3 0 000-6zm4.5-1.5a1 1 0 100 2 1 1 0 000-2z"></path>
+</svg>
+</a>
+</div>
+</div>
+<!-- Col 2: Quick Links -->
+<div>
+<h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Quick Links</h4>
+<ul class="space-y-3 text-sm">
+<li><a class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300" href="#about"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>About Us</a></li>
+<li><a class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300" href="#about"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Meet Our Team</a></li>
+<li><a class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300" href="#services"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Services</a></li>
+<li><a class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300" href="#specialties"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Specialties</a></li>
+</ul>
+</div>
+<!-- Col 3: Contact Info -->
+<div>
+<h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Contact Us</h4>
+<ul class="space-y-4 text-sm">
+<li class="flex items-start gap-3">
+<div class="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<span>3355 Lenox Road NE.<br/>Suite 700<br/>Atlanta, GA 30326</span>
+</li>
+<li class="flex items-start gap-3">
+<div class="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-primary" fill="currentColor" viewbox="0 0 20 20">
+<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+</svg>
+</div>
+<a class="hover:text-primary transition-all duration-300" href="mailto:help@globecoreinc.com">help@globecoreinc.com</a>
+</li>
+<li class="flex items-start gap-3">
+<div class="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center flex-shrink-0 mt-0.5">
+<svg class="w-4 h-4 text-primary" fill="currentColor" viewbox="0 0 20 20">
+<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+</svg>
+</div>
+<a class="hover:text-primary transition-all duration-300" href="tel:7702841044">(770)
+                                284-1044</a>
+</li>
+</ul>
+<div class="mt-5 pt-4 border-t border-white/10">
+<p class="text-sm text-gray-400 leading-relaxed italic">Clinicians and Consultants are available
+                            to
+                            see clients M-F from 9 am – 7 pm and Saturdays by appointment only.</p>
+</div>
+</div>
+<!-- Col 4: Areas We Serve -->
+<div>
+<h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Areas We Serve</h4>
+<ul class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Marietta</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Alpharetta</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Sandy Springs</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Brookhaven</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Decatur</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Smyrna</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Johns Creek</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Dunwoody</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Peachtree Corners</a>
+</li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Lawrenceville</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Duluth</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Woodstock</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Canton</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Newnan</a></li>
+<li><a class="hover:text-primary transition-colors duration-300" href="#">Peachtree City</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Gradient Separator -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6">
+<div class="h-px bg-gradient-to-r from-transparent via-white/15 to-transparent"></div>
+</div>
+<!-- Copyright Bar -->
+<div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-6">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+<p>© 2026 GlobeCoRe Inc. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors duration-300" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors duration-300" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors duration-300" href="#">Sitemap</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Re-bind mobile menu logic
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
