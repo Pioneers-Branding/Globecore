@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resiliency Mind + Body Medicine | Advanced Psychiatric Care</title>
+    <meta name="description" content="Personalized treatments for depression, anxiety, OCD, and PTSD using evidence-based therapies and advanced neuromodulation technology including Deep TMS Therapy and SPRAVATO.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0B2035', /* Deep Blue / Navy */
+                        secondary: '#23bfe2', /* Soft Sage Green */
+                        accent: '#23bfe2', /* Light Blue */
+                        lightblue: '#23bfe2', /* Light Blue Accent */
+                        surface: '#FDFDFD',
+                        neutral: '#F3F4F6'
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 40px -10px rgba(11,32,53,0.08)',
+                        'hover': '0 20px 40px -10px rgba(11,32,53,0.12)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans text-gray-800 bg-surface antialiased selection:bg-accent selection:text-white">
+
+    <!-- Sticky Navigation -->
+    <header id="header" class="group fixed w-full top-0 z-50 transition-all duration-300 bg-transparent border-b border-transparent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-24 transition-all duration-300 group-[.scrolled]:h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="block">
+                        <!-- We use a brightness filter for the white variant before scrolling, and invert/original on scroll depending on the logo's original color -->
+                        <img src="assets/images/logo/Resiliency-MindBody-Medicine-Logo.png" alt="Resiliency Mind+Body Medicine" class="h-16 w-auto object-contain transition-all duration-300 brightness-0 invert group-[.scrolled]:filter-none">
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    
+                    <!-- Mental Health Dropdown -->
+                    <div class="relative group/mh">
+                        <button class="flex items-center gap-1 text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">
+                            Mental Health <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-hover/mh:rotate-180"></i>
+                        </button>
+                        <!-- Dropdown Content -->
+                        <div class="absolute top-[80px] left-1/2 -translate-x-1/2 w-72 bg-white rounded-2xl shadow-[0_20px_40px_-15px_rgba(11,32,53,0.15)] opacity-0 invisible group-hover/mh:opacity-100 group-hover/mh:visible transition-all duration-300 transform translate-y-4 group-hover/mh:translate-y-0 border border-gray-100 overflow-hidden max-h-[70vh] overflow-y-auto">
+                            <div class="p-2 space-y-1">
+                                <a href="tms-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Deep TMS Therapy</a>
+                                <a href="accelerated-tms.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Accelerated Deep TMS (SWIFT)</a>
+                                <a href="spravato-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">SPRAVATO® Treatment</a>
+                                <a href="medication-management.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Medication Management</a>
+                                <a href="pharmacogenetic-testing.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Pharmacogenetic Testing</a>
+                                <a href="integrative-psychiatry.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Integrative Psychiatry</a>
+                                <a href="proliv-rx.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Proliv™ Rx</a>
+                                <a href="telehealth.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Telehealth Visits</a>
+                                <a href="vns-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">VNS Therapy</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wellness Dropdown -->
+                    <div class="relative group/well">
+                        <button class="flex items-center gap-1 text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">
+                            Wellness <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-hover/well:rotate-180"></i>
+                        </button>
+                        <div class="absolute top-[80px] left-1/2 -translate-x-1/2 w-72 bg-white rounded-2xl shadow-[0_20px_40px_-15px_rgba(11,32,53,0.15)] opacity-0 invisible group-hover/well:opacity-100 group-hover/well:visible transition-all duration-300 transform translate-y-4 group-hover/well:translate-y-0 border border-gray-100 overflow-hidden max-h-[70vh] overflow-y-auto">
+                            <div class="p-2 space-y-1">
+                                <a href="iv-vitamin-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">IV Vitamin Therapy</a>
+                                <a href="nad-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">NAD+ Therapy</a>
+                                <a href="weight-loss.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Medical Weight Loss</a>
+                                <a href="hormone-therapy.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Hormone Therapy</a>
+                                <a href="supplements.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Supplements</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conditions We Treat Dropdown -->
+                    <div class="relative group/cond">
+                        <button class="flex items-center gap-1 text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">
+                            Conditions We Treat <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-hover/cond:rotate-180"></i>
+                        </button>
+                        <div class="absolute top-[80px] left-1/2 -translate-x-1/2 w-80 bg-white rounded-2xl shadow-[0_20px_40px_-15px_rgba(11,32,53,0.15)] opacity-0 invisible group-hover/cond:opacity-100 group-hover/cond:visible transition-all duration-300 transform translate-y-4 group-hover/cond:translate-y-0 border border-gray-100 overflow-hidden">
+                            <div class="p-2 grid grid-cols-2 gap-x-2 gap-y-1">
+                                <a href="depression.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Depression</a>
+                                <a href="anxiety.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Anxiety</a>
+                                <a href="ocd.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">OCD</a>
+                                <a href="ptsd.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">PTSD</a>
+                                <a href="adhd.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">ADHD</a>
+                                <a href="bipolar.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Bipolar Disorder</a>
+                                <a href="substance-abuse.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Substance Abuse</a>
+                                <a href="autism.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Autism</a>
+                                <a href="suicidal-ideation.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Suicidal Ideation</a>
+                                <a href="mental-clarity.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Mental Clarity</a>
+                                <a href="cognitive-enhancement.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Cognitive Enhancement</a>
+                                <a href="conditions.html" class="block px-4 py-3 text-sm text-[#23bfe2] hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">View All Conditions →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="team.html" class="text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">Meet The Team</a>
+
+                    <!-- Resources Dropdown -->
+                    <div class="relative group/res">
+                        <button class="flex items-center gap-1 text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">
+                            Resources <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-hover/res:rotate-180"></i>
+                        </button>
+                        <div class="absolute top-[80px] right-0 w-64 bg-white rounded-2xl shadow-[0_20px_40px_-15px_rgba(11,32,53,0.15)] opacity-0 invisible group-hover/res:opacity-100 group-hover/res:visible transition-all duration-300 transform translate-y-4 group-hover/res:translate-y-0 border border-gray-100 overflow-hidden max-h-[70vh] overflow-y-auto">
+                            <div class="p-2 space-y-1">
+                                <a href="about.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">About Us</a>
+                                <a href="reviews.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Patient Reviews</a>
+                                <a href="metrics.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Our Outcomes</a>
+                                <a href="faqs.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">FAQs</a>
+                                <a href="tms-faq.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Deep TMS FAQ</a>
+                                <a href="tms-resources.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Deep TMS Resources</a>
+                                <a href="insurance.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Insurance</a>
+                                <a href="caloptima.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">CalOptima Coverage</a>
+                                <a href="cherry-payment.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Payment Plans</a>
+                                <a href="blog.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Blog</a>
+                                <a href="press-media.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Press / Media</a>
+                                <a href="new-patient-form.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Patient Forms</a>
+                                <a href="compliance.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Compliance</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact / Locations Dropdown -->
+                    <div class="relative group/loc">
+                        <button class="flex items-center gap-1 text-sm font-medium text-white/90 hover:text-white group-[.scrolled]:text-gray-600 group-[.scrolled]:hover:text-primary transition-colors py-8">
+                            Contact <i data-lucide="chevron-down" class="w-4 h-4 transition-transform group-hover/loc:rotate-180"></i>
+                        </button>
+                        <div class="absolute top-[80px] right-0 w-64 bg-white rounded-2xl shadow-[0_20px_40px_-15px_rgba(11,32,53,0.15)] opacity-0 invisible group-hover/loc:opacity-100 group-hover/loc:visible transition-all duration-300 transform translate-y-4 group-hover/loc:translate-y-0 border border-gray-100 overflow-hidden">
+                            <div class="p-2 space-y-1">
+                                <a href="contact.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Contact Us</a>
+                                <a href="newport-beach.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Newport Beach Office</a>
+                                <a href="san-juan-capistrano.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">San Juan Capistrano Office</a>
+                                <a href="telehealth.html" class="block px-4 py-3 text-sm text-gray-600 hover:text-primary hover:bg-neutral rounded-xl transition-colors font-medium">Telehealth / Virtual Visits</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <p class="text-sm font-semibold flex items-center gap-2 text-white group-[.scrolled]:text-primary transition-colors">
+                        <i data-lucide="phone" class="w-4 h-4"></i> (949) 996-5355
+                    </p>
+                    <a href="contact.html" class="bg-white text-primary hover:bg-gray-100 group-[.scrolled]:bg-primary group-[.scrolled]:text-white group-[.scrolled]:hover:bg-primary/90 px-6 py-2.5 rounded-full text-sm font-medium transition-all shadow-[0_4px_14px_0_rgba(255,255,255,0.39)] group-[.scrolled]:shadow-[0_4px_14px_0_rgba(11,32,53,0.39)] hover:-translate-y-0.5 transform">
+                        Book an Appointment
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="open-mobile-menu" class="focus:outline-none text-white group-[.scrolled]:text-gray-600">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed inset-0 z-[60] bg-primary transform translate-x-full transition-transform duration-300 overflow-y-auto hidden">
+        <div class="p-6">
+            <!-- Header section of mobile menu -->
+            <div class="flex items-center justify-between mb-8">
+                <img src="assets/images/logo/Resiliency-MindBody-Medicine-Logo.png" alt="Resiliency Mind+Body Medicine" class="h-10 w-auto brightness-0 invert">
+                <button id="close-mobile-menu" class="text-white p-2">
+                    <i data-lucide="x" class="w-8 h-8"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Links -->
+            <nav class="flex flex-col space-y-6">
+                
+                <!-- Mental Health Accordion -->
+                <div>
+                    <button class="mobile-accordion-toggle flex items-center justify-between w-full text-lg font-medium text-white pb-2 border-b border-white/10">
+                        Mental Health <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mobile-accordion-content hidden flex-col pl-4 pt-4 space-y-4">
+                        <a href="tms-therapy.html" class="text-white/80 hover:text-white transition-colors">Deep TMS Therapy</a>
+                        <a href="accelerated-tms.html" class="text-white/80 hover:text-white transition-colors">Accelerated Deep TMS (SWIFT)</a>
+                        <a href="spravato-therapy.html" class="text-white/80 hover:text-white transition-colors">SPRAVATO® Treatment</a>
+                        <a href="medication-management.html" class="text-white/80 hover:text-white transition-colors">Medication Management</a>
+                        <a href="pharmacogenetic-testing.html" class="text-white/80 hover:text-white transition-colors">Pharmacogenetic Testing</a>
+                        <a href="integrative-psychiatry.html" class="text-white/80 hover:text-white transition-colors">Integrative Psychiatry</a>
+                        <a href="proliv-rx.html" class="text-white/80 hover:text-white transition-colors">Proliv™ Rx</a>
+                        <a href="telehealth.html" class="text-white/80 hover:text-white transition-colors">Telehealth Visits</a>
+                      <a href="vns-therapy.html" class="text-white/80 hover:text-white transition-colors">VNS Therapy</a>
+
+                    </div>
+                </div>
+
+                <!-- Wellness Accordion -->
+                <div>
+                    <button class="mobile-accordion-toggle flex items-center justify-between w-full text-lg font-medium text-white pb-2 border-b border-white/10">
+                        Wellness <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mobile-accordion-content hidden flex-col pl-4 pt-4 space-y-4">
+                        <a href="iv-vitamin-therapy.html" class="text-white/80 hover:text-white transition-colors">IV Vitamin Therapy</a>
+                        <a href="nad-therapy.html" class="text-white/80 hover:text-white transition-colors">NAD+ Therapy</a>
+                        <a href="weight-loss.html" class="text-white/80 hover:text-white transition-colors">Medical Weight Loss</a>
+                        <a href="hormone-therapy.html" class="text-white/80 hover:text-white transition-colors">Hormone Therapy</a>
+                        <a href="supplements.html" class="text-white/80 hover:text-white transition-colors">Supplements</a>
+                    </div>
+                </div>
+
+                <!-- Conditions Accordion -->
+                <div>
+                    <button class="mobile-accordion-toggle flex items-center justify-between w-full text-lg font-medium text-white pb-2 border-b border-white/10">
+                        Conditions We Treat <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mobile-accordion-content hidden flex-col pl-4 pt-4 space-y-4">
+                        <a href="depression.html" class="text-white/80 hover:text-white transition-colors">Depression</a>
+                        <a href="anxiety.html" class="text-white/80 hover:text-white transition-colors">Anxiety</a>
+                        <a href="ocd.html" class="text-white/80 hover:text-white transition-colors">OCD</a>
+                        <a href="ptsd.html" class="text-white/80 hover:text-white transition-colors">PTSD</a>
+                        <a href="adhd.html" class="text-white/80 hover:text-white transition-colors">ADHD</a>
+                        <a href="bipolar.html" class="text-white/80 hover:text-white transition-colors">Bipolar Disorder</a>
+                        <a href="substance-abuse.html" class="text-white/80 hover:text-white transition-colors">Substance Abuse</a>
+                        <a href="autism.html" class="text-white/80 hover:text-white transition-colors">Autism</a>
+                        <a href="suicidal-ideation.html" class="text-white/80 hover:text-white transition-colors">Suicidal Ideation</a>
+                        <a href="mental-clarity.html" class="text-white/80 hover:text-white transition-colors">Mental Clarity</a>
+                        <a href="cognitive-enhancement.html" class="text-white/80 hover:text-white transition-colors">Cognitive Enhancement</a>
+                        <a href="conditions.html" class="text-[#23bfe2] hover:text-white transition-colors">View All Conditions →</a>
+                    </div>
+                </div>
+
+                <a href="team.html" class="text-lg font-medium text-white pb-2 border-b border-white/10 block">Meet The Team</a>
+
+                <!-- Resources Accordion -->
+                <div>
+                    <button class="mobile-accordion-toggle flex items-center justify-between w-full text-lg font-medium text-white pb-2 border-b border-white/10">
+                        Resources <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mobile-accordion-content hidden flex-col pl-4 pt-4 space-y-4">
+                        <a href="about.html" class="text-white/80 hover:text-white transition-colors">About Us</a>
+                        <a href="reviews.html" class="text-white/80 hover:text-white transition-colors">Patient Reviews</a>
+                        <a href="metrics.html" class="text-white/80 hover:text-white transition-colors">Our Outcomes</a>
+                        <a href="faqs.html" class="text-white/80 hover:text-white transition-colors">FAQs</a>
+                        <a href="tms-faq.html" class="text-white/80 hover:text-white transition-colors">Deep TMS FAQ</a>
+                        <a href="tms-resources.html" class="text-white/80 hover:text-white transition-colors">Deep TMS Resources</a>
+                        <a href="insurance.html" class="text-white/80 hover:text-white transition-colors">Insurance</a>
+                        <a href="caloptima.html" class="text-white/80 hover:text-white transition-colors">CalOptima Coverage</a>
+                        <a href="cherry-payment.html" class="text-white/80 hover:text-white transition-colors">Payment Plans</a>
+                        <a href="blog.html" class="text-white/80 hover:text-white transition-colors">Blog</a>
+                        <a href="press-media.html" class="text-white/80 hover:text-white transition-colors">Press / Media</a>
+                        <a href="new-patient-form.html" class="text-white/80 hover:text-white transition-colors">Patient Forms</a>
+                        <a href="compliance.html" class="text-white/80 hover:text-white transition-colors">Compliance</a>
+                    </div>
+                </div>
+
+                <!-- Contact / Locations Accordion -->
+                <div>
+                    <button class="mobile-accordion-toggle flex items-center justify-between w-full text-lg font-medium text-white pb-2 border-b border-white/10">
+                        Contact & Locations <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-300"></i>
+                    </button>
+                    <div class="mobile-accordion-content hidden flex-col pl-4 pt-4 space-y-4">
+                        <a href="contact.html" class="text-white/80 hover:text-white transition-colors">Contact Us</a>
+                        <a href="newport-beach.html" class="text-white/80 hover:text-white transition-colors">Newport Beach Office</a>
+                        <a href="san-juan-capistrano.html" class="text-white/80 hover:text-white transition-colors">San Juan Capistrano Office</a>
+                        <a href="telehealth.html" class="text-white/80 hover:text-white transition-colors">Telehealth / Virtual Visits</a>
+                    </div>
+                </div>
+
+            </nav>
+
+            <div class="mt-10">
+                <a href="contact.html" class="bg-lightblue text-primary font-bold px-8 py-4 rounded-full text-center block w-full hover:bg-[#1aadd0] transition-colors">
+                    Book an Appointment
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+<main>
+    <!-- Hero Section -->
+    <section class="relative min-h-[500px] md:h-[60vh] flex items-center justify-center overflow-hidden pt-28 pb-12 md:pt-24 md:pb-0">
+        <div class="absolute inset-0 z-0 bg-[#0B2035]">
+            <img src="assets/images/hero_bg.png" alt="OCD Treatment Relief" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-[#0B2035]/85 md:bg-gradient-to-r md:from-[#0B2035]/95 md:via-[#0B2035]/80 md:to-[#0B2035]/50"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="max-w-3xl reveal text-left">
+                <div class="flex items-center gap-3 mb-4 sm:mb-6">
+                    <span class="h-[2px] w-12 bg-[#23bfe2]"></span>
+                    <span class="text-[#23bfe2] text-xs sm:text-sm font-bold tracking-widest uppercase">Mental Health Treatment</span>
+                </div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight leading-tight mb-4 sm:mb-6">
+                    Deep TMS for OCD <span class="text-[#23bfe2] font-light">Treatment</span>
+                </h1>
+                <p class="text-base sm:text-lg md:text-xl text-gray-200 mb-6 sm:mb-10 leading-relaxed font-light max-w-2xl">
+                    Overcome OCD with FDA-cleared BrainsWay® Deep TMS, physician-led medication management, and integrative care at our Newport Beach and San Juan Capistrano locations.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                    <a href="contact.html" class="bg-[#23bfe2] text-[#0B2035] font-bold px-8 py-4 rounded-full text-center transition-all hover:bg-white hover:shadow-[0_10px_30px_rgba(35,191,226,0.3)] shadow-md hover:-translate-y-1 transform flex items-center justify-center gap-2">
+                        Schedule Your Consultation <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                    </a>
+                    <a href="tel:9499965355" class="bg-transparent border border-white/30 text-white font-medium px-8 py-4 rounded-full text-center transition-all hover:bg-white/10 flex items-center justify-center gap-2">
+                        <i data-lucide="phone" class="w-5 h-5"></i> (949) 996-5355
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Understanding the Condition -->
+    <section class="py-16 relative overflow-hidden bg-white">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-[#23bfe2]/5 -skew-x-12 transform translate-x-32 hidden lg:block pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-20">
+                <div class="w-full lg:w-1/2 text-[#0B2035] reveal">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="h-[2px] w-12 bg-[#23bfe2]"></span>
+                        <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase">Understanding OCD</h2>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Understanding Obsessive-Compulsive Disorder</h3>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed font-light">
+                        OCD is a mental health disorder characterized by unwanted, persistent thoughts (obsessions) and repetitive behaviors (compulsions). These can consume significant time and energy, causing distress and impairing daily functioning. Many people try therapy and medications yet continue to struggle.
+                    </p>
+
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-[#23bfe2]/20 p-2 rounded-lg text-[#23bfe2] mt-0.5 flex-shrink-0">
+                                <i data-lucide="brain" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[#0B2035] mb-1">Obsessions</h4>
+                                <p class="text-gray-600 font-light text-sm leading-relaxed">Recurrent, intrusive thoughts, images, or urges that cause anxiety. Common obsessions include fears of contamination, harming oneself or others, and needing things to be symmetrical or in perfect order.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="bg-[#23bfe2]/20 p-2 rounded-lg text-[#23bfe2] mt-0.5 flex-shrink-0">
+                                <i data-lucide="repeat" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-[#0B2035] mb-1">Compulsions</h4>
+                                <p class="text-gray-600 font-light text-sm leading-relaxed">Repetitive behaviors or mental acts performed to reduce the anxiety caused by obsessions. Common compulsions include excessive cleaning, checking, counting, and arranging.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Container -->
+                <div class="w-full lg:w-1/2 relative reveal reveal-delay-1 flex justify-center lg:justify-end lg:pr-8">
+                    <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-gray-100 ring-1 ring-[#0B2035]/5 w-full max-w-[366px] aspect-[9/16]">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/OyF95566_tU" title="Understanding OCD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="absolute inset-0 bg-gradient-to-tr from-[#0B2035]/20 via-transparent to-transparent pointer-events-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Can Deep TMS Help With OCD? -->
+    <section class="py-16 bg-neutral relative overflow-hidden">
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-[#23bfe2]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16 lg:gap-20">
+                <div class="w-full lg:w-1/2 relative reveal">
+                    <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-gray-100 ring-1 ring-[#0B2035]/5">
+                        <img src="assets/images/brainsway-image.jpg" alt="Deep TMS for OCD" class="w-full h-[500px] object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-[#0B2035]/20 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="absolute -bottom-6 -right-6 bg-white p-5 rounded-3xl border border-gray-100 shadow-[0_20px_40px_-10px_rgba(11,32,53,0.15)] flex items-center gap-4 group hover:-translate-y-2 transition-transform duration-500">
+                        <div class="w-14 h-14 bg-[#0B2035] rounded-2xl flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors duration-500">
+                            <i data-lucide="shield-check" class="w-7 h-7"></i>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-bold text-[#0B2035] tracking-tight">FDA<span class="text-[#23bfe2]">-</span>Cleared</p>
+                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mt-1">For OCD Treatment</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-1/2 text-[#0B2035] reveal reveal-delay-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="h-[2px] w-12 bg-[#23bfe2]"></span>
+                        <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase">Deep TMS & OCD</h2>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Can Deep TMS Help With OCD?</h3>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed font-light">
+                        Transcranial Magnetic Stimulation (Deep TMS) is a non-invasive neuromodulation treatment that uses magnetic pulses to target specific brain circuits involved in OCD. BrainsWay® Deep TMS is FDA-approved for OCD and is designed to stimulate deeper and broader neural networks linked to obsessive thoughts, anxiety, and compulsive behaviors.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed font-light">
+                        At Resiliency, Deep TMS for OCD is delivered as part of a structured, physician-supervised treatment plan. Treatment is individualized and often paired with brief symptom provocation and behavioral strategies to enhance response, following evidence-based protocols.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-Spectrum Approach -->
+    <section class="py-16 bg-[#0B2035] relative overflow-hidden text-white border-t border-white/10">
+        <div class="absolute inset-0 z-0 bg-gradient-to-b from-[#0B2035] via-[#0B2035]/95 to-[#0B2035]"></div>
+        <div class="absolute -top-40 -left-40 w-96 h-96 bg-[#23bfe2]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <div class="flex items-center justify-center gap-3 mb-4">
+                    <span class="h-[2px] w-8 bg-[#23bfe2]"></span>
+                    <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase">Comprehensive Care</h2>
+                    <span class="h-[2px] w-8 bg-[#23bfe2]"></span>
+                </div>
+                <h3 class="text-4xl md:text-5xl font-bold mb-6">A Full-Spectrum Approach to OCD Care</h3>
+                <p class="text-gray-300 text-lg font-light leading-relaxed">Deep TMS is most effective when combined with comprehensive psychiatric treatment. At Resiliency, OCD care may include:</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white/5 border border-white/10 rounded-[2rem] p-8 hover:-translate-y-2 transition-all duration-300 reveal group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="pill" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Thoughtful Medication Management</h4>
+                    <p class="text-gray-300 font-light leading-relaxed">SSRIs and other evidence-based options carefully tailored based on symptom severity, past response, side effect profiles, and co-occurring conditions, with ongoing adjustments.</p>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-[2rem] p-8 hover:-translate-y-2 transition-all duration-300 reveal reveal-delay-1 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="leaf" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Evidence-Based Supplements</h4>
+                    <p class="text-gray-300 font-light leading-relaxed">Select supplements to support overall brain health and stress regulation when appropriate, guided by clinical evidence—never replacing medical or behavioral treatment.</p>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-[2rem] p-8 hover:-translate-y-2 transition-all duration-300 reveal reveal-delay-2 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="brain" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">BrainsWay® Deep TMS for OCD</h4>
+                    <p class="text-gray-300 font-light leading-relaxed">Targets neural circuits involved in OCD symptoms including intrusive thoughts and compulsive behaviors. A non-invasive option to reduce symptom severity and improve daily functioning under physician oversight.</p>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-[2rem] p-8 hover:-translate-y-2 transition-all duration-300 reveal reveal-delay-3 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="activity" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Ongoing Monitoring & Care Coordination</h4>
+                    <p class="text-gray-300 font-light leading-relaxed">Consistent monitoring using validated clinical measures, coordinating care throughout Deep TMS and beyond to support sustained progress and relapse prevention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="py-16 bg-white relative overflow-hidden">
+        <div class="absolute -top-32 -right-32 w-96 h-96 bg-[#23bfe2]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase mb-4">Benefits</h2>
+                <h3 class="text-4xl md:text-5xl font-bold text-[#0B2035] mb-6">Benefits of Deep TMS for OCD</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-neutral rounded-[2rem] p-10 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal group text-center">
+                    <div class="w-16 h-16 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 mx-auto group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="trending-down" class="w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Symptom Reduction</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">Many patients experience a significant decrease in the severity of obsessive thoughts and compulsive behaviors.</p>
+                </div>
+
+                <div class="bg-neutral rounded-[2rem] p-10 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal reveal-delay-1 group text-center">
+                    <div class="w-16 h-16 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 mx-auto group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="shield-check" class="w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Non-Invasive & Drug-Free</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">Deep TMS does not require medication, avoiding potential side effects of pharmaceuticals.</p>
+                </div>
+
+                <div class="bg-neutral rounded-[2rem] p-10 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal reveal-delay-2 group text-center">
+                    <div class="w-16 h-16 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 mx-auto group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="sparkles" class="w-8 h-8"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Enhanced Quality of Life</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">By alleviating OCD symptoms, Deep TMS can help improve overall daily functioning and well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatment Process -->
+    <section class="py-16 bg-neutral relative overflow-hidden">
+        <div class="absolute -bottom-32 -left-32 w-96 h-96 bg-[#23bfe2]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <div class="flex items-center justify-center gap-3 mb-4">
+                    <span class="h-[2px] w-8 bg-[#23bfe2]"></span>
+                    <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase">Your Journey</h2>
+                    <span class="h-[2px] w-8 bg-[#23bfe2]"></span>
+                </div>
+                <h3 class="text-4xl md:text-5xl font-bold text-[#0B2035] mb-6">The Deep TMS Treatment Process</h3>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="relative reveal group">
+                    <div class="bg-white rounded-[2rem] p-10 border border-gray-100 hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="text-6xl font-bold text-[#23bfe2]/20 mb-4 group-hover:text-[#23bfe2]/40 transition-colors">01</div>
+                        <h4 class="text-xl font-bold text-[#0B2035] mb-4">Comprehensive Evaluation</h4>
+                        <p class="text-gray-500 font-light leading-relaxed">Our team assesses your medical history, current symptoms, and treatment goals to determine if Deep TMS is right for you.</p>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 text-[#23bfe2]/30">
+                        <i data-lucide="chevron-right" class="w-8 h-8"></i>
+                    </div>
+                </div>
+
+                <div class="relative reveal reveal-delay-1 group">
+                    <div class="bg-white rounded-[2rem] p-10 border border-gray-100 hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="text-6xl font-bold text-[#23bfe2]/20 mb-4 group-hover:text-[#23bfe2]/40 transition-colors">02</div>
+                        <h4 class="text-xl font-bold text-[#0B2035] mb-4">Personalized Deep TMS Sessions</h4>
+                        <p class="text-gray-500 font-light leading-relaxed">Sessions last about 10 minutes, five days a week for several weeks. Sit comfortably while magnetic pulses are delivered—no anesthesia, resume activities immediately.</p>
+                    </div>
+                    <div class="hidden lg:block absolute top-1/2 -right-4 text-[#23bfe2]/30">
+                        <i data-lucide="chevron-right" class="w-8 h-8"></i>
+                    </div>
+                </div>
+
+                <div class="relative reveal reveal-delay-2 group">
+                    <div class="bg-white rounded-[2rem] p-10 border border-gray-100 hover:shadow-xl transition-all duration-300 h-full">
+                        <div class="text-6xl font-bold text-[#23bfe2]/20 mb-4 group-hover:text-[#23bfe2]/40 transition-colors">03</div>
+                        <h4 class="text-xl font-bold text-[#0B2035] mb-4">Continuous Support</h4>
+                        <p class="text-gray-500 font-light leading-relaxed">Our team closely monitors progress and makes adjustments. Our goal is lasting relief from OCD symptoms so you can regain control of your life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Resiliency -->
+    <section class="py-16 bg-white relative overflow-hidden">
+        <div class="absolute -top-32 -right-32 w-96 h-96 bg-[#23bfe2]/10 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+                <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase mb-4">The Resiliency Difference</h2>
+                <h3 class="text-4xl md:text-5xl font-bold text-[#0B2035] mb-6">Why Choose Resiliency</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-[2rem] p-8 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="user-check" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Board-Certified Expertise</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">Led by Dr. LaFrenierre, double board-certified in Psychiatry and Addiction Medicine, with a multidisciplinary team.</p>
+                </div>
+
+                <div class="bg-white rounded-[2rem] p-8 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal reveal-delay-1 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="layers" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Integrated Treatment</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">Medication, Deep TMS, SPRAVATO, IV therapy, and lifestyle medicine all under one roof.</p>
+                </div>
+
+                <div class="bg-white rounded-[2rem] p-8 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal reveal-delay-2 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="laptop" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">In-Person & Telehealth</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">Flexible appointment options at our Newport Beach and San Juan Capistrano offices or via secure video.</p>
+                </div>
+
+                <div class="bg-white rounded-[2rem] p-8 shadow-soft border border-gray-100 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 reveal reveal-delay-3 group flex flex-col items-center text-center">
+                    <div class="w-14 h-14 bg-[#23bfe2]/10 rounded-2xl flex items-center justify-center text-[#23bfe2] mb-6 group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                        <i data-lucide="file-check-2" class="w-7 h-7"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-[#0B2035] mb-3">Insurance Accepted</h4>
+                    <p class="text-gray-500 font-light leading-relaxed">In-network with most major insurances including Aetna, Anthem, Cigna, United, Medicare, TriCare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-[#0B2035] text-white relative border-t-[8px] border-[#23bfe2]">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <h2 class="text-sm font-bold tracking-widest text-[#23bfe2] uppercase mb-4">Common Questions</h2>
+                <h3 class="text-4xl md:text-5xl font-bold">Frequently Asked Questions</h3>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden reveal">
+                    <button class="faq-toggle w-full px-8 py-6 text-left font-bold text-xl flex items-center justify-between focus:outline-none hover:bg-white/5 transition-colors group">
+                        <span>What is Deep TMS for OCD, and is it FDA-approved?</span>
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                            <i data-lucide="plus" class="w-5 h-5 transition-transform duration-300"></i>
+                        </div>
+                    </button>
+                    <div class="px-8 pb-8 text-gray-300 font-light leading-relaxed text-lg hidden faq-content">
+                        <div class="pt-2 border-t border-white/10 mt-2">
+                            Deep TMS for OCD is an FDA-cleared treatment that targets specific brain circuits linked to obsessive thoughts and compulsive behaviors. It uses specialized coils to reach deeper brain areas than standard Deep TMS. It is approved for adults with treatment-resistant OCD who have not responded well to medications or therapy.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden reveal">
+                    <button class="faq-toggle w-full px-8 py-6 text-left font-bold text-xl flex items-center justify-between focus:outline-none hover:bg-white/5 transition-colors group">
+                        <span>Who qualifies for Deep TMS treatment for OCD?</span>
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                            <i data-lucide="plus" class="w-5 h-5 transition-transform duration-300"></i>
+                        </div>
+                    </button>
+                    <div class="px-8 pb-8 text-gray-300 font-light leading-relaxed text-lg hidden faq-content">
+                        <div class="pt-2 border-t border-white/10 mt-2">
+                            Individuals with a confirmed diagnosis of OCD, who have tried standard OCD treatments (SSRIs, therapy) without sufficient improvement, generally qualify. We also review overall health, any metal implants, seizure risk, and ability to attend frequent sessions. During the consultation, our Newport Beach team will assess these factors.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden reveal">
+                    <button class="faq-toggle w-full px-8 py-6 text-left font-bold text-xl flex items-center justify-between focus:outline-none hover:bg-white/5 transition-colors group">
+                        <span>How soon will I see changes in OCD symptoms with Deep TMS?</span>
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                            <i data-lucide="plus" class="w-5 h-5 transition-transform duration-300"></i>
+                        </div>
+                    </button>
+                    <div class="px-8 pb-8 text-gray-300 font-light leading-relaxed text-lg hidden faq-content">
+                        <div class="pt-2 border-t border-white/10 mt-2">
+                            Many patients report reductions in compulsions and obsessive thoughts within 2-4 weeks, though full improvement may take longer. It depends on severity and treatment adherence. After completing the initial course, maintenance or booster sessions may be offered if symptoms return or to sustain improvements.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden reveal">
+                    <button class="faq-toggle w-full px-8 py-6 text-left font-bold text-xl flex items-center justify-between focus:outline-none hover:bg-white/5 transition-colors group">
+                        <span>What side effects are common with Deep TMS for OCD?</span>
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                            <i data-lucide="plus" class="w-5 h-5 transition-transform duration-300"></i>
+                        </div>
+                    </button>
+                    <div class="px-8 pb-8 text-gray-300 font-light leading-relaxed text-lg hidden faq-content">
+                        <div class="pt-2 border-t border-white/10 mt-2">
+                            Side effects may include mild scalp discomfort, headache, or tingling at the stimulation site during or after sessions. Some people feel fatigue or mild discomfort in the jaw or muscles. These usually subside with time or after adjusting the intensity. Serious risks are very rare in properly screened patients.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-2xl overflow-hidden reveal">
+                    <button class="faq-toggle w-full px-8 py-6 text-left font-bold text-xl flex items-center justify-between focus:outline-none hover:bg-white/5 transition-colors group">
+                        <span>How many Deep TMS sessions are required for OCD?</span>
+                        <div class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#23bfe2] group-hover:bg-[#23bfe2] group-hover:text-[#0B2035] transition-colors">
+                            <i data-lucide="plus" class="w-5 h-5 transition-transform duration-300"></i>
+                        </div>
+                    </button>
+                    <div class="px-8 pb-8 text-gray-300 font-light leading-relaxed text-lg hidden faq-content">
+                        <div class="pt-2 border-t border-white/10 mt-2">
+                            The typical course for OCD involves daily sessions, five days per week for 4-6 weeks, similar to depression protocols but tailored as needed. Each session usually lasts around 20-30 minutes depending on the coil and settings. Sometimes, augmentation or maintenance sessions may be recommended for lasting benefit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-gray-400 font-light">Have more questions? <a href="contact.html" class="text-[#23bfe2] font-semibold hover:text-white transition-colors underline underline-offset-4 decoration-[#23bfe2]/30 hover:decoration-white">Contact our clinical team.</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 relative overflow-hidden bg-white">
+        <div class="absolute inset-0 z-0">
+            <img src="assets/images/ocd_relief.png" alt="Path to Control" class="w-full h-full object-cover opacity-10">
+            <div class="absolute inset-0 bg-gradient-to-b from-white via-white/80 to-white"></div>
+        </div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 reveal">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0B2035] mb-8 leading-tight">
+                Take the First Step Toward <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#23bfe2] to-[#1da1bf]">Healing</span>
+            </h2>
+            <p class="text-xl text-gray-600 mb-12 font-light max-w-2xl mx-auto leading-relaxed">
+                Schedule a consultation with our team and discover a personalized treatment plan designed for your unique needs.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-6 items-center">
+                <a href="contact.html" class="group relative inline-flex items-center justify-center bg-[#0B2035] hover:bg-[#23bfe2] text-white hover:text-[#0B2035] font-bold px-10 py-5 rounded-full transition-all duration-300 shadow-xl hover:-translate-y-1 hover:shadow-2xl w-full sm:w-auto text-lg">
+                    <span class="relative z-10 flex items-center gap-2">
+                        Schedule Your Consultation
+                        <i data-lucide="arrow-up-right" class="w-6 h-6 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                    </span>
+                </a>
+                <a href="tel:9499965355" class="text-[#0B2035] font-bold text-lg hover:text-[#23bfe2] transition-colors flex items-center gap-2">
+                    <i data-lucide="phone" class="w-5 h-5"></i> (949) 996-5355
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const triggers = document.querySelectorAll('.faq-toggle');
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', () => {
+                const icon = trigger.querySelector('[data-lucide="plus"]');
+                const content = trigger.nextElementSibling;
+
+                if (content.classList.contains('hidden')) {
+                    triggers.forEach(other => {
+                        if (other !== trigger) {
+                            other.nextElementSibling.classList.add('hidden');
+                            other.querySelector('[data-lucide="plus"]').style.transform = 'rotate(0deg)';
+                        }
+                    });
+
+                    content.classList.remove('hidden');
+                    if (icon) icon.style.transform = 'rotate(45deg)';
+                } else {
+                    content.classList.add('hidden');
+                    if (icon) icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+    });
+</script>
+
+    <!-- 14. Footer -->
+    <footer class="bg-[#0B2035] text-gray-400 pt-16 pb-12 relative overflow-hidden">
+        <!-- Background Decoration -->
+        <div class="absolute inset-0 z-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(white 1.5px, transparent 1.5px); background-size: 30px 30px;"></div>
+        <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-20">
+                
+                <!-- Brand Column -->
+                <div class="lg:col-span-2">
+                    <a href="index.html" class="block mb-8">
+                        <img src="assets/images/logo/Resiliency-MindBody-Medicine-Logo.png" alt="Resiliency Mind+Body Medicine" class="h-12 w-auto object-contain brightness-0 invert">
+                    </a>
+                    <p class="font-light leading-relaxed mb-8 max-w-sm text-gray-400 text-sm">
+                        Resiliency Mind + Body Medicine is a boutique clinical practice specializing in advanced neuro-psychiatric treatments and integrative wellness.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/resiliencymbmedicine" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300 border border-white/10" aria-label="Facebook">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/resiliencymbmedicine" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300 border border-white/10" aria-label="Instagram">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/resiliencymbmedicine" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300 border border-white/10" aria-label="LinkedIn">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@resiliencymbmedicine" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center hover:bg-secondary hover:text-white transition-all duration-300 border border-white/10" aria-label="TikTok">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.17 8.17 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-8 tracking-wider uppercase text-xs">Clinic</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="about.html" class="hover:text-lightblue transition-colors flex items-center gap-2">About Our Clinic</a></li>
+                        <li><a href="team.html" class="hover:text-lightblue transition-colors flex items-center gap-2">Meet Our Providers</a></li>
+                        <li><a href="tms-therapy.html" class="hover:text-lightblue transition-colors flex items-center gap-2">Deep TMS Therapy</a></li>
+                        <li><a href="spravato-therapy.html" class="hover:text-lightblue transition-colors flex items-center gap-2">Spravato Treatment</a></li>
+                        <li><a href="blog.html" class="hover:text-lightblue transition-colors flex items-center gap-2">Clinic Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Resources -->
+                <div>
+                    <h4 class="text-white font-bold mb-8 tracking-wider uppercase text-xs">Resources</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li><a href="https://www.therapyportal.com/p/resiliencymb/" target="_blank" rel="noopener" class="hover:text-lightblue transition-colors">Patient Portal</a></li>
+                        <li><a href="new-patient-form.html" class="hover:text-lightblue transition-colors">New Patient Forms</a></li>
+                        <li><a href="insurance.html" class="hover:text-lightblue transition-colors">Insurance & Fees</a></li>
+                        <li><a href="contact.html" class="hover:text-lightblue transition-colors">Contact Us</a></li>
+                        <li><a href="faqs.html" class="hover:text-lightblue transition-colors">Frequently Asked Questions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Conditions -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-white font-bold mb-8 tracking-wider uppercase text-xs">Conditions We Treat</h4>
+                    <ul class="grid grid-cols-2 gap-x-6 gap-y-4 text-sm">
+                        <li><a href="depression.html" class="hover:text-lightblue transition-colors">Depression</a></li>
+                        <li><a href="anxiety.html" class="hover:text-lightblue transition-colors">Anxiety</a></li>
+                        <li><a href="ocd.html" class="hover:text-lightblue transition-colors">OCD</a></li>
+                        <li><a href="ptsd.html" class="hover:text-lightblue transition-colors">PTSD</a></li>
+                        <li><a href="adhd.html" class="hover:text-lightblue transition-colors">ADHD</a></li>
+                        <li><a href="bipolar.html" class="hover:text-lightblue transition-colors">Bipolar Disorder</a></li>
+                        <li><a href="substance-abuse.html" class="hover:text-lightblue transition-colors">Substance Use</a></li>
+                        <li><a href="suicidal-ideation.html" class="hover:text-lightblue transition-colors">Suicidal Ideation</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Contact Strip -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 py-10 border-t border-b border-white/5 mb-12">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 flex-shrink-0 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                        <i data-lucide="phone" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <p class="text-[10px] uppercase tracking-widest text-gray-500 font-bold">Call Us</p>
+                        <a href="tel:+19499965355" class="text-white font-medium text-sm hover:text-secondary transition-colors">(949) 996-5355</a>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 flex-shrink-0 rounded-full bg-secondary/10 flex items-center justify-center text-secondary mt-0.5">
+                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <a href="newport-beach.html" class="text-[10px] uppercase tracking-widest text-gray-500 font-bold mb-1 hover:text-secondary transition-colors block">Newport Beach</a>
+                        <a href="newport-beach.html" class="text-white font-medium text-sm hover:text-secondary transition-colors leading-snug block">1501 Superior Ave STE 210,<br>Newport Beach, CA 92663</a>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 flex-shrink-0 rounded-full bg-secondary/10 flex items-center justify-center text-secondary mt-0.5">
+                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <a href="san-juan-capistrano.html" class="text-[10px] uppercase tracking-widest text-gray-500 font-bold mb-1 hover:text-secondary transition-colors block">San Juan Capistrano</a>
+                        <a href="san-juan-capistrano.html" class="text-white font-medium text-sm hover:text-secondary transition-colors leading-snug block">27184 Ortega Hwy, STE 103,<br>San Juan Capistrano, CA 92675</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-center text-xs font-light text-gray-500">
+                <p>&copy; 2026 Resiliency Mind + Body Medicine. All rights reserved.</p>
+                <div class="flex gap-8 mt-4 md:mt-0 uppercase tracking-widest">
+                    <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a>
+                    <a href="acceptable-use.html" class="hover:text-white transition-colors">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA (Mobile only or always visible depending on preference, sticking to just a simple one for demo) -->
+    <div class="fixed bottom-6 right-6 md:hidden z-50">
+        <a href="contact.html" class="bg-primary hover:bg-primary/90 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-110">
+            <i data-lucide="calendar" class="w-6 h-6"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+
