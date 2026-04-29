@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:globecoreinc.com)"
+      "WebFetch(domain:globecoreinc.com)",
+      "Bash(python fix_partials.py)"
     ]
   }
 }

@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Single Post Header Style -->
 <style>
@@ -89,7 +89,7 @@ include_once "partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Common Relationship Problems That Couples Therapy Can Resolve" class="w-full h-auto object-cover max-h-[500px]" src="https://globecoreinc.com/wp-content/uploads/2025/03/relationship-problems.jpg"/>
+<img alt="Common Relationship Problems That Couples Therapy Can Resolve" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/03/relationship-problems.jpg"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
@@ -218,4 +218,4 @@ If you and your partner are facing challenges, consider couples therapy as a pro
 </div>
 </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

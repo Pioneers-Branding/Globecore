@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -137,4 +137,4 @@ include_once "partials/head.php";
         </section>
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

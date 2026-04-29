@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Mental Health Care on Lenox Road, Atlanta, GA | GlobeCoRe Inc.";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- BREADCRUMB -->
     <nav class="bg-bgOffWhite border-b border-gray-100 py-2">
@@ -90,4 +90,4 @@ include_once "partials/head.php";
 
     <!-- FOOTER -->
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

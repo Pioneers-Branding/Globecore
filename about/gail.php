@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -65,7 +65,7 @@ include_once "partials/head.php";
             <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
                 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
                     <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_3001_Facetune_10-03-2021-13-36-03-819x1024.jpg" alt="Gail Foorman, LPC, NCC" class="w-full aspect-[4/5] object-cover object-top">
+                        <img src="assets/wp-content/uploads/2021/03/IMG_3001_Facetune_10-03-2021-13-36-03-819x1024.jpg" alt="Gail Foorman, LPC, NCC" class="w-full aspect-[4/5] object-cover object-top">
                     </div>
                     <div class="text-center w-full px-2">
                         <span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">LPC, NCC</span>
@@ -140,4 +140,4 @@ include_once "partials/head.php";
 </section>
         </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

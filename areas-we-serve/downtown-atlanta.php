@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Psychological Services in Downtown Atlanta, GA | GlobeCoRe Inc.";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- HERO -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 bg-[#071e26] text-center overflow-hidden">
@@ -43,4 +43,4 @@ include_once "partials/head.php";
 
     <!-- FOOTER -->
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

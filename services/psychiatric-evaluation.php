@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Psychological Evaluation - GlobeCore Inc";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <div id="content" class="site-content">
 		<div class="ast-container">
@@ -98,7 +98,7 @@ class="post-713 page type-page status-publish ast-article-single" id="post-713" 
 				</div>
 				<div class="elementor-element elementor-element-b547594 elementor-widget elementor-widget-image" data-id="b547594" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img decoding="async" width="1024" height="178" src="https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-1024x178.png" class="attachment-large size-large wp-image-11500" alt="frame 134" srcset="https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-1024x178.png 1024w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-300x52.png 300w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-768x133.png 768w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-1536x267.png 1536w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134.png 1820w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img decoding="async" width="1024" height="178" src="assets/wp-content/uploads/2023/12/frame-134-1024x178.png" class="attachment-large size-large wp-image-11500" alt="frame 134" srcset="assets/wp-content/uploads/2023/12/frame-134-1024x178.png 1024w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-300x52.png 300w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-768x133.png 768w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-1536x267.png 1536w, https://globecoreinc.com/wp-content/uploads/2023/12/frame-134.png 1820w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 				<div class="elementor-element elementor-element-ea6c549 elementor-widget elementor-widget-heading" data-id="ea6c549" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -471,7 +471,7 @@ Atlanta, GA 30326.					</p>
 				</div>
 				<div class="elementor-element elementor-element-0f27151 elementor-widget elementor-widget-image" data-id="0f27151" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img loading="lazy" decoding="async" width="1024" height="683" src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg" class="attachment-large size-large wp-image-617" alt="Therapy" srcset="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg 1024w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-300x200.jpg 300w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-768x512.jpg 768w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1536x1024.jpg 1536w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg 1620w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+															<img loading="lazy" decoding="async" width="1024" height="683" src="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg" class="attachment-large size-large wp-image-617" alt="Therapy" srcset="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg 1024w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-300x200.jpg 300w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-768x512.jpg 768w, https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1536x1024.jpg 1536w, assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg 1620w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -496,4 +496,4 @@ Atlanta, GA 30326.					</p>
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

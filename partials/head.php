@@ -23,7 +23,7 @@ $P = str_repeat('../', $depth);
     <meta property="og:url" content="https://globecoreinc.com/">
     <meta property="og:title" content="Psychological & Consulting Services in Atlanta, GA | GlobeCoRe Inc.">
     <meta property="og:description" content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, evaluations & telehealth in Atlanta. Culturally sensitive, inclusive care. Call (770) 284-1044.">
-    <meta property="og:image" content="https://globecoreinc.com/assets/globecore-og-image.jpg">
+    <meta property="og:image" content="assets/assets/globecore-og-image.jpg">
     <meta property="og:site_name" content="GlobeCoRe Inc.">
     <meta property="og:locale" content="en_US">
 
@@ -32,7 +32,7 @@ $P = str_repeat('../', $depth);
     <meta name="twitter:site" content="@Globecoreinc">
     <meta name="twitter:title" content="Psychological & Consulting Services in Atlanta | GlobeCoRe">
     <meta name="twitter:description" content="Comprehensive psychological services, TMS therapy, counseling & telehealth in Atlanta, GA. Inclusive, compassionate care.">
-    <meta name="twitter:image" content="https://globecoreinc.com/assets/globecore-og-image.jpg">
+    <meta name="twitter:image" content="assets/assets/globecore-og-image.jpg">
 
     <!-- Local SEO Geo Tags -->
     <meta name="geo.region" content="US-GA">

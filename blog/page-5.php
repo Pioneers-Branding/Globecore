@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -69,7 +69,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./the-role-of-counseling-in-mental-health-recovery.php">
-<img alt="The Role of Counseling in Mental Health Recovery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2025/03/counseling-in-mental-health-recovery.png"/>
+<img alt="The Role of Counseling in Mental Health Recovery" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/03/counseling-in-mental-health-recovery.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -110,7 +110,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./common-relationship-problems-that-couples-therapy-can-resolve.php">
-<img alt="Common Relationship Problems That Couples Therapy Can Resolve" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2025/03/relationship-problems.jpg"/>
+<img alt="Common Relationship Problems That Couples Therapy Can Resolve" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/03/relationship-problems.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -151,7 +151,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.php">
-<img alt="How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2025/03/couples-therapy.jpg"/>
+<img alt="How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/03/couples-therapy.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -213,4 +213,4 @@ include_once "partials/head.php";
         </div>
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

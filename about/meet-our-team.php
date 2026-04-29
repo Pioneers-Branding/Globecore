@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -71,7 +71,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="dr-kelly-lewis-arthur.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg"
                             alt="Dr. Kelly Lewis-Arthur"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -86,7 +86,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="maria-elizabeth-johnson.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2025/06/maria-elizabeth-johnson-md-819x1024.png"
+                        <img src="assets/wp-content/uploads/2025/06/maria-elizabeth-johnson-md-819x1024.png"
                             alt="Dr. Maria Johnson"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500 bg-gray-50">
                     </a>
@@ -101,7 +101,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="dr-sharon.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2024/03/brick-background-69-819x1024.png"
+                        <img src="assets/wp-content/uploads/2024/03/brick-background-69-819x1024.png"
                             alt="Dr. Sharon Belhamel LMFT, ND"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -117,7 +117,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="brad-johns.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2023/10/brick-background-59-819x1024.png"
+                        <img src="assets/wp-content/uploads/2023/10/brick-background-59-819x1024.png"
                             alt="Dr. Brad Johns"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -135,7 +135,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="anna-hurlebaus.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2023/10/brick-background-54-819x1024.png"
+                        <img src="assets/wp-content/uploads/2023/10/brick-background-54-819x1024.png"
                             alt="Dr. Anna Hurlebaus, DNP, APRN, BC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -150,7 +150,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="victoria-taylor.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_2989.jpg"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2989.jpg"
                             alt="Victoria TaylorLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -165,7 +165,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="sueellen-hollowell.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_2997-818x1024.jpg"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2997-818x1024.jpg"
                             alt="SueEllen HollowellLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -180,7 +180,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="affiniti-harris-mordecai.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2026/01/brick-background-74-819x1024.png"
+                        <img src="assets/wp-content/uploads/2026/01/brick-background-74-819x1024.png"
                             alt="Affiniti Harris-Mordecai"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -195,7 +195,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="yma-kabia-williams.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_2994-819x1024.jpg"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2994-819x1024.jpg"
                             alt="Yma Kabia-WilliamsLCSW"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -210,7 +210,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="gail.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2021/03/IMG_3001_Facetune_10-03-2021-13-36-03-819x1024.jpg"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_3001_Facetune_10-03-2021-13-36-03-819x1024.jpg"
                             alt="Gail Foorman"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
@@ -241,7 +241,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="rebecca-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2022/11/brick-background-18.png"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-18.png"
                             alt="Rebecca Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -256,7 +256,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="brittany-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2022/11/brick-background-17.png"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-17.png"
                             alt="Brittany Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -271,7 +271,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="marcos-lopez.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2022/11/brick-background-22.png"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-22.png"
                             alt="Marcos Lopez"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -286,7 +286,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="grace-lu.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2024/03/brick-background-68-819x1024.png"
+                        <img src="assets/wp-content/uploads/2024/03/brick-background-68-819x1024.png"
                             alt="Grace Lu"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -301,7 +301,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="stephen-luna.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2023/06/brick-background-31-819x1024.png"
+                        <img src="assets/wp-content/uploads/2023/06/brick-background-31-819x1024.png"
                             alt="Stephen Luna"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -318,7 +318,7 @@ include_once "partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="eden-levites.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2025/07/26-819x1024.jpg"
+                        <img src="assets/wp-content/uploads/2025/07/26-819x1024.jpg"
                             alt="Eden Levites"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
@@ -333,4 +333,4 @@ include_once "partials/head.php";
 
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

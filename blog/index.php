@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -70,7 +70,7 @@ include_once "partials/head.php";
                 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
                     <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
                         <a href="./how-to-calm-anxiety.php" class="block w-full h-full">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2026/04/gemini_generated_image_ivhigmivhigmivhi.png" alt="How to Calm Anxiety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                            <img src="assets/wp-content/uploads/2026/04/gemini_generated_image_ivhigmivhigmivhi.png" alt="How to Calm Anxiety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
                         </a>
                         <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
                         <div class="absolute top-6 left-6 z-10">
@@ -103,7 +103,7 @@ include_once "partials/head.php";
                 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
                     <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
                         <a href="./does-marriage-counseling-work.php" class="block w-full h-full">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2026/04/marriage-counseling.jpg" alt="Does Marriage Counseling Work?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                            <img src="assets/wp-content/uploads/2026/04/marriage-counseling.jpg" alt="Does Marriage Counseling Work?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
                         </a>
                         <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
                         <div class="absolute top-6 left-6 z-10">
@@ -137,7 +137,7 @@ include_once "partials/head.php";
                 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
                     <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
                         <a href="./can-veterans-get-tricare-for-tms-therapy.php" class="block w-full h-full">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2026/04/image-globecore-1.jpg" alt="Can Veterans Get TRICARE for TMS Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                            <img src="assets/wp-content/uploads/2026/04/image-globecore-1.jpg" alt="Can Veterans Get TRICARE for TMS Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
                         </a>
                         <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
                         <div class="absolute top-6 left-6 z-10">
@@ -171,7 +171,7 @@ include_once "partials/head.php";
                 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
                     <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
                         <a href="./is-adhd-a-disability.php" class="block w-full h-full">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2026/04/is-adhd-a-disability-1024x742.png" alt="Is ADHD a Disability?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                            <img src="assets/wp-content/uploads/2026/04/is-adhd-a-disability-1024x742.png" alt="Is ADHD a Disability?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
                         </a>
                         <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
                         <div class="absolute top-6 left-6 z-10">
@@ -396,7 +396,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./is-tms-therapy-safe.php">
-<img alt="Is TMS Therapy Safe? What You Need to Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/02/globecore-blgo-photoroom-1024x683.png"/>
+<img alt="Is TMS Therapy Safe? What You Need to Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/02/globecore-blgo-photoroom-1024x683.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -449,7 +449,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./tms-therapy-for-adhd.php">
-<img alt="TMS Therapy for ADHD: How Non-Invasive Brain Stimulation Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/02/gemini_generated_image_vhpn1svhpn1svhpn-1024x571.png"/>
+<img alt="TMS Therapy for ADHD: How Non-Invasive Brain Stimulation Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/02/gemini_generated_image_vhpn1svhpn1svhpn-1024x571.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -503,7 +503,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./is-a-tms-dip-normal.php">
-<img alt="Is TMS Dip Normal? Understanding Temporary Mood Changes During TMS Therapy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/02/gemini_generated_image_efctrefctrefctre-1024x570.png"/>
+<img alt="Is TMS Dip Normal? Understanding Temporary Mood Changes During TMS Therapy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/02/gemini_generated_image_efctrefctrefctre-1024x570.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -556,7 +556,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./is-tms-therapy-legitimate.php">
-<img alt="Is TMS Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/gemini_generated_image_wx4n7fwx4n7fwx4n.png"/>
+<img alt="Is TMS Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/gemini_generated_image_wx4n7fwx4n7fwx4n.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -609,7 +609,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./why-some-people-feel-tms-ruined-my-life.php">
-<img alt="Why Some People Feel: “TMS Ruined My Life”" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/apollo_acool_greiner-tms-therapy-system-1-1024x683.webp"/>
+<img alt="Why Some People Feel: “TMS Ruined My Life”" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/apollo_acool_greiner-tms-therapy-system-1-1024x683.webp"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -683,4 +683,4 @@ include_once "partials/head.php";
         </div>
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

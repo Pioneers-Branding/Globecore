@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Hormonal Mood Disorders & Women's Mental Health | GlobeCoRe";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Single Post Header Style -->
 <style>
@@ -94,4 +94,4 @@ include_once "partials/head.php";
 </div>
 </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

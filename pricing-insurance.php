@@ -696,7 +696,7 @@ include_once "partials/head.php";
                         </svg>
                         Payment Options
                     </h3>
-                    <img src="https://globecoreinc.com/wp-content/uploads/2020/12/payments.jpg"
+                    <img src="assets/wp-content/uploads/2020/12/payments.jpg"
                         alt="Payment Methods Accepted"
                         class="h-12 w-auto object-contain mb-10 object-left relative z-10">
 
@@ -708,7 +708,7 @@ include_once "partials/head.php";
                             purchases of $200 or more, you can pay overtime with convenient monthly payments.
                         </p>
                         <div class="flex items-center gap-6">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2024/11/carecredit.png"
+                            <img src="assets/wp-content/uploads/2024/11/carecredit.png"
                                 alt="CareCredit"
                                 class="h-16 w-auto object-contain bg-white rounded-lg shadow-sm border border-gray-100 p-2">
                             <div class="text-sm">

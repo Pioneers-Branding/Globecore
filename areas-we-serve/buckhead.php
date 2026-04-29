@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Therapist in Buckhead, GA | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- BREADCRUMB -->
     <nav class="bg-bgOffWhite border-b border-gray-200 py-2">
@@ -125,4 +125,4 @@ include_once "partials/head.php";
 
     <!-- FOOTER -->
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Single Post Header Style -->
 <style>
@@ -89,7 +89,7 @@ include_once "partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection" class="w-full h-auto object-cover max-h-[500px]" src="https://globecoreinc.com/wp-content/uploads/2025/03/couples-therapy.jpg"/>
+<img alt="How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/03/couples-therapy.jpg"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
@@ -148,7 +148,7 @@ Parenting adds new layers of complexity to a relationship, from dividing respons
 <h2>Who Can Benefit from Couples Therapy?</h2>
 Couples therapy isn’t just for relationships in crisis—it’s for anyone seeking to improve their connection. Here’s who it can benefit:
 <ul>
-<li><strong>Pre-marital Couples:</strong> Preparing for a lifetime together by <a href="https://www.globecoreinc.com/wp-content/uploads/2021/03/relationship-growth-activity.pdf">discussing expectations and potential challenges</a>.</li>
+<li><strong>Pre-marital Couples:</strong> Preparing for a lifetime together by <a href="assets/wp-content/uploads/2021/03/relationship-growth-activity.pdf">discussing expectations and potential challenges</a>.</li>
 <li><strong>Married Couples:</strong> Strengthening bonds and addressing long-standing issues like financial stress or work-life balance.</li>
 <li><strong>Blended Families:</strong> Navigating the complexities of step-parenting, co-parenting, and extended family dynamics.</li>
 <li><strong>Couples Facing Major Life Changes:</strong> <a href="#">Managing grief</a>, infertility, delayed parenthood, or other significant transitions.</li>
@@ -210,4 +210,4 @@ Couples therapy is a transformative tool that empowers partners to navigate chal
 </div>
 </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

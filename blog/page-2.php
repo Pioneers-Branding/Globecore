@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
@@ -69,7 +69,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./top-10-psychiatrists-in-atlanta.php">
-<img alt="Top 10 Psychiatrists in Atlanta Offering Trusted Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/unnamed.png"/>
+<img alt="Top 10 Psychiatrists in Atlanta Offering Trusted Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/unnamed.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -117,7 +117,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./does-tms-therapy-help-anxiety.php">
-<img alt="Does TMS Therapy Help Anxiety in Atlanta, GA? Honest Benefits, Risks, and Results" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/unnamed-1.png"/>
+<img alt="Does TMS Therapy Help Anxiety in Atlanta, GA? Honest Benefits, Risks, and Results" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/unnamed-1.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -165,7 +165,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-long-does-tms-therapy-last-results-duration.php">
-<img alt="How Long Does TMS Therapy Last? Understanding TMS Results Over Time" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/unnamed-2-1.png"/>
+<img alt="How Long Does TMS Therapy Last? Understanding TMS Results Over Time" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/unnamed-2-1.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -213,7 +213,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-to-prevent-chronic-illness-naturally.php">
-<img alt="How to Prevent Chronic Illness With Sustainable Lifestyle Choices" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/gemini_generated_image_3ckb0g3ckb0g3ckb.png"/>
+<img alt="How to Prevent Chronic Illness With Sustainable Lifestyle Choices" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/gemini_generated_image_3ckb0g3ckb0g3ckb.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -261,7 +261,7 @@ include_once "partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-effective-is-treatment-in-psychiatry.php">
-<img alt="How Effective Is Treatment in Psychiatry for Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="https://globecoreinc.com/wp-content/uploads/2026/01/unnamed-3.png"/>
+<img alt="How Effective Is Treatment in Psychiatry for Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2026/01/unnamed-3.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -330,4 +330,4 @@ include_once "partials/head.php";
         </div>
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

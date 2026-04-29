@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Finding The Love You Deserve Treatment | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- BREADCRUMB -->
 <nav aria-label="Breadcrumb" class="bg-bgOffWhite border-b border-gray-200 py-2">
@@ -256,4 +256,4 @@ include_once "partials/head.php";
             <div class="px-6 pb-6 text-gray-600 leading-relaxed">GlobeCoRe prioritizes timely access to care. New patients seeking help for Finding The Love You Deserve are typically scheduled within a week. Contact our intake coordinators to secure the earliest available opening.</div>
         </details></div></div></section>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

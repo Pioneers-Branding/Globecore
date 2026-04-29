@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Single Post Header Style -->
 <style>
@@ -89,7 +89,7 @@ include_once "partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="The Role of Counseling in Mental Health Recovery" class="w-full h-auto object-cover max-h-[500px]" src="https://globecoreinc.com/wp-content/uploads/2025/03/counseling-in-mental-health-recovery.png"/>
+<img alt="The Role of Counseling in Mental Health Recovery" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/03/counseling-in-mental-health-recovery.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
@@ -188,4 +188,4 @@ If you’re struggling, remember this: <a href="#">Seeking help</a> is not a sig
 </div>
 </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "TMS Therapy | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- BREADCRUMB -->
     <nav aria-label="Breadcrumb" class="bg-bgOffWhite border-b border-gray-200 py-2">
@@ -100,7 +100,7 @@ include_once "partials/head.php";
                     </div>
 
                     <div class="relative w-full rounded-3xl overflow-hidden shadow-2xl group">
-                        <img src="https://globecoreinc.com/tms-therapy/apollo-i.jpg"
+                        <img src="assets/tms-therapy/apollo-i.jpg"
                             alt="Apollo TMS Therapy Machine in Atlanta"
                             class="w-full h-[400px] lg:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-in-out">
                         <div
@@ -449,7 +449,7 @@ include_once "partials/head.php";
                     <div
                         class="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition-opacity duration-500">
                     </div>
-                    <img src="https://globecoreinc.com/tms-therapy/2025-07-13.jpg" alt="TMS Therapy Patient in Atlanta"
+                    <img src="assets/tms-therapy/2025-07-13.jpg" alt="TMS Therapy Patient in Atlanta"
                         class="w-full h-auto object-contain rounded-[2rem] shadow-2xl relative z-10 group-hover:scale-[1.02] transition-transform duration-500">
                 </div>
 
@@ -954,4 +954,4 @@ include_once "partials/head.php";
         </div>
     </section>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Psychological Evaluations | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- BREADCRUMB -->
     <nav aria-label="Breadcrumb" class="bg-bgOffWhite border-b border-gray-200 py-2">
@@ -136,7 +136,7 @@ include_once "partials/head.php";
 
                     <!-- Process Timeline Graphic -->
                     <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 flex items-center justify-center">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2023/12/frame-134-1024x178.png"
+                        <img src="assets/wp-content/uploads/2023/12/frame-134-1024x178.png"
                             alt="Evaluation Process Timeline" class="w-full max-w-4xl h-auto">
                     </div>
                 </div>
@@ -177,7 +177,7 @@ include_once "partials/head.php";
                             <div
                                 class="absolute -inset-4 bg-[#5f8fa4]/10 rounded-[40px] transform group-hover:-rotate-2 transition-all duration-700">
                             </div>
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg"
                                 alt="Psycho-Educational Evaluation"
                                 class="relative rounded-[32px] shadow-2xl w-full aspect-[4/3] object-cover">
                         </div>
@@ -251,7 +251,7 @@ include_once "partials/head.php";
                             <div
                                 class="absolute -inset-4 bg-[#8bb174]/10 rounded-[40px] transform group-hover:rotate-2 transition-all duration-700">
                             </div>
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_102ab257514d49c1a0d08fedd429d8f6_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_102ab257514d49c1a0d08fedd429d8f6_mv2.jpg"
                                 alt="Substance Abuse & Parental Fitness"
                                 class="relative rounded-[32px] shadow-2xl w-full aspect-[4/3] object-cover">
                         </div>
@@ -263,7 +263,7 @@ include_once "partials/head.php";
                             <div
                                 class="absolute -inset-4 bg-[#5f8fa4]/10 rounded-[40px] transform group-hover:-rotate-2 transition-all duration-700">
                             </div>
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_fd7a0a427cc94dd8afdd39f5f3eab78a_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_fd7a0a427cc94dd8afdd39f5f3eab78a_mv2.jpg"
                                 alt="Domestic Violence & Psycho-Emotional"
                                 class="relative rounded-[32px] shadow-2xl w-full aspect-[4/3] object-cover">
                         </div>
@@ -344,7 +344,7 @@ include_once "partials/head.php";
                             <div
                                 class="absolute -inset-4 bg-[#8bb174]/10 rounded-[40px] transform group-hover:rotate-2 transition-all duration-700">
                             </div>
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_7e684deb260f45d3b330ad8a99a5c_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_7e684deb260f45d3b330ad8a99a5c_mv2.jpg"
                                 alt="Psycho-Sexual & Trauma Assessment"
                                 class="relative rounded-[32px] shadow-2xl w-full aspect-[4/3] object-cover">
                         </div>
@@ -356,7 +356,7 @@ include_once "partials/head.php";
                             <div
                                 class="absolute -inset-4 bg-[#5f8fa4]/10 rounded-[40px] transform group-hover:-rotate-2 transition-all duration-700">
                             </div>
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2de6f56071a642d7b6e651e20ab9ea50_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_2de6f56071a642d7b6e651e20ab9ea50_mv2.jpg"
                                 alt="Veteran & Bariatric Evaluations"
                                 class="relative rounded-[32px] shadow-2xl w-full aspect-[4/3] object-cover">
                         </div>
@@ -511,7 +511,7 @@ include_once "partials/head.php";
                             </div>
                         </div>
                         <div class="mt-auto relative w-full h-[350px]">
-                            <img src="https://globecoreinc.com/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg"
+                            <img src="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2.jpg"
                                 alt="Plant and green wall" class="absolute inset-0 w-full h-full object-cover">
                         </div>
                     </div>
@@ -520,4 +520,4 @@ include_once "partials/head.php";
         </section>
     </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>

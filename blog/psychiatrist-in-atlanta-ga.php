@@ -3,12 +3,12 @@
 <head>
 <?php
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
-include_once "partials/head.php";
+include_once "../partials/head.php";
 ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
-    <?php include "partials/header.php"; ?>
+    <?php include "../partials/header.php"; ?>
 
     <!-- Single Post Header Style -->
 <style>
@@ -89,7 +89,7 @@ include_once "partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Atlanta’s Best Psychiatrist: Where Cultural Understanding Meets Compassionate, Effective Care" class="w-full h-auto object-cover max-h-[500px]" src="https://globecoreinc.com/wp-content/uploads/2025/12/globe-core-50.jpg"/>
+<img alt="Atlanta’s Best Psychiatrist: Where Cultural Understanding Meets Compassionate, Effective Care" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/12/globe-core-50.jpg"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
@@ -164,4 +164,4 @@ include_once "partials/head.php";
 </div>
 </main>
 
-    <?php include "partials/footer.php"; ?>
+    <?php include "../partials/footer.php"; ?>
