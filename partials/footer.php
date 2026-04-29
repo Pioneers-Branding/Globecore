@@ -30,7 +30,7 @@ if (!isset($P)) {
                             </svg>
                             (770) 284-1044
                         </a>
-                        <a href="<?php echo $P; ?>services/counseling.php" class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-bold py-3.5 px-8 rounded-xl hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-300">
+                        <a href="services/counseling.php" class="inline-flex items-center justify-center gap-2 border border-white/20 text-white font-bold py-3.5 px-8 rounded-xl hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-300">
                             View Services
                         </a>
                     </div>
@@ -44,8 +44,8 @@ if (!isset($P)) {
 
                 <!-- Col 1: About -->
                 <div>
-                    <a href="#" class="inline-block mb-5">
-                        <img src="<?php echo $P; ?>assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert">
+                    <a href="/" class="inline-block mb-5">
+                        <img src="assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert">
                     </a>
                     <p class="text-sm leading-relaxed text-gray-400">
                         Providing expert psychological services, testing, and consulting in the Atlanta area, tailored for multicultural and diverse communities. Empowering you toward lasting well-being.
@@ -78,10 +78,10 @@ if (!isset($P)) {
                 <div>
                     <h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Quick Links</h4>
                     <ul class="space-y-3 text-sm">
-                        <li><a href="<?php echo $P; ?>about/" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>About Us</a></li>
-                        <li><a href="<?php echo $P; ?>about/meet-our-team.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Meet Our Team</a></li>
-                        <li><a href="<?php echo $P; ?>services/counseling.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Services</a></li>
-                        <li><a href="<?php echo $P; ?>specialties/adhd.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Specialties</a></li>
+                        <li><a href="about/" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>About Us</a></li>
+                        <li><a href="about/meet-our-team.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Meet Our Team</a></li>
+                        <li><a href="services/counseling.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Services</a></li>
+                        <li><a href="specialties/adhd.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Specialties</a></li>
                     </ul>
                 </div>
 
@@ -125,25 +125,25 @@ if (!isset($P)) {
                 <div>
                     <h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Areas We Serve</h4>
                     <ul class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-400">
-                        <li><a href="<?php echo $P; ?>areas-we-serve/marietta.php" class="hover:text-primary transition-colors duration-300">Marietta</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/alpharetta.php" class="hover:text-primary transition-colors duration-300">Alpharetta</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/sandy-springs.php" class="hover:text-primary transition-colors duration-300">Sandy Springs</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/brookhaven.php" class="hover:text-primary transition-colors duration-300">Brookhaven</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/decatur.php" class="hover:text-primary transition-colors duration-300">Decatur</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/smyrna.php" class="hover:text-primary transition-colors duration-300">Smyrna</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/johns-creek.php" class="hover:text-primary transition-colors duration-300">Johns Creek</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/dunwoody.php" class="hover:text-primary transition-colors duration-300">Dunwoody</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/peachtree-corners.php" class="hover:text-primary transition-colors duration-300">Peachtree Corners</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/lawrenceville.php" class="hover:text-primary transition-colors duration-300">Lawrenceville</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/duluth.php" class="hover:text-primary transition-colors duration-300">Duluth</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/woodstock.php" class="hover:text-primary transition-colors duration-300">Woodstock</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/canton.php" class="hover:text-primary transition-colors duration-300">Canton</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/newnan.php" class="hover:text-primary transition-colors duration-300">Newnan</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/peachtree-city.php" class="hover:text-primary transition-colors duration-300">Peachtree City</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/buckhead.php" class="hover:text-primary transition-colors duration-300">Buckhead</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/midtown.php" class="hover:text-primary transition-colors duration-300">Midtown</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/lenox.php" class="hover:text-primary transition-colors duration-300">Lenox</a></li>
-                        <li><a href="<?php echo $P; ?>areas-we-serve/downtown-atlanta.php" class="hover:text-primary transition-colors duration-300">Downtown Atlanta</a></li>
+                        <li><a href="areas-we-serve/marietta.php" class="hover:text-primary transition-colors duration-300">Marietta</a></li>
+                        <li><a href="areas-we-serve/alpharetta.php" class="hover:text-primary transition-colors duration-300">Alpharetta</a></li>
+                        <li><a href="areas-we-serve/sandy-springs.php" class="hover:text-primary transition-colors duration-300">Sandy Springs</a></li>
+                        <li><a href="areas-we-serve/brookhaven.php" class="hover:text-primary transition-colors duration-300">Brookhaven</a></li>
+                        <li><a href="areas-we-serve/decatur.php" class="hover:text-primary transition-colors duration-300">Decatur</a></li>
+                        <li><a href="areas-we-serve/smyrna.php" class="hover:text-primary transition-colors duration-300">Smyrna</a></li>
+                        <li><a href="areas-we-serve/johns-creek.php" class="hover:text-primary transition-colors duration-300">Johns Creek</a></li>
+                        <li><a href="areas-we-serve/dunwoody.php" class="hover:text-primary transition-colors duration-300">Dunwoody</a></li>
+                        <li><a href="areas-we-serve/peachtree-corners.php" class="hover:text-primary transition-colors duration-300">Peachtree Corners</a></li>
+                        <li><a href="areas-we-serve/lawrenceville.php" class="hover:text-primary transition-colors duration-300">Lawrenceville</a></li>
+                        <li><a href="areas-we-serve/duluth.php" class="hover:text-primary transition-colors duration-300">Duluth</a></li>
+                        <li><a href="areas-we-serve/woodstock.php" class="hover:text-primary transition-colors duration-300">Woodstock</a></li>
+                        <li><a href="areas-we-serve/canton.php" class="hover:text-primary transition-colors duration-300">Canton</a></li>
+                        <li><a href="areas-we-serve/newnan.php" class="hover:text-primary transition-colors duration-300">Newnan</a></li>
+                        <li><a href="areas-we-serve/peachtree-city.php" class="hover:text-primary transition-colors duration-300">Peachtree City</a></li>
+                        <li><a href="areas-we-serve/buckhead.php" class="hover:text-primary transition-colors duration-300">Buckhead</a></li>
+                        <li><a href="areas-we-serve/midtown.php" class="hover:text-primary transition-colors duration-300">Midtown</a></li>
+                        <li><a href="areas-we-serve/lenox.php" class="hover:text-primary transition-colors duration-300">Lenox</a></li>
+                        <li><a href="areas-we-serve/downtown-atlanta.php" class="hover:text-primary transition-colors duration-300">Downtown Atlanta</a></li>
                     </ul>
                 </div>
 
@@ -160,9 +160,9 @@ if (!isset($P)) {
             <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
                 <p>&copy; <?php echo date('Y'); ?> GlobeCoRe Inc. All rights reserved.</p>
                 <div class="flex items-center gap-6">
-                    <a href="<?php echo $P; ?>privacy-policy.php" class="hover:text-primary transition-colors duration-300">Privacy Policy</a>
-                    <a href="<?php echo $P; ?>terms-of-service.php" class="hover:text-primary transition-colors duration-300">Terms of Service</a>
-                    <a href="<?php echo $P; ?>sitemap.html" class="hover:text-primary transition-colors duration-300">Sitemap</a>
+                    <a href="privacy-policy.php" class="hover:text-primary transition-colors duration-300">Privacy Policy</a>
+                    <a href="terms-of-service.php" class="hover:text-primary transition-colors duration-300">Terms of Service</a>
+                    <a href="sitemap.xml" class="hover:text-primary transition-colors duration-300">Sitemap</a>
                 </div>
             </div>
         </div>

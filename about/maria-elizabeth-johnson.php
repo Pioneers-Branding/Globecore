@@ -13,7 +13,7 @@ include_once "../partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-52.jpg" alt="Meet Our Team"
+            <img src="/assets/Globe Core-52.jpg" alt="Meet Our Team"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -85,7 +85,7 @@ include_once "../partials/head.php";
             <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
                 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
                     <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-                        <img src="https://globecoreinc.com/wp-content/uploads/2025/06/screenshot-2025-06-05-at-10.15.06 am-1024x1024.png" alt="Dr. Maria Johnson" class="w-full aspect-[4/5] object-cover object-top">
+                        <img src="./wp-content/uploads/2025/06/screenshot-2025-06-05-at-10.15.06 am-1024x1024.png" alt="Dr. Maria Johnson" class="w-full aspect-[4/5] object-cover object-top">
                     </div>
                     <div class="text-center w-full px-2">
                         <span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">DIRECTOR

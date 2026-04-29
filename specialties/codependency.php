@@ -36,7 +36,7 @@ include_once "../partials/head.php";
 <!-- Creative Hero Section -->
 <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
     <div class="absolute inset-0">
-        <img src="../assets/Globe Core-94.jpg" alt="Codependency Therapy" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
+        <img src="/assets/Globe Core-94.jpg" alt="Codependency Therapy" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
         <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
     </div>
     

@@ -36,7 +36,7 @@ $pageTitle = "TMS Therapy Atlanta | GlobeCore Inc - FDA-Approved Depression Trea
     </script>
     
     <?php include_once "../partials/head.php"; ?>
-    <link rel="stylesheet" href="../assets/tms-therapy/style.css">
+    <link rel="stylesheet" href="/assets/tms-therapy/style.css">
     
     <script type="module" crossorigin src="/tms-therapy/assets/index-BrsUjDQJ.js"></script>
     <link rel="stylesheet" crossorigin href="/tms-therapy/assets/index-CP1p4a9V.css">
@@ -140,7 +140,7 @@ $pageTitle = "TMS Therapy Atlanta | GlobeCore Inc - FDA-Approved Depression Trea
 </div>
 <div class=relative>
 <div class="relative overflow-hidden rounded-3xl shadow-2xl">
-<img src="../assets/tms-therapy/img_0f7c4220a8.jpg" alt="TMS Therapy Treatment in Atlanta" class="w-full h-auto object-cover">
+<img src="/assets/tms-therapy/img_0f7c4220a8.jpg" alt="TMS Therapy Treatment in Atlanta" class="w-full h-auto object-cover">
 <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent">
 </div>
 </div>
@@ -1122,6 +1122,6 @@ $pageTitle = "TMS Therapy Atlanta | GlobeCore Inc - FDA-Approved Depression Trea
     </main>
 
     <?php include "../partials/footer.php"; ?>
-    <script src="../assets/tms-therapy/script.js"></script>
+    <script src="/assets/tms-therapy/script.js"></script>
 </body>
 </html>

@@ -13,7 +13,7 @@ include_once "../partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-108.jpg" alt="Blog"
+            <img src="/assets/Globe Core-108.jpg" alt="Blog"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -204,7 +204,7 @@ include_once "../partials/head.php";
                 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./what-happens-during-a-psychiatric-evaluation.php">
-<img alt="What Happens During a Psychiatric Evaluation?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="../assets/psych_eval_blog_1773723989285.png"/>
+<img alt="What Happens During a Psychiatric Evaluation?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/psych_eval_blog_1773723989285.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -252,7 +252,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./therapy-for-psychological-abuse-how-recovery-works.php">
-<img alt="Therapy for Psychological Abuse: How Recovery Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="../assets/psych_abuse_blog_1773724005530.png"/>
+<img alt="Therapy for Psychological Abuse: How Recovery Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/psych_abuse_blog_1773724005530.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -300,7 +300,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./does-tricare-cover-mental-health-therapy.php">
-<img alt="Does TRICARE Cover Mental Health Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="../assets/tricare_mental_health_blog_1773724024240.png"/>
+<img alt="Does TRICARE Cover Mental Health Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/tricare_mental_health_blog_1773724024240.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>
@@ -348,7 +348,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
 <a class="block w-full h-full" href="./hormonal-mood-disorders-in-women-what-you-should-know.php">
-<img alt="Hormonal Mood Disorders in Women: What You Should Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="../assets/hormonal_mood_blog_1773724039183.png"/>
+<img alt="Hormonal Mood Disorders in Women: What You Should Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/hormonal_mood_blog_1773724039183.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
 </div>

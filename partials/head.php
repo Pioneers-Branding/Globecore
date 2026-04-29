@@ -11,7 +11,7 @@ $P = str_repeat('../', $depth);
 ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? $pageTitle : 'GlobeCoRe Inc. Atlanta, GA'; ?></title>
+    <title><?php echo $pageTitle ?? 'GlobeCoRe Inc. Atlanta, GA'; ?></title>
     <meta name="description" content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, psychological evaluations & telehealth in Atlanta, GA. Culturally sensitive, inclusive care for individuals, couples & families. Call (770) 284-1044.">
     <meta name="keywords" content="psychologist Atlanta, therapy Atlanta GA, TMS therapy Atlanta, psychological evaluation Atlanta, counseling services Atlanta, telehealth therapy Georgia, medication management Atlanta, couples therapy Atlanta, family therapy Atlanta, ADHD evaluation Atlanta, GlobeCoRe">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -23,16 +23,13 @@ $P = str_repeat('../', $depth);
     <meta property="og:url" content="https://globecoreinc.com/">
     <meta property="og:title" content="Psychological & Consulting Services in Atlanta, GA | GlobeCoRe Inc.">
     <meta property="og:description" content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, evaluations & telehealth in Atlanta. Culturally sensitive, inclusive care. Call (770) 284-1044.">
-    <meta property="og:image" content="assets/assets/globecore-og-image.jpg">
+    <meta property="og:image" content="/assets/globecore-og-image.jpg">
     <meta property="og:site_name" content="GlobeCoRe Inc.">
     <meta property="og:locale" content="en_US">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Globecoreinc">
-    <meta name="twitter:title" content="Psychological & Consulting Services in Atlanta | GlobeCoRe">
-    <meta name="twitter:description" content="Comprehensive psychological services, TMS therapy, counseling & telehealth in Atlanta, GA. Inclusive, compassionate care.">
-    <meta name="twitter:image" content="assets/assets/globecore-og-image.jpg">
 
     <!-- Local SEO Geo Tags -->
     <meta name="geo.region" content="US-GA">

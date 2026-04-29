@@ -44,7 +44,7 @@ include_once "../partials/head.php";
                 </div>
                 <!-- Article Content -->
                 <div class="article-content text-[17px] md:text-[18px]">
-                    <p>Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals continue to struggle with persistent symptoms. This has led to increased interest in <a href="https://globecoreinc.com/services/tms-therapy.php">TMS therapy</a> as a non-invasive, drug-free alternative.</p>
+                    <p>Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals continue to struggle with persistent symptoms. This has led to increased interest in <a href="services/tms-therapy.php">TMS therapy</a> as a non-invasive, drug-free alternative.</p>
 
                     <p>A key concern for veterans is whether this advanced treatment is covered under TRICARE. This guide provides a comprehensive breakdown of <strong>TRICARE coverage for TMS therapy</strong>, eligibility requirements, and how to access care.</p>
 

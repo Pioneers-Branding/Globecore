@@ -36,7 +36,7 @@ include_once "../partials/head.php";
 <!-- Creative Hero Section -->
 <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
     <div class="absolute inset-0">
-        <img src="../assets/Globe Core-106.jpg" alt="Personal Development Services" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
+        <img src="/assets/Globe Core-106.jpg" alt="Personal Development Services" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
         <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
     </div>
     
@@ -88,7 +88,7 @@ include_once "../partials/head.php";
         </div>
         <div class="lg:col-span-5">
             <div class="bg-white shadow-2xl rounded-3xl p-2 rotate-2 hover:rotate-0 transition-all duration-500">
-                <img src="../assets/Globe Core-1.jpg" alt="Personal Development Services Atlanta" class="w-full h-auto rounded-2xl object-cover">
+                <img src="/assets/Globe Core-1.jpg" alt="Personal Development Services Atlanta" class="w-full h-auto rounded-2xl object-cover">
             </div>
         </div>
     </div>

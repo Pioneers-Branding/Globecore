@@ -34,11 +34,11 @@ include_once __DIR__ . '/nav-data.php';
     <!-- MAIN NAVIGATION HEADER -->
     <header class="bg-white/80 backdrop-blur-xl sticky top-0 z-50 border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
-            <a href="<?php echo $P; ?>index.php">
-                <img src="<?php echo $P; ?>assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-11 w-auto">
+            <a href="/">
+                <img src="assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-11 w-auto">
             </a>
             <nav class="hidden xl:flex items-center gap-2 text-[13px] font-semibold relative">
-                <a href="<?php echo $P; ?>index.php" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Home</a>
+                <a href="/" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Home</a>
 
                 <!-- About Dropdown -->
                 <div class="group relative">
@@ -110,9 +110,9 @@ include_once __DIR__ . '/nav-data.php';
                     </div>
                 </div>
 
-                <a href="<?php echo $P; ?>blog/" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Blog</a>
-                <a href="<?php echo $P; ?>pricing-insurance.php" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Rates</a>
-                <a href="<?php echo $P; ?>contact.php" class="bg-primary text-white border border-primary/20 px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-primary/30 hover:bg-[#7a9e3f] transition-all duration-300 ml-3 font-bold tracking-wide">Book Now</a>
+                <a href="blog/" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Blog</a>
+                <a href="pricing-insurance.php" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Rates</a>
+                <a href="contact.php" class="bg-primary text-white border border-primary/20 px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-primary/30 hover:bg-[#7a9e3f] transition-all duration-300 ml-3 font-bold tracking-wide">Book Now</a>
             </nav>
             <button id="mobileMenuBtn" class="xl:hidden w-10 h-10 rounded-xl bg-bgOffWhite flex items-center justify-center hover:bg-gray-200 transition-all duration-300" aria-label="Open Menu">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -124,13 +124,13 @@ include_once __DIR__ . '/nav-data.php';
         <!-- Mobile Menu -->
         <div id="mobileMenu" class="hidden xl:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 px-6 pb-5 shadow-2xl absolute w-full">
             <nav class="flex flex-col gap-2 text-sm font-semibold pt-4">
-                <a href="<?php echo $P; ?>index.php" class="bg-primary/10 text-primary px-4 py-3 rounded-xl">Home</a>
-                <a href="<?php echo $P; ?>about/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">About</a>
-                <a href="<?php echo $P; ?>services/counseling.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Services</a>
-                <a href="<?php echo $P; ?>specialties/adhd.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Specialties</a>
-                <a href="<?php echo $P; ?>blog/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Blog</a>
-                <a href="<?php echo $P; ?>pricing-insurance.html" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Rates</a>
-                <a href="<?php echo $P; ?>contact.html" class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300">Contact</a>
+                <a href="/" class="bg-primary/10 text-primary px-4 py-3 rounded-xl">Home</a>
+                <a href="about/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">About</a>
+                <a href="services/counseling.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Services</a>
+                <a href="specialties/adhd.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Specialties</a>
+                <a href="blog/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Blog</a>
+                <a href="pricing-insurance.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Rates</a>
+                <a href="contact.php" class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300">Contact</a>
             </nav>
         </div>
     </header>

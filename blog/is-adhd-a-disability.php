@@ -69,7 +69,7 @@ include_once "../partials/head.php";
                     <ul>
                         <li><strong>Medication:</strong> Stimulants and non-stimulants prescribed by a psychiatrist.</li>
                         <li><strong>Behavioral Therapy:</strong> CBT to build coping skills and time management.</li>
-                        <li><strong>TMS Therapy:</strong> For some, <a href="https://globecoreinc.com/services/tms-therapy.php">TMS Therapy</a> offers a non-invasive way to stimulate brain regions that regulate focus.</li>
+                        <li><strong>TMS Therapy:</strong> For some, <a href="services/tms-therapy.php">TMS Therapy</a> offers a non-invasive way to stimulate brain regions that regulate focus.</li>
                     </ul>
 
                     <h2>When to Seek Professional Help</h2>

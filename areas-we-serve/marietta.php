@@ -36,7 +36,7 @@ include_once "../partials/head.php";
 <!-- Creative Hero Section -->
 <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
     <div class="absolute inset-0">
-        <img src="../assets/Globe Core-50.jpg" alt="Therapy in Marietta, GA" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
+        <img src="/assets/Globe Core-50.jpg" alt="Therapy in Marietta, GA" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
         <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
     </div>
     
@@ -71,8 +71,8 @@ include_once "../partials/head.php";
             <div class="flex flex-col-reverse lg:flex-row gap-16 items-center">
         <div class="lg:w-1/2">
             <div class="grid grid-cols-2 gap-4">
-                <img src="../assets/Globe Core-100.jpg" alt="Therapy in Marietta" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
-                <img src="../assets/Globe Core-101.jpg" alt="Counseling in Marietta" class="w-full h-64 object-cover rounded-3xl shadow-lg">
+                <img src="/assets/Globe Core-100.jpg" alt="Therapy in Marietta" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
+                <img src="/assets/Globe Core-101.jpg" alt="Counseling in Marietta" class="w-full h-64 object-cover rounded-3xl shadow-lg">
             </div>
         </div>
         <div class="lg:w-1/2 space-y-6">

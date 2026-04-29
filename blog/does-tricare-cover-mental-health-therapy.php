@@ -85,7 +85,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Does TRICARE Cover Mental Health Therapy?" class="w-full h-auto object-cover max-h-[500px]" src="../assets/tricare_mental_health_blog_1773724024240.png"/>
+<img alt="Does TRICARE Cover Mental Health Therapy?" class="w-full h-auto object-cover max-h-[500px]" src="/assets/tricare_mental_health_blog_1773724024240.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

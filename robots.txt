@@ -1,0 +1,30 @@
+# robots.txt for GlobeCoRe Inc.
+# https://globecoreinc.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://globecoreinc.com/sitemap.xml
+
+# Disallow admin and internal paths
+Disallow: /client-portal/
+Disallow: /staff-portal/
+Disallow: /tms-quiz/
+Disallow: /Kale%20Log/
+Disallow: /*.py$
+Disallow: /*.pyc$
+
+# Allow search engines to crawl CSS and JS for rendering
+Allow: /assets/
+Allow: /partials/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

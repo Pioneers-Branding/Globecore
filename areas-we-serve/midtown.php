@@ -13,7 +13,7 @@ include_once "../partials/head.php";
     <!-- HERO -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 bg-[#071e26] text-center overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-50.jpg" alt="Midtown Atlanta" class="w-full h-full object-cover opacity-30 mix-blend-overlay blur-[2px]">
+            <img src="/assets/Globe Core-50.jpg" alt="Midtown Atlanta" class="w-full h-full object-cover opacity-30 mix-blend-overlay blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-transparent to-transparent"></div>
         </div>
         <div class="max-w-6xl mx-auto px-4 relative z-10">
@@ -34,8 +34,8 @@ include_once "../partials/head.php";
                     <p class="text-lg text-gray-600 leading-relaxed">Whether you are seeking <a href="../services/tms-therapy.php" class="text-secondary underline">TMS Therapy</a> for treatment-resistant depression or <a href="../services/counseling.php" class="text-secondary underline">multicultural counseling</a>, our convenient Buckhead office serves as a primary hub for Midtown residents.</p>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-                    <img src="../assets/Globe Core-104.jpg" alt="Midtown Living" class="w-full h-64 object-cover rounded-3xl shadow-lg">
-                    <img src="../assets/Globe Core-106.jpg" alt="Therapy Session" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
+                    <img src="/assets/Globe Core-104.jpg" alt="Midtown Living" class="w-full h-64 object-cover rounded-3xl shadow-lg">
+                    <img src="/assets/Globe Core-106.jpg" alt="Therapy Session" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
                 </div>
             </div>
         </div>

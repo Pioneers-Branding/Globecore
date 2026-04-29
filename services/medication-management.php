@@ -40,7 +40,7 @@ include_once "../partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-73.jpg" alt="Medication Management Services"
+            <img src="/assets/Globe Core-73.jpg" alt="Medication Management Services"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -365,10 +365,10 @@ include_once "../partials/head.php";
                                     STOP to opt-out; Reply HELP for support. Message and data rates apply. Messaging
                                     frequency may vary. Visit
                                     <a href="#"
-                                        class="text-blue-600 hover:underline">https://globecoreinc.com/privacy-policy/</a>
+                                        class="text-blue-600 hover:underline">privacy-policy.php</a>
                                     for privacy policy and
                                     <a href="#"
-                                        class="text-blue-600 hover:underline">https://globecoreinc.com/privacy-policy/</a>
+                                        class="text-blue-600 hover:underline">privacy-policy.php</a>
                                     for Terms of Service.
                                 </label>
                             </div>

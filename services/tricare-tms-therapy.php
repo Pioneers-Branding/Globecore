@@ -40,7 +40,7 @@ include_once "../partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-105.jpg" alt="TRICARE-Covered TMS Therapy"
+            <img src="/assets/Globe Core-105.jpg" alt="TRICARE-Covered TMS Therapy"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -114,7 +114,7 @@ include_once "../partials/head.php";
 
                 <!-- Image container -->
                 <div class="relative rounded-2xl overflow-hidden shadow-[0_5px_20px_rgba(0,0,0,0.15)] flex items-center justify-center">
-                    <img src="../assets/tricare_tms_veteran_1773724810949.png" alt="Veteran receiving compassionate care" class="object-cover w-full h-full min-h-[350px]">
+                    <img src="/assets/tricare_tms_veteran_1773724810949.png" alt="Veteran receiving compassionate care" class="object-cover w-full h-full min-h-[350px]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#071e26]/50 to-transparent"></div>
                     <div class="absolute bottom-6 left-6 right-6">
                         <p class="text-white text-lg font-bold">Accessible, specialized care for those who have served.</p>
@@ -296,10 +296,10 @@ include_once "../partials/head.php";
                                         the business. I consent to receive Account notifications text messages from
                                         GlobeCoRe, Inc. Reply STOP to opt-out; Reply HELP for support. Message and
                                         data rates apply. Messaging frequency may vary. Visit <a
-                                            href="https://globecoreinc.com/privacy-policy/"
-                                            class="text-blue-500 hover:underline">https://globecoreinc.com/privacy-policy/</a>
-                                        for privacy policy and <a href="https://globecoreinc.com/privacy-policy/"
-                                            class="text-blue-500 hover:underline">https://globecoreinc.com/privacy-policy/</a>
+                                            href="privacy-policy.php"
+                                            class="text-blue-500 hover:underline">privacy-policy.php</a>
+                                        for privacy policy and <a href="privacy-policy.php"
+                                            class="text-blue-500 hover:underline">privacy-policy.php</a>
                                         for Terms of Service.
                                     </label>
                                 </div>

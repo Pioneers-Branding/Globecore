@@ -13,7 +13,7 @@ include_once "../partials/head.php";
     <!-- HERO -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 bg-[#071e26] text-center overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-50.jpg" alt="Downtown Atlanta" class="w-full h-full object-cover opacity-30 mix-blend-overlay blur-[2px]">
+            <img src="/assets/Globe Core-50.jpg" alt="Downtown Atlanta" class="w-full h-full object-cover opacity-30 mix-blend-overlay blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-transparent to-transparent"></div>
         </div>
         <div class="max-w-6xl mx-auto px-4 relative z-10">
@@ -34,8 +34,8 @@ include_once "../partials/head.php";
                     <p class="text-lg text-gray-600 leading-relaxed">GlobeCoRe Inc offers a comprehensive suite of services including <a href="../services/medication-management.php" class="text-secondary underline">medication management</a> and <a href="../specialties/trauma.php" class="text-secondary underline">trauma-informed therapy</a>, with easy access from major Downtown routes.</p>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-                    <img src="../assets/Globe Core-102.jpg" alt="Downtown Vibes" class="w-full h-64 object-cover rounded-3xl shadow-lg">
-                    <img src="../assets/Globe Core-105.jpg" alt="Team Discussion" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
+                    <img src="/assets/Globe Core-102.jpg" alt="Downtown Vibes" class="w-full h-64 object-cover rounded-3xl shadow-lg">
+                    <img src="/assets/Globe Core-105.jpg" alt="Team Discussion" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
     <meta name="revisit-after" content="7 days" />
     
     <!-- Canonical -->
-    <link rel="canonical" href="https://globecoreinc.com/tms-quiz/" />
+    <link rel="canonical" href="./tms-quiz/" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/tms-quiz/fav.png" />

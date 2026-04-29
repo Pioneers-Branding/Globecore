@@ -71,7 +71,7 @@ include_once "../partials/head.php";
                     <h2>What Happens in Couples Therapy?</h2>
                     <p>Many couples are nervous about what therapy actually looks like. Here is what you can generally expect:</p>
                     <h3>Assessment & Skills Building</h3>
-                    <p>Your therapist helps you identify negative patterns in your communication, understand each other’s emotional needs and triggers, and practice healthier ways of expressing feelings. Common approaches include <a href="https://globecoreinc.com/specialties/relationship-marriage-issues.php">The Gottman Method</a> and Emotionally Focused Therapy (EFT).</p>
+                    <p>Your therapist helps you identify negative patterns in your communication, understand each other’s emotional needs and triggers, and practice healthier ways of expressing feelings. Common approaches include <a href="specialties/relationship-marriage-issues.php">The Gottman Method</a> and Emotionally Focused Therapy (EFT).</p>
 
                     <h2>Benefits of Marriage Counseling</h2>
                     <ul>

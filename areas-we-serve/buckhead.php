@@ -26,7 +26,7 @@ include_once "../partials/head.php";
     <!-- HERO -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="../assets/Globe Core-50.jpg" alt="Therapy in Buckhead" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
+            <img src="/assets/Globe Core-50.jpg" alt="Therapy in Buckhead" class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
         <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10 text-center">
@@ -56,8 +56,8 @@ include_once "../partials/head.php";
                     <p class="text-lg text-gray-600 leading-relaxed">From <a href="../services/counseling.php" class="text-secondary underline font-medium">individual psychotherapy</a> to <a href="../services/tms-therapy.php" class="text-secondary underline font-medium">Deep TMS Therapy</a>, we serve the Buckhead community with clinical excellence and absolute discretion.</p>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-2 gap-4">
-                    <img src="../assets/Globe Core-100.jpg" alt="Buckhead Office" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
-                    <img src="../assets/Globe Core-101.jpg" alt="Therapy Buckhead" class="w-full h-64 object-cover rounded-3xl shadow-lg">
+                    <img src="/assets/Globe Core-100.jpg" alt="Buckhead Office" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
+                    <img src="/assets/Globe Core-101.jpg" alt="Therapy Buckhead" class="w-full h-64 object-cover rounded-3xl shadow-lg">
                 </div>
             </div>
         </div>

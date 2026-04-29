@@ -85,7 +85,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Hormonal Mood Disorders in Women: What You Should Know" class="w-full h-auto object-cover max-h-[500px]" src="../assets/hormonal_mood_blog_1773724039183.png"/>
+<img alt="Hormonal Mood Disorders in Women: What You Should Know" class="w-full h-auto object-cover max-h-[500px]" src="/assets/hormonal_mood_blog_1773724039183.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
