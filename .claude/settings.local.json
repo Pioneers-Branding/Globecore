@@ -9,7 +9,11 @@
       "Bash(sed -i 's|href=\"\"\\\\.\\\\./specialties/|href=\"\"/specialties/|g' \"$f\")",
       "Bash(sed -i 's|href=\"\"\\\\.\\\\./blog/|href=\"\"/blog/|g' \"$f\")",
       "Bash(sed -i 's|href=\"\"terms-of-service\\\\.php\"\"|href=\"\"/terms-of-service.php\"\"|g' \"$f\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(ls \"a:\\\\Work\\\\Globecore\\\\partials\"/*.php)",
+      "Bash(find about:*)",
+      "Read(//a/Work/Globecore/dir=$DEST/**)",
+      "Bash(chmod +x /tmp/download_assets.sh)"
     ]
   }
 }

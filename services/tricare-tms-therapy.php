@@ -361,7 +361,7 @@ include_once "../partials/head.php";
 
                         <!-- Plant Image -->
                         <div class="flex-grow">
-                            <img src="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg"
+                            <img src="/assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg"
                                 alt="Office Plant" class="w-full h-auto object-cover max-h-[400px]">
                         </div>
                     </div>

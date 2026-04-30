@@ -35,7 +35,7 @@ include_once __DIR__ . '/nav-data.php';
     <header class="bg-white/80 backdrop-blur-xl sticky top-0 z-50 border-b border-gray-100 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
             <a href="/">
-                <img src="assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-11 w-auto">
+                <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-11 w-auto">
             </a>
             <nav class="hidden xl:flex items-center gap-2 text-[13px] font-semibold relative">
                 <a href="/" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Home</a>

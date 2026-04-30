@@ -72,7 +72,7 @@ include_once "../partials/head.php";
                         <div
                             class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                         </div>
-                        <img src="assets/wp-content/uploads/2024/03/brick-background-68-819x1024.png"
+                        <img src="/assets/wp-content/uploads/2024/03/brick-background-68-819x1024.png"
                             alt="Grace Lu"
                             class="w-full h-auto object-cover aspect-[4/5] transform group-hover:scale-105 transition-transform duration-700">
                     </div>

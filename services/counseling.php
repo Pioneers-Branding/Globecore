@@ -211,7 +211,7 @@ include_once "../partials/head.php";
                     <div
                         class="bg-white rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden flex flex-col md:flex-row hover:shadow-xl transition-shadow">
                         <div class="md:w-5/12">
-                            <img src="assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
+                            <img src="/assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
                                 alt="Racial Healing and Hope" class="w-full h-full object-cover min-h-[300px]">
                         </div>
                         <div class="md:w-7/12 p-8 md:p-10 flex flex-col justify-center">
@@ -237,7 +237,7 @@ include_once "../partials/head.php";
                     <div
                         class="bg-white rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden flex flex-col md:flex-row-reverse hover:shadow-xl transition-shadow">
                         <div class="md:w-5/12">
-                            <img src="assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
+                            <img src="/assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
                                 alt="The Roaring 20s" class="w-full h-full object-cover min-h-[300px]">
                         </div>
                         <div class="md:w-7/12 p-8 md:p-10 flex flex-col justify-center">
@@ -264,7 +264,7 @@ include_once "../partials/head.php";
                     <div
                         class="bg-white rounded-2xl shadow-[0_5px_20px_rgba(0,0,0,0.08)] border border-gray-100 overflow-hidden flex flex-col md:flex-row hover:shadow-xl transition-shadow">
                         <div class="md:w-5/12">
-                            <img src="assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
+                            <img src="/assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
                                 alt="Self Esteem Building for Women" class="w-full h-full object-cover min-h-[300px]">
                         </div>
                         <div class="md:w-7/12 p-8 md:p-10 flex flex-col justify-center">
@@ -421,7 +421,7 @@ include_once "../partials/head.php";
 
                             <!-- Plant Image -->
                             <div class="flex-grow">
-                                <img src="assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg"
+                                <img src="/assets/wp-content/uploads/2020/12/df4262_2f107277ba88444f8f8a96d2b0af056e_mv2-1024x683.jpg"
                                     alt="Office Plant" class="w-full h-auto object-cover max-h-[400px]">
                             </div>
                         </div>

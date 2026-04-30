@@ -69,7 +69,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-much-does-tms-therapy-cost.php">
-<img alt="How Much Does TMS Therapy Cost? Full 2025 Pricing Guide for Patients" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/2150766884-1.jpg"/>
+<img alt="How Much Does TMS Therapy Cost? Full 2025 Pricing Guide for Patients" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/2150766884-1.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -110,7 +110,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-long-does-a-psychological-evaluation-take.php">
-<img alt="How Long Does a Psychological Evaluation Take?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/11/psychological-evaluation.jpg"/>
+<img alt="How Long Does a Psychological Evaluation Take?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/11/psychological-evaluation.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -151,7 +151,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./what-is-tms-therapy.php">
-<img alt="What Is TMS Therapy and How Does It Work 2025" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/09/what-is-tms-therapy-and-how-does-it-work.jpg"/>
+<img alt="What Is TMS Therapy and How Does It Work 2025" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/09/what-is-tms-therapy-and-how-does-it-work.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -192,7 +192,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./transcranial-magnetic-stimulation-tms-a-beginners-guide.php">
-<img alt="Transcranial Magnetic Stimulation (TMS): A Beginner’s Guide to Rapid Relief" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/09/transcranial-magnetic-stimulation-tms-a-beginner-guide.png"/>
+<img alt="Transcranial Magnetic Stimulation (TMS): A Beginner’s Guide to Rapid Relief" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/09/transcranial-magnetic-stimulation-tms-a-beginner-guide.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -233,7 +233,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./the-dopamine-trap-how-everyday-habits-mimic-addictive-patterns.php">
-<img alt="The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/05/dopamine-trap.png"/>
+<img alt="The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/05/dopamine-trap.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">

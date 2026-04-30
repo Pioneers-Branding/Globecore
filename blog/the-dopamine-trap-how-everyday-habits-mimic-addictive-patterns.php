@@ -89,7 +89,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/05/dopamine-trap.png"/>
+<img alt="The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2025/05/dopamine-trap.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

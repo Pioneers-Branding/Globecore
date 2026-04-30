@@ -223,7 +223,7 @@ include_once "partials/head.php";
                 <div class="relative">
                     <!-- Main Image -->
                     <div class="rounded-3xl overflow-hidden shadow-2xl shadow-black/40 border border-white/5">
-                        <img src="assets/hero-main-v2.jpg" alt="Professional counseling session at GlobeCoRe"
+                        <img src="/assets/hero-main-v2.jpg" alt="Professional counseling session at GlobeCoRe"
                             class="w-full h-auto max-h-[450px] lg:max-h-[550px] xl:max-h-[600px] object-cover bg-[#071e26]">
                         <div
                             class="absolute inset-0 bg-gradient-to-t from-[#071e26]/60 via-transparent to-transparent rounded-3xl">
@@ -327,7 +327,7 @@ include_once "partials/head.php";
                             healing
                         </p>
                         <div class="rounded-2xl overflow-hidden">
-                            <img src="assets/counseling-main.jpg" alt="Counseling session at GlobeCoRe Atlanta"
+                            <img src="/assets/counseling-main.jpg" alt="Counseling session at GlobeCoRe Atlanta"
                                 class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
                         </div>
                     </div>
@@ -363,7 +363,7 @@ include_once "partials/head.php";
                             us.
                         </p>
                         <div class="rounded-2xl overflow-hidden">
-                            <img src="assets/Globe Core-109.jpg" alt="TMS therapy session at GlobeCoRe Atlanta"
+                            <img src="/assets/Globe Core-109.jpg" alt="TMS therapy session at GlobeCoRe Atlanta"
                                 class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
                         </div>
                     </div>
@@ -508,7 +508,7 @@ include_once "partials/head.php";
 
                 <!-- Card 2: Couples Therapy -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
-                    <img src="assets/Couple-Tharapy.webp"
+                    <img src="/assets/Couple-Tharapy.webp"
                         alt="Couples therapist in Atlanta"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -544,7 +544,7 @@ include_once "partials/head.php";
 
                 <!-- Card 4: Racial Healing and Hope -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
-                    <img src="assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
+                    <img src="/assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
                         alt="Racial Healing and Hope group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -562,7 +562,7 @@ include_once "partials/head.php";
 
                 <!-- Card 5: The Roaring 20s -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
-                    <img src="assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
+                    <img src="/assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
                         alt="The Roaring 20s group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -580,7 +580,7 @@ include_once "partials/head.php";
 
                 <!-- Card 6: Self Esteem Building for Women -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
-                    <img src="assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
+                    <img src="/assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
                         alt="Self Esteem Building for Women group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -821,7 +821,7 @@ include_once "partials/head.php";
                     <div class="relative">
                         <!-- Decorative border frame -->
                         <div class="absolute -top-3 -right-3 w-full h-full rounded-3xl border-2 border-secondary"></div>
-                        <img src="assets/Globe Core-81.jpg"
+                        <img src="/assets/Globe Core-81.jpg"
                             alt="GlobeCoRe team member presenting on TMS therapy and neurocare services"
                             class="relative rounded-3xl w-full max-w-lg h-[520px] object-cover shadow-xl">
                     </div>

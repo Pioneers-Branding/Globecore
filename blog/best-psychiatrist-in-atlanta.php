@@ -89,7 +89,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/12/best-psychiatrist-in-atlanta.png"/>
+<img alt="Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2025/12/best-psychiatrist-in-atlanta.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

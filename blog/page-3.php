@@ -69,7 +69,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./best-psychiatrist-in-atlanta.php">
-<img alt="Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/best-psychiatrist-in-atlanta.png"/>
+<img alt="Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/best-psychiatrist-in-atlanta.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -110,7 +110,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./psychiatrist-in-atlanta-that-accept-medicaid.php">
-<img alt="Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/unnamed-4.png"/>
+<img alt="Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/unnamed-4.png"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -151,7 +151,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./psychiatrist-in-atlanta-ga.php">
-<img alt="Atlanta’s Best Psychiatrist: Where Cultural Understanding Meets Compassionate, Effective Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/globe-core-50.jpg"/>
+<img alt="Atlanta’s Best Psychiatrist: Where Cultural Understanding Meets Compassionate, Effective Care" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/globe-core-50.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -192,7 +192,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./clinical-psychology-vs-counseling-psychology.php">
-<img alt="Clinical Psychology vs Counseling Psychology: Key Differences" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/47477.jpg"/>
+<img alt="Clinical Psychology vs Counseling Psychology: Key Differences" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/47477.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">
@@ -233,7 +233,7 @@ include_once "../partials/head.php";
 <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col md:flex-row h-full border border-gray-100">
 <div class="relative overflow-hidden aspect-[4/3] md:aspect-auto md:w-[40%] flex-shrink-0">
 <a class="block w-full h-full" href="./how-to-prepare-for-your-first-therapy-session.php">
-<img alt="How to Prepare for Your First Therapy Session: A Step-by-Step Guide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="assets/wp-content/uploads/2025/12/2150225244.jpg"/>
+<img alt="How to Prepare for Your First Therapy Session: A Step-by-Step Guide" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/wp-content/uploads/2025/12/2150225244.jpg"/>
 </a>
 <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
 <div class="absolute top-6 left-6 z-10">

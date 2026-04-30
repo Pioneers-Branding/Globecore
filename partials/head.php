@@ -4,11 +4,16 @@
  * Include in all pages before the body tag closes
  */
 
-// Detect base path from current file location
+// Site base URL — change here if deploying to a subdirectory or CDN
+$BASE_URL = 'https://globecoreinc.com';
+$ASSET_URL = $BASE_URL;
+
+// Detect base path from current file location (for PHP includes, NOT for asset URLs)
 $scriptPath = dirname($_SERVER['PHP_SELF']);
 $depth = max(0, substr_count($scriptPath, '/') - 1);
 $P = str_repeat('../', $depth);
 ?>
+    <base href="https://globecoreinc.com/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle ?? 'GlobeCoRe Inc. Atlanta, GA'; ?></title>
@@ -23,7 +28,7 @@ $P = str_repeat('../', $depth);
     <meta property="og:url" content="https://globecoreinc.com/">
     <meta property="og:title" content="Psychological & Consulting Services in Atlanta, GA | GlobeCoRe Inc.">
     <meta property="og:description" content="GlobeCoRe offers comprehensive psychological services, TMS therapy, counseling, evaluations & telehealth in Atlanta. Culturally sensitive, inclusive care. Call (770) 284-1044.">
-    <meta property="og:image" content="/assets/globecore-og-image.jpg">
+    <meta property="og:image" content="https://globecoreinc.com/assets/globecore-og-image.jpg">
     <meta property="og:site_name" content="GlobeCoRe Inc.">
     <meta property="og:locale" content="en_US">
 

@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
 <img alt="Is TMS
-                                Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2026/01/gemini_generated_image_wx4n7fwx4n7fwx4n.png"/>
+                                Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2026/01/gemini_generated_image_wx4n7fwx4n7fwx4n.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

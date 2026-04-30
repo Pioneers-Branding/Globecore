@@ -45,7 +45,7 @@ if (!isset($P)) {
                 <!-- Col 1: About -->
                 <div>
                     <a href="/" class="inline-block mb-5">
-                        <img src="assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert">
+                        <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert">
                     </a>
                     <p class="text-sm leading-relaxed text-gray-400">
                         Providing expert psychological services, testing, and consulting in the Atlanta area, tailored for multicultural and diverse communities. Empowering you toward lasting well-being.

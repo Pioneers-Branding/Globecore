@@ -13,7 +13,7 @@ include_once "partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="./assets/Globe Core-74.jpg" alt="Pricing & Insurance"
+            <img src="/assets/Globe Core-74.jpg" alt="Pricing & Insurance"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -696,7 +696,7 @@ include_once "partials/head.php";
                         </svg>
                         Payment Options
                     </h3>
-                    <img src="assets/wp-content/uploads/2020/12/payments.jpg"
+                    <img src="/assets/wp-content/uploads/2020/12/payments.jpg"
                         alt="Payment Methods Accepted"
                         class="h-12 w-auto object-contain mb-10 object-left relative z-10">
 
@@ -708,7 +708,7 @@ include_once "partials/head.php";
                             purchases of $200 or more, you can pay overtime with convenient monthly payments.
                         </p>
                         <div class="flex items-center gap-6">
-                            <img src="assets/wp-content/uploads/2024/11/carecredit.png"
+                            <img src="/assets/wp-content/uploads/2024/11/carecredit.png"
                                 alt="CareCredit"
                                 class="h-16 w-auto object-contain bg-white rounded-lg shadow-sm border border-gray-100 p-2">
                             <div class="text-sm">

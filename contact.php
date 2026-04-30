@@ -13,7 +13,7 @@ include_once "partials/head.php";
     <!-- Creative Hero Section -->
     <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
         <div class="absolute inset-0">
-            <img src="./assets/Globe Core-1.jpg" alt="Contact"
+            <img src="/assets/Globe Core-1.jpg" alt="Contact"
                 class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
             <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
         </div>
@@ -190,7 +190,7 @@ include_once "partials/head.php";
                     <div class="relative z-10">
                         <div
                             class="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mb-10 backdrop-blur-md border border-white/20 shadow-lg">
-                            <img src="./assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Icon"
+                            <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Icon"
                                 class="w-14 h-14 object-contain brightness-0 invert opacity-90">
                         </div>
                         <h3 class="text-3xl md:text-4xl font-extrabold mb-6 leading-tight tracking-tight">GlobeCoRe

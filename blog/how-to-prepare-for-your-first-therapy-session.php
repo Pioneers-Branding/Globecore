@@ -89,7 +89,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="How to Prepare for Your First Therapy Session: A Step-by-Step Guide" class="w-full h-auto object-cover max-h-[500px]" src="assets/wp-content/uploads/2025/12/2150225244.jpg"/>
+<img alt="How to Prepare for Your First Therapy Session: A Step-by-Step Guide" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2025/12/2150225244.jpg"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
