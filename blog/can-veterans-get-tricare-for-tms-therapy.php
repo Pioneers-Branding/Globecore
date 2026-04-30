@@ -40,7 +40,7 @@ include_once "../partials/head.php";
                 </div>
                 <!-- Hero Image -->
                 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-                    <img alt="Can Veterans Get TRICARE for TMS Therapy?" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2026/04/image-globecore-1.jpg"/>
+                    <img alt="Can Veterans Get TRICARE for TMS Therapy?" class="w-full h-auto object-cover max-h-[500px]" src="/wp-content/uploads/2026/04/image-globecore-1.jpg"/>
                 </div>
                 <!-- Article Content -->
                 <div class="article-content text-[17px] md:text-[18px]">

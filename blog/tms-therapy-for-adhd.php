@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
 <img alt="TMS
-                                Therapy for ADHD: How Non-Invasive Brain Stimulation Works" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2026/02/gemini_generated_image_vhpn1svhpn1svhpn-1024x571.png"/>
+                                Therapy for ADHD: How Non-Invasive Brain Stimulation Works" class="w-full h-auto object-cover max-h-[500px]" src="/wp-content/uploads/2026/02/gemini_generated_image_vhpn1svhpn1svhpn-1024x571.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

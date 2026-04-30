@@ -89,7 +89,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-<img alt="Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2025/12/unnamed-4.png"/>
+<img alt="Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care" class="w-full h-auto object-cover max-h-[500px]" src="/wp-content/uploads/2025/12/unnamed-4.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

@@ -267,7 +267,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/placeholder-image.webp"
+                                <img src="/wp-content/uploads/2025/03/placeholder-image.webp"
                                     alt="Racially, Ethnically & Religiously Inclusive"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
@@ -286,7 +286,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/placeholder-image-1.webp"
+                                <img src="/wp-content/uploads/2025/03/placeholder-image-1.webp"
                                     alt="LGBTQIA+ & Gender Minority Ally"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
@@ -387,7 +387,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/1.png"
+                                <img src="/wp-content/uploads/2025/03/1.png"
                                     alt="Disability-Inclusive & Neurodiverse"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
@@ -406,7 +406,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/placeholder-image-3.png"
+                                <img src="/wp-content/uploads/2025/03/placeholder-image-3.png"
                                     alt="Body Positivity & Self-Acceptance"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
@@ -509,7 +509,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/placeholder-image-2.png"
+                                <img src="/wp-content/uploads/2025/03/placeholder-image-2.png"
                                     alt="Indigenous Land Acknowledgment & Respect"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
@@ -528,7 +528,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/wp-content/uploads/2025/03/2.png"
+                                <img src="/wp-content/uploads/2025/03/2.png"
                                     alt="Empowerment & Social Justice Advocacy"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>

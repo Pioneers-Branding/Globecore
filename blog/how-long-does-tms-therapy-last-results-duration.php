@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <!-- Hero Image -->
 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
 <img alt="How Long Does
-                                TMS Therapy Last? Understanding TMS Results Over Time" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2026/01/unnamed-2-1.png"/>
+                                TMS Therapy Last? Understanding TMS Results Over Time" class="w-full h-auto object-cover max-h-[500px]" src="/wp-content/uploads/2026/01/unnamed-2-1.png"/>
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">

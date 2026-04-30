@@ -40,7 +40,7 @@ include_once "../partials/head.php";
                 </div>
                 <!-- Hero Image -->
                 <div class="rounded-2xl overflow-hidden mb-12 relative shadow-md">
-                    <img alt="How to Calm Anxiety: Proven Techniques for Immediate Relief" class="w-full h-auto object-cover max-h-[500px]" src="/assets/wp-content/uploads/2026/04/gemini_generated_image_ivhigmivhigmivhi.png"/>
+                    <img alt="How to Calm Anxiety: Proven Techniques for Immediate Relief" class="w-full h-auto object-cover max-h-[500px]" src="/wp-content/uploads/2026/04/gemini_generated_image_ivhigmivhigmivhi.png"/>
                 </div>
                 <!-- Article Content -->
                 <div class="article-content text-[17px] md:text-[18px]">

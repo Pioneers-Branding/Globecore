@@ -76,7 +76,7 @@ include_once "../partials/head.php";
             <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
                 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
                     <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-                        <img src="/assets/wp-content/uploads/2024/09/GlobeCoreUnderneathCenteredWhite.png" alt="Leah J. Toles" class="w-full aspect-[4/5] object-cover object-top">
+                        <img src="/wp-content/uploads/2024/09/GlobeCoreUnderneathCenteredWhite.png" alt="Leah J. Toles" class="w-full aspect-[4/5] object-cover object-top">
                     </div>
                     <div class="text-center w-full px-2">
                         <span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">Clinician</span>

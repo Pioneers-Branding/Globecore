@@ -115,7 +115,7 @@ include_once "../partials/head.php";
                         <div
                             class="absolute -inset-4 bg-primary/10 rounded-[40px] transform group-hover:scale-105 transition-transform duration-700">
                         </div>
-                        <img src="/assets/wp-content/uploads/2025/03/pm.png" alt="Psychiatric Medicine"
+                        <img src="/wp-content/uploads/2025/03/pm.png" alt="Psychiatric Medicine"
                             class="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/3]">
                     </div>
                     <!-- Content Right -->
@@ -199,7 +199,7 @@ include_once "../partials/head.php";
                         <div
                             class="absolute -inset-4 bg-secondary/10 rounded-[40px] transform group-hover:scale-105 transition-transform duration-700">
                         </div>
-                        <img src="/assets/wp-content/uploads/2025/03/mm.png"
+                        <img src="/wp-content/uploads/2025/03/mm.png"
                             alt="Naturopathic Medicine"
                             class="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/3]">
                     </div>
@@ -215,7 +215,7 @@ include_once "../partials/head.php";
                     style="height: 380px;">
                     <!-- Image Container to strictly clip the corners without hiding the absolute overlapping button -->
                     <div class="absolute inset-0 rounded-[24px] overflow-hidden">
-                        <img src="/assets/wp-content/uploads/2020/12/df4262_3697e0344b0f47e3831777d8c0bdfbc6_mv2.jpg"
+                        <img src="/wp-content/uploads/2020/12/df4262_3697e0344b0f47e3831777d8c0bdfbc6_mv2.jpg"
                             alt="Consultation"
                             class="absolute inset-0 w-full h-full object-cover object-top scale-[1.03]">
 
