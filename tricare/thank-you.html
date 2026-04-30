@@ -1,0 +1,2538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Globecore TRICARE TMS</title>
+</head>
+
+<body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17345993094"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-17345993094');
+    </script>
+    <style>
+        /* ===== HIDE WORDPRESS ASTRA THEME HEADER ===== */
+        header,
+        #masthead,
+        .site-header,
+        .main-header-bar,
+        .ast-header-markup,
+        .ast-primary-header-bar,
+        .ast-main-header-bar-alignment,
+        .ast-above-header-wrap,
+        .ast-above-header,
+        .ast-below-header-wrap,
+        .ast-below-header,
+        .ast-mobile-header-wrap,
+        .ast-mobile-header,
+        .elementor-location-header,
+        [data-elementor-type="header"],
+        .wp-site-header,
+        .site-header-primary-section-left,
+        .site-header-primary-section-right,
+        .ast-header-break-point .main-header-bar {
+            display: none !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            max-height: 0 !important;
+            overflow: hidden !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* ===== HIDE WORDPRESS ASTRA THEME FOOTER ===== */
+        footer:not(.gc-lp-footer),
+        #colophon,
+        .site-footer,
+        .ast-footer-markup,
+        .ast-small-footer,
+        .ast-footer-overlay,
+        .ast-footer-copyright,
+        .elementor-location-footer,
+        [data-elementor-type="footer"],
+        .wp-site-footer,
+        .site-below-footer-wrap,
+        .ast-above-footer,
+        .ast-below-footer {
+            display: none !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            max-height: 0 !important;
+            overflow: hidden !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* ===== HIDE WP ADMIN BAR & PAGE TITLES ===== */
+        html {
+            margin-top: 0 !important;
+        }
+
+        #wpadminbar {
+            display: none !important;
+        }
+
+        .page-title,
+        .entry-title,
+        .page-header,
+        .entry-header,
+        .ast-breadcrumbs-wrapper,
+        .ast-archive-description {
+            display: none !important;
+        }
+
+        /* ===== FORCE FULL-WIDTH IN ELEMENTOR & ASTRA ===== */
+        .elementor-section.elementor-section-boxed>.elementor-container,
+        .elementor-section-wrap>.elementor-section>.elementor-container,
+        .elementor-section>.elementor-container {
+            max-width: 100% !important;
+            padding: 0 !important;
+        }
+
+        .elementor-widget-html,
+        .elementor-widget-html .elementor-widget-container {
+            padding: 0 !important;
+            margin: 0 !important;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        .elementor-element {
+            max-width: 100% !important;
+        }
+
+        .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+            padding: 0 !important;
+        }
+
+        body.elementor-page,
+        body.elementor-default {
+            padding: 0 !important;
+        }
+
+        .ast-container,
+        .ast-separate-container .ast-article-single,
+        .ast-separate-container .ast-article-post,
+        .ast-plain-container .site-content>.ast-container {
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .site-content,
+        #content,
+        .content-area,
+        #primary,
+        main,
+        .site-main {
+            padding: 0 !important;
+            margin: 0 !important;
+            max-width: 100% !important;
+        }
+
+        /* ===== GOOGLE FONT ===== */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+        /* ===== CUSTOM ANIMATIONS ===== */
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-12px)
+            }
+        }
+
+        @keyframes float-slow {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-8px)
+            }
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(151, 181, 96, 0.2)
+            }
+
+            50% {
+                box-shadow: 0 0 40px rgba(151, 181, 96, 0.4)
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0
+            }
+
+            100% {
+                background-position: 200% 0
+            }
+        }
+
+        @keyframes fade-up {
+            from {
+                opacity: 0;
+                transform: translateY(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes fade-right {
+            from {
+                opacity: 0;
+                transform: translateX(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes scale-in {
+            from {
+                opacity: 0;
+                transform: scale(0.9)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        @keyframes pulse-dot {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            50% {
+                transform: scale(1.4);
+                opacity: .5
+            }
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @keyframes counter {
+            from {
+                opacity: 0;
+                transform: translateY(10px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes slide-up {
+            from {
+                opacity: 0;
+                transform: translateY(60px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes hero-glow {
+
+            0%,
+            100% {
+                opacity: .4
+            }
+
+            50% {
+                opacity: .8
+            }
+        }
+
+        .gc-lp .animate-float {
+            animation: float 5s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-float-slow {
+            animation: float-slow 6s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-float-delay {
+            animation: float 5s ease-in-out 1.5s infinite !important;
+        }
+
+        .gc-lp .animate-pulse-glow {
+            animation: pulse-glow 3s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-pulse-dot {
+            animation: pulse-dot 2s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-shimmer {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .08), transparent) !important;
+            background-size: 200% 100% !important;
+            animation: shimmer 3s linear infinite !important;
+        }
+
+        .gc-lp .animate-gradient {
+            background-size: 200% 200% !important;
+            animation: gradient-shift 6s ease infinite !important;
+        }
+
+        .gc-lp .animate-hero-glow {
+            animation: hero-glow 4s ease-in-out infinite !important;
+        }
+
+        /* Reveal animations */
+        .gc-lp .reveal {
+            opacity: 0 !important;
+            transform: translateY(40px) !important;
+            transition: all .8s cubic-bezier(.4, 0, .2, 1) !important;
+        }
+
+        .gc-lp .reveal.active {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+
+        .gc-lp .reveal-delay-1 {
+            transition-delay: .15s !important;
+        }
+
+        .gc-lp .reveal-delay-2 {
+            transition-delay: .3s !important;
+        }
+
+        .gc-lp .reveal-delay-3 {
+            transition-delay: .45s !important;
+        }
+
+        .gc-lp .reveal-delay-4 {
+            transition-delay: .6s !important;
+        }
+
+        /* Hero entrance */
+        .gc-lp .hero-animate-1 {
+            animation: fade-up .7s ease-out .2s both !important;
+        }
+
+        .gc-lp .hero-animate-2 {
+            animation: fade-up .7s ease-out .4s both !important;
+        }
+
+        .gc-lp .hero-animate-3 {
+            animation: fade-up .7s ease-out .6s both !important;
+        }
+
+        .gc-lp .hero-animate-4 {
+            animation: fade-up .7s ease-out .8s both !important;
+        }
+
+        .gc-lp .hero-animate-5 {
+            animation: fade-up .7s ease-out 1s both !important;
+        }
+
+        .gc-lp .hero-image-animate {
+            animation: fade-right .8s ease-out .5s both !important;
+        }
+
+        /* Glassmorphism */
+        .gc-lp .glass {
+            background: rgba(255, 255, 255, .06) !important;
+            backdrop-filter: blur(20px) !important;
+            -webkit-backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .glass-light {
+            background: rgba(255, 255, 255, .85) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(255, 255, 255, .5) !important;
+        }
+
+        .gc-lp .glass-dark {
+            background: rgba(58, 70, 80, .85) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(73, 160, 175, .2) !important;
+        }
+
+        /* Gradient text */
+        .gc-lp .text-gradient-green {
+            background: linear-gradient(135deg, #97b560, #a8c474, #97b560) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+
+        .gc-lp .text-gradient-teal {
+            background: linear-gradient(135deg, #49a0af, #5cb3c1) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+
+        /* Button shine */
+        .gc-lp .btn-shine {
+            position: relative !important;
+            overflow: hidden !important;
+        }
+
+        .gc-lp .btn-shine::after {
+            content: '' !important;
+            position: absolute !important;
+            top: -50% !important;
+            left: -60% !important;
+            width: 40% !important;
+            height: 200% !important;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .25), transparent) !important;
+            transform: rotate(25deg) !important;
+            transition: .6s !important;
+        }
+
+        .gc-lp .btn-shine:hover::after {
+            left: 120% !important;
+        }
+
+        /* Card lift */
+        .gc-lp .card-lift {
+            transition: all .4s cubic-bezier(.4, 0, .2, 1) !important;
+        }
+
+        .gc-lp .card-lift:hover {
+            transform: translateY(-8px) !important;
+            box-shadow: 0 20px 60px rgba(58, 70, 80, .12) !important;
+        }
+
+        /* Accent bar */
+        .gc-lp .accent-bar {
+            position: relative !important;
+            overflow: hidden !important;
+        }
+
+        .gc-lp .accent-bar::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            height: 3px !important;
+            background: linear-gradient(90deg, #49a0af, #97b560) !important;
+            transform: scaleX(0) !important;
+            transform-origin: left !important;
+            transition: .4s ease !important;
+        }
+
+        .gc-lp .accent-bar:hover::before {
+            transform: scaleX(1) !important;
+        }
+
+        /* FAQ */
+        .gc-lp .faq-answer {
+            max-height: 0 !important;
+            overflow: hidden !important;
+            transition: max-height .4s ease, padding .4s ease !important;
+        }
+
+        .gc-lp .faq-item.active .faq-answer {
+            max-height: 400px !important;
+        }
+
+        .gc-lp .faq-item.active .faq-chevron {
+            transform: rotate(180deg) !important;
+        }
+
+        /* Image zoom */
+        .gc-lp .img-zoom {
+            overflow: hidden !important;
+        }
+
+        .gc-lp .img-zoom img {
+            transition: transform .6s ease !important;
+        }
+
+        .gc-lp .img-zoom:hover img {
+            transform: scale(1.05) !important;
+        }
+
+        /* Form states */
+        .gc-lp .form-success {
+            display: none !important;
+        }
+
+        .gc-lp .form-success.show {
+            display: flex !important;
+        }
+
+        .gc-lp .hero-form-success {
+            display: none !important;
+        }
+
+        .gc-lp .hero-form-success.show {
+            display: flex !important;
+        }
+
+        /* Particles */
+        .gc-lp .particle {
+            position: absolute !important;
+            width: 4px !important;
+            height: 4px !important;
+            background: rgba(151, 181, 96, .3) !important;
+            border-radius: 50% !important;
+        }
+
+        /* Focus visible */
+        .gc-lp *:focus-visible {
+            outline: 2px solid #49a0af !important;
+            outline-offset: 2px !important;
+            border-radius: 4px !important;
+        }
+
+        /* ===================================================================
+     PRE-COMPILED TAILWIND UTILITIES — ALL WITH !important
+     Custom: navy, teal, olive, mustard, cream
+     =================================================================== */
+
+        /* --- BASE RESET (override Astra defaults) --- */
+        .gc-lp,
+        .gc-lp *,
+        .gc-lp *::before,
+        .gc-lp *::after {
+            box-sizing: border-box !important;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb;
+        }
+
+        .gc-lp {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+            line-height: 1.5 !important;
+            -webkit-text-size-adjust: 100% !important;
+            color: #374151 !important;
+        }
+
+        .gc-lp img,
+        .gc-lp video {
+            max-width: 100% !important;
+            height: auto;
+            display: block !important;
+        }
+
+        .gc-lp a,
+        .gc-lp a:visited,
+        .gc-lp a:active,
+        .gc-lp a:hover {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        .gc-lp button,
+        .gc-lp input,
+        .gc-lp textarea {
+            font-family: inherit !important;
+            font-size: 100% !important;
+            line-height: inherit !important;
+            color: inherit !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: transparent !important;
+            border: none !important;
+        }
+
+        .gc-lp button {
+            cursor: pointer !important;
+        }
+
+        .gc-lp input,
+        .gc-lp textarea {
+            outline: none !important;
+        }
+
+        .gc-lp ul,
+        .gc-lp ol {
+            list-style: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .gc-lp h1,
+        .gc-lp h2,
+        .gc-lp h3,
+        .gc-lp h4,
+        .gc-lp h5,
+        .gc-lp h6 {
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            margin: 0 !important;
+            line-height: inherit !important;
+            color: inherit !important;
+        }
+
+        .gc-lp p {
+            margin: 0 !important;
+        }
+
+        .gc-lp section {
+            margin: 0 !important;
+            padding: 0;
+        }
+
+        .gc-lp strong {
+            font-weight: 700 !important;
+            color: inherit !important;
+        }
+
+        /* --- FONT FAMILIES --- */
+        .gc-lp .font-display {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+        }
+
+        .gc-lp .font-body {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+        }
+
+        /* --- DISPLAY --- */
+        .gc-lp .hidden {
+            display: none !important;
+        }
+
+        .gc-lp .block {
+            display: block !important;
+        }
+
+        .gc-lp .flex {
+            display: flex !important;
+        }
+
+        .gc-lp .inline-flex {
+            display: inline-flex !important;
+        }
+
+        .gc-lp .inline-block {
+            display: inline-block !important;
+        }
+
+        .gc-lp .grid {
+            display: grid !important;
+        }
+
+        /* --- POSITION --- */
+        .gc-lp .fixed {
+            position: fixed !important;
+        }
+
+        .gc-lp .absolute {
+            position: absolute !important;
+        }
+
+        .gc-lp .relative {
+            position: relative !important;
+        }
+
+        .gc-lp .inset-0 {
+            inset: 0 !important;
+        }
+
+        .gc-lp .top-0 {
+            top: 0 !important;
+        }
+
+        .gc-lp .top-6 {
+            top: 1.5rem !important;
+        }
+
+        .gc-lp .top-20 {
+            top: 5rem !important;
+        }
+
+        .gc-lp .right-0 {
+            right: 0 !important;
+        }
+
+        .gc-lp .right-5 {
+            right: 1.25rem !important;
+        }
+
+        .gc-lp .right-6 {
+            right: 1.5rem !important;
+        }
+
+        .gc-lp .right-10 {
+            right: 2.5rem !important;
+        }
+
+        .gc-lp .bottom-0 {
+            bottom: 0 !important;
+        }
+
+        .gc-lp .bottom-4 {
+            bottom: 1rem !important;
+        }
+
+        .gc-lp .bottom-5 {
+            bottom: 1.25rem !important;
+        }
+
+        .gc-lp .bottom-10 {
+            bottom: 2.5rem !important;
+        }
+
+        .gc-lp .left-0 {
+            left: 0 !important;
+        }
+
+        .gc-lp .left-4 {
+            left: 1rem !important;
+        }
+
+        .gc-lp .left-5 {
+            left: 1.25rem !important;
+        }
+
+        .gc-lp .left-10 {
+            left: 2.5rem !important;
+        }
+
+        .gc-lp .-bottom-4 {
+            bottom: -1rem !important;
+        }
+
+        .gc-lp .-right-4 {
+            right: -1rem !important;
+        }
+
+        .gc-lp .-left-4 {
+            left: -1rem !important;
+        }
+
+        /* --- Z-INDEX --- */
+        .gc-lp .z-10 {
+            z-index: 10 !important;
+        }
+
+        .gc-lp .z-20 {
+            z-index: 20 !important;
+        }
+
+        .gc-lp .z-\[9999\] {
+            z-index: 9999 !important;
+        }
+
+        .gc-lp .z-\[999\] {
+            z-index: 999 !important;
+        }
+
+        .gc-lp .-z-10 {
+            z-index: -10 !important;
+        }
+
+        .gc-lp .z-50 {
+            z-index: 50 !important;
+        }
+
+        /* --- FLEX --- */
+        .gc-lp .flex-col {
+            flex-direction: column !important;
+        }
+
+        .gc-lp .flex-row {
+            flex-direction: row !important;
+        }
+
+        .gc-lp .flex-wrap {
+            flex-wrap: wrap !important;
+        }
+
+        .gc-lp .flex-1 {
+            flex: 1 1 0% !important;
+        }
+
+        .gc-lp .items-center {
+            align-items: center !important;
+        }
+
+        .gc-lp .items-start {
+            align-items: flex-start !important;
+        }
+
+        .gc-lp .justify-between {
+            justify-content: space-between !important;
+        }
+
+        .gc-lp .justify-center {
+            justify-content: center !important;
+        }
+
+        /* --- GRID --- */
+        .gc-lp .grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+
+        .gc-lp .grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        }
+
+        .gc-lp .row-span-2 {
+            grid-row: span 2 / span 2 !important;
+        }
+
+        /* --- GAP --- */
+        .gc-lp .gap-1\.5 {
+            gap: 0.375rem !important;
+        }
+
+        .gc-lp .gap-2 {
+            gap: 0.5rem !important;
+        }
+
+        .gc-lp .gap-2\.5 {
+            gap: 0.625rem !important;
+        }
+
+        .gc-lp .gap-3 {
+            gap: 0.75rem !important;
+        }
+
+        .gc-lp .gap-4 {
+            gap: 1rem !important;
+        }
+
+        .gc-lp .gap-5 {
+            gap: 1.25rem !important;
+        }
+
+        .gc-lp .gap-6 {
+            gap: 1.5rem !important;
+        }
+
+        .gc-lp .gap-7 {
+            gap: 1.75rem !important;
+        }
+
+        .gc-lp .gap-8 {
+            gap: 2rem !important;
+        }
+
+        .gc-lp .gap-10 {
+            gap: 2.5rem !important;
+        }
+
+        .gc-lp .gap-14 {
+            gap: 3.5rem !important;
+        }
+
+        /* --- WIDTH --- */
+        .gc-lp .w-0\.5 {
+            width: 0.125rem !important;
+        }
+
+        .gc-lp .w-1\/2 {
+            width: 50% !important;
+        }
+
+        .gc-lp .w-2 {
+            width: 0.5rem !important;
+        }
+
+        .gc-lp .w-4 {
+            width: 1rem !important;
+        }
+
+        .gc-lp .w-6 {
+            width: 1.5rem !important;
+        }
+
+        .gc-lp .w-7 {
+            width: 1.75rem !important;
+        }
+
+        .gc-lp .w-8 {
+            width: 2rem !important;
+        }
+
+        .gc-lp .w-10 {
+            width: 2.5rem !important;
+        }
+
+        .gc-lp .w-11 {
+            width: 2.75rem !important;
+        }
+
+        .gc-lp .w-12 {
+            width: 3rem !important;
+        }
+
+        .gc-lp .w-14 {
+            width: 3.5rem !important;
+        }
+
+        .gc-lp .w-48 {
+            width: 12rem !important;
+        }
+
+        .gc-lp .w-80 {
+            width: 20rem !important;
+        }
+
+        .gc-lp .w-96 {
+            width: 24rem !important;
+        }
+
+        .gc-lp .w-\[400px\] {
+            width: 400px !important;
+        }
+
+        .gc-lp .w-\[500px\] {
+            width: 500px !important;
+        }
+
+        .gc-lp .w-auto {
+            width: auto !important;
+        }
+
+        .gc-lp .w-full {
+            width: 100% !important;
+        }
+
+        /* --- HEIGHT --- */
+        .gc-lp .h-0\.5 {
+            height: 0.125rem !important;
+        }
+
+        .gc-lp .h-2 {
+            height: 0.5rem !important;
+        }
+
+        .gc-lp .h-5 {
+            height: 1.25rem !important;
+        }
+
+        .gc-lp .h-7 {
+            height: 1.75rem !important;
+        }
+
+        .gc-lp .h-8 {
+            height: 2rem !important;
+        }
+
+        .gc-lp .h-10 {
+            height: 2.5rem !important;
+        }
+
+        .gc-lp .h-11 {
+            height: 2.75rem !important;
+        }
+
+        .gc-lp .h-12 {
+            height: 3rem !important;
+        }
+
+        .gc-lp .h-14 {
+            height: 3.5rem !important;
+        }
+
+        .gc-lp .h-48 {
+            height: 12rem !important;
+        }
+
+        .gc-lp .h-80 {
+            height: 20rem !important;
+        }
+
+        .gc-lp .h-96 {
+            height: 24rem !important;
+        }
+
+        .gc-lp .h-\[200px\] {
+            height: 200px !important;
+        }
+
+        .gc-lp .h-\[2px\] {
+            height: 2px !important;
+        }
+
+        .gc-lp .h-\[300px\] {
+            height: 300px !important;
+        }
+
+        .gc-lp .h-\[400px\] {
+            height: 400px !important;
+        }
+
+        .gc-lp .h-\[500px\] {
+            height: 500px !important;
+        }
+
+        .gc-lp .h-full {
+            height: 100% !important;
+        }
+
+        /* --- MIN/MAX SIZE --- */
+        .gc-lp .min-h-screen {
+            min-height: 100vh !important;
+        }
+
+        .gc-lp .min-h-\[400px\] {
+            min-height: 400px !important;
+        }
+
+        .gc-lp .min-w-\[28px\] {
+            min-width: 28px !important;
+        }
+
+        .gc-lp .min-w-\[32px\] {
+            min-width: 32px !important;
+        }
+
+        .gc-lp .min-w-\[40px\] {
+            min-width: 40px !important;
+        }
+
+        .gc-lp .min-w-\[44px\] {
+            min-width: 44px !important;
+        }
+
+        .gc-lp .min-w-\[48px\] {
+            min-width: 48px !important;
+        }
+
+        .gc-lp .max-w-lg {
+            max-width: 32rem !important;
+        }
+
+        .gc-lp .max-w-xl {
+            max-width: 36rem !important;
+        }
+
+        .gc-lp .max-w-2xl {
+            max-width: 42rem !important;
+        }
+
+        .gc-lp .max-w-3xl {
+            max-width: 48rem !important;
+        }
+
+        .gc-lp .max-w-4xl {
+            max-width: 56rem !important;
+        }
+
+        .gc-lp .max-w-7xl {
+            max-width: 80rem !important;
+        }
+
+        /* --- MARGIN --- */
+        .gc-lp .mx-auto {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        .gc-lp .mt-0\.5 {
+            margin-top: 0.125rem !important;
+        }
+
+        .gc-lp .mt-2 {
+            margin-top: 0.5rem !important;
+        }
+
+        .gc-lp .mt-3 {
+            margin-top: 0.75rem !important;
+        }
+
+        .gc-lp .mt-4 {
+            margin-top: 1rem !important;
+        }
+
+        .gc-lp .mt-6 {
+            margin-top: 1.5rem !important;
+        }
+
+        .gc-lp .mt-8 {
+            margin-top: 2rem !important;
+        }
+
+        .gc-lp .mt-10 {
+            margin-top: 2.5rem !important;
+        }
+
+        .gc-lp .mt-12 {
+            margin-top: 3rem !important;
+        }
+
+        .gc-lp .mt-14 {
+            margin-top: 3.5rem !important;
+        }
+
+        .gc-lp .mb-0\.5 {
+            margin-bottom: 0.125rem !important;
+        }
+
+        .gc-lp .mb-1 {
+            margin-bottom: 0.25rem !important;
+        }
+
+        .gc-lp .mb-1\.5 {
+            margin-bottom: 0.375rem !important;
+        }
+
+        .gc-lp .mb-2 {
+            margin-bottom: 0.5rem !important;
+        }
+
+        .gc-lp .mb-3 {
+            margin-bottom: 0.75rem !important;
+        }
+
+        .gc-lp .mb-4 {
+            margin-bottom: 1rem !important;
+        }
+
+        .gc-lp .mb-5 {
+            margin-bottom: 1.25rem !important;
+        }
+
+        .gc-lp .mb-6 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .mb-8 {
+            margin-bottom: 2rem !important;
+        }
+
+        .gc-lp .mb-12 {
+            margin-bottom: 3rem !important;
+        }
+
+        .gc-lp .mb-14 {
+            margin-bottom: 3.5rem !important;
+        }
+
+        .gc-lp .ml-10 {
+            margin-left: 2.5rem !important;
+        }
+
+        /* --- PADDING --- */
+        .gc-lp .p-2 {
+            padding: 0.5rem !important;
+        }
+
+        .gc-lp .p-4 {
+            padding: 1rem !important;
+        }
+
+        .gc-lp .p-5 {
+            padding: 1.25rem !important;
+        }
+
+        .gc-lp .p-6 {
+            padding: 1.5rem !important;
+        }
+
+        .gc-lp .p-7 {
+            padding: 1.75rem !important;
+        }
+
+        .gc-lp .p-8 {
+            padding: 2rem !important;
+        }
+
+        .gc-lp .p-10 {
+            padding: 2.5rem !important;
+        }
+
+        .gc-lp .px-2\.5 {
+            padding-left: 0.625rem !important;
+            padding-right: 0.625rem !important;
+        }
+
+        .gc-lp .px-3 {
+            padding-left: 0.75rem !important;
+            padding-right: 0.75rem !important;
+        }
+
+        .gc-lp .px-4 {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+
+        .gc-lp .px-5 {
+            padding-left: 1.25rem !important;
+            padding-right: 1.25rem !important;
+        }
+
+        .gc-lp .px-6 {
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+        }
+
+        .gc-lp .px-7 {
+            padding-left: 1.75rem !important;
+            padding-right: 1.75rem !important;
+        }
+
+        .gc-lp .px-8 {
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+        }
+
+        .gc-lp .py-1 {
+            padding-top: 0.25rem !important;
+            padding-bottom: 0.25rem !important;
+        }
+
+        .gc-lp .py-1\.5 {
+            padding-top: 0.375rem !important;
+            padding-bottom: 0.375rem !important;
+        }
+
+        .gc-lp .py-2 {
+            padding-top: 0.5rem !important;
+            padding-bottom: 0.5rem !important;
+        }
+
+        .gc-lp .py-2\.5 {
+            padding-top: 0.625rem !important;
+            padding-bottom: 0.625rem !important;
+        }
+
+        .gc-lp .py-3 {
+            padding-top: 0.75rem !important;
+            padding-bottom: 0.75rem !important;
+        }
+
+        .gc-lp .py-3\.5 {
+            padding-top: 0.875rem !important;
+            padding-bottom: 0.875rem !important;
+        }
+
+        .gc-lp .py-4 {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        .gc-lp .py-6 {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .py-8 {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+        }
+
+        .gc-lp .py-10 {
+            padding-top: 2.5rem !important;
+            padding-bottom: 2.5rem !important;
+        }
+
+        .gc-lp .py-16 {
+            padding-top: 4rem !important;
+            padding-bottom: 4rem !important;
+        }
+
+        .gc-lp .py-20 {
+            padding-top: 5rem !important;
+            padding-bottom: 5rem !important;
+        }
+
+        .gc-lp .pt-5 {
+            padding-top: 1.25rem !important;
+        }
+
+        .gc-lp .pt-6 {
+            padding-top: 1.5rem !important;
+        }
+
+        .gc-lp .pt-14 {
+            padding-top: 3.5rem !important;
+        }
+
+        .gc-lp .pb-6 {
+            padding-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .pb-10 {
+            padding-bottom: 2.5rem !important;
+        }
+
+        .gc-lp .pr-6 {
+            padding-right: 1.5rem !important;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        .gc-lp .text-\[10px\] {
+            font-size: 10px !important;
+        }
+
+        .gc-lp .text-\[11px\] {
+            font-size: 11px !important;
+        }
+
+        .gc-lp .text-\[15px\] {
+            font-size: 15px !important;
+        }
+
+        .gc-lp .text-xs {
+            font-size: 0.75rem !important;
+            line-height: 1rem !important;
+        }
+
+        .gc-lp .text-sm {
+            font-size: 0.875rem !important;
+            line-height: 1.25rem !important;
+        }
+
+        .gc-lp .text-base {
+            font-size: 1rem !important;
+            line-height: 1.5rem !important;
+        }
+
+        .gc-lp .text-lg {
+            font-size: 1.125rem !important;
+            line-height: 1.75rem !important;
+        }
+
+        .gc-lp .text-xl {
+            font-size: 1.25rem !important;
+            line-height: 1.75rem !important;
+        }
+
+        .gc-lp .text-2xl {
+            font-size: 1.5rem !important;
+            line-height: 2rem !important;
+        }
+
+        .gc-lp .text-3xl {
+            font-size: 1.875rem !important;
+            line-height: 2.25rem !important;
+        }
+
+        .gc-lp .text-4xl {
+            font-size: 2.25rem !important;
+            line-height: 2.5rem !important;
+        }
+
+        .gc-lp .text-5xl {
+            font-size: 3rem !important;
+            line-height: 1 !important;
+        }
+
+        .gc-lp .font-medium {
+            font-weight: 500 !important;
+        }
+
+        .gc-lp .font-semibold {
+            font-weight: 600 !important;
+        }
+
+        .gc-lp .font-bold {
+            font-weight: 700 !important;
+        }
+
+        .gc-lp .italic {
+            font-style: italic !important;
+        }
+
+        .gc-lp .uppercase {
+            text-transform: uppercase !important;
+        }
+
+        .gc-lp .leading-tight {
+            line-height: 1.25 !important;
+        }
+
+        .gc-lp .leading-relaxed {
+            line-height: 1.625 !important;
+        }
+
+        .gc-lp .leading-\[1\.4\] {
+            line-height: 1.4 !important;
+        }
+
+        .gc-lp .tracking-wide {
+            letter-spacing: 0.025em !important;
+        }
+
+        .gc-lp .tracking-wider {
+            letter-spacing: 0.05em !important;
+        }
+
+        .gc-lp .tracking-\[2px\] {
+            letter-spacing: 2px !important;
+        }
+
+        .gc-lp .tracking-\[3px\] {
+            letter-spacing: 3px !important;
+        }
+
+        .gc-lp .text-left {
+            text-align: left !important;
+        }
+
+        .gc-lp .text-center {
+            text-align: center !important;
+        }
+
+        .gc-lp .antialiased {
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+        }
+
+        /* --- TEXT COLORS --- */
+        .gc-lp .text-white {
+            color: #fff !important;
+        }
+
+        .gc-lp .text-white\/30 {
+            color: rgba(255, 255, 255, .3) !important;
+        }
+
+        .gc-lp .text-white\/50 {
+            color: rgba(255, 255, 255, .5) !important;
+        }
+
+        .gc-lp .text-white\/60 {
+            color: rgba(255, 255, 255, .6) !important;
+        }
+
+        .gc-lp .text-white\/70 {
+            color: rgba(255, 255, 255, .7) !important;
+        }
+
+        .gc-lp .text-white\/75 {
+            color: rgba(255, 255, 255, .75) !important;
+        }
+
+        .gc-lp .text-white\/80 {
+            color: rgba(255, 255, 255, .8) !important;
+        }
+
+        .gc-lp .text-white\/90 {
+            color: rgba(255, 255, 255, .9) !important;
+        }
+
+        .gc-lp .text-navy {
+            color: #3A4650 !important;
+        }
+
+        .gc-lp .text-teal {
+            color: #49a0af !important;
+        }
+
+        .gc-lp .text-teal-light {
+            color: #5cb3c1 !important;
+        }
+
+        .gc-lp .text-olive {
+            color: #97b560 !important;
+        }
+
+        .gc-lp .text-olive-light {
+            color: #a8c474 !important;
+        }
+
+        .gc-lp .text-mustard {
+            color: #f9d648 !important;
+        }
+
+        .gc-lp .text-gray-400 {
+            color: #9ca3af !important;
+        }
+
+        .gc-lp .text-gray-500 {
+            color: #6b7280 !important;
+        }
+
+        .gc-lp .text-gray-600 {
+            color: #4b5563 !important;
+        }
+
+        .gc-lp .text-gray-700 {
+            color: #374151 !important;
+        }
+
+        /* --- BACKGROUND COLORS --- */
+        .gc-lp .bg-white {
+            background-color: #fff !important;
+        }
+
+        .gc-lp .bg-white\/5 {
+            background-color: rgba(255, 255, 255, .05) !important;
+        }
+
+        .gc-lp .bg-white\/60 {
+            background-color: rgba(255, 255, 255, .6) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.08\] {
+            background-color: rgba(255, 255, 255, .08) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.10\] {
+            background-color: rgba(255, 255, 255, .10) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.12\] {
+            background-color: rgba(255, 255, 255, .12) !important;
+        }
+
+        .gc-lp .bg-navy {
+            background-color: #3A4650 !important;
+        }
+
+        .gc-lp .bg-navy\/60 {
+            background-color: rgba(58, 70, 80, .6) !important;
+        }
+
+        .gc-lp .bg-navy\/\[\.98\] {
+            background-color: rgba(58, 70, 80, .98) !important;
+        }
+
+        .gc-lp .bg-teal {
+            background-color: #49a0af !important;
+        }
+
+        .gc-lp .bg-teal\/5 {
+            background-color: rgba(73, 160, 175, .05) !important;
+        }
+
+        .gc-lp .bg-teal\/20 {
+            background-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        .gc-lp .bg-teal-pale {
+            background-color: #e8f4f6 !important;
+        }
+
+        .gc-lp .bg-teal\/\[\.06\] {
+            background-color: rgba(73, 160, 175, .06) !important;
+        }
+
+        .gc-lp .bg-teal\/\[\.30\] {
+            background-color: rgba(73, 160, 175, .3) !important;
+        }
+
+        .gc-lp .bg-olive {
+            background-color: #97b560 !important;
+        }
+
+        .gc-lp .bg-olive\/5 {
+            background-color: rgba(151, 181, 96, .05) !important;
+        }
+
+        .gc-lp .bg-olive\/20 {
+            background-color: rgba(151, 181, 96, .2) !important;
+        }
+
+        .gc-lp .bg-olive-pale {
+            background-color: #f0f5e6 !important;
+        }
+
+        .gc-lp .bg-olive\/\[\.05\] {
+            background-color: rgba(151, 181, 96, .05) !important;
+        }
+
+        .gc-lp .bg-olive\/\[\.15\] {
+            background-color: rgba(151, 181, 96, .15) !important;
+        }
+
+        .gc-lp .bg-cream {
+            background-color: #F9FAFB !important;
+        }
+
+        .gc-lp .bg-gray-50 {
+            background-color: #f9fafb !important;
+        }
+
+        .gc-lp .bg-gray-100 {
+            background-color: #f3f4f6 !important;
+        }
+
+        /* --- GRADIENTS --- */
+        .gc-lp .bg-gradient-to-br {
+            background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-b {
+            background-image: linear-gradient(to bottom, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-r {
+            background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-t {
+            background-image: linear-gradient(to top, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .from-teal {
+            --tw-gradient-from: #49a0af;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(73, 160, 175, 0));
+        }
+
+        .gc-lp .from-teal\/30 {
+            --tw-gradient-from: rgba(73, 160, 175, .3);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(73, 160, 175, 0));
+        }
+
+        .gc-lp .from-olive {
+            --tw-gradient-from: #97b560;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-olive\/30 {
+            --tw-gradient-from: rgba(151, 181, 96, .3);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-olive\/40 {
+            --tw-gradient-from: rgba(151, 181, 96, .4);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-navy {
+            --tw-gradient-from: #3A4650;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .from-navy\/70 {
+            --tw-gradient-from: rgba(58, 70, 80, .7);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .from-navy\/80 {
+            --tw-gradient-from: rgba(58, 70, 80, .8);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .to-teal-light {
+            --tw-gradient-to: #5cb3c1;
+        }
+
+        .gc-lp .to-olive-light {
+            --tw-gradient-to: #a8c474;
+        }
+
+        .gc-lp .to-navy-light {
+            --tw-gradient-to: #4a5660;
+        }
+
+        .gc-lp .to-transparent {
+            --tw-gradient-to: transparent;
+        }
+
+        .gc-lp .via-navy\/20 {
+            --tw-gradient-stops: var(--tw-gradient-from), rgba(58, 70, 80, .2), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        /* --- BORDERS --- */
+        .gc-lp .border {
+            border-width: 1px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-2 {
+            border-width: 2px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-\[3px\] {
+            border-width: 3px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-b {
+            border-bottom-width: 1px !important;
+            border-bottom-style: solid !important;
+        }
+
+        .gc-lp .border-r {
+            border-right-width: 1px !important;
+            border-right-style: solid !important;
+        }
+
+        .gc-lp .border-t {
+            border-top-width: 1px !important;
+            border-top-style: solid !important;
+        }
+
+        .gc-lp .border-gray-100 {
+            border-color: #f3f4f6 !important;
+        }
+
+        .gc-lp .border-gray-200 {
+            border-color: #e5e7eb !important;
+        }
+
+        .gc-lp .border-teal {
+            border-color: #49a0af !important;
+        }
+
+        .gc-lp .border-teal\/20 {
+            border-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        .gc-lp .border-olive\/\[\.30\] {
+            border-color: rgba(151, 181, 96, .3) !important;
+        }
+
+        .gc-lp .border-white {
+            border-color: #fff !important;
+        }
+
+        .gc-lp .border-white\/10 {
+            border-color: rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .border-white\/15 {
+            border-color: rgba(255, 255, 255, .15) !important;
+        }
+
+        .gc-lp .border-white\/25 {
+            border-color: rgba(255, 255, 255, .25) !important;
+        }
+
+        /* --- DIVIDE --- */
+        .gc-lp .divide-y> :not(:first-child) {
+            border-top-width: 1px !important;
+            border-top-style: solid !important;
+        }
+
+        .gc-lp .divide-gray-100> :not(:first-child) {
+            border-color: #f3f4f6 !important;
+        }
+
+        /* --- BORDER RADIUS --- */
+        .gc-lp .rounded-full {
+            border-radius: 9999px !important;
+        }
+
+        .gc-lp .rounded-lg {
+            border-radius: 0.5rem !important;
+        }
+
+        .gc-lp .rounded-xl {
+            border-radius: 0.75rem !important;
+        }
+
+        .gc-lp .rounded-2xl {
+            border-radius: 1rem !important;
+        }
+
+        .gc-lp .rounded-3xl {
+            border-radius: 1.5rem !important;
+        }
+
+        /* --- SHADOWS --- */
+        .gc-lp .shadow-sm {
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05) !important;
+        }
+
+        .gc-lp .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-xl {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-2xl {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25) !important;
+        }
+
+        .gc-lp .shadow-black\/40 {
+            --tw-shadow-color: rgba(0, 0, 0, .4) !important;
+        }
+
+        .gc-lp .shadow-olive\/20 {
+            --tw-shadow-color: rgba(151, 181, 96, .2) !important;
+        }
+
+        .gc-lp .shadow-olive\/25 {
+            --tw-shadow-color: rgba(151, 181, 96, .25) !important;
+        }
+
+        /* --- OPACITY --- */
+        .gc-lp .opacity-0 {
+            opacity: 0 !important;
+        }
+
+        .gc-lp .opacity-10 {
+            opacity: .1 !important;
+        }
+
+        .gc-lp .opacity-30 {
+            opacity: .3 !important;
+        }
+
+        .gc-lp .opacity-50 {
+            opacity: .5 !important;
+        }
+
+        .gc-lp .opacity-60 {
+            opacity: .6 !important;
+        }
+
+        /* --- OVERFLOW --- */
+        .gc-lp .overflow-hidden {
+            overflow: hidden !important;
+        }
+
+        .gc-lp .overflow-x-hidden {
+            overflow-x: hidden !important;
+        }
+
+        /* --- OBJECT FIT --- */
+        .gc-lp .object-cover {
+            object-fit: cover !important;
+        }
+
+        /* --- BLUR --- */
+        .gc-lp .blur-3xl {
+            filter: blur(64px) !important;
+        }
+
+        /* --- OUTLINE --- */
+        .gc-lp .outline-none {
+            outline: 2px solid transparent !important;
+            outline-offset: 2px !important;
+        }
+
+        /* --- RESIZE --- */
+        .gc-lp .resize-none {
+            resize: none !important;
+        }
+
+        /* --- POINTER --- */
+        .gc-lp .pointer-events-none {
+            pointer-events: none !important;
+        }
+
+        /* --- SPACE-Y --- */
+        .gc-lp .space-y-0> :not(:first-child) {
+            margin-top: 0 !important;
+        }
+
+        .gc-lp .space-y-2\.5> :not(:first-child) {
+            margin-top: 0.625rem !important;
+        }
+
+        .gc-lp .space-y-3> :not(:first-child) {
+            margin-top: 0.75rem !important;
+        }
+
+        .gc-lp .space-y-4> :not(:first-child) {
+            margin-top: 1rem !important;
+        }
+
+        /* --- PLACEHOLDER --- */
+        .gc-lp .placeholder-white\/30::placeholder {
+            color: rgba(255, 255, 255, .3) !important;
+        }
+
+        /* --- TRANSITIONS --- */
+        .gc-lp .transition {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-all {
+            transition-property: all !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-transform {
+            transition-property: transform !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-opacity {
+            transition-property: opacity !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .duration-300 {
+            transition-duration: 300ms !important;
+        }
+
+        .gc-lp .duration-400 {
+            transition-duration: 400ms !important;
+        }
+
+        .gc-lp .duration-500 {
+            transition-duration: 500ms !important;
+        }
+
+        .gc-lp .duration-700 {
+            transition-duration: 700ms !important;
+        }
+
+        /* --- TRANSFORMS --- */
+        .gc-lp .translate-x-1\/2 {
+            transform: translateX(50%) !important;
+        }
+
+        .gc-lp .translate-x-1\/4 {
+            transform: translateX(25%) !important;
+        }
+
+        .gc-lp .translate-y-1\/2 {
+            transform: translateY(50%) !important;
+        }
+
+        .gc-lp .-translate-x-1\/2 {
+            transform: translateX(-50%) !important;
+        }
+
+        .gc-lp .-translate-y-1\/2 {
+            transform: translateY(-50%) !important;
+        }
+
+        .gc-lp .-translate-y-1\/2.translate-x-1\/2 {
+            transform: translateX(50%) translateY(-50%) !important;
+        }
+
+        .gc-lp .translate-y-1\/2.-translate-x-1\/2 {
+            transform: translateX(-50%) translateY(50%) !important;
+        }
+
+        /* --- HOVER STATES --- */
+        .gc-lp .hover\:bg-olive-dark:hover {
+            background-color: #84a34e !important;
+        }
+
+        .gc-lp .hover\:bg-teal:hover {
+            background-color: #49a0af !important;
+        }
+
+        .gc-lp .hover\:bg-teal-dark:hover {
+            background-color: #3d8a97 !important;
+        }
+
+        .gc-lp .hover\:bg-teal-pale:hover {
+            background-color: #e8f4f6 !important;
+        }
+
+        .gc-lp .hover\:bg-white:hover {
+            background-color: #fff !important;
+        }
+
+        .gc-lp .hover\:bg-white\/10:hover {
+            background-color: rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .hover\:text-olive:hover {
+            color: #97b560 !important;
+        }
+
+        .gc-lp .hover\:text-teal:hover {
+            color: #49a0af !important;
+        }
+
+        .gc-lp .hover\:text-white:hover {
+            color: #fff !important;
+        }
+
+        .gc-lp .hover\:border-olive\/40:hover {
+            border-color: rgba(151, 181, 96, .4) !important;
+        }
+
+        .gc-lp .hover\:border-teal\/40:hover {
+            border-color: rgba(73, 160, 175, .4) !important;
+        }
+
+        .gc-lp .hover\:border-white\/20:hover {
+            border-color: rgba(255, 255, 255, .2) !important;
+        }
+
+        .gc-lp .hover\:border-white\/40:hover {
+            border-color: rgba(255, 255, 255, .4) !important;
+        }
+
+        .gc-lp .hover\:pl-2:hover {
+            padding-left: 0.5rem !important;
+        }
+
+        .gc-lp .hover\:-translate-y-0\.5:hover {
+            transform: translateY(-0.125rem) !important;
+        }
+
+        .gc-lp .hover\:-translate-y-1:hover {
+            transform: translateY(-0.25rem) !important;
+        }
+
+        .gc-lp .hover\:translate-x-2:hover {
+            transform: translateX(0.5rem) !important;
+        }
+
+        .gc-lp .hover\:shadow-lg:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-md:hover {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-xl:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-olive\/30:hover {
+            --tw-shadow-color: rgba(151, 181, 96, .3) !important;
+        }
+
+        /* --- FOCUS STATES --- */
+        .gc-lp .focus\:bg-white\/\[\.12\]:focus {
+            background-color: rgba(255, 255, 255, .12) !important;
+        }
+
+        .gc-lp .focus\:border-teal:focus {
+            border-color: #49a0af !important;
+        }
+
+        .gc-lp .focus\:ring-2:focus {
+            box-shadow: 0 0 0 2px var(--tw-ring-color, rgba(73, 160, 175, .2)) !important;
+        }
+
+        .gc-lp .focus\:ring-teal\/20:focus {
+            --tw-ring-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        /* --- GROUP HOVER --- */
+        .gc-lp .group:hover .group-hover\:opacity-80 {
+            opacity: .8 !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:scale-105 {
+            transform: scale(1.05) !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:scale-110 {
+            transform: scale(1.1) !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:text-teal {
+            color: #49a0af !important;
+        }
+
+        /* --- RESPONSIVE: sm (640px) --- */
+        @media (min-width: 640px) {
+            .gc-lp .sm\:flex-row {
+                flex-direction: row !important;
+            }
+
+            .gc-lp .sm\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:text-4xl {
+                font-size: 2.25rem !important;
+                line-height: 2.5rem !important;
+            }
+
+            .gc-lp .sm\:border-x {
+                border-left-width: 1px !important;
+                border-right-width: 1px !important;
+                border-left-style: solid !important;
+                border-right-style: solid !important;
+            }
+
+            .gc-lp .sm\:border-white\/10 {
+                border-color: rgba(255, 255, 255, .1) !important;
+            }
+        }
+
+        /* --- RESPONSIVE: md (768px) --- */
+        @media (min-width: 768px) {
+            .gc-lp .md\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .md\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+        }
+
+        /* --- RESPONSIVE: lg (1024px) --- */
+        @media (min-width: 1024px) {
+            .gc-lp .lg\:block {
+                display: block !important;
+            }
+
+            .gc-lp .lg\:flex {
+                display: flex !important;
+            }
+
+            .gc-lp .lg\:hidden {
+                display: none !important;
+            }
+
+            .gc-lp .lg\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:gap-2 {
+                gap: 0.5rem !important;
+            }
+
+            .gc-lp .lg\:gap-5 {
+                gap: 1.25rem !important;
+            }
+
+            .gc-lp .lg\:gap-8 {
+                gap: 2rem !important;
+            }
+
+            .gc-lp .lg\:gap-20 {
+                gap: 5rem !important;
+            }
+
+            .gc-lp .lg\:h-7 {
+                height: 1.75rem !important;
+            }
+
+            .gc-lp .lg\:h-12 {
+                height: 3rem !important;
+            }
+
+            .gc-lp .lg\:h-\[250px\] {
+                height: 250px !important;
+            }
+
+            .gc-lp .lg\:h-\[400px\] {
+                height: 400px !important;
+            }
+
+            .gc-lp .lg\:h-\[460px\] {
+                height: 460px !important;
+            }
+
+            .gc-lp .lg\:h-\[520px\] {
+                height: 520px !important;
+            }
+
+            .gc-lp .lg\:w-7 {
+                width: 1.75rem !important;
+            }
+
+            .gc-lp .lg\:min-h-\[520px\] {
+                min-height: 520px !important;
+            }
+
+            .gc-lp .lg\:p-6 {
+                padding: 1.5rem !important;
+            }
+
+            .gc-lp .lg\:p-10 {
+                padding: 2.5rem !important;
+            }
+
+            .gc-lp .lg\:p-14 {
+                padding: 3.5rem !important;
+            }
+
+            .gc-lp .lg\:py-2 {
+                padding-top: 0.5rem !important;
+                padding-bottom: 0.5rem !important;
+            }
+
+            .gc-lp .lg\:py-2\.5 {
+                padding-top: 0.625rem !important;
+                padding-bottom: 0.625rem !important;
+            }
+
+            .gc-lp .lg\:py-14 {
+                padding-top: 3.5rem !important;
+                padding-bottom: 3.5rem !important;
+            }
+
+            .gc-lp .lg\:py-20 {
+                padding-top: 5rem !important;
+                padding-bottom: 5rem !important;
+            }
+
+            .gc-lp .lg\:py-24 {
+                padding-top: 6rem !important;
+                padding-bottom: 6rem !important;
+            }
+
+            .gc-lp .lg\:py-28 {
+                padding-top: 7rem !important;
+                padding-bottom: 7rem !important;
+            }
+
+            .gc-lp .lg\:mb-3 {
+                margin-bottom: 0.75rem !important;
+            }
+
+            .gc-lp .lg\:mb-4 {
+                margin-bottom: 1rem !important;
+            }
+
+            .gc-lp .lg\:space-y-3> :not(:first-child) {
+                margin-top: 0.75rem !important;
+            }
+
+            .gc-lp .lg\:text-4xl {
+                font-size: 2.25rem !important;
+                line-height: 2.5rem !important;
+            }
+
+            .gc-lp .lg\:text-5xl {
+                font-size: 3rem !important;
+                line-height: 1 !important;
+            }
+
+            .gc-lp .lg\:text-\[2rem\] {
+                font-size: 2rem !important;
+            }
+
+            .gc-lp .lg\:text-sm {
+                font-size: 0.875rem !important;
+                line-height: 1.25rem !important;
+            }
+
+            .gc-lp .lg\:leading-\[1\.45\] {
+                line-height: 1.45 !important;
+            }
+
+            .gc-lp .lg\:border-r {
+                border-right-width: 1px !important;
+                border-right-style: solid !important;
+            }
+
+            .gc-lp .lg\:border-t-0 {
+                border-top-width: 0 !important;
+            }
+        }
+
+        /* --- RESPONSIVE: xl (1280px) --- */
+        @media (min-width: 1280px) {
+            .gc-lp .xl\:gap-3 {
+                gap: 0.75rem !important;
+            }
+
+            .gc-lp .xl\:gap-14 {
+                gap: 3.5rem !important;
+            }
+
+            .gc-lp .xl\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .xl\:p-8 {
+                padding: 2rem !important;
+            }
+
+            .gc-lp .xl\:py-3 {
+                padding-top: 0.75rem !important;
+                padding-bottom: 0.75rem !important;
+            }
+
+            .gc-lp .xl\:py-3\.5 {
+                padding-top: 0.875rem !important;
+                padding-bottom: 0.875rem !important;
+            }
+
+            .gc-lp .xl\:py-4 {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+            }
+
+            .gc-lp .xl\:py-20 {
+                padding-top: 5rem !important;
+                padding-bottom: 5rem !important;
+            }
+
+            .gc-lp .xl\:mb-4 {
+                margin-bottom: 1rem !important;
+            }
+
+            .gc-lp .xl\:mb-5 {
+                margin-bottom: 1.25rem !important;
+            }
+
+            .gc-lp .xl\:mb-6 {
+                margin-bottom: 1.5rem !important;
+            }
+
+            .gc-lp .xl\:mb-7 {
+                margin-bottom: 1.75rem !important;
+            }
+
+            .gc-lp .xl\:space-y-4> :not(:first-child) {
+                margin-top: 1rem !important;
+            }
+
+            .gc-lp .xl\:text-\[2\.75rem\] {
+                font-size: 2.75rem !important;
+            }
+
+            .gc-lp .xl\:text-base {
+                font-size: 1rem !important;
+                line-height: 1.5rem !important;
+            }
+        }
+
+        /* --- RESPONSIVE: 2xl (1536px) --- */
+        @media (min-width: 1536px) {
+            .gc-lp .\32xl\:text-\[3\.25rem\] {
+                font-size: 3.25rem !important;
+            }
+        }
+
+        /* --- LG:P SHORTHAND for the hidden lg:block pattern (overrides general .hidden) --- */
+        @media (min-width: 1024px) {
+            .gc-lp .lg\:block.hidden {
+                display: block !important;
+            }
+
+            .gc-lp .lg\:flex.hidden {
+                display: flex !important;
+            }
+        }
+    </style>
+
+    <div class="gc-lp font-body text-gray-700 bg-cream antialiased" style="overflow-x:hidden;">
+
+        <!-- ========== NAVBAR ========== -->
+        <nav id="gc-navbar" class="fixed top-0 left-0 w-full z-[9999] transition-all duration-500 py-4"
+            style="background:rgba(58,70,80,.95); backdrop-filter:blur(20px);">
+            <div class="max-w-7xl mx-auto px-5 flex items-center justify-between">
+                <a href="index.html" class="flex items-center"><img
+                        src="https://globecore-new.netlify.app/assets/globecore_logo-removebg-preview.png"
+                        alt="GlobeCoRe Logo" class="h-10 lg:h-12 w-auto"></a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="index.html#about"
+                        class="text-white/80 hover:text-white text-sm font-medium transition">About TMS</a>
+                    <a href="index.html#military"
+                        class="text-white/80 hover:text-white text-sm font-medium transition">Military Families</a>
+                    <a href="index.html#eligibility"
+                        class="text-white/80 hover:text-white text-sm font-medium transition">Eligibility</a>
+                    <a href="index.html#faq"
+                        class="text-white/80 hover:text-white text-sm font-medium transition">FAQ</a>
+                    <a href="tel:7702841044" class="text-olive-light font-semibold text-sm flex items-center gap-1.5">📞
+                        (770) 284-1044</a>
+                </div>
+                <button id="gcMobileMenuBtn" class="lg:hidden p-2" aria-label="Menu">
+                    <div class="w-6 h-0.5 bg-white mb-1.5 transition-all"></div>
+                    <div class="w-6 h-0.5 bg-white mb-1.5 transition-all"></div>
+                    <div class="w-4 h-0.5 bg-white transition-all"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Nav -->
+        <div id="gcMobileNav"
+            class="fixed inset-0 bg-navy/[.98] z-[999] flex flex-col items-center justify-center opacity-0 pointer-events-none transition-opacity duration-400">
+            <button id="gcMobileNavClose" class="absolute top-6 right-6 text-white text-3xl">✕</button>
+            <div class="flex flex-col items-center gap-6">
+                <a href="index.html#about" class="font-display text-2xl text-white hover:text-olive transition">About
+                    TMS</a>
+                <a href="index.html#military"
+                    class="font-display text-2xl text-white hover:text-olive transition">Military Families</a>
+                <a href="index.html#eligibility"
+                    class="font-display text-2xl text-white hover:text-olive transition">Eligibility</a>
+                <a href="index.html#faq" class="font-display text-2xl text-white hover:text-olive transition">FAQ</a>
+                <a href="tel:7702841044" class="text-olive text-xl font-semibold mt-4">📞 (770) 284-1044</a>
+            </div>
+        </div>
+
+        <!-- ========== THANK YOU HERO ========== -->
+        <section class="relative min-h-[80vh] flex items-center overflow-hidden bg-navy pt-20 pb-10">
+            <div class="absolute inset-0 opacity-10"
+                style="background:radial-gradient(circle at 50% 50%,rgba(151,181,96,.3),transparent 60%)"></div>
+            <div
+                class="absolute top-1/4 right-1/4 w-[400px] h-[400px] rounded-full bg-teal/[.08] blur-3xl animate-hero-glow">
+            </div>
+
+            <div class="max-w-4xl mx-auto px-5 relative z-10 w-full text-center mt-20">
+                <div class="reveal active" style="opacity: 1 !important; transform: none !important;">
+                    <div
+                        class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-olive to-olive-light flex items-center justify-center text-white text-5xl shadow-xl shadow-olive/20 mb-8 animate-float">
+                        ✓
+                    </div>
+                    <h1 class="font-display text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
+                        Thank You For <br><span class="text-gradient-green">Reaching Out</span>
+                    </h1>
+                    <p class="text-lg lg:text-xl text-white/80 leading-relaxed mb-10 max-w-2xl mx-auto">
+                        We have successfully received your information. A member of our clinical team will review your
+                        details and contact you shortly to schedule your free consultation.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="index.html"
+                            class="inline-flex justify-center bg-teal hover:bg-teal-dark text-white font-bold px-8 py-4 rounded-full shadow-lg hover:-translate-y-1 hover:shadow-xl transition-all duration-300 btn-shine">
+                            Return to Homepage
+                        </a>
+                        <a href="tel:7702841044"
+                            class="inline-flex justify-center border-2 border-white/30 text-white font-bold px-8 py-4 rounded-full hover:bg-white hover:text-navy transition-all duration-300">
+                            📞 Call Us: (770) 284-1044
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="gc-lp-footer bg-navy pt-14 pb-6">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+                    <div>
+                        <a href="#"><img
+                                src="https://globecore-new.netlify.app/assets/globecore_logo-removebg-preview.png"
+                                alt="GlobeCoRe Logo" class="h-10 w-auto mb-3"></a>
+                        <p class="text-white/50 text-sm leading-relaxed mb-5">Atlanta's veteran-focused TMS therapy
+                            clinic.
+                            TRICARE-covered treatment for treatment-resistant depression, PTSD, anxiety &amp; OCD.
+                            Serving veterans,
+                            active duty &amp; military families across metro Atlanta, GA.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Quick Links</h4>
+                        <ul class="space-y-2.5">
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">About
+                                    Us</a></li>
+                            <li><a href="#" class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">TMS
+                                    Therapy</a></li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Counseling</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Blog</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Rates &amp;
+                                    Insurance</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Specialties</h4>
+                        <ul class="space-y-2.5">
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Depression
+                                    &amp; Anxiety</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">PTSD &amp;
+                                    Trauma</a></li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">OCD</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Addiction</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Contact</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3"><span class="text-teal">📍</span>
+                                <p class="text-white/50 text-sm">3355 Lenox Road NE, Suite 1000<br>Atlanta, GA 30326</p>
+                            </div>
+                            <div class="flex items-start gap-3"><span class="text-teal">📞</span><a
+                                    href="tel:7702841044"
+                                    class="text-white/50 text-sm hover:text-olive transition">(770) 284-1044</a></div>
+                            <div class="flex items-start gap-3"><span class="text-teal">✉️</span><a
+                                    href="mailto:help@globecoreinc.com"
+                                    class="text-white/50 text-sm hover:text-olive transition">help@globecoreinc.com</a>
+                            </div>
+                            <div class="flex items-start gap-3"><span class="text-teal">🕐</span>
+                                <p class="text-white/50 text-sm">Mon–Fri: 9am – 7pm<br>Sat: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row justify-between items-center pt-6 gap-4">
+                    <p class="text-white/30 text-xs">© 2026 GlobeCoRe Inc. All rights reserved.</p>
+                    <div class="flex gap-6"><a href="#" target="_blank"
+                            class="text-white/30 text-xs hover:text-olive transition">Privacy Policy</a><a href="#"
+                            class="text-white/30 text-xs hover:text-olive transition">Terms</a><a href="#"
+                            class="text-white/30 text-xs hover:text-olive transition">Sitemap</a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+        // Navbar scroll
+        var gcNavbar = document.getElementById('gc-navbar');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 60) { gcNavbar.style.cssText = 'position:fixed;top:0;left:0;width:100%;z-index:9999;background:rgba(58,70,80,.95);backdrop-filter:blur(20px);padding-top:10px;padding-bottom:10px;box-shadow:0 4px 30px rgba(0,0,0,.15);transition:all .5s;'; }
+            else { gcNavbar.style.cssText = 'position:fixed;top:0;left:0;width:100%;z-index:9999;padding-top:16px;padding-bottom:16px;background:rgba(58,70,80,.95);backdrop-filter:blur(20px);transition:all .5s;'; }
+        });
+
+        // Mobile nav
+        document.getElementById('gcMobileMenuBtn').onclick = function () { document.getElementById('gcMobileNav').style.opacity = '1'; document.getElementById('gcMobileNav').style.pointerEvents = 'all'; document.body.style.overflow = 'hidden'; };
+        document.getElementById('gcMobileNavClose').onclick = gcCloseMobileNav;
+        function gcCloseMobileNav() { document.getElementById('gcMobileNav').style.opacity = '0'; document.getElementById('gcMobileNav').style.pointerEvents = 'none'; document.body.style.overflow = ''; }
+    </script>
+</body>
+
+</html>

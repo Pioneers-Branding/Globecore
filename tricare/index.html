@@ -1,0 +1,3925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricare | Globecore</title>
+</head>
+
+<body>
+
+    <!-- ===== GLOBECORE TRICARE TMS LANDING PAGE — ELEMENTOR HTML BLOCK ===== -->
+    <!-- All CSS inlined, Tailwind pre-compiled with !important, WP Astra header/footer hidden -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17345993094"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-17345993094');
+    </script>
+    <style>
+        /* ===== HIDE WORDPRESS ASTRA THEME HEADER ===== */
+        header,
+        #masthead,
+        .site-header,
+        .main-header-bar,
+        .ast-header-markup,
+        .ast-primary-header-bar,
+        .ast-main-header-bar-alignment,
+        .ast-above-header-wrap,
+        .ast-above-header,
+        .ast-below-header-wrap,
+        .ast-below-header,
+        .ast-mobile-header-wrap,
+        .ast-mobile-header,
+        .elementor-location-header,
+        [data-elementor-type="header"],
+        .wp-site-header,
+        .site-header-primary-section-left,
+        .site-header-primary-section-right,
+        .ast-header-break-point .main-header-bar {
+            display: none !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            max-height: 0 !important;
+            overflow: hidden !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* ===== HIDE WORDPRESS ASTRA THEME FOOTER ===== */
+        footer:not(.gc-lp-footer),
+        #colophon,
+        .site-footer,
+        .ast-footer-markup,
+        .ast-small-footer,
+        .ast-footer-overlay,
+        .ast-footer-copyright,
+        .elementor-location-footer,
+        [data-elementor-type="footer"],
+        .wp-site-footer,
+        .site-below-footer-wrap,
+        .ast-above-footer,
+        .ast-below-footer {
+            display: none !important;
+            height: 0 !important;
+            min-height: 0 !important;
+            max-height: 0 !important;
+            overflow: hidden !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* ===== HIDE WP ADMIN BAR & PAGE TITLES ===== */
+        html {
+            margin-top: 0 !important;
+        }
+
+        #wpadminbar {
+            display: none !important;
+        }
+
+        .page-title,
+        .entry-title,
+        .page-header,
+        .entry-header,
+        .ast-breadcrumbs-wrapper,
+        .ast-archive-description {
+            display: none !important;
+        }
+
+        /* ===== FORCE FULL-WIDTH IN ELEMENTOR & ASTRA ===== */
+        .elementor-section.elementor-section-boxed>.elementor-container,
+        .elementor-section-wrap>.elementor-section>.elementor-container,
+        .elementor-section>.elementor-container {
+            max-width: 100% !important;
+            padding: 0 !important;
+        }
+
+        .elementor-widget-html,
+        .elementor-widget-html .elementor-widget-container {
+            padding: 0 !important;
+            margin: 0 !important;
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        .elementor-element {
+            max-width: 100% !important;
+        }
+
+        .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+            padding: 0 !important;
+        }
+
+        body.elementor-page,
+        body.elementor-default {
+            padding: 0 !important;
+        }
+
+        .ast-container,
+        .ast-separate-container .ast-article-single,
+        .ast-separate-container .ast-article-post,
+        .ast-plain-container .site-content>.ast-container {
+            max-width: 100% !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+
+        .site-content,
+        #content,
+        .content-area,
+        #primary,
+        main,
+        .site-main {
+            padding: 0 !important;
+            margin: 0 !important;
+            max-width: 100% !important;
+        }
+
+        /* ===== GOOGLE FONT ===== */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+
+        /* ===== CUSTOM ANIMATIONS ===== */
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-12px)
+            }
+        }
+
+        @keyframes float-slow {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-8px)
+            }
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(151, 181, 96, 0.2)
+            }
+
+            50% {
+                box-shadow: 0 0 40px rgba(151, 181, 96, 0.4)
+            }
+        }
+
+        @keyframes shimmer {
+            0% {
+                background-position: -200% 0
+            }
+
+            100% {
+                background-position: 200% 0
+            }
+        }
+
+        @keyframes fade-up {
+            from {
+                opacity: 0;
+                transform: translateY(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes fade-right {
+            from {
+                opacity: 0;
+                transform: translateX(40px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0)
+            }
+        }
+
+        @keyframes scale-in {
+            from {
+                opacity: 0;
+                transform: scale(0.9)
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        @keyframes pulse-dot {
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            50% {
+                transform: scale(1.4);
+                opacity: .5
+            }
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%
+            }
+
+            50% {
+                background-position: 100% 50%
+            }
+
+            100% {
+                background-position: 0% 50%
+            }
+        }
+
+        @keyframes counter {
+            from {
+                opacity: 0;
+                transform: translateY(10px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes slide-up {
+            from {
+                opacity: 0;
+                transform: translateY(60px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes hero-glow {
+
+            0%,
+            100% {
+                opacity: .4
+            }
+
+            50% {
+                opacity: .8
+            }
+        }
+
+        .gc-lp .animate-float {
+            animation: float 5s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-float-slow {
+            animation: float-slow 6s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-float-delay {
+            animation: float 5s ease-in-out 1.5s infinite !important;
+        }
+
+        .gc-lp .animate-pulse-glow {
+            animation: pulse-glow 3s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-pulse-dot {
+            animation: pulse-dot 2s ease-in-out infinite !important;
+        }
+
+        .gc-lp .animate-shimmer {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .08), transparent) !important;
+            background-size: 200% 100% !important;
+            animation: shimmer 3s linear infinite !important;
+        }
+
+        .gc-lp .animate-gradient {
+            background-size: 200% 200% !important;
+            animation: gradient-shift 6s ease infinite !important;
+        }
+
+        .gc-lp .animate-hero-glow {
+            animation: hero-glow 4s ease-in-out infinite !important;
+        }
+
+        /* Reveal animations */
+        .gc-lp .reveal {
+            opacity: 0 !important;
+            transform: translateY(40px) !important;
+            transition: all .8s cubic-bezier(.4, 0, .2, 1) !important;
+        }
+
+        .gc-lp .reveal.active {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+        }
+
+        .gc-lp .reveal-delay-1 {
+            transition-delay: .15s !important;
+        }
+
+        .gc-lp .reveal-delay-2 {
+            transition-delay: .3s !important;
+        }
+
+        .gc-lp .reveal-delay-3 {
+            transition-delay: .45s !important;
+        }
+
+        .gc-lp .reveal-delay-4 {
+            transition-delay: .6s !important;
+        }
+
+        /* Hero entrance */
+        .gc-lp .hero-animate-1 {
+            animation: fade-up .7s ease-out .2s both !important;
+        }
+
+        .gc-lp .hero-animate-2 {
+            animation: fade-up .7s ease-out .4s both !important;
+        }
+
+        .gc-lp .hero-animate-3 {
+            animation: fade-up .7s ease-out .6s both !important;
+        }
+
+        .gc-lp .hero-animate-4 {
+            animation: fade-up .7s ease-out .8s both !important;
+        }
+
+        .gc-lp .hero-animate-5 {
+            animation: fade-up .7s ease-out 1s both !important;
+        }
+
+        .gc-lp .hero-image-animate {
+            animation: fade-right .8s ease-out .5s both !important;
+        }
+
+        /* Glassmorphism */
+        .gc-lp .glass {
+            background: rgba(255, 255, 255, .06) !important;
+            backdrop-filter: blur(20px) !important;
+            -webkit-backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .glass-light {
+            background: rgba(255, 255, 255, .85) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(255, 255, 255, .5) !important;
+        }
+
+        .gc-lp .glass-dark {
+            background: rgba(58, 70, 80, .85) !important;
+            backdrop-filter: blur(16px) !important;
+            -webkit-backdrop-filter: blur(16px) !important;
+            border: 1px solid rgba(73, 160, 175, .2) !important;
+        }
+
+        /* Gradient text */
+        .gc-lp .text-gradient-green {
+            background: linear-gradient(135deg, #97b560, #a8c474, #97b560) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+
+        .gc-lp .text-gradient-teal {
+            background: linear-gradient(135deg, #49a0af, #5cb3c1) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+        }
+
+        /* Button shine */
+        .gc-lp .btn-shine {
+            position: relative !important;
+            overflow: hidden !important;
+        }
+
+        .gc-lp .btn-shine::after {
+            content: '' !important;
+            position: absolute !important;
+            top: -50% !important;
+            left: -60% !important;
+            width: 40% !important;
+            height: 200% !important;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .25), transparent) !important;
+            transform: rotate(25deg) !important;
+            transition: .6s !important;
+        }
+
+        .gc-lp .btn-shine:hover::after {
+            left: 120% !important;
+        }
+
+        /* Card lift */
+        .gc-lp .card-lift {
+            transition: all .4s cubic-bezier(.4, 0, .2, 1) !important;
+        }
+
+        .gc-lp .card-lift:hover {
+            transform: translateY(-8px) !important;
+            box-shadow: 0 20px 60px rgba(58, 70, 80, .12) !important;
+        }
+
+        /* Accent bar */
+        .gc-lp .accent-bar {
+            position: relative !important;
+            overflow: hidden !important;
+        }
+
+        .gc-lp .accent-bar::before {
+            content: '' !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            height: 3px !important;
+            background: linear-gradient(90deg, #49a0af, #97b560) !important;
+            transform: scaleX(0) !important;
+            transform-origin: left !important;
+            transition: .4s ease !important;
+        }
+
+        .gc-lp .accent-bar:hover::before {
+            transform: scaleX(1) !important;
+        }
+
+        /* FAQ */
+        .gc-lp .faq-answer {
+            max-height: 0 !important;
+            overflow: hidden !important;
+            transition: max-height .4s ease, padding .4s ease !important;
+        }
+
+        .gc-lp .faq-item.active .faq-answer {
+            max-height: 400px !important;
+        }
+
+        .gc-lp .faq-item.active .faq-chevron {
+            transform: rotate(180deg) !important;
+        }
+
+        /* Image zoom */
+        .gc-lp .img-zoom {
+            overflow: hidden !important;
+        }
+
+        .gc-lp .img-zoom img {
+            transition: transform .6s ease !important;
+        }
+
+        .gc-lp .img-zoom:hover img {
+            transform: scale(1.05) !important;
+        }
+
+        /* Form states */
+        .gc-lp .form-success {
+            display: none !important;
+        }
+
+        .gc-lp .form-success.show {
+            display: flex !important;
+        }
+
+        .gc-lp .hero-form-success {
+            display: none !important;
+        }
+
+        .gc-lp .hero-form-success.show {
+            display: flex !important;
+        }
+
+        /* Particles */
+        .gc-lp .particle {
+            position: absolute !important;
+            width: 4px !important;
+            height: 4px !important;
+            background: rgba(151, 181, 96, .3) !important;
+            border-radius: 50% !important;
+        }
+
+        /* Focus visible */
+        .gc-lp *:focus-visible {
+            outline: 2px solid #49a0af !important;
+            outline-offset: 2px !important;
+            border-radius: 4px !important;
+        }
+
+        /* ===================================================================
+     PRE-COMPILED TAILWIND UTILITIES — ALL WITH !important
+     Custom: navy, teal, olive, mustard, cream
+     =================================================================== */
+
+        /* --- BASE RESET (override Astra defaults) --- */
+        .gc-lp,
+        .gc-lp *,
+        .gc-lp *::before,
+        .gc-lp *::after {
+            box-sizing: border-box !important;
+            border-width: 0;
+            border-style: solid;
+            border-color: #e5e7eb;
+        }
+
+        .gc-lp {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+            line-height: 1.5 !important;
+            -webkit-text-size-adjust: 100% !important;
+            color: #374151 !important;
+        }
+
+        .gc-lp img,
+        .gc-lp video {
+            max-width: 100% !important;
+            height: auto;
+            display: block !important;
+        }
+
+        .gc-lp a,
+        .gc-lp a:visited,
+        .gc-lp a:active,
+        .gc-lp a:hover {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        .gc-lp button,
+        .gc-lp input,
+        .gc-lp textarea {
+            font-family: inherit !important;
+            font-size: 100% !important;
+            line-height: inherit !important;
+            color: inherit !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            background: transparent !important;
+            border: none !important;
+        }
+
+        .gc-lp button {
+            cursor: pointer !important;
+        }
+
+        .gc-lp input,
+        .gc-lp textarea {
+            outline: none !important;
+        }
+
+        .gc-lp ul,
+        .gc-lp ol {
+            list-style: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .gc-lp h1,
+        .gc-lp h2,
+        .gc-lp h3,
+        .gc-lp h4,
+        .gc-lp h5,
+        .gc-lp h6 {
+            font-size: inherit !important;
+            font-weight: inherit !important;
+            margin: 0 !important;
+            line-height: inherit !important;
+            color: inherit !important;
+        }
+
+        .gc-lp p {
+            margin: 0 !important;
+        }
+
+        .gc-lp section {
+            margin: 0 !important;
+            padding: 0;
+        }
+
+        .gc-lp strong {
+            font-weight: 700 !important;
+            color: inherit !important;
+        }
+
+        /* --- FONT FAMILIES --- */
+        .gc-lp .font-display {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+        }
+
+        .gc-lp .font-body {
+            font-family: 'Open Sans', system-ui, sans-serif !important;
+        }
+
+        /* --- DISPLAY --- */
+        .gc-lp .hidden {
+            display: none !important;
+        }
+
+        .gc-lp .block {
+            display: block !important;
+        }
+
+        .gc-lp .flex {
+            display: flex !important;
+        }
+
+        .gc-lp .inline-flex {
+            display: inline-flex !important;
+        }
+
+        .gc-lp .inline-block {
+            display: inline-block !important;
+        }
+
+        .gc-lp .grid {
+            display: grid !important;
+        }
+
+        /* --- POSITION --- */
+        .gc-lp .fixed {
+            position: fixed !important;
+        }
+
+        .gc-lp .absolute {
+            position: absolute !important;
+        }
+
+        .gc-lp .relative {
+            position: relative !important;
+        }
+
+        .gc-lp .inset-0 {
+            inset: 0 !important;
+        }
+
+        .gc-lp .top-0 {
+            top: 0 !important;
+        }
+
+        .gc-lp .top-6 {
+            top: 1.5rem !important;
+        }
+
+        .gc-lp .top-20 {
+            top: 5rem !important;
+        }
+
+        .gc-lp .right-0 {
+            right: 0 !important;
+        }
+
+        .gc-lp .right-5 {
+            right: 1.25rem !important;
+        }
+
+        .gc-lp .right-6 {
+            right: 1.5rem !important;
+        }
+
+        .gc-lp .right-10 {
+            right: 2.5rem !important;
+        }
+
+        .gc-lp .bottom-0 {
+            bottom: 0 !important;
+        }
+
+        .gc-lp .bottom-4 {
+            bottom: 1rem !important;
+        }
+
+        .gc-lp .bottom-5 {
+            bottom: 1.25rem !important;
+        }
+
+        .gc-lp .bottom-10 {
+            bottom: 2.5rem !important;
+        }
+
+        .gc-lp .left-0 {
+            left: 0 !important;
+        }
+
+        .gc-lp .left-4 {
+            left: 1rem !important;
+        }
+
+        .gc-lp .left-5 {
+            left: 1.25rem !important;
+        }
+
+        .gc-lp .left-10 {
+            left: 2.5rem !important;
+        }
+
+        .gc-lp .-bottom-4 {
+            bottom: -1rem !important;
+        }
+
+        .gc-lp .-right-4 {
+            right: -1rem !important;
+        }
+
+        .gc-lp .-left-4 {
+            left: -1rem !important;
+        }
+
+        /* --- Z-INDEX --- */
+        .gc-lp .z-10 {
+            z-index: 10 !important;
+        }
+
+        .gc-lp .z-20 {
+            z-index: 20 !important;
+        }
+
+        .gc-lp .z-\[9999\] {
+            z-index: 9999 !important;
+        }
+
+        .gc-lp .z-\[999\] {
+            z-index: 999 !important;
+        }
+
+        .gc-lp .-z-10 {
+            z-index: -10 !important;
+        }
+
+        .gc-lp .z-50 {
+            z-index: 50 !important;
+        }
+
+        /* --- FLEX --- */
+        .gc-lp .flex-col {
+            flex-direction: column !important;
+        }
+
+        .gc-lp .flex-row {
+            flex-direction: row !important;
+        }
+
+        .gc-lp .flex-wrap {
+            flex-wrap: wrap !important;
+        }
+
+        .gc-lp .flex-1 {
+            flex: 1 1 0% !important;
+        }
+
+        .gc-lp .items-center {
+            align-items: center !important;
+        }
+
+        .gc-lp .items-start {
+            align-items: flex-start !important;
+        }
+
+        .gc-lp .justify-between {
+            justify-content: space-between !important;
+        }
+
+        .gc-lp .justify-center {
+            justify-content: center !important;
+        }
+
+        /* --- GRID --- */
+        .gc-lp .grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        }
+
+        .gc-lp .grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        }
+
+        .gc-lp .row-span-2 {
+            grid-row: span 2 / span 2 !important;
+        }
+
+        /* --- GAP --- */
+        .gc-lp .gap-1\.5 {
+            gap: 0.375rem !important;
+        }
+
+        .gc-lp .gap-2 {
+            gap: 0.5rem !important;
+        }
+
+        .gc-lp .gap-2\.5 {
+            gap: 0.625rem !important;
+        }
+
+        .gc-lp .gap-3 {
+            gap: 0.75rem !important;
+        }
+
+        .gc-lp .gap-4 {
+            gap: 1rem !important;
+        }
+
+        .gc-lp .gap-5 {
+            gap: 1.25rem !important;
+        }
+
+        .gc-lp .gap-6 {
+            gap: 1.5rem !important;
+        }
+
+        .gc-lp .gap-7 {
+            gap: 1.75rem !important;
+        }
+
+        .gc-lp .gap-8 {
+            gap: 2rem !important;
+        }
+
+        .gc-lp .gap-10 {
+            gap: 2.5rem !important;
+        }
+
+        .gc-lp .gap-14 {
+            gap: 3.5rem !important;
+        }
+
+        /* --- WIDTH --- */
+        .gc-lp .w-0\.5 {
+            width: 0.125rem !important;
+        }
+
+        .gc-lp .w-1\/2 {
+            width: 50% !important;
+        }
+
+        .gc-lp .w-2 {
+            width: 0.5rem !important;
+        }
+
+        .gc-lp .w-4 {
+            width: 1rem !important;
+        }
+
+        .gc-lp .w-6 {
+            width: 1.5rem !important;
+        }
+
+        .gc-lp .w-7 {
+            width: 1.75rem !important;
+        }
+
+        .gc-lp .w-8 {
+            width: 2rem !important;
+        }
+
+        .gc-lp .w-10 {
+            width: 2.5rem !important;
+        }
+
+        .gc-lp .w-11 {
+            width: 2.75rem !important;
+        }
+
+        .gc-lp .w-12 {
+            width: 3rem !important;
+        }
+
+        .gc-lp .w-14 {
+            width: 3.5rem !important;
+        }
+
+        .gc-lp .w-48 {
+            width: 12rem !important;
+        }
+
+        .gc-lp .w-80 {
+            width: 20rem !important;
+        }
+
+        .gc-lp .w-96 {
+            width: 24rem !important;
+        }
+
+        .gc-lp .w-\[400px\] {
+            width: 400px !important;
+        }
+
+        .gc-lp .w-\[500px\] {
+            width: 500px !important;
+        }
+
+        .gc-lp .w-auto {
+            width: auto !important;
+        }
+
+        .gc-lp .w-full {
+            width: 100% !important;
+        }
+
+        /* --- HEIGHT --- */
+        .gc-lp .h-0\.5 {
+            height: 0.125rem !important;
+        }
+
+        .gc-lp .h-2 {
+            height: 0.5rem !important;
+        }
+
+        .gc-lp .h-5 {
+            height: 1.25rem !important;
+        }
+
+        .gc-lp .h-7 {
+            height: 1.75rem !important;
+        }
+
+        .gc-lp .h-8 {
+            height: 2rem !important;
+        }
+
+        .gc-lp .h-10 {
+            height: 2.5rem !important;
+        }
+
+        .gc-lp .h-11 {
+            height: 2.75rem !important;
+        }
+
+        .gc-lp .h-12 {
+            height: 3rem !important;
+        }
+
+        .gc-lp .h-14 {
+            height: 3.5rem !important;
+        }
+
+        .gc-lp .h-48 {
+            height: 12rem !important;
+        }
+
+        .gc-lp .h-80 {
+            height: 20rem !important;
+        }
+
+        .gc-lp .h-96 {
+            height: 24rem !important;
+        }
+
+        .gc-lp .h-\[200px\] {
+            height: 200px !important;
+        }
+
+        .gc-lp .h-\[2px\] {
+            height: 2px !important;
+        }
+
+        .gc-lp .h-\[300px\] {
+            height: 300px !important;
+        }
+
+        .gc-lp .h-\[400px\] {
+            height: 400px !important;
+        }
+
+        .gc-lp .h-\[500px\] {
+            height: 500px !important;
+        }
+
+        .gc-lp .h-full {
+            height: 100% !important;
+        }
+
+        /* --- MIN/MAX SIZE --- */
+        .gc-lp .min-h-screen {
+            min-height: 100vh !important;
+        }
+
+        .gc-lp .min-h-\[400px\] {
+            min-height: 400px !important;
+        }
+
+        .gc-lp .min-w-\[28px\] {
+            min-width: 28px !important;
+        }
+
+        .gc-lp .min-w-\[32px\] {
+            min-width: 32px !important;
+        }
+
+        .gc-lp .min-w-\[40px\] {
+            min-width: 40px !important;
+        }
+
+        .gc-lp .min-w-\[44px\] {
+            min-width: 44px !important;
+        }
+
+        .gc-lp .min-w-\[48px\] {
+            min-width: 48px !important;
+        }
+
+        .gc-lp .max-w-lg {
+            max-width: 32rem !important;
+        }
+
+        .gc-lp .max-w-xl {
+            max-width: 36rem !important;
+        }
+
+        .gc-lp .max-w-2xl {
+            max-width: 42rem !important;
+        }
+
+        .gc-lp .max-w-3xl {
+            max-width: 48rem !important;
+        }
+
+        .gc-lp .max-w-4xl {
+            max-width: 56rem !important;
+        }
+
+        .gc-lp .max-w-7xl {
+            max-width: 80rem !important;
+        }
+
+        /* --- MARGIN --- */
+        .gc-lp .mx-auto {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        .gc-lp .mt-0\.5 {
+            margin-top: 0.125rem !important;
+        }
+
+        .gc-lp .mt-2 {
+            margin-top: 0.5rem !important;
+        }
+
+        .gc-lp .mt-3 {
+            margin-top: 0.75rem !important;
+        }
+
+        .gc-lp .mt-4 {
+            margin-top: 1rem !important;
+        }
+
+        .gc-lp .mt-6 {
+            margin-top: 1.5rem !important;
+        }
+
+        .gc-lp .mt-8 {
+            margin-top: 2rem !important;
+        }
+
+        .gc-lp .mt-10 {
+            margin-top: 2.5rem !important;
+        }
+
+        .gc-lp .mt-12 {
+            margin-top: 3rem !important;
+        }
+
+        .gc-lp .mt-14 {
+            margin-top: 3.5rem !important;
+        }
+
+        .gc-lp .mb-0\.5 {
+            margin-bottom: 0.125rem !important;
+        }
+
+        .gc-lp .mb-1 {
+            margin-bottom: 0.25rem !important;
+        }
+
+        .gc-lp .mb-1\.5 {
+            margin-bottom: 0.375rem !important;
+        }
+
+        .gc-lp .mb-2 {
+            margin-bottom: 0.5rem !important;
+        }
+
+        .gc-lp .mb-3 {
+            margin-bottom: 0.75rem !important;
+        }
+
+        .gc-lp .mb-4 {
+            margin-bottom: 1rem !important;
+        }
+
+        .gc-lp .mb-5 {
+            margin-bottom: 1.25rem !important;
+        }
+
+        .gc-lp .mb-6 {
+            margin-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .mb-8 {
+            margin-bottom: 2rem !important;
+        }
+
+        .gc-lp .mb-12 {
+            margin-bottom: 3rem !important;
+        }
+
+        .gc-lp .mb-14 {
+            margin-bottom: 3.5rem !important;
+        }
+
+        .gc-lp .ml-10 {
+            margin-left: 2.5rem !important;
+        }
+
+        /* --- PADDING --- */
+        .gc-lp .p-2 {
+            padding: 0.5rem !important;
+        }
+
+        .gc-lp .p-4 {
+            padding: 1rem !important;
+        }
+
+        .gc-lp .p-5 {
+            padding: 1.25rem !important;
+        }
+
+        .gc-lp .p-6 {
+            padding: 1.5rem !important;
+        }
+
+        .gc-lp .p-7 {
+            padding: 1.75rem !important;
+        }
+
+        .gc-lp .p-8 {
+            padding: 2rem !important;
+        }
+
+        .gc-lp .p-10 {
+            padding: 2.5rem !important;
+        }
+
+        .gc-lp .px-2\.5 {
+            padding-left: 0.625rem !important;
+            padding-right: 0.625rem !important;
+        }
+
+        .gc-lp .px-3 {
+            padding-left: 0.75rem !important;
+            padding-right: 0.75rem !important;
+        }
+
+        .gc-lp .px-4 {
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+
+        .gc-lp .px-5 {
+            padding-left: 1.25rem !important;
+            padding-right: 1.25rem !important;
+        }
+
+        .gc-lp .px-6 {
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+        }
+
+        .gc-lp .px-7 {
+            padding-left: 1.75rem !important;
+            padding-right: 1.75rem !important;
+        }
+
+        .gc-lp .px-8 {
+            padding-left: 2rem !important;
+            padding-right: 2rem !important;
+        }
+
+        .gc-lp .py-1 {
+            padding-top: 0.25rem !important;
+            padding-bottom: 0.25rem !important;
+        }
+
+        .gc-lp .py-1\.5 {
+            padding-top: 0.375rem !important;
+            padding-bottom: 0.375rem !important;
+        }
+
+        .gc-lp .py-2 {
+            padding-top: 0.5rem !important;
+            padding-bottom: 0.5rem !important;
+        }
+
+        .gc-lp .py-2\.5 {
+            padding-top: 0.625rem !important;
+            padding-bottom: 0.625rem !important;
+        }
+
+        .gc-lp .py-3 {
+            padding-top: 0.75rem !important;
+            padding-bottom: 0.75rem !important;
+        }
+
+        .gc-lp .py-3\.5 {
+            padding-top: 0.875rem !important;
+            padding-bottom: 0.875rem !important;
+        }
+
+        .gc-lp .py-4 {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        .gc-lp .py-6 {
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .py-8 {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+        }
+
+        .gc-lp .py-10 {
+            padding-top: 2.5rem !important;
+            padding-bottom: 2.5rem !important;
+        }
+
+        .gc-lp .py-16 {
+            padding-top: 4rem !important;
+            padding-bottom: 4rem !important;
+        }
+
+        .gc-lp .py-20 {
+            padding-top: 5rem !important;
+            padding-bottom: 5rem !important;
+        }
+
+        .gc-lp .pt-5 {
+            padding-top: 1.25rem !important;
+        }
+
+        .gc-lp .pt-6 {
+            padding-top: 1.5rem !important;
+        }
+
+        .gc-lp .pt-14 {
+            padding-top: 3.5rem !important;
+        }
+
+        .gc-lp .pb-6 {
+            padding-bottom: 1.5rem !important;
+        }
+
+        .gc-lp .pb-10 {
+            padding-bottom: 2.5rem !important;
+        }
+
+        .gc-lp .pr-6 {
+            padding-right: 1.5rem !important;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        .gc-lp .text-\[10px\] {
+            font-size: 10px !important;
+        }
+
+        .gc-lp .text-\[11px\] {
+            font-size: 11px !important;
+        }
+
+        .gc-lp .text-\[15px\] {
+            font-size: 15px !important;
+        }
+
+        .gc-lp .text-xs {
+            font-size: 0.75rem !important;
+            line-height: 1rem !important;
+        }
+
+        .gc-lp .text-sm {
+            font-size: 0.875rem !important;
+            line-height: 1.25rem !important;
+        }
+
+        .gc-lp .text-base {
+            font-size: 1rem !important;
+            line-height: 1.5rem !important;
+        }
+
+        .gc-lp .text-lg {
+            font-size: 1.125rem !important;
+            line-height: 1.75rem !important;
+        }
+
+        .gc-lp .text-xl {
+            font-size: 1.25rem !important;
+            line-height: 1.75rem !important;
+        }
+
+        .gc-lp .text-2xl {
+            font-size: 1.5rem !important;
+            line-height: 2rem !important;
+        }
+
+        .gc-lp .text-3xl {
+            font-size: 1.875rem !important;
+            line-height: 2.25rem !important;
+        }
+
+        .gc-lp .text-4xl {
+            font-size: 2.25rem !important;
+            line-height: 2.5rem !important;
+        }
+
+        .gc-lp .text-5xl {
+            font-size: 3rem !important;
+            line-height: 1 !important;
+        }
+
+        .gc-lp .font-medium {
+            font-weight: 500 !important;
+        }
+
+        .gc-lp .font-semibold {
+            font-weight: 600 !important;
+        }
+
+        .gc-lp .font-bold {
+            font-weight: 700 !important;
+        }
+
+        .gc-lp .italic {
+            font-style: italic !important;
+        }
+
+        .gc-lp .uppercase {
+            text-transform: uppercase !important;
+        }
+
+        .gc-lp .leading-tight {
+            line-height: 1.25 !important;
+        }
+
+        .gc-lp .leading-relaxed {
+            line-height: 1.625 !important;
+        }
+
+        .gc-lp .leading-\[1\.4\] {
+            line-height: 1.4 !important;
+        }
+
+        .gc-lp .tracking-wide {
+            letter-spacing: 0.025em !important;
+        }
+
+        .gc-lp .tracking-wider {
+            letter-spacing: 0.05em !important;
+        }
+
+        .gc-lp .tracking-\[2px\] {
+            letter-spacing: 2px !important;
+        }
+
+        .gc-lp .tracking-\[3px\] {
+            letter-spacing: 3px !important;
+        }
+
+        .gc-lp .text-left {
+            text-align: left !important;
+        }
+
+        .gc-lp .text-center {
+            text-align: center !important;
+        }
+
+        .gc-lp .antialiased {
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+        }
+
+        /* --- TEXT COLORS --- */
+        .gc-lp .text-white {
+            color: #fff !important;
+        }
+
+        .gc-lp .text-white\/30 {
+            color: rgba(255, 255, 255, .3) !important;
+        }
+
+        .gc-lp .text-white\/50 {
+            color: rgba(255, 255, 255, .5) !important;
+        }
+
+        .gc-lp .text-white\/60 {
+            color: rgba(255, 255, 255, .6) !important;
+        }
+
+        .gc-lp .text-white\/70 {
+            color: rgba(255, 255, 255, .7) !important;
+        }
+
+        .gc-lp .text-white\/75 {
+            color: rgba(255, 255, 255, .75) !important;
+        }
+
+        .gc-lp .text-white\/80 {
+            color: rgba(255, 255, 255, .8) !important;
+        }
+
+        .gc-lp .text-white\/90 {
+            color: rgba(255, 255, 255, .9) !important;
+        }
+
+        .gc-lp .text-navy {
+            color: #3A4650 !important;
+        }
+
+        .gc-lp .text-teal {
+            color: #49a0af !important;
+        }
+
+        .gc-lp .text-teal-light {
+            color: #5cb3c1 !important;
+        }
+
+        .gc-lp .text-olive {
+            color: #97b560 !important;
+        }
+
+        .gc-lp .text-olive-light {
+            color: #a8c474 !important;
+        }
+
+        .gc-lp .text-mustard {
+            color: #f9d648 !important;
+        }
+
+        .gc-lp .text-gray-400 {
+            color: #9ca3af !important;
+        }
+
+        .gc-lp .text-gray-500 {
+            color: #6b7280 !important;
+        }
+
+        .gc-lp .text-gray-600 {
+            color: #4b5563 !important;
+        }
+
+        .gc-lp .text-gray-700 {
+            color: #374151 !important;
+        }
+
+        /* --- BACKGROUND COLORS --- */
+        .gc-lp .bg-white {
+            background-color: #fff !important;
+        }
+
+        .gc-lp .bg-white\/5 {
+            background-color: rgba(255, 255, 255, .05) !important;
+        }
+
+        .gc-lp .bg-white\/60 {
+            background-color: rgba(255, 255, 255, .6) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.08\] {
+            background-color: rgba(255, 255, 255, .08) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.10\] {
+            background-color: rgba(255, 255, 255, .10) !important;
+        }
+
+        .gc-lp .bg-white\/\[\.12\] {
+            background-color: rgba(255, 255, 255, .12) !important;
+        }
+
+        .gc-lp .bg-navy {
+            background-color: #3A4650 !important;
+        }
+
+        .gc-lp .bg-navy\/60 {
+            background-color: rgba(58, 70, 80, .6) !important;
+        }
+
+        .gc-lp .bg-navy\/\[\.98\] {
+            background-color: rgba(58, 70, 80, .98) !important;
+        }
+
+        .gc-lp .bg-teal {
+            background-color: #49a0af !important;
+        }
+
+        .gc-lp .bg-teal\/5 {
+            background-color: rgba(73, 160, 175, .05) !important;
+        }
+
+        .gc-lp .bg-teal\/20 {
+            background-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        .gc-lp .bg-teal-pale {
+            background-color: #e8f4f6 !important;
+        }
+
+        .gc-lp .bg-teal\/\[\.06\] {
+            background-color: rgba(73, 160, 175, .06) !important;
+        }
+
+        .gc-lp .bg-teal\/\[\.30\] {
+            background-color: rgba(73, 160, 175, .3) !important;
+        }
+
+        .gc-lp .bg-olive {
+            background-color: #97b560 !important;
+        }
+
+        .gc-lp .bg-olive\/5 {
+            background-color: rgba(151, 181, 96, .05) !important;
+        }
+
+        .gc-lp .bg-olive\/20 {
+            background-color: rgba(151, 181, 96, .2) !important;
+        }
+
+        .gc-lp .bg-olive-pale {
+            background-color: #f0f5e6 !important;
+        }
+
+        .gc-lp .bg-olive\/\[\.05\] {
+            background-color: rgba(151, 181, 96, .05) !important;
+        }
+
+        .gc-lp .bg-olive\/\[\.15\] {
+            background-color: rgba(151, 181, 96, .15) !important;
+        }
+
+        .gc-lp .bg-cream {
+            background-color: #F9FAFB !important;
+        }
+
+        .gc-lp .bg-gray-50 {
+            background-color: #f9fafb !important;
+        }
+
+        .gc-lp .bg-gray-100 {
+            background-color: #f3f4f6 !important;
+        }
+
+        /* --- GRADIENTS --- */
+        .gc-lp .bg-gradient-to-br {
+            background-image: linear-gradient(to bottom right, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-b {
+            background-image: linear-gradient(to bottom, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-r {
+            background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .bg-gradient-to-t {
+            background-image: linear-gradient(to top, var(--tw-gradient-stops)) !important;
+        }
+
+        .gc-lp .from-teal {
+            --tw-gradient-from: #49a0af;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(73, 160, 175, 0));
+        }
+
+        .gc-lp .from-teal\/30 {
+            --tw-gradient-from: rgba(73, 160, 175, .3);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(73, 160, 175, 0));
+        }
+
+        .gc-lp .from-olive {
+            --tw-gradient-from: #97b560;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-olive\/30 {
+            --tw-gradient-from: rgba(151, 181, 96, .3);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-olive\/40 {
+            --tw-gradient-from: rgba(151, 181, 96, .4);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(151, 181, 96, 0));
+        }
+
+        .gc-lp .from-navy {
+            --tw-gradient-from: #3A4650;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .from-navy\/70 {
+            --tw-gradient-from: rgba(58, 70, 80, .7);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .from-navy\/80 {
+            --tw-gradient-from: rgba(58, 70, 80, .8);
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        .gc-lp .to-teal-light {
+            --tw-gradient-to: #5cb3c1;
+        }
+
+        .gc-lp .to-olive-light {
+            --tw-gradient-to: #a8c474;
+        }
+
+        .gc-lp .to-navy-light {
+            --tw-gradient-to: #4a5660;
+        }
+
+        .gc-lp .to-transparent {
+            --tw-gradient-to: transparent;
+        }
+
+        .gc-lp .via-navy\/20 {
+            --tw-gradient-stops: var(--tw-gradient-from), rgba(58, 70, 80, .2), var(--tw-gradient-to, rgba(58, 70, 80, 0));
+        }
+
+        /* --- BORDERS --- */
+        .gc-lp .border {
+            border-width: 1px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-2 {
+            border-width: 2px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-\[3px\] {
+            border-width: 3px !important;
+            border-style: solid !important;
+        }
+
+        .gc-lp .border-b {
+            border-bottom-width: 1px !important;
+            border-bottom-style: solid !important;
+        }
+
+        .gc-lp .border-r {
+            border-right-width: 1px !important;
+            border-right-style: solid !important;
+        }
+
+        .gc-lp .border-t {
+            border-top-width: 1px !important;
+            border-top-style: solid !important;
+        }
+
+        .gc-lp .border-gray-100 {
+            border-color: #f3f4f6 !important;
+        }
+
+        .gc-lp .border-gray-200 {
+            border-color: #e5e7eb !important;
+        }
+
+        .gc-lp .border-teal {
+            border-color: #49a0af !important;
+        }
+
+        .gc-lp .border-teal\/20 {
+            border-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        .gc-lp .border-olive\/\[\.30\] {
+            border-color: rgba(151, 181, 96, .3) !important;
+        }
+
+        .gc-lp .border-white {
+            border-color: #fff !important;
+        }
+
+        .gc-lp .border-white\/10 {
+            border-color: rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .border-white\/15 {
+            border-color: rgba(255, 255, 255, .15) !important;
+        }
+
+        .gc-lp .border-white\/25 {
+            border-color: rgba(255, 255, 255, .25) !important;
+        }
+
+        /* --- DIVIDE --- */
+        .gc-lp .divide-y> :not(:first-child) {
+            border-top-width: 1px !important;
+            border-top-style: solid !important;
+        }
+
+        .gc-lp .divide-gray-100> :not(:first-child) {
+            border-color: #f3f4f6 !important;
+        }
+
+        /* --- BORDER RADIUS --- */
+        .gc-lp .rounded-full {
+            border-radius: 9999px !important;
+        }
+
+        .gc-lp .rounded-lg {
+            border-radius: 0.5rem !important;
+        }
+
+        .gc-lp .rounded-xl {
+            border-radius: 0.75rem !important;
+        }
+
+        .gc-lp .rounded-2xl {
+            border-radius: 1rem !important;
+        }
+
+        .gc-lp .rounded-3xl {
+            border-radius: 1.5rem !important;
+        }
+
+        /* --- SHADOWS --- */
+        .gc-lp .shadow-sm {
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05) !important;
+        }
+
+        .gc-lp .shadow-md {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-lg {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-xl {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .shadow-2xl {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .25) !important;
+        }
+
+        .gc-lp .shadow-black\/40 {
+            --tw-shadow-color: rgba(0, 0, 0, .4) !important;
+        }
+
+        .gc-lp .shadow-olive\/20 {
+            --tw-shadow-color: rgba(151, 181, 96, .2) !important;
+        }
+
+        .gc-lp .shadow-olive\/25 {
+            --tw-shadow-color: rgba(151, 181, 96, .25) !important;
+        }
+
+        /* --- OPACITY --- */
+        .gc-lp .opacity-0 {
+            opacity: 0 !important;
+        }
+
+        .gc-lp .opacity-10 {
+            opacity: .1 !important;
+        }
+
+        .gc-lp .opacity-30 {
+            opacity: .3 !important;
+        }
+
+        .gc-lp .opacity-50 {
+            opacity: .5 !important;
+        }
+
+        .gc-lp .opacity-60 {
+            opacity: .6 !important;
+        }
+
+        /* --- OVERFLOW --- */
+        .gc-lp .overflow-hidden {
+            overflow: hidden !important;
+        }
+
+        .gc-lp .overflow-x-hidden {
+            overflow-x: hidden !important;
+        }
+
+        /* --- OBJECT FIT --- */
+        .gc-lp .object-cover {
+            object-fit: cover !important;
+        }
+
+        /* --- BLUR --- */
+        .gc-lp .blur-3xl {
+            filter: blur(64px) !important;
+        }
+
+        /* --- OUTLINE --- */
+        .gc-lp .outline-none {
+            outline: 2px solid transparent !important;
+            outline-offset: 2px !important;
+        }
+
+        /* --- RESIZE --- */
+        .gc-lp .resize-none {
+            resize: none !important;
+        }
+
+        /* --- POINTER --- */
+        .gc-lp .pointer-events-none {
+            pointer-events: none !important;
+        }
+
+        /* --- SPACE-Y --- */
+        .gc-lp .space-y-0> :not(:first-child) {
+            margin-top: 0 !important;
+        }
+
+        .gc-lp .space-y-2\.5> :not(:first-child) {
+            margin-top: 0.625rem !important;
+        }
+
+        .gc-lp .space-y-3> :not(:first-child) {
+            margin-top: 0.75rem !important;
+        }
+
+        .gc-lp .space-y-4> :not(:first-child) {
+            margin-top: 1rem !important;
+        }
+
+        /* --- PLACEHOLDER --- */
+        .gc-lp .placeholder-white\/30::placeholder {
+            color: rgba(255, 255, 255, .3) !important;
+        }
+
+        /* --- TRANSITIONS --- */
+        .gc-lp .transition {
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-all {
+            transition-property: all !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-transform {
+            transition-property: transform !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .transition-opacity {
+            transition-property: opacity !important;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1) !important;
+            transition-duration: 150ms !important;
+        }
+
+        .gc-lp .duration-300 {
+            transition-duration: 300ms !important;
+        }
+
+        .gc-lp .duration-400 {
+            transition-duration: 400ms !important;
+        }
+
+        .gc-lp .duration-500 {
+            transition-duration: 500ms !important;
+        }
+
+        .gc-lp .duration-700 {
+            transition-duration: 700ms !important;
+        }
+
+        /* --- TRANSFORMS --- */
+        .gc-lp .translate-x-1\/2 {
+            transform: translateX(50%) !important;
+        }
+
+        .gc-lp .translate-x-1\/4 {
+            transform: translateX(25%) !important;
+        }
+
+        .gc-lp .translate-y-1\/2 {
+            transform: translateY(50%) !important;
+        }
+
+        .gc-lp .-translate-x-1\/2 {
+            transform: translateX(-50%) !important;
+        }
+
+        .gc-lp .-translate-y-1\/2 {
+            transform: translateY(-50%) !important;
+        }
+
+        .gc-lp .-translate-y-1\/2.translate-x-1\/2 {
+            transform: translateX(50%) translateY(-50%) !important;
+        }
+
+        .gc-lp .translate-y-1\/2.-translate-x-1\/2 {
+            transform: translateX(-50%) translateY(50%) !important;
+        }
+
+        /* --- HOVER STATES --- */
+        .gc-lp .hover\:bg-olive-dark:hover {
+            background-color: #84a34e !important;
+        }
+
+        .gc-lp .hover\:bg-teal:hover {
+            background-color: #49a0af !important;
+        }
+
+        .gc-lp .hover\:bg-teal-dark:hover {
+            background-color: #3d8a97 !important;
+        }
+
+        .gc-lp .hover\:bg-teal-pale:hover {
+            background-color: #e8f4f6 !important;
+        }
+
+        .gc-lp .hover\:bg-white:hover {
+            background-color: #fff !important;
+        }
+
+        .gc-lp .hover\:bg-white\/10:hover {
+            background-color: rgba(255, 255, 255, .1) !important;
+        }
+
+        .gc-lp .hover\:text-olive:hover {
+            color: #97b560 !important;
+        }
+
+        .gc-lp .hover\:text-teal:hover {
+            color: #49a0af !important;
+        }
+
+        .gc-lp .hover\:text-white:hover {
+            color: #fff !important;
+        }
+
+        .gc-lp .hover\:border-olive\/40:hover {
+            border-color: rgba(151, 181, 96, .4) !important;
+        }
+
+        .gc-lp .hover\:border-teal\/40:hover {
+            border-color: rgba(73, 160, 175, .4) !important;
+        }
+
+        .gc-lp .hover\:border-white\/20:hover {
+            border-color: rgba(255, 255, 255, .2) !important;
+        }
+
+        .gc-lp .hover\:border-white\/40:hover {
+            border-color: rgba(255, 255, 255, .4) !important;
+        }
+
+        .gc-lp .hover\:pl-2:hover {
+            padding-left: 0.5rem !important;
+        }
+
+        .gc-lp .hover\:-translate-y-0\.5:hover {
+            transform: translateY(-0.125rem) !important;
+        }
+
+        .gc-lp .hover\:-translate-y-1:hover {
+            transform: translateY(-0.25rem) !important;
+        }
+
+        .gc-lp .hover\:translate-x-2:hover {
+            transform: translateX(0.5rem) !important;
+        }
+
+        .gc-lp .hover\:shadow-lg:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-md:hover {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-xl:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1) !important;
+        }
+
+        .gc-lp .hover\:shadow-olive\/30:hover {
+            --tw-shadow-color: rgba(151, 181, 96, .3) !important;
+        }
+
+        /* --- FOCUS STATES --- */
+        .gc-lp .focus\:bg-white\/\[\.12\]:focus {
+            background-color: rgba(255, 255, 255, .12) !important;
+        }
+
+        .gc-lp .focus\:border-teal:focus {
+            border-color: #49a0af !important;
+        }
+
+        .gc-lp .focus\:ring-2:focus {
+            box-shadow: 0 0 0 2px var(--tw-ring-color, rgba(73, 160, 175, .2)) !important;
+        }
+
+        .gc-lp .focus\:ring-teal\/20:focus {
+            --tw-ring-color: rgba(73, 160, 175, .2) !important;
+        }
+
+        /* --- GROUP HOVER --- */
+        .gc-lp .group:hover .group-hover\:opacity-80 {
+            opacity: .8 !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:scale-105 {
+            transform: scale(1.05) !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:scale-110 {
+            transform: scale(1.1) !important;
+        }
+
+        .gc-lp .group:hover .group-hover\:text-teal {
+            color: #49a0af !important;
+        }
+
+        /* --- RESPONSIVE: sm (640px) --- */
+        @media (min-width: 640px) {
+            .gc-lp .sm\:flex-row {
+                flex-direction: row !important;
+            }
+
+            .gc-lp .sm\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .sm\:text-4xl {
+                font-size: 2.25rem !important;
+                line-height: 2.5rem !important;
+            }
+
+            .gc-lp .sm\:border-x {
+                border-left-width: 1px !important;
+                border-right-width: 1px !important;
+                border-left-style: solid !important;
+                border-right-style: solid !important;
+            }
+
+            .gc-lp .sm\:border-white\/10 {
+                border-color: rgba(255, 255, 255, .1) !important;
+            }
+        }
+
+        /* --- RESPONSIVE: md (768px) --- */
+        @media (min-width: 768px) {
+            .gc-lp .md\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .md\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+        }
+
+        /* --- RESPONSIVE: lg (1024px) --- */
+        @media (min-width: 1024px) {
+            .gc-lp .lg\:block {
+                display: block !important;
+            }
+
+            .gc-lp .lg\:flex {
+                display: flex !important;
+            }
+
+            .gc-lp .lg\:hidden {
+                display: none !important;
+            }
+
+            .gc-lp .lg\:grid-cols-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:grid-cols-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .lg\:gap-2 {
+                gap: 0.5rem !important;
+            }
+
+            .gc-lp .lg\:gap-5 {
+                gap: 1.25rem !important;
+            }
+
+            .gc-lp .lg\:gap-8 {
+                gap: 2rem !important;
+            }
+
+            .gc-lp .lg\:gap-20 {
+                gap: 5rem !important;
+            }
+
+            .gc-lp .lg\:h-7 {
+                height: 1.75rem !important;
+            }
+
+            .gc-lp .lg\:h-12 {
+                height: 3rem !important;
+            }
+
+            .gc-lp .lg\:h-\[250px\] {
+                height: 250px !important;
+            }
+
+            .gc-lp .lg\:h-\[400px\] {
+                height: 400px !important;
+            }
+
+            .gc-lp .lg\:h-\[460px\] {
+                height: 460px !important;
+            }
+
+            .gc-lp .lg\:h-\[520px\] {
+                height: 520px !important;
+            }
+
+            .gc-lp .lg\:w-7 {
+                width: 1.75rem !important;
+            }
+
+            .gc-lp .lg\:min-h-\[520px\] {
+                min-height: 520px !important;
+            }
+
+            .gc-lp .lg\:p-6 {
+                padding: 1.5rem !important;
+            }
+
+            .gc-lp .lg\:p-10 {
+                padding: 2.5rem !important;
+            }
+
+            .gc-lp .lg\:p-14 {
+                padding: 3.5rem !important;
+            }
+
+            .gc-lp .lg\:py-2 {
+                padding-top: 0.5rem !important;
+                padding-bottom: 0.5rem !important;
+            }
+
+            .gc-lp .lg\:py-2\.5 {
+                padding-top: 0.625rem !important;
+                padding-bottom: 0.625rem !important;
+            }
+
+            .gc-lp .lg\:py-14 {
+                padding-top: 3.5rem !important;
+                padding-bottom: 3.5rem !important;
+            }
+
+            .gc-lp .lg\:py-20 {
+                padding-top: 5rem !important;
+                padding-bottom: 5rem !important;
+            }
+
+            .gc-lp .lg\:py-24 {
+                padding-top: 6rem !important;
+                padding-bottom: 6rem !important;
+            }
+
+            .gc-lp .lg\:py-28 {
+                padding-top: 7rem !important;
+                padding-bottom: 7rem !important;
+            }
+
+            .gc-lp .lg\:mb-3 {
+                margin-bottom: 0.75rem !important;
+            }
+
+            .gc-lp .lg\:mb-4 {
+                margin-bottom: 1rem !important;
+            }
+
+            .gc-lp .lg\:space-y-3> :not(:first-child) {
+                margin-top: 0.75rem !important;
+            }
+
+            .gc-lp .lg\:text-4xl {
+                font-size: 2.25rem !important;
+                line-height: 2.5rem !important;
+            }
+
+            .gc-lp .lg\:text-5xl {
+                font-size: 3rem !important;
+                line-height: 1 !important;
+            }
+
+            .gc-lp .lg\:text-\[2rem\] {
+                font-size: 2rem !important;
+            }
+
+            .gc-lp .lg\:text-sm {
+                font-size: 0.875rem !important;
+                line-height: 1.25rem !important;
+            }
+
+            .gc-lp .lg\:leading-\[1\.45\] {
+                line-height: 1.45 !important;
+            }
+
+            .gc-lp .lg\:border-r {
+                border-right-width: 1px !important;
+                border-right-style: solid !important;
+            }
+
+            .gc-lp .lg\:border-t-0 {
+                border-top-width: 0 !important;
+            }
+        }
+
+        /* --- RESPONSIVE: xl (1280px) --- */
+        @media (min-width: 1280px) {
+            .gc-lp .xl\:gap-3 {
+                gap: 0.75rem !important;
+            }
+
+            .gc-lp .xl\:gap-14 {
+                gap: 3.5rem !important;
+            }
+
+            .gc-lp .xl\:grid-cols-4 {
+                grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+            }
+
+            .gc-lp .xl\:p-8 {
+                padding: 2rem !important;
+            }
+
+            .gc-lp .xl\:py-3 {
+                padding-top: 0.75rem !important;
+                padding-bottom: 0.75rem !important;
+            }
+
+            .gc-lp .xl\:py-3\.5 {
+                padding-top: 0.875rem !important;
+                padding-bottom: 0.875rem !important;
+            }
+
+            .gc-lp .xl\:py-4 {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+            }
+
+            .gc-lp .xl\:py-20 {
+                padding-top: 5rem !important;
+                padding-bottom: 5rem !important;
+            }
+
+            .gc-lp .xl\:mb-4 {
+                margin-bottom: 1rem !important;
+            }
+
+            .gc-lp .xl\:mb-5 {
+                margin-bottom: 1.25rem !important;
+            }
+
+            .gc-lp .xl\:mb-6 {
+                margin-bottom: 1.5rem !important;
+            }
+
+            .gc-lp .xl\:mb-7 {
+                margin-bottom: 1.75rem !important;
+            }
+
+            .gc-lp .xl\:space-y-4> :not(:first-child) {
+                margin-top: 1rem !important;
+            }
+
+            .gc-lp .xl\:text-\[2\.75rem\] {
+                font-size: 2.75rem !important;
+            }
+
+            .gc-lp .xl\:text-base {
+                font-size: 1rem !important;
+                line-height: 1.5rem !important;
+            }
+        }
+
+        /* --- RESPONSIVE: 2xl (1536px) --- */
+        @media (min-width: 1536px) {
+            .gc-lp .\32xl\:text-\[3\.25rem\] {
+                font-size: 3.25rem !important;
+            }
+        }
+
+        /* --- LG:P SHORTHAND for the hidden lg:block pattern (overrides general .hidden) --- */
+        @media (min-width: 1024px) {
+            .gc-lp .lg\:block.hidden {
+                display: block !important;
+            }
+
+            .gc-lp .lg\:flex.hidden {
+                display: flex !important;
+            }
+        }
+    </style>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "GlobeCoRe Inc. — TMS Therapy Atlanta",
+  "description": "TRICARE-covered TMS therapy for veterans and military families with treatment-resistant depression, PTSD, anxiety, and OCD. FDA-cleared, drug-free treatment in Atlanta, GA.",
+  "url": "https://globecoreinc.com",
+  "telephone": "+17702841044",
+  "email": "help@globecoreinc.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3355 Lenox Road NE, Suite 1000",
+    "addressLocality": "Atlanta",
+    "addressRegion": "GA",
+    "postalCode": "30326",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.8484",
+    "longitude": "-84.3632"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "14:00" }
+  ],
+  "medicalSpecialty": ["Psychiatry", "Neurology"],
+  "availableService": [
+    { "@type": "MedicalTherapy", "name": "Transcranial Magnetic Stimulation (TMS)", "description": "FDA-cleared TMS therapy for treatment-resistant depression, PTSD, anxiety, and OCD" },
+    { "@type": "MedicalTherapy", "name": "TRICARE-Covered TMS Therapy", "description": "TRICARE-covered TMS therapy for eligible veterans and military families" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127",
+    "bestRating": "5"
+  }
+}
+</script>
+
+    <!-- ===== LANDING PAGE START ===== -->
+    <div class="gc-lp font-body text-gray-700 bg-cream antialiased" style="overflow-x:hidden;">
+
+        <!-- ========== NAVBAR ========== -->
+        <nav id="gc-navbar" class="fixed top-0 left-0 w-full z-[9999] transition-all duration-500 py-4">
+            <div class="max-w-7xl mx-auto px-5 flex items-center justify-between">
+                <a href="#" class="flex items-center"><img
+                        src="https://globecore-new.netlify.app/assets/globecore_logo-removebg-preview.png"
+                        alt="GlobeCoRe Logo" class="h-10 lg:h-12 w-auto"></a>
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="#about" class="text-white/80 hover:text-white text-sm font-medium transition">About TMS</a>
+                    <a href="#military" class="text-white/80 hover:text-white text-sm font-medium transition">Military
+                        Families</a>
+                    <a href="#eligibility"
+                        class="text-white/80 hover:text-white text-sm font-medium transition">Eligibility</a>
+                    <a href="#faq" class="text-white/80 hover:text-white text-sm font-medium transition">FAQ</a>
+                    <a href="tel:7702841044" class="text-olive-light font-semibold text-sm flex items-center gap-1.5">📞
+                        (770)
+                        284-1044</a>
+                    <a href="#consultation"
+                        class="bg-olive hover:bg-olive-dark text-white font-bold text-sm px-6 py-2.5 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg btn-shine">Book
+                        Now</a>
+                </div>
+                <button id="gcMobileMenuBtn" class="lg:hidden p-2" aria-label="Menu">
+                    <div class="w-6 h-0.5 bg-white mb-1.5 transition-all"></div>
+                    <div class="w-6 h-0.5 bg-white mb-1.5 transition-all"></div>
+                    <div class="w-4 h-0.5 bg-white transition-all"></div>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Nav -->
+        <div id="gcMobileNav"
+            class="fixed inset-0 bg-navy/[.98] z-[999] flex flex-col items-center justify-center opacity-0 pointer-events-none transition-opacity duration-400">
+            <button id="gcMobileNavClose" class="absolute top-6 right-6 text-white text-3xl">✕</button>
+            <div class="flex flex-col items-center gap-6">
+                <a href="#about" onclick="gcCloseMobileNav()"
+                    class="font-display text-2xl text-white hover:text-olive transition">About TMS</a>
+                <a href="#military" onclick="gcCloseMobileNav()"
+                    class="font-display text-2xl text-white hover:text-olive transition">Military Families</a>
+                <a href="#eligibility" onclick="gcCloseMobileNav()"
+                    class="font-display text-2xl text-white hover:text-olive transition">Eligibility</a>
+                <a href="#faq" onclick="gcCloseMobileNav()"
+                    class="font-display text-2xl text-white hover:text-olive transition">FAQ</a>
+                <a href="tel:7702841044" onclick="gcCloseMobileNav()" class="text-olive text-xl font-semibold mt-4">📞
+                    (770)
+                    284-1044</a>
+                <a href="#consultation" onclick="gcCloseMobileNav()"
+                    class="bg-olive text-white font-bold px-8 py-3 rounded-full mt-2 text-lg">Book Now →</a>
+            </div>
+        </div>
+
+        <!-- ========== HERO ========== -->
+        <section class="relative min-h-screen flex items-center overflow-hidden">
+            <img src="https://brandingpioneers.co.in/globecoreinc-images/hero-veterans-diverse.png"
+                alt="Diverse military veterans standing together" class="absolute inset-0 w-full h-full object-cover"
+                fetchpriority="high">
+            <div class="absolute inset-0"
+                style="background:linear-gradient(to right,rgba(38,46,52,.92) 0%,rgba(58,70,80,.85) 40%,rgba(58,70,80,.65) 70%,rgba(73,160,175,.40) 100%)">
+            </div>
+            <div
+                class="absolute top-20 right-10 w-[500px] h-[500px] rounded-full bg-teal/[.06] blur-3xl animate-hero-glow">
+            </div>
+            <div class="absolute bottom-10 left-10 w-[400px] h-[400px] rounded-full bg-olive/[.05] blur-3xl"></div>
+
+            <div class="max-w-7xl mx-auto px-5 py-20 lg:py-14 xl:py-20 relative z-10 w-full">
+                <div class="grid lg:grid-cols-2 gap-10 lg:gap-8 xl:gap-14 items-center">
+                    <!-- Left Content -->
+                    <div>
+                        <div
+                            class="hero-animate-1 inline-flex items-center gap-2.5 bg-olive/[.15] border border-olive/[.30] rounded-full px-4 py-1.5 mb-4 lg:mb-3 xl:mb-5">
+                            <span class="w-2 h-2 bg-olive rounded-full animate-pulse-dot"></span>
+                            <span class="text-olive-light text-xs font-bold tracking-[2px] uppercase">Clinical Expertise
+                                · Atlanta,
+                                GA</span>
+                        </div>
+                        <h1
+                            class="hero-animate-2 font-display text-3xl sm:text-4xl lg:text-[2rem] xl:text-[2.75rem] 2xl:text-[3.25rem] font-bold text-white leading-[1.4] lg:leading-[1.45] mb-4 lg:mb-4 xl:mb-6">
+                            TRICARE-Covered<br><span class="text-gradient-green">TMS Therapy</span><br>for Veterans with
+                            Depression,
+                            PTSD, Anxiety &amp; OCD
+                        </h1>
+                        <p
+                            class="hero-animate-3 text-sm lg:text-sm xl:text-base text-white/90 leading-relaxed mb-4 lg:mb-3 xl:mb-5 max-w-lg">
+                            When antidepressants fail, FDA-cleared Transcranial Magnetic Stimulation (TMS) offers real
+                            hope — drug-free,
+                            non-invasive, and covered by TRICARE Prime &amp; Select for eligible patients.
+                        </p>
+                        <div class="hero-animate-4 flex flex-wrap gap-2 mb-4 lg:mb-3 xl:mb-6">
+                            <span
+                                class="inline-flex items-center gap-1.5 bg-white/[.12] border border-white/25 rounded-full px-3 py-1 text-[11px] text-white font-medium">✓
+                                TRICARE Prime &amp; Select</span>
+                            <span
+                                class="inline-flex items-center gap-1.5 bg-white/[.12] border border-white/25 rounded-full px-3 py-1 text-[11px] text-white font-medium">✓
+                                FDA-Cleared</span>
+                            <span
+                                class="inline-flex items-center gap-1.5 bg-white/[.12] border border-white/25 rounded-full px-3 py-1 text-[11px] text-white font-medium">✓
+                                Depression, PTSD, Anxiety &amp; OCD</span>
+                            <span
+                                class="inline-flex items-center gap-1.5 bg-white/[.12] border border-white/25 rounded-full px-3 py-1 text-[11px] text-white font-medium">✓
+                                Drug-Free</span>
+                        </div>
+                        <div
+                            class="hero-animate-4 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4 gap-2 lg:gap-2 xl:gap-3 mb-5 lg:mb-4 xl:mb-7">
+                            <div
+                                class="flex items-center gap-2 lg:gap-2 bg-white/[.10] border border-white/10 rounded-xl px-3 py-2">
+                                <div
+                                    class="w-7 h-7 lg:w-7 lg:h-7 min-w-[28px] rounded-lg bg-teal/[.30] flex items-center justify-center text-xs">
+                                    ✓</div>
+                                <div>
+                                    <p class="text-white text-xs font-semibold">FDA Cleared</p>
+                                    <p class="text-white/60 text-[10px]">Clinically Proven</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 bg-white/[.10] border border-white/10 rounded-xl px-3 py-2">
+                                <div
+                                    class="w-7 h-7 min-w-[28px] rounded-lg bg-teal/[.30] flex items-center justify-center text-xs">
+                                    🛡️
+                                </div>
+                                <div>
+                                    <p class="text-white text-xs font-semibold">Covered</p>
+                                    <p class="text-white/60 text-[10px]">TRICARE Accepted</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 bg-white/[.10] border border-white/10 rounded-xl px-3 py-2">
+                                <div
+                                    class="w-7 h-7 min-w-[28px] rounded-lg bg-teal/[.30] flex items-center justify-center text-xs">
+                                    🏥
+                                </div>
+                                <div>
+                                    <p class="text-white text-xs font-semibold">Atlanta, GA</p>
+                                    <p class="text-white/60 text-[10px]">Buckhead</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-2 bg-white/[.10] border border-white/10 rounded-xl px-3 py-2">
+                                <div
+                                    class="w-7 h-7 min-w-[28px] rounded-lg bg-teal/[.30] flex items-center justify-center text-xs">
+                                    ⭐
+                                </div>
+                                <div>
+                                    <p class="text-white text-xs font-semibold">4.9 / 5</p>
+                                    <p class="text-white/60 text-[10px]">127+ Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-animate-5 flex flex-col sm:flex-row gap-3">
+                            <a href="#consultation"
+                                class="bg-olive hover:bg-olive-dark text-white font-bold px-7 py-3 lg:py-2.5 xl:py-3.5 rounded-full text-center text-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg btn-shine">Book
+                                Free Consultation →</a>
+                            <a href="tel:7702841044"
+                                class="border border-white/25 text-white font-medium px-7 py-3 lg:py-2.5 xl:py-3.5 rounded-full text-center text-sm hover:bg-white/10 hover:border-white/40 transition-all duration-300">📞
+                                (770) 284-1044</a>
+                        </div>
+                    </div>
+                    <!-- Right: Hero Contact Form -->
+                    <div class="hero-image-animate relative" id="consultation">
+                        <iframe src="https://api.leadconnectorhq.com/widget/form/MHwXE4YfTMs8qhDRSJP1"
+                            style="width:100%;height:100%;border:none;border-radius:8px"
+                            id="inline-MHwXE4YfTMs8qhDRSJP1" data-layout="{'id':'INLINE'}"
+                            data-trigger-type="alwaysShow" data-trigger-value="" data-activation-type="alwaysActivated"
+                            data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                            data-form-name="Tricare Landing Page" data-height="627"
+                            data-layout-iframe-id="inline-MHwXE4YfTMs8qhDRSJP1" data-form-id="MHwXE4YfTMs8qhDRSJP1"
+                            title="Tricare Landing Page">
+                        </iframe>
+                        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== STATS BAR ========== -->
+        <section class="bg-white relative z-20 shadow-lg">
+            <div class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4">
+                <div class="py-8 px-6 text-center border-r border-gray-100 hover:bg-teal-pale transition reveal">
+                    <p class="font-display text-4xl font-bold text-teal mb-1">83%</p>
+                    <p class="text-sm text-gray-500 font-medium">Patient Response Rate</p>
+                </div>
+                <div
+                    class="py-8 px-6 text-center lg:border-r border-gray-100 hover:bg-teal-pale transition reveal reveal-delay-1">
+                    <p class="font-display text-4xl font-bold text-teal mb-1">36</p>
+                    <p class="text-sm text-gray-500 font-medium">Sessions Per Course</p>
+                </div>
+                <div
+                    class="py-8 px-6 text-center border-r border-gray-100 border-t lg:border-t-0 hover:bg-teal-pale transition reveal reveal-delay-2">
+                    <p class="font-display text-4xl font-bold text-teal mb-1">4.9★</p>
+                    <p class="text-sm text-gray-500 font-medium">Average Patient Rating</p>
+                </div>
+                <div
+                    class="py-8 px-6 text-center border-t lg:border-t-0 hover:bg-teal-pale transition reveal reveal-delay-3">
+                    <p class="font-display text-4xl font-bold text-teal mb-1">100%</p>
+                    <p class="text-sm text-gray-500 font-medium">Drug-Free Treatment</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== WHAT IS TMS ========== -->
+        <section id="about" class="py-20 lg:py-28 bg-cream">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-start">
+                    <div class="reveal">
+                        <div class="relative">
+                            <div class="rounded-3xl overflow-hidden shadow-xl img-zoom">
+                                <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-tms-treatment.png"
+                                    alt="Diverse veteran receiving TMS therapy treatment"
+                                    class="w-full h-[400px] lg:h-[460px] object-cover" loading="lazy">
+                            </div>
+                            <div
+                                class="absolute -bottom-4 -right-4 w-48 h-48 border-[3px] border-teal/20 rounded-3xl -z-10 hidden lg:block">
+                            </div>
+                            <div
+                                class="absolute top-6 -left-4 glass-dark rounded-2xl px-4 py-3 hidden lg:flex items-center gap-3 animate-float-slow">
+                                <span class="text-2xl">⚡</span>
+                                <div>
+                                    <p class="text-white text-xs font-bold">Magnetic Pulses</p>
+                                    <p class="text-teal-light text-[10px]">Targeted Stimulation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
+                            <div class="grid grid-cols-3 text-xs font-bold uppercase tracking-wider">
+                                <div class="px-4 py-3 bg-gray-50 text-gray-400"></div>
+                                <div class="px-4 py-3 bg-teal text-white text-center">TMS Therapy</div>
+                                <div class="px-4 py-3 bg-gray-100 text-gray-500 text-center">Antidepressants</div>
+                            </div>
+                            <div class="divide-y divide-gray-100 text-sm">
+                                <div class="grid grid-cols-3">
+                                    <div class="px-4 py-3 text-gray-500 font-medium">Side Effects</div>
+                                    <div class="px-4 py-3 text-center text-teal font-semibold">Minimal</div>
+                                    <div class="px-4 py-3 text-center text-gray-400">Common</div>
+                                </div>
+                                <div class="grid grid-cols-3">
+                                    <div class="px-4 py-3 text-gray-500 font-medium">Drug-Free</div>
+                                    <div class="px-4 py-3 text-center text-teal font-semibold">✓ Yes</div>
+                                    <div class="px-4 py-3 text-center text-gray-400">✗ No</div>
+                                </div>
+                                <div class="grid grid-cols-3">
+                                    <div class="px-4 py-3 text-gray-500 font-medium">TRICARE Covered</div>
+                                    <div class="px-4 py-3 text-center text-teal font-semibold">✓ Yes</div>
+                                    <div class="px-4 py-3 text-center text-gray-400">✓ Yes</div>
+                                </div>
+                                <div class="grid grid-cols-3">
+                                    <div class="px-4 py-3 text-gray-500 font-medium">Works for TRD</div>
+                                    <div class="px-4 py-3 text-center text-teal font-semibold">83% Response</div>
+                                    <div class="px-4 py-3 text-center text-gray-400">Limited</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                                class="text-teal text-xs font-bold tracking-[3px] uppercase">What is TMS?</span></div>
+                        <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-5 leading-tight">A
+                            Breakthrough in <span class="text-gradient-teal">Depression, PTSD, Anxiety &amp; OCD</span>
+                            Treatment</h2>
+                        <p class="text-gray-500 leading-relaxed mb-4"><strong class="text-navy">Transcranial Magnetic
+                                Stimulation
+                                (TMS)</strong> is an FDA-cleared, non-invasive, drug-free treatment that uses focused
+                            magnetic pulses to
+                            stimulate underactive nerve cells in the prefrontal cortex — the brain region governing
+                            mood. It's proven
+                            effective for Major Depressive Disorder (MDD), Treatment-Resistant Depression (TRD), OCD,
+                            and PTSD.</p>
+                        <p class="text-gray-500 leading-relaxed mb-4">When antidepressants like SSRIs, SNRIs, or
+                            tricyclics fail to
+                            provide adequate relief after two or more trials, your condition may qualify as <strong
+                                class="text-navy">Treatment-Resistant Depression (TRD)</strong> — the primary indication
+                            TRICARE covers
+                            for TMS therapy.</p>
+                        <p class="text-gray-500 leading-relaxed mb-8">At GlobeCoRe Atlanta, our licensed psychiatric
+                            team delivers
+                            NeuroStar TMS and dTMS protocols in a calm, private setting — and handles every step of your
+                            TRICARE
+                            authorization so you can focus entirely on healing.</p>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <div class="flex items-start gap-3 bg-white rounded-xl p-4 card-lift">
+                                <div
+                                    class="w-10 h-10 min-w-[40px] rounded-lg bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-lg text-white">
+                                    ⚡</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-0.5">Non-Invasive</h4>
+                                    <p class="text-xs text-gray-400">No surgery or anesthesia</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 bg-white rounded-xl p-4 card-lift">
+                                <div
+                                    class="w-10 h-10 min-w-[40px] rounded-lg bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-lg text-white">
+                                    💊</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-0.5">Drug-Free</h4>
+                                    <p class="text-xs text-gray-400">Zero medication side effects</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 bg-white rounded-xl p-4 card-lift">
+                                <div
+                                    class="w-10 h-10 min-w-[40px] rounded-lg bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-lg text-white">
+                                    ⏱️</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-0.5">Quick Sessions</h4>
+                                    <p class="text-xs text-gray-400">Under 20 minutes each</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 bg-white rounded-xl p-4 card-lift">
+                                <div
+                                    class="w-10 h-10 min-w-[40px] rounded-lg bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-lg text-white">
+                                    🏆</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-0.5">FDA Cleared</h4>
+                                    <p class="text-xs text-gray-400">Clinically proven results</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <a href="#consultation"
+                                class="inline-flex bg-teal hover:bg-teal-dark text-white font-bold px-7 py-3.5 rounded-full shadow-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 btn-shine">Check
+                                Your Eligibility →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PTSD EDUCATION CARDS ========== -->
+        <section class="py-20 lg:py-28 bg-white">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="text-center mb-14 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                            class="text-teal text-xs font-bold tracking-[3px] uppercase">Education</span><span
+                            class="w-8 h-[2px] bg-teal"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">Understanding the <span
+                            class="text-gradient-teal">Invisible Wounds</span></h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">For service members, veterans, and families—PTSD and
+                        depression are
+                        realities that standard treatments often can't fully address.</p>
+                    <div class="mt-6"><a href="#consultation"
+                            class="inline-flex bg-olive hover:bg-olive-dark text-white font-bold px-7 py-3 rounded-full text-sm shadow-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 btn-shine">Get
+                            Drug-Free Relief →</a></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-7">
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift accent-bar reveal reveal-delay-1">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mb-5 text-white">
+                            🧠</div>
+                        <h3 class="font-bold text-navy text-lg mb-3">Treatment-Resistant Depression</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">When antidepressants and talk therapy fail, TRD
+                            leaves
+                            families hopeless. TMS targets the root neural pathways involved, offering real relief where
+                            medications
+                            couldn't.</p>
+                    </div>
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift accent-bar reveal reveal-delay-2">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mb-5 text-white">
+                            🎖️</div>
+                        <h3 class="font-bold text-navy text-lg mb-3">PTSD in Veterans</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">PTSD causes flashbacks, hypervigilance, and
+                            emotional
+                            numbness. TMS shows promising results as an adjunct treatment, helping restore calm and
+                            emotional balance.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift accent-bar reveal reveal-delay-3">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mb-5 text-white">
+                            💛</div>
+                        <h3 class="font-bold text-navy text-lg mb-3">Why TMS Works</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">Targeted magnetic pulses stimulate underactive
+                            brain regions
+                            linked to mood regulation. Over sessions, patients experience significant and lasting
+                            symptom improvements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CONDITIONS TREATED ========== -->
+        <section class="py-20 lg:py-24 bg-cream">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="text-center mb-12 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                            class="text-teal text-xs font-bold tracking-[3px] uppercase">Conditions We Treat</span><span
+                            class="w-8 h-[2px] bg-teal"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">TMS Therapy for <span
+                            class="text-gradient-teal">Multiple Conditions</span></h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">GlobeCoRe's TMS program treats a range of conditions
+                        common in
+                        veterans, active-duty personnel, and military families — many covered under TRICARE.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-gray-100 card-lift reveal reveal-delay-1 text-center">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mx-auto mb-4 text-white">
+                            🧠</div>
+                        <h3 class="font-bold text-navy mb-2">Major Depressive<br>Disorder (MDD)</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Persistent sadness, low energy, loss of
+                            interest — TMS
+                            targets the neural circuits that antidepressants can't reach.</p>
+                        <span
+                            class="inline-block mt-3 text-[10px] font-bold text-teal bg-teal-pale px-2.5 py-1 rounded-full">TRICARE
+                            COVERED</span>
+                    </div>
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-gray-100 card-lift reveal reveal-delay-2 text-center">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mx-auto mb-4 text-white">
+                            🎖️</div>
+                        <h3 class="font-bold text-navy mb-2">PTSD &amp;<br>Trauma</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Flashbacks, hypervigilance, and emotional
+                            dysregulation
+                            respond to TMS's ability to recalibrate overactivated stress circuits.</p>
+                        <span
+                            class="inline-block mt-3 text-[10px] font-bold text-olive bg-olive-pale px-2.5 py-1 rounded-full">PROMISING
+                            EVIDENCE</span>
+                    </div>
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-gray-100 card-lift reveal reveal-delay-3 text-center">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mx-auto mb-4 text-white">
+                            🔄</div>
+                        <h3 class="font-bold text-navy mb-2">OCD (Obsessive<br>Compulsive Disorder)</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">FDA-cleared deep TMS (dTMS) for OCD offers
+                            relief from
+                            intrusive thoughts and compulsive behaviors without medication.</p>
+                        <span
+                            class="inline-block mt-3 text-[10px] font-bold text-teal bg-teal-pale px-2.5 py-1 rounded-full">FDA
+                            CLEARED</span>
+                    </div>
+                    <div
+                        class="bg-white rounded-2xl p-6 border border-gray-100 card-lift reveal reveal-delay-4 text-center">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-2xl mx-auto mb-4 text-white">
+                            💛</div>
+                        <h3 class="font-bold text-navy mb-2">Anxiety &amp;<br>Co-occurring Disorders</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">Generalized anxiety, panic disorder, and
+                            depression-anxiety
+                            comorbidities treated with individualized TMS protocols.</p>
+                        <span
+                            class="inline-block mt-3 text-[10px] font-bold text-olive bg-olive-pale px-2.5 py-1 rounded-full">ADJUNCT
+                            THERAPY</span>
+                    </div>
+                </div>
+                <div class="text-center mt-10 reveal">
+                    <a href="#consultation"
+                        class="inline-flex bg-teal hover:bg-teal-dark text-white font-bold px-8 py-3.5 rounded-full shadow-lg hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300 btn-shine">See
+                        If You Qualify — Free Consultation →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== HOW TMS WORKS ========== -->
+        <section class="py-20 lg:py-28 bg-white relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-teal/5 rounded-full blur-3xl"
+                style="transform:translateX(50%) translateY(-50%)"></div>
+            <div class="absolute bottom-0 left-0 w-80 h-80 bg-olive/5 rounded-full blur-3xl"
+                style="transform:translateX(-50%) translateY(50%)"></div>
+            <div class="max-w-7xl mx-auto px-5 relative z-10">
+                <div class="text-center mb-6 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                            class="text-teal text-xs font-bold tracking-[3px] uppercase">The Science</span><span
+                            class="w-8 h-[2px] bg-teal"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">How TMS Therapy <span
+                            class="text-gradient-teal">Works</span></h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">It's not you — it's the brain. Depression often stems
+                        from
+                        underactive neural circuits. TMS uses precisely targeted magnetic pulses to restore healthy
+                        brain activity —
+                        no drugs, no surgery, no downtime.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+                    <div
+                        class="relative bg-cream rounded-2xl p-7 border border-gray-100 card-lift reveal reveal-delay-1 group">
+                        <div class="flex items-center gap-3 mb-5">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white font-bold text-sm shadow-md">
+                                01</div>
+                            <div class="h-[2px] flex-1 bg-gradient-to-r from-teal/30 to-transparent"></div>
+                        </div>
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-teal-pale flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                            🧲</div>
+                        <h3 class="font-display font-bold text-navy text-lg mb-2">Magnetic Pulse Generation</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">A specialized coil placed near the scalp
+                            generates focused
+                            magnetic pulses — similar in strength to an MRI — targeting the left dorsolateral prefrontal
+                            cortex.</p>
+                    </div>
+                    <div
+                        class="relative bg-cream rounded-2xl p-7 border border-gray-100 card-lift reveal reveal-delay-2 group">
+                        <div class="flex items-center gap-3 mb-5">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white font-bold text-sm shadow-md">
+                                02</div>
+                            <div class="h-[2px] flex-1 bg-gradient-to-r from-teal/30 to-transparent"></div>
+                        </div>
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-teal-pale flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                            ⚡</div>
+                        <h3 class="font-display font-bold text-navy text-lg mb-2">Neural Stimulation</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">The magnetic pulses painlessly stimulate
+                            underactive neurons
+                            in brain regions responsible for mood regulation, working memory, and emotional processing.
+                        </p>
+                    </div>
+                    <div
+                        class="relative bg-cream rounded-2xl p-7 border border-gray-100 card-lift reveal reveal-delay-3 group">
+                        <div class="flex items-center gap-3 mb-5">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white font-bold text-sm shadow-md">
+                                03</div>
+                            <div class="h-[2px] flex-1 bg-gradient-to-r from-teal/30 to-transparent"></div>
+                        </div>
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-teal-pale flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                            🔗</div>
+                        <h3 class="font-display font-bold text-navy text-lg mb-2">Neuroplasticity Changes</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">Over multiple sessions, the brain develops new,
+                            healthier
+                            neural pathways — rewiring circuits that medication alone couldn't reach. This is lasting,
+                            structural
+                            change.</p>
+                    </div>
+                    <div
+                        class="relative bg-cream rounded-2xl p-7 border border-gray-100 card-lift reveal reveal-delay-4 group">
+                        <div class="flex items-center gap-3 mb-5">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-gradient-to-br from-olive to-olive-light flex items-center justify-center text-white font-bold text-sm shadow-md">
+                                04</div>
+                            <div class="h-[2px] flex-1 bg-gradient-to-r from-olive/30 to-transparent"></div>
+                        </div>
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-olive-pale flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                            🌟</div>
+                        <h3 class="font-display font-bold text-navy text-lg mb-2">Lasting Improvement</h3>
+                        <p class="text-sm text-gray-500 leading-relaxed">Most patients experience sustained relief even
+                            after
+                            treatment ends. Results continue to build as the brain maintains its new, healthier patterns
+                            of activity.
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-14 bg-navy rounded-2xl p-8 lg:p-10 reveal">
+                    <div class="grid sm:grid-cols-3 gap-8 text-center">
+                        <div>
+                            <div class="font-display text-3xl lg:text-4xl font-bold text-teal mb-1">50%+</div>
+                            <p class="text-white/60 text-sm">of patients achieve<br><span
+                                    class="text-white font-semibold">complete
+                                    remission</span></p>
+                        </div>
+                        <div class="sm:border-x sm:border-white/10">
+                            <div class="font-display text-3xl lg:text-4xl font-bold text-olive-light mb-1">85%</div>
+                            <p class="text-white/60 text-sm">show clinically<br><span
+                                    class="text-white font-semibold">meaningful
+                                    improvement</span></p>
+                        </div>
+                        <div>
+                            <div class="font-display text-3xl lg:text-4xl font-bold text-mustard mb-1">0</div>
+                            <p class="text-white/60 text-sm">systemic side effects —<br><span
+                                    class="text-white font-semibold">non-invasive & drug-free</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-10 reveal">
+                    <a href="#consultation"
+                        class="inline-flex bg-teal hover:bg-teal-dark text-white font-bold px-8 py-3.5 rounded-full shadow-lg hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300 btn-shine">Learn
+                        If TMS Is Right for You →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== VETERAN PHOTO GALLERY ========== -->
+        <section class="py-20 lg:py-28 bg-navy relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10"
+                style="background:radial-gradient(circle at 50% 50%,rgba(151,181,96,.2),transparent 60%)"></div>
+            <div class="max-w-7xl mx-auto px-5 relative z-10">
+                <div class="text-center mb-14 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-olive"></span><span
+                            class="text-olive text-xs font-bold tracking-[3px] uppercase">Their Stories</span><span
+                            class="w-8 h-[2px] bg-olive"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-4">Honoring Those Who <span
+                            class="text-gradient-green">Served</span></h2>
+                    <p class="text-white/50 max-w-2xl mx-auto">Every veteran carries a story of courage and sacrifice.
+                        We're honored
+                        to support their journey to healing.</p>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+                    <div class="row-span-2 rounded-2xl overflow-hidden relative group reveal reveal-delay-1">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/hero-veterans-diverse.png"
+                            alt="Diverse military veterans standing together"
+                            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-5 left-5 right-5">
+                            <p class="font-display text-lg font-bold text-white mb-1">Courage & Resilience</p>
+                            <p class="text-white/50 text-xs">Strength born from service</p>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-2">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-tms-treatment.png"
+                            alt="Veteran receiving TMS treatment"
+                            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-white text-sm font-semibold">Advanced Treatment</p>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-3">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-therapy-color.png"
+                            alt="Diverse veteran in compassionate therapy session"
+                            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-white text-sm font-semibold">Path to Healing</p>
+                        </div>
+                    </div>
+                    <div class="row-span-2 rounded-2xl overflow-hidden relative group reveal reveal-delay-4">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-walking-hope.png"
+                            alt="Diverse veterans walking towards sunrise"
+                            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/80 via-navy/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-5 left-5 right-5">
+                            <p class="font-display text-lg font-bold text-white mb-1">Journey to Light</p>
+                            <p class="text-white/50 text-xs">Hope beyond the darkness</p>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-2">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-diverse-family.png"
+                            alt="Diverse veteran families welcoming heroes home"
+                            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-white text-sm font-semibold">Family Bond</p>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-3">
+                        <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-support-diverse.png"
+                            alt="Diverse veterans supporting each other in group"
+                            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
+                        </div>
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-white text-sm font-semibold">Healing Together</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== TESTIMONIALS ========== -->
+        <section class="py-20 lg:py-28 bg-white">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="text-center mb-14 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-olive"></span><span
+                            class="text-olive text-xs font-bold tracking-[3px] uppercase">Patient Stories</span><span
+                            class="w-8 h-[2px] bg-olive"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">Real Veterans. <span
+                            class="text-gradient-green">Real Results.</span></h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">Hear from veterans and military families who reclaimed
+                        their lives
+                        with TRICARE-covered TMS therapy at GlobeCoRe Atlanta.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-7">
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift reveal reveal-delay-1 relative">
+                        <div class="flex mb-4"><span class="text-olive text-lg">★★★★★</span></div>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 italic">"After two deployments and years of
+                            antidepressants that barely touched my depression, TMS at GlobeCoRe changed everything. By
+                            week 4, I was
+                            sleeping through the night. TRICARE covered every session."</p>
+                        <div class="flex items-center gap-3 pt-5 border-t border-gray-200">
+                            <div
+                                class="w-10 h-10 rounded-full bg-gradient-to-br from-navy to-navy-light flex items-center justify-center text-white font-bold text-sm">
+                                M.R.</div>
+                            <div>
+                                <p class="font-bold text-navy text-sm">Marcus R.</p>
+                                <p class="text-xs text-gray-400">Army Veteran · Atlanta, GA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift reveal reveal-delay-2 relative">
+                        <div class="flex mb-4"><span class="text-olive text-lg">★★★★★</span></div>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 italic">"I was skeptical — I'd tried
+                            everything. But TMS
+                            therapy for my treatment-resistant depression was a turning point. The GlobeCoRe team
+                            handled all the
+                            TRICARE authorization paperwork. I just had to show up."</p>
+                        <div class="flex items-center gap-3 pt-5 border-t border-gray-200">
+                            <div
+                                class="w-10 h-10 rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white font-bold text-sm">
+                                S.T.</div>
+                            <div>
+                                <p class="font-bold text-navy text-sm">Sandra T.</p>
+                                <p class="text-xs text-gray-400">Navy Veteran Spouse · Sandy Springs, GA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-cream rounded-2xl p-8 border border-gray-100 card-lift reveal reveal-delay-3 relative">
+                        <div class="flex mb-4"><span class="text-olive text-lg">★★★★★</span></div>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6 italic">"PTSD and depression after my
+                            service felt like a
+                            life sentence. GlobeCoRe's TMS program — along with their compassionate team — gave me back
+                            my family.
+                            Sessions are short, painless, and my TRICARE Prime covered all of it."</p>
+                        <div class="flex items-center gap-3 pt-5 border-t border-gray-200">
+                            <div
+                                class="w-10 h-10 rounded-full bg-gradient-to-br from-olive to-olive-light flex items-center justify-center text-white font-bold text-sm">
+                                D.J.</div>
+                            <div>
+                                <p class="font-bold text-navy text-sm">Darnell J.</p>
+                                <p class="text-xs text-gray-400">Marine Corps Veteran · Marietta, GA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10 text-center reveal">
+                    <a href="#consultation"
+                        class="inline-flex bg-olive hover:bg-olive-dark text-white font-bold px-8 py-3.5 rounded-full shadow-lg hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300 btn-shine mb-4">Start
+                        Your Recovery Today →</a>
+                    <p class="text-xs text-gray-400">* Testimonials are based on real patient experiences. Individual
+                        results may
+                        vary.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== WHY GLOBECORE ========== -->
+        <section class="py-20 lg:py-28 bg-navy relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10"
+                style="background:radial-gradient(circle at 80% 20%,rgba(73,160,175,.3),transparent 50%)"></div>
+            <div class="max-w-7xl mx-auto px-5 relative z-10">
+                <div class="text-center mb-14 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                            class="text-teal text-xs font-bold tracking-[3px] uppercase">Why GlobeCoRe</span><span
+                            class="w-8 h-[2px] bg-teal"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-4">Atlanta's Premier <span
+                            class="text-gradient-teal">Veteran-Focused</span> TMS Clinic</h2>
+                    <p class="text-white/50 max-w-2xl mx-auto">Not all TMS providers are equal. GlobeCoRe was built
+                        specifically to
+                        serve Atlanta's military community with the clinical expertise and cultural sensitivity you
+                        deserve.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-1">
+                        <div class="w-12 h-12 rounded-xl bg-teal/20 flex items-center justify-center text-2xl mb-4">🏆
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">TRICARE Authorization Experts</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">We've processed hundreds of TRICARE TMS
+                            authorizations. Our
+                            staff knows every regional contractor's requirements — ensuring fast approvals and a smooth
+                            process.</p>
+                    </div>
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-2">
+                        <div class="w-12 h-12 rounded-xl bg-teal/20 flex items-center justify-center text-2xl mb-4">🧬
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">Licensed Psychiatric Team</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">Board-certified psychiatrists and licensed
+                            clinicians with
+                            specialized training in military mental health, trauma-informed care, and TMS technology.
+                        </p>
+                    </div>
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-3">
+                        <div class="w-12 h-12 rounded-xl bg-teal/20 flex items-center justify-center text-2xl mb-4">🌐
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">Multicultural, Inclusive Care</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">Atlanta's military community is diverse.
+                            GlobeCoRe's
+                            culturally competent team provides inclusive care regardless of background, identity, or
+                            branch of service.
+                        </p>
+                    </div>
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-1">
+                        <div class="w-12 h-12 rounded-xl bg-olive/20 flex items-center justify-center text-2xl mb-4">⚡
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">Latest TMS Technology</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">We use FDA-cleared NeuroStar TMS and deep TMS
+                            (dTMS) systems
+                            — the same technology used in leading clinical trials and VA-affiliated research centers.
+                        </p>
+                    </div>
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-2">
+                        <div class="w-12 h-12 rounded-xl bg-olive/20 flex items-center justify-center text-2xl mb-4">📍
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">Convenient Buckhead Location</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">Located at 3355 Lenox Road NE in Atlanta's
+                            Buckhead district
+                            — easily accessible from Marietta, Sandy Springs, Alpharetta, Decatur, and all metro Atlanta
+                            communities.
+                        </p>
+                    </div>
+                    <div class="glass rounded-2xl p-7 border border-white/10 card-lift reveal reveal-delay-3">
+                        <div class="w-12 h-12 rounded-xl bg-olive/20 flex items-center justify-center text-2xl mb-4">🤲
+                        </div>
+                        <h3 class="font-bold text-white text-base mb-2">Whole-Person Approach</h3>
+                        <p class="text-white/50 text-sm leading-relaxed">TMS is paired with ongoing psychiatric support
+                            and counseling
+                            — addressing not just symptoms but the root causes of treatment-resistant depression, PTSD,
+                            anxiety, and
+                            OCD.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-12 reveal">
+                    <a href="#consultation"
+                        class="inline-flex bg-olive hover:bg-olive-dark text-white font-bold px-8 py-3.5 rounded-full shadow-lg shadow-olive/20 hover:-translate-y-0.5 hover:shadow-xl transition-all duration-300 btn-shine">Book
+                        Your Free Consultation →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== MILITARY FAMILIES ========== -->
+        <section id="military" class="py-20 lg:py-28 relative overflow-hidden bg-teal">
+            <div class="absolute inset-0 opacity-30"
+                style="background:radial-gradient(circle at 20% 50%,rgba(255,255,255,.06),transparent 50%),radial-gradient(circle at 80% 30%,rgba(255,255,255,.04),transparent 50%)">
+            </div>
+            <div class="max-w-7xl mx-auto px-5 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+                    <div class="reveal">
+                        <div class="inline-flex items-center gap-2 mb-4"><span
+                                class="w-8 h-[2px] bg-white/60"></span><span
+                                class="text-white/80 text-xs font-bold tracking-[3px] uppercase">Military
+                                Families</span></div>
+                        <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-5 leading-tight">We Honor
+                            Your <span class="text-olive-light">Service</span> &amp; Support Your <span
+                                class="text-olive-light">Healing</span>
+                        </h2>
+                        <p class="text-white/70 leading-relaxed mb-8">We understand the unique stressors—deployments,
+                            relocations,
+                            isolation, and the complex transition back to civilian life.</p>
+                        <div class="space-y-4 mb-8">
+                            <div
+                                class="flex items-start gap-4 glass rounded-xl px-5 py-4 hover:border-white/20 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-11 h-11 min-w-[44px] rounded-xl bg-white/[.12] flex items-center justify-center text-xl">
+                                    🏠
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-sm mb-0.5">Transition Support</h4>
+                                    <p class="text-white/60 text-sm">Compassionate care designed for returning to
+                                        civilian life.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 glass rounded-xl px-5 py-4 hover:border-white/20 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-11 h-11 min-w-[44px] rounded-xl bg-white/[.12] flex items-center justify-center text-xl">
+                                    📋
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-sm mb-0.5">No Administrative Barriers</h4>
+                                    <p class="text-white/60 text-sm">We handle all TRICARE paperwork so you can focus on
+                                        healing.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 glass rounded-xl px-5 py-4 hover:border-white/20 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-11 h-11 min-w-[44px] rounded-xl bg-white/[.12] flex items-center justify-center text-xl">
+                                    🤝
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-sm mb-0.5">Culturally Sensitive Care</h4>
+                                    <p class="text-white/60 text-sm">Military-aware, inclusive mental health support.
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 glass rounded-xl px-5 py-4 hover:border-white/20 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-11 h-11 min-w-[44px] rounded-xl bg-white/[.12] flex items-center justify-center text-xl">
+                                    🔬
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-semibold text-sm mb-0.5">Evidence-Based Treatment</h4>
+                                    <p class="text-white/60 text-sm">Scientifically-backed, compassionate care you
+                                        deserve.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#consultation"
+                            class="inline-flex bg-olive hover:bg-olive-dark text-white font-bold px-8 py-3.5 rounded-full shadow-lg shadow-olive/25 hover:-translate-y-1 transition-all duration-300 btn-shine">Start
+                            Your Healing Journey →</a>
+                    </div>
+                    <div class="reveal relative">
+                        <div class="rounded-3xl overflow-hidden shadow-2xl shadow-black/40 img-zoom">
+                            <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-diverse-family.png"
+                                alt="Diverse military families welcome home heroes"
+                                class="w-full h-[400px] lg:h-[520px] object-cover" loading="lazy">
+                        </div>
+                        <div class="absolute bottom-5 left-5 glass-dark rounded-xl px-4 py-3 flex items-center gap-3">
+                            <span class="text-3xl">🇺🇸</span>
+                            <div>
+                                <p class="text-white text-sm font-bold">Proudly Serving</p>
+                                <p class="text-olive-light text-xs">Veterans &amp; Military Families</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ELIGIBILITY & REFERRAL ========== -->
+        <section id="eligibility" class="py-20 lg:py-28 bg-cream">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="grid lg:grid-cols-2 gap-14 lg:gap-20">
+                    <div class="reveal">
+                        <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                                class="text-teal text-xs font-bold tracking-[3px] uppercase">Eligibility</span></div>
+                        <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">TRICARE <span
+                                class="text-gradient-teal">Eligibility</span> Checklist</h2>
+                        <p class="text-gray-500 mb-8">Meet these criteria to qualify for TRICARE-covered TMS therapy:
+                        </p>
+                        <div class="space-y-4">
+                            <div
+                                class="flex items-start gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-teal/40 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-8 h-8 min-w-[32px] rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white text-sm mt-0.5">
+                                    ✓</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Severe MDD Diagnosis</h4>
+                                    <p class="text-sm text-gray-400">Diagnosis of severe major depressive disorder from
+                                        a qualified
+                                        provider.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-teal/40 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-8 h-8 min-w-[32px] rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white text-sm mt-0.5">
+                                    ✓</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Failed Medication Trials</h4>
+                                    <p class="text-sm text-gray-400">Previous antidepressant trials without adequate
+                                        symptom relief.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-teal/40 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-8 h-8 min-w-[32px] rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white text-sm mt-0.5">
+                                    ✓</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Prior Psychotherapy</h4>
+                                    <p class="text-sm text-gray-400">Evidence-based therapy without adequate
+                                        improvement.</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-start gap-4 bg-white rounded-xl p-5 border border-gray-100 hover:border-teal/40 hover:translate-x-2 transition-all duration-300">
+                                <div
+                                    class="w-8 h-8 min-w-[32px] rounded-full bg-gradient-to-br from-teal to-teal-light flex items-center justify-center text-white text-sm mt-0.5">
+                                    ✓</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">No Contraindications</h4>
+                                    <p class="text-sm text-gray-400">No seizure history or metal implants in the head.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-olive"></span><span
+                                class="text-olive text-xs font-bold tracking-[3px] uppercase">How to Start</span></div>
+                        <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">Referral <span
+                                class="text-gradient-green">Instructions</span></h2>
+                        <p class="text-gray-500 mb-8">Starting TMS through TRICARE is simple. Follow these steps:</p>
+                        <div class="space-y-3">
+                            <div
+                                class="flex gap-5 bg-white rounded-2xl p-5 border border-gray-100 hover:border-olive/40 hover:shadow-md transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 min-w-[48px] rounded-xl bg-gradient-to-br from-olive to-olive-light flex items-center justify-center font-display text-xl font-bold text-white">
+                                    1</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Get a Referral</h4>
+                                    <p class="text-sm text-gray-400">Contact your PCM or TRICARE provider to request a
+                                        referral for TMS at
+                                        GlobeCoRe.</p>
+                                </div>
+                            </div>
+                            <div class="w-0.5 h-5 bg-gradient-to-b from-olive/40 to-transparent ml-10"></div>
+                            <div
+                                class="flex gap-5 bg-white rounded-2xl p-5 border border-gray-100 hover:border-olive/40 hover:shadow-md transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 min-w-[48px] rounded-xl bg-gradient-to-br from-olive to-olive-light flex items-center justify-center font-display text-xl font-bold text-white">
+                                    2</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">TRICARE Authorization</h4>
+                                    <p class="text-sm text-gray-400">Regional contractors review the referral. We assist
+                                        with all paperwork.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="w-0.5 h-5 bg-gradient-to-b from-olive/40 to-transparent ml-10"></div>
+                            <div
+                                class="flex gap-5 bg-white rounded-2xl p-5 border border-gray-100 hover:border-olive/40 hover:shadow-md transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 min-w-[48px] rounded-xl bg-gradient-to-br from-olive to-olive-light flex items-center justify-center font-display text-xl font-bold text-white">
+                                    3</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Initial Consultation</h4>
+                                    <p class="text-sm text-gray-400">We schedule your TMS evaluation at our Atlanta
+                                        office.</p>
+                                </div>
+                            </div>
+                            <div class="w-0.5 h-5 bg-gradient-to-b from-olive/40 to-transparent ml-10"></div>
+                            <div
+                                class="flex gap-5 bg-white rounded-2xl p-5 border border-gray-100 hover:border-olive/40 hover:shadow-md transition-all duration-300">
+                                <div
+                                    class="w-12 h-12 min-w-[48px] rounded-xl bg-gradient-to-br from-olive to-olive-light flex items-center justify-center font-display text-xl font-bold text-white">
+                                    4</div>
+                                <div>
+                                    <h4 class="font-bold text-navy text-sm mb-1">Begin Treatment</h4>
+                                    <p class="text-sm text-gray-400">36 sessions over 6–9 weeks—your path to recovery
+                                        begins.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8">
+                            <a href="#consultation"
+                                class="inline-flex bg-olive hover:bg-olive-dark text-white font-bold px-7 py-3.5 rounded-full shadow-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 btn-shine">Request
+                                a Referral Consultation →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== IMAGE BREAK ========== -->
+        <section class="relative h-[300px] lg:h-[400px] overflow-hidden">
+            <img src="https://brandingpioneers.co.in/globecoreinc-images/veteran-walking-hope.png"
+                alt="Diverse veterans marching towards sunrise" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-navy/60"></div>
+            <div class="absolute inset-0 flex items-center justify-center text-center px-5">
+                <div class="reveal">
+                    <p class="font-display text-3xl lg:text-5xl font-bold text-white mb-4">"A place where healing feels
+                        like home."
+                    </p>
+                    <p class="text-white/60 text-lg">Our Atlanta clinic is designed for your comfort.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FAQ ========== -->
+        <section id="faq" class="py-20 lg:py-28 bg-white">
+            <div class="max-w-3xl mx-auto px-5">
+                <div class="text-center mb-12 reveal">
+                    <div class="inline-flex items-center gap-2 mb-4"><span class="w-8 h-[2px] bg-teal"></span><span
+                            class="text-teal text-xs font-bold tracking-[3px] uppercase">FAQ</span><span
+                            class="w-8 h-[2px] bg-teal"></span></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-navy mb-4">Frequently Asked <span
+                            class="text-gradient-teal">Questions</span></h2>
+                </div>
+                <div class="space-y-0 reveal">
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">What
+                                is TMS therapy
+                                and how does it work?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">TMS uses focused magnetic pulses to
+                                stimulate brain
+                                areas responsible for mood regulation. A coil placed against your scalp delivers
+                                painless pulses. Over 36
+                                sessions, neural pathways reactivate, leading to significant improvement in depression
+                                symptoms.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">Does
+                                TRICARE fully
+                                cover TMS therapy?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">Yes! TRICARE covers TMS for patients
+                                with
+                                Treatment-Resistant Depression who meet eligibility criteria. Our team handles the
+                                entire authorization
+                                process. Most patients have their treatment fully covered.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">Are
+                                there any side
+                                effects?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">TMS is very safe. The most common side
+                                effect is mild
+                                scalp tingling during sessions, which typically subsides after the first week. Unlike
+                                medications, TMS
+                                causes no weight gain, sexual dysfunction, nausea, or fatigue. You can drive home and
+                                resume normal
+                                activities immediately.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">How
+                                long does each
+                                session take?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">Each session is 18–20 minutes. The
+                                full course is 36
+                                sessions over 6–9 weeks (5 per week). Many patients relax or listen to music during
+                                treatment. No recovery
+                                time needed.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">Where
+                                is GlobeCoRe
+                                located?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">3355 Lenox Road NE, Suite 1000,
+                                Atlanta, GA 30326
+                                (Buckhead). We serve the greater Atlanta metro area including Marietta, Alpharetta,
+                                Sandy Springs,
+                                Brookhaven, Decatur, Smyrna, Dunwoody, Roswell, Johns Creek, and all surrounding
+                                communities.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">Can
+                                TMS therapy help
+                                with PTSD, not just depression?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">Yes. Growing clinical evidence
+                                supports TMS as an
+                                adjunct treatment for PTSD, particularly in veterans. While TMS is FDA-cleared primarily
+                                for Major
+                                Depressive Disorder and OCD, many patients with PTSD and co-occurring depression see
+                                significant
+                                improvement. Our psychiatric team will assess whether TMS is appropriate for your
+                                specific situation.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">What
+                                TRICARE plans
+                                cover TMS therapy?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">TRICARE Prime, TRICARE Select, TRICARE
+                                Reserve Select,
+                                and TRICARE Young Adult all cover TMS therapy for eligible patients with
+                                treatment-resistant depression.
+                                The key requirements are a severe MDD diagnosis, two or more failed antidepressant
+                                trials, and a prior
+                                psychotherapy trial. Our team handles all authorization paperwork regardless of which
+                                TRICARE plan you
+                                have.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">How
+                                does TMS compare
+                                to antidepressant medication?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">TMS is specifically for patients where
+                                antidepressants
+                                haven't worked. Unlike medications, TMS causes no systemic side effects — no weight
+                                gain, no sexual
+                                dysfunction, no nausea, no cognitive fog. It directly targets the brain's
+                                mood-regulation circuit rather
+                                than altering whole-body chemistry. Most TMS patients continue seeing their prescribing
+                                physician during
+                                and after treatment.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item border-b border-gray-100">
+                        <button class="w-full flex justify-between items-center py-6 text-left group"
+                            style="background:transparent!important;">
+                            <h3 class="font-semibold text-navy pr-6 group-hover:text-teal transition text-[15px]">Do I
+                                need a referral
+                                to start TMS at GlobeCoRe?</h3>
+                            <span
+                                class="faq-chevron w-8 h-8 min-w-[32px] rounded-full bg-cream flex items-center justify-center text-teal transition-transform duration-300 text-sm">▼</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p class="pb-6 text-gray-500 text-sm leading-relaxed">TRICARE Prime requires a referral from
+                                your Primary
+                                Care Manager (PCM). TRICARE Select patients can self-refer to an in-network specialist.
+                                Start by calling
+                                us at (770) 284-1044 — we'll quickly determine your TRICARE plan type and guide you
+                                through the exact
+                                steps needed to get your authorization processed as fast as possible.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-12 reveal">
+                    <p class="text-gray-500 text-sm mb-4">Still have questions? We're happy to answer them on a free
+                        call.</p>
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                        <a href="#consultation"
+                            class="inline-flex bg-teal hover:bg-teal-dark text-white font-bold px-8 py-3.5 rounded-full shadow-md hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 btn-shine">Book
+                            Free Consultation →</a>
+                        <a href="tel:7702841044"
+                            class="inline-flex border-2 border-teal text-teal font-bold px-8 py-3.5 rounded-full hover:bg-teal hover:text-white transition-all duration-300"
+                            style="border:2px solid #49a0af!important;">📞 (770) 284-1044</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CTA BANNER ========== -->
+        <section class="py-16 lg:py-20 bg-cream">
+            <div class="max-w-4xl mx-auto px-5">
+                <div
+                    class="relative bg-teal rounded-3xl p-10 lg:p-14 text-center overflow-hidden reveal animate-pulse-glow">
+                    <div class="absolute top-0 right-0 w-1/2 h-full bg-white/5 rounded-full blur-3xl"
+                        style="transform:translateX(25%) translateY(-50%)"></div>
+                    <h2 class="font-display text-3xl lg:text-4xl font-bold text-white mb-4 relative z-10">You Served Our
+                        Country.
+                        Let Us Serve You.</h2>
+                    <p class="text-white/80 mb-3 max-w-xl mx-auto relative z-10">Don't let treatment-resistant
+                        depression or PTSD
+                        control your life. TRICARE-covered TMS therapy at GlobeCoRe Atlanta provides lasting, drug-free
+                        relief for
+                        eligible veterans and military families.</p>
+                    <p class="text-white/60 mb-8 text-sm max-w-lg mx-auto relative z-10">Serving veterans, active duty,
+                        reservists
+                        &amp; military families in Atlanta, Marietta, Sandy Springs, Alpharetta &amp; beyond.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
+                        <a href="#consultation"
+                            class="bg-olive hover:bg-olive-dark text-white font-bold px-8 py-4 rounded-full hover:-translate-y-1 hover:shadow-xl transition-all duration-300 btn-shine"
+                            style="background-color:#97b560!important;">Book Free Consultation →</a>
+                        <a href="tel:7702841044"
+                            class="border-2 border-white text-white font-bold px-8 py-4 rounded-full hover:bg-white hover:text-teal transition-all duration-300"
+                            style="border:2px solid #fff!important;">📞 (770) 284-1044</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== FOOTER ========== -->
+        <footer class="gc-lp-footer bg-navy pt-14 pb-6">
+            <div class="max-w-7xl mx-auto px-5">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+                    <div>
+                        <a href="#"><img
+                                src="https://globecore-new.netlify.app/assets/globecore_logo-removebg-preview.png"
+                                alt="GlobeCoRe Logo" class="h-10 w-auto mb-3"></a>
+                        <p class="text-white/50 text-sm leading-relaxed mb-5">Atlanta's veteran-focused TMS therapy
+                            clinic.
+                            TRICARE-covered treatment for treatment-resistant depression, PTSD, anxiety &amp; OCD.
+                            Serving veterans,
+                            active duty &amp; military families across metro Atlanta, GA.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Quick Links</h4>
+                        <ul class="space-y-2.5">
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">About
+                                    Us</a></li>
+                            <li><a href="#" class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">TMS
+                                    Therapy</a></li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Counseling</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Blog</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Rates &amp;
+                                    Insurance</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Specialties</h4>
+                        <ul class="space-y-2.5">
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Depression
+                                    &amp; Anxiety</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">PTSD &amp;
+                                    Trauma</a></li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">OCD</a>
+                            </li>
+                            <li><a href="#"
+                                    class="text-white/50 text-sm hover:text-olive hover:pl-2 transition-all">Addiction</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-white text-xs font-bold tracking-[2px] uppercase mb-5">Contact</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3"><span class="text-teal">📍</span>
+                                <p class="text-white/50 text-sm">3355 Lenox Road NE, Suite 1000<br>Atlanta, GA 30326</p>
+                            </div>
+                            <div class="flex items-start gap-3"><span class="text-teal">📞</span><a
+                                    href="tel:7702841044"
+                                    class="text-white/50 text-sm hover:text-olive transition">(770) 284-1044</a></div>
+                            <div class="flex items-start gap-3"><span class="text-teal">✉️</span><a
+                                    href="mailto:help@globecoreinc.com"
+                                    class="text-white/50 text-sm hover:text-olive transition">help@globecoreinc.com</a>
+                            </div>
+                            <div class="flex items-start gap-3"><span class="text-teal">🕐</span>
+                                <p class="text-white/50 text-sm">Mon–Fri: 9am – 7pm<br>Sat: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Areas We Serve Collapsible Box -->
+                <style>
+                    .gc-lp .areas-serve-details {
+                        background-color: rgba(255, 255, 255, 0.04);
+                        border: 1px solid rgba(255, 255, 255, 0.08);
+                        border-radius: 14px;
+                        padding: 22px 26px;
+                        transition: border-color .3s ease, background-color .3s ease;
+                        overflow: hidden;
+                    }
+                    .gc-lp .areas-serve-details:hover {
+                        border-color: rgba(151, 181, 96, 0.55);
+                    }
+                    .gc-lp .areas-serve-summary {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        cursor: pointer;
+                        list-style: none;
+                        color: #fff;
+                        font-size: 1.15rem;
+                        font-weight: 700;
+                        outline: none;
+                    }
+                    .gc-lp .areas-serve-summary::-webkit-details-marker { display: none; }
+                    .gc-lp .areas-serve-summary::marker { content: ''; }
+                    .gc-lp .areas-serve-chevron {
+                        transition: transform .3s ease;
+                        color: #97b560;
+                        flex-shrink: 0;
+                    }
+                    .gc-lp .areas-serve-details[open] .areas-serve-chevron {
+                        transform: rotate(180deg);
+                    }
+                    .gc-lp .areas-serve-content {
+                        margin-top: 18px;
+                        padding-top: 18px;
+                        border-top: 1px solid rgba(255, 255, 255, 0.06);
+                        animation: areasFadeIn .35s ease;
+                    }
+                    .gc-lp .areas-serve-grid {
+                        display: grid;
+                        grid-template-columns: repeat(2, minmax(0, 1fr));
+                        gap: 12px 20px;
+                        font-size: .875rem;
+                    }
+                    @media (min-width: 640px) {
+                        .gc-lp .areas-serve-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+                    }
+                    @media (min-width: 768px) {
+                        .gc-lp .areas-serve-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+                    }
+                    @media (min-width: 1024px) {
+                        .gc-lp .areas-serve-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+                    }
+                    .gc-lp .areas-serve-grid a {
+                        color: rgba(255, 255, 255, 0.55);
+                        text-decoration: none;
+                        transition: color .2s ease, padding-left .2s ease;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    .gc-lp .areas-serve-grid a:hover {
+                        color: #97b560;
+                        padding-left: 4px;
+                    }
+                    @keyframes areasFadeIn {
+                        from { opacity: 0; transform: translateY(-4px); }
+                        to   { opacity: 1; transform: translateY(0); }
+                    }
+                </style>
+                <div style="margin-top: 40px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.08);">
+                    <details class="areas-serve-details">
+                        <summary class="areas-serve-summary">
+                            <span>Areas We Serve</span>
+                            <svg class="areas-serve-chevron" xmlns="http://www.w3.org/2000/svg" fill="none" height="22" width="22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"></path></svg>
+                        </summary>
+                        <div class="areas-serve-content">
+                            <div class="areas-serve-grid">
+                                <a href="birdsboro.html" title="Birdsboro">Birdsboro</a>
+                                <a href="coatesville.html" title="Coatesville">Coatesville</a>
+                                <a href="kutztown.html" title="Kutztown">Kutztown</a>
+                                <a href="lancaster.html" title="Lancaster">Lancaster</a>
+                                <a href="lebanon.html" title="Lebanon">Lebanon</a>
+                                <a href="oley-valley.html" title="Oley Valley">Oley Valley</a>
+                                <a href="pottstown.html" title="Pottstown">Pottstown</a>
+                                <a href="pottsville.html" title="Pottsville">Pottsville</a>
+                                <a href="sinking-spring.html" title="Sinking Spring">Sinking Spring</a>
+                                <a href="west-reading.html" title="West Reading">West Reading</a>
+                                <a href="wyomissing.html" title="Wyomissing">Wyomissing</a>
+                            </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-between items-center pt-6 gap-4">
+                    <p class="text-white/30 text-xs">© 2026 GlobeCoRe Inc. All rights reserved.</p>
+                    <div class="flex gap-6"><a href="#" target="_blank"
+                            class="text-white/30 text-xs hover:text-olive transition">Privacy Policy</a><a href="#"
+                            class="text-white/30 text-xs hover:text-olive transition">Terms</a><a href="#"
+                            class="text-white/30 text-xs hover:text-olive transition">Sitemap</a></div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ========== JAVASCRIPT ========== -->
+        <script>
+            // Navbar scroll
+            var gcNavbar = document.getElementById('gc-navbar');
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 60) { gcNavbar.style.cssText = 'position:fixed;top:0;left:0;width:100%;z-index:9999;background:rgba(58,70,80,.95);backdrop-filter:blur(20px);padding-top:10px;padding-bottom:10px;box-shadow:0 4px 30px rgba(0,0,0,.15);transition:all .5s;'; }
+                else { gcNavbar.style.cssText = 'position:fixed;top:0;left:0;width:100%;z-index:9999;padding-top:16px;padding-bottom:16px;background:transparent;transition:all .5s;'; }
+            });
+
+            // Mobile nav
+            document.getElementById('gcMobileMenuBtn').onclick = function () { document.getElementById('gcMobileNav').style.opacity = '1'; document.getElementById('gcMobileNav').style.pointerEvents = 'all'; document.body.style.overflow = 'hidden'; };
+            document.getElementById('gcMobileNavClose').onclick = gcCloseMobileNav;
+            function gcCloseMobileNav() { document.getElementById('gcMobileNav').style.opacity = '0'; document.getElementById('gcMobileNav').style.pointerEvents = 'none'; document.body.style.overflow = ''; }
+
+            // FAQ
+            document.querySelectorAll('.gc-lp .faq-item button').forEach(function (btn) {
+                btn.onclick = function () {
+                    var item = btn.parentElement;
+                    var wasActive = item.classList.contains('active');
+                    document.querySelectorAll('.gc-lp .faq-item').forEach(function (i) { i.classList.remove('active'); });
+                    if (!wasActive) item.classList.add('active');
+                };
+            });
+
+            // Reveal on scroll
+            var gcObs = new IntersectionObserver(function (entries) { entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('active'); gcObs.unobserve(e.target); } }); }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.gc-lp .reveal').forEach(function (el) { gcObs.observe(el); });
+
+            // Hero phone format
+            document.getElementById('gcHeroPhone').oninput = function (e) {
+                var v = e.target.value.replace(/\D/g, '');
+                if (v.length <= 3) v = '(' + v;
+                else if (v.length <= 6) v = '(' + v.slice(0, 3) + ') ' + v.slice(3);
+                else v = '(' + v.slice(0, 3) + ') ' + v.slice(3, 6) + '-' + v.slice(6, 10);
+                e.target.value = v;
+            };
+
+            // Hero form submit
+            document.getElementById('gcHeroForm').onsubmit = function (e) {
+                e.preventDefault();
+                var btn = document.getElementById('gcHeroFormBtn');
+                btn.textContent = 'Submitting...'; btn.disabled = true; btn.style.opacity = '.6';
+                setTimeout(function () { document.getElementById('gcHeroForm').style.display = 'none'; document.getElementById('gcHeroFormSuccess').classList.add('show'); }, 1200);
+            };
+
+            // Smooth scroll
+            document.querySelectorAll('.gc-lp a[href^="#"]').forEach(function (a) {
+                a.onclick = function (e) { e.preventDefault(); var t = document.querySelector(this.getAttribute('href')); if (t) window.scrollTo({ top: t.offsetTop - 80, behavior: 'smooth' }); };
+            });
+        </script>
+    </div>
+    <!-- ===== LANDING PAGE END ===== -->
+
+</body>
+
+</html>
