@@ -110,6 +110,7 @@ include_once __DIR__ . '/nav-data.php';
                     </div>
                 </div>
 
+                <a href="/resources" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Resources</a>
                 <a href="/blog/" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Blog</a>
                 <a href="/pricing-insurance.php" class="px-3 py-2 text-textMain hover:text-primary transition-colors">Rates</a>
                 <a href="/contact.php" class="bg-primary text-white border border-primary/20 px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-primary/30 hover:bg-[#7a9e3f] transition-all duration-300 ml-3 font-bold tracking-wide">Book Now</a>
@@ -128,6 +129,7 @@ include_once __DIR__ . '/nav-data.php';
                 <a href="/about/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">About</a>
                 <a href="/services/counseling.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Services</a>
                 <a href="/specialties/adhd.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Specialties</a>
+                <a href="/resources" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Resources</a>
                 <a href="/blog/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Blog</a>
                 <a href="/pricing-insurance.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Rates</a>
                 <a href="/contact.php" class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300">Contact</a>
