@@ -120,7 +120,7 @@ include_once "../partials/head.php";
 </div>
 <div class="elementor-element elementor-element-3c8359a0 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="3c8359a0" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
-									Mental health recovery is a deeply personal journey. It’s a process that involves understanding emotions, building resilience, and finding meaning after <a href="#">experiencing distress</a>. While recovery often looks different for everyone, one element that consistently plays a vital role is <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>. In a world where mental health challenges are becoming increasingly recognized, counseling offers a safe space for healing, growth, and empowerment.
+									Mental health recovery is a deeply personal journey. It’s a process that involves understanding emotions, building resilience, and finding meaning after <a href="#">experiencing distress</a>. While recovery often looks different for everyone, one element that consistently plays a vital role is <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>. In a world where mental health challenges are becoming increasingly recognized, counseling offers a safe space for healing, growth, and empowerment.
 
 But what exactly does counseling do? How does it help in mental health recovery? Let’s dive deeper into the role counseling plays in guiding individuals toward emotional well-being and a brighter future.
 <h2>Creating a Safe Space for Expression</h2>
@@ -136,7 +136,7 @@ While understanding the root cause of mental health challenges is crucial, recov
 
 Counselors work with clients to develop<a href="#"> personalized coping strategies</a> that align with their unique needs and lifestyles. These strategies could include:
 <ul>
-<li>Breathing exercises and mindfulness techniques for managing <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>.</li>
+<li>Breathing exercises and mindfulness techniques for managing <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>.</li>
 <li>Challenging negative thought patterns through cognitive-behavioral techniques.</li>
 <li><a href="#">Setting healthy boundaries in relationships</a> to protect emotional energy.</li>
 </ul>

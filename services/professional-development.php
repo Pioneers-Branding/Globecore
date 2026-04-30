@@ -15,12 +15,12 @@ include_once "../partials/head.php";
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
     <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope itemtype="https://schema.org/BreadcrumbList">
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Home</span></a>
+        <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Home</span></a>
         <meta itemprop="position" content="1">
       </li>
       <li class="text-gray-300">&#8250;</li>
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Services</span></a>
+        <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Services</span></a>
         <meta itemprop="position" content="2">
       </li>
       <li class="text-gray-300">&#8250;</li>
@@ -203,7 +203,7 @@ include_once "../partials/head.php";
         <h2 class="text-3xl md:text-4xl font-bold text-white mt-4 mb-8 leading-tight">Why Atlanta Trusts GlobeCoRe for Professional Development</h2>
         <p class="text-gray-300 leading-relaxed mb-6">GlobeCoRe's professional development services sit at the intersection of applied psychology and organizational excellence. We bring the clinical rigor of a mental health practice to the boardroom, training room, and leadership retreat.</p>
         <p class="text-gray-300 leading-relaxed mb-8">Our culturally informed approach ensures that every professional development program we design is inclusive, equitable, and responsive to the diverse workforce of today — from individual executive coaching to large-scale organizational transformation.</p>
-        <a href="../contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300">
+        <a href="/contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300">
           Start Your Journey Today
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
@@ -248,7 +248,7 @@ include_once "../partials/head.php";
     <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Ready to Take the First Step?</h2>
     <p class="text-white/85 text-lg mb-8 max-w-2xl mx-auto">Our compassionate team at GlobeCoRe is ready to support your journey. New patients are typically seen within one to two weeks.</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="../contact.php" class="bg-white text-primary font-bold py-4 px-10 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-lg">Book a Consultation</a>
+      <a href="/contact.php" class="bg-white text-primary font-bold py-4 px-10 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-lg">Book a Consultation</a>
       <a href="tel:7702841044" class="border-2 border-white text-white font-bold py-4 px-10 rounded-full hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-300 text-lg">(770) 284&#8209;1044</a>
     </div>
   </div>
@@ -283,7 +283,7 @@ include_once "../partials/head.php";
         <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors duration-300"><svg class="w-5 h-5 text-primary group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
         <div><p class="font-bold text-[#071e26] group-hover:text-primary transition-colors duration-300">Medication Management</p><p class="text-xs text-gray-500 mt-0.5">View Service &#8594;</p></div>
       </a>
-      <a href="../contact.php" class="group bg-[#071e26] rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-4 hover:-translate-y-1">
+      <a href="/contact.php" class="group bg-[#071e26] rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 flex items-center gap-4 hover:-translate-y-1">
         <div class="w-12 h-12 bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors duration-300"><svg class="w-5 h-5 text-primary group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div>
         <div><p class="font-bold text-white">Book an Appointment</p><p class="text-xs text-gray-400 mt-0.5">Get Started Today &#8594;</p></div>
       </a>

@@ -110,9 +110,9 @@ include_once "../partials/head.php";
 <p>Therapy works best when you know what you want to achieve.</p>
 <p>Examples of goals include:</p>
 <ul class="wp-block-list">
-<li>Reducing <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> or stress</li>
+<li>Reducing <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> or stress</li>
 <li>Managing anger more effectively</li>
-<li>Healing from <a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a> or <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a></li>
+<li>Healing from <a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a> or <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a></li>
 <li>Improving relationships</li>
 <li>Developing healthier coping mechanisms</li>
 </ul>
@@ -191,7 +191,7 @@ include_once "../partials/head.php";
 <li><strong>Introductions and Orientation:</strong> You’ll meet your clinician (such as Dr. Kim Miller or Dr. Maria Johnson) and discuss confidentiality and the therapeutic process.</li>
 <li><strong>Assessment:</strong> Your provider will ask about your concerns, history, and goals.</li>
 <li><strong>Goal Setting:</strong> You’ll work together to outline priorities for therapy.</li>
-<li><strong>Next Steps:</strong> Your therapist may recommend ongoing sessions, specific techniques (like CBT or mindfulness), or additional evaluations — including advanced treatments such as <a href="#"><strong>TMS therapy in Atlanta</strong></a> for clients struggling with treatment-resistant <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>.</li>
+<li><strong>Next Steps:</strong> Your therapist may recommend ongoing sessions, specific techniques (like CBT or mindfulness), or additional evaluations — including advanced treatments such as <a href="#"><strong>TMS therapy in Atlanta</strong></a> for clients struggling with treatment-resistant <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>.</li>
 </ol>
 <p>GlobeCoRe’s clinicians are committed to <strong>diversity, cultural inclusion, and holistic care</strong>, ensuring every client feels respected and supported from day one.</p>
 <h2 class="wp-block-heading">Common Myths About the First Therapy Session</h2>

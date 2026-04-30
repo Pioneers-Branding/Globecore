@@ -16,13 +16,13 @@ include_once "../partials/head.php";
             <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope
                 itemtype="https://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Home</span></a>
                     <meta itemprop="position" content="1">
                 </li>
                 <li class="text-gray-300">&#8250;</li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Services</span></a>
                     <meta itemprop="position" content="2">
                 </li>
@@ -94,7 +94,7 @@ include_once "../partials/head.php";
                             <p>
                                 We offer psychological evaluation and verification of diagnosis to individuals dealing
                                 with cognitive, academic, behavioral, social-emotional, substance abuse, domestic
-                                violence, <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a>, psycho-sexual, bariatric, veteran, or parental fitness deficits.
+                                violence, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a>, psycho-sexual, bariatric, veteran, or parental fitness deficits.
                             </p>
                             <p>
                                 We also offer psychological evaluation to candidates for bariatric surgery to determine
@@ -290,7 +290,7 @@ include_once "../partials/head.php";
                                     Psycho-Emotional Evaluation</h3>
                                 <p class="text-gray-600 leading-relaxed text-md">
                                     Our psycho-emotional evaluations assess clients emotional functioning and
-                                    well-being, including their levels of <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, personality styles,
+                                    well-being, including their levels of <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, personality styles,
                                     and specific psychological disturbances and their severity.
                                 </p>
                                 <p class="text-gray-600 leading-relaxed text-md mt-4">

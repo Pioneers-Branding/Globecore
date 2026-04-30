@@ -15,12 +15,12 @@ include_once "../partials/head.php";
   <div class="max-w-7xl mx-auto px-4 sm:px-6">
     <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope itemtype="https://schema.org/BreadcrumbList">
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Home</span></a>
+        <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Home</span></a>
         <meta itemprop="position" content="1">
       </li>
       <li class="text-gray-300">&#8250;</li>
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <a href="../index.php#specialties" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Specialties</span></a>
+        <a href="/index.php#specialties" class="hover:text-primary transition-colors" itemprop="item"><span itemprop="name">Specialties</span></a>
         <meta itemprop="position" content="2">
       </li>
       <li class="text-gray-300">&#8250;</li>
@@ -92,7 +92,7 @@ include_once "../partials/head.php";
             <ul class="space-y-4">
                 <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold text-sm shrink-0">1</span><span class="text-gray-700"><strong>Specialized Providers:</strong> Clinicians specifically trained in the nuances of Aging Issues.</span></li>
                 <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold text-sm shrink-0">2</span><span class="text-gray-700"><strong>Flexible Access:</strong> Seamless integration of in-office sessions in Atlanta and virtual telehealth.</span></li>
-                <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold text-sm shrink-0">3</span><span class="text-gray-700"><strong>Integrative Methodologies:</strong> Including options like <a href="../services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">medication management</a> or TMS where beneficial.</span></li>
+                <li class="flex gap-3"><span class="w-6 h-6 rounded-full bg-secondary/20 text-secondary flex items-center justify-center font-bold text-sm shrink-0">3</span><span class="text-gray-700"><strong>Integrative Methodologies:</strong> Including options like <a href="/services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">medication management</a> or TMS where beneficial.</span></li>
             </ul>
         </div>
     </div>
@@ -118,9 +118,9 @@ include_once "../partials/head.php";
       <div>
         <span class="text-primary font-bold tracking-widest text-xs uppercase bg-primary/10 px-4 py-1.5 rounded-full mb-4 inline-block">Elder Mental Health & Well-Being</span>
         <h2 class="text-3xl md:text-4xl font-bold text-[#071e26] mt-4 mb-6">Understanding Aging Issues: A Clinical Perspective</h2>
-        <p class="text-gray-600 leading-relaxed mb-5">Aging brings unique emotional, cognitive, and relational challenges. Our clinicians provide compassionate support for <a href="../specialties/grief-loss.php" class="text-primary hover:text-[#7a9e3f] font-semibold underline-offset-2 hover:underline transition-colors">grief</a>, identity shifts, caregiver stress, and late-life transitions.</p>
-        <p class="text-gray-600 leading-relaxed mb-8">Older adults are often undertreated for <a href="../specialties/depression-anxiety.php" class="text-primary hover:text-[#7a9e3f] font-semibold underline-offset-2 hover:underline transition-colors">depression</a> and anxiety. GlobeCoRe provides age-sensitive, culturally affirming mental health care that honors the full wisdom and complexity of later life.</p>
-        <a href="../contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg transition-all duration-300">Book Your Appointment<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        <p class="text-gray-600 leading-relaxed mb-5">Aging brings unique emotional, cognitive, and relational challenges. Our clinicians provide compassionate support for <a href="/specialties/grief-loss.php" class="text-primary hover:text-[#7a9e3f] font-semibold underline-offset-2 hover:underline transition-colors">grief</a>, identity shifts, caregiver stress, and late-life transitions.</p>
+        <p class="text-gray-600 leading-relaxed mb-8">Older adults are often undertreated for <a href="/specialties/depression-anxiety.php" class="text-primary hover:text-[#7a9e3f] font-semibold underline-offset-2 hover:underline transition-colors">depression</a> and anxiety. GlobeCoRe provides age-sensitive, culturally affirming mental health care that honors the full wisdom and complexity of later life.</p>
+        <a href="/contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg transition-all duration-300">Book Your Appointment<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
       </div>
       <div class="grid grid-cols-1 gap-5">
         <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex gap-4 hover:shadow-md transition-shadow">
@@ -174,7 +174,7 @@ include_once "../partials/head.php";
     <h2 class="text-3xl font-extrabold text-white mb-3">Begin Your Aging Issues Journey Today</h2>
     <p class="text-white/85 mb-7 max-w-2xl mx-auto">Our compassionate specialists are ready to help. New patients in Atlanta and across Georgia are typically seen within one to two weeks.</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="../contact.php" class="bg-white text-primary font-bold py-4 px-10 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">Book a Consultation</a>
+      <a href="/contact.php" class="bg-white text-primary font-bold py-4 px-10 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">Book a Consultation</a>
       <a href="tel:7702841044" class="border-2 border-white text-white font-bold py-4 px-10 rounded-full hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-300">(770) 284&#8209;1044</a>
     </div>
   </div>
@@ -189,19 +189,19 @@ include_once "../partials/head.php";
       <div class="w-16 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mt-5 rounded-full"></div>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-      <a href="../services/counseling.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-primary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
+      <a href="/services/counseling.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-primary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
         <div class="w-11 h-11 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors"><svg class="w-5 h-5 text-primary group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
         <div><p class="font-bold text-[#071e26] group-hover:text-primary transition-colors text-sm">Counseling</p><p class="text-xs text-gray-400">View Service &#8594;</p></div>
       </a>
-      <a href="../services/medication-management.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-primary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
+      <a href="/services/medication-management.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-primary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
         <div class="w-11 h-11 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors"><svg class="w-5 h-5 text-primary group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg></div>
         <div><p class="font-bold text-[#071e26] group-hover:text-primary transition-colors text-sm">Medication Management</p><p class="text-xs text-gray-400">View Service &#8594;</p></div>
       </a>
-      <a href="../services/tms-therapy.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-secondary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
+      <a href="/services/tms-therapy.php" class="group bg-white rounded-2xl p-5 shadow-sm hover:shadow-md border border-gray-100 hover:border-secondary/20 transition-all flex items-center gap-4 hover:-translate-y-1">
         <div class="w-11 h-11 bg-secondary/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition-colors"><svg class="w-5 h-5 text-secondary group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
         <div><p class="font-bold text-[#071e26] group-hover:text-secondary transition-colors text-sm">TMS Therapy</p><p class="text-xs text-gray-400">View Service &#8594;</p></div>
       </a>
-      <a href="../contact.php" class="group bg-[#071e26] rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex items-center gap-4 hover:-translate-y-1">
+      <a href="/contact.php" class="group bg-[#071e26] rounded-2xl p-5 shadow-sm hover:shadow-md transition-all flex items-center gap-4 hover:-translate-y-1">
         <div class="w-11 h-11 bg-primary/20 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-primary transition-colors"><svg class="w-5 h-5 text-primary group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div>
         <div><p class="font-bold text-white text-sm">Book an Appointment</p><p class="text-xs text-gray-400">Get Started &#8594;</p></div>
       </a>

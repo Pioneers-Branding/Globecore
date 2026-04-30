@@ -96,7 +96,7 @@ include_once "../partials/head.php";
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
 <p>Transcranial Magnetic Stimulation (TMS) therapy has become an increasingly popular option for individuals seeking non-invasive, drug-free treatment for mental health and neurological conditions. As interest grows, one question consistently comes up:</p>
-<p><strong>Is <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> safe?</strong></p>
+<p><strong>Is <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> safe?</strong></p>
 <p>This is a valid and important concern. Any treatment involving the brain naturally raises questions about risk, side effects, and long-term impact. In this blog, we take a detailed, evidence-based look at the safety of TMS therapy, how it works, what clinical research shows, and what patients should know before starting treatment.</p>
 <h2 class="wp-block-heading"><strong>What Is TMS Therapy?</strong></h2>
 <p>Transcranial Magnetic Stimulation (TMS) is a non-invasive treatment that uses targeted magnetic pulses to stimulate specific areas of the brain involved in mood regulation, attention, and cognitive processing.</p>

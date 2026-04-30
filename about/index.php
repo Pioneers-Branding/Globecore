@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -389,7 +389,7 @@ include_once "../partials/head.php";
                         Saturdays by appointment only.</p>
                 </div>
                 <div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
-                    <a href="../contact.php"
+                    <a href="/contact.php"
                         class="inline-flex items-center justify-center gap-2 bg-primary text-white font-bold py-3.5 px-8 rounded-xl hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-300">
                         Book a Consultation
                     </a>

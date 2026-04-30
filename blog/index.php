@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -61,7 +61,7 @@ include_once "../partials/head.php";
                     class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
                     Latest Insights & Updates
                 </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
+                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
                     mental wellness.</p>
             </div>
 
@@ -259,7 +259,7 @@ include_once "../partials/head.php";
 <!-- Category Badge -->
 <div class="absolute top-6 left-6 z-10">
 <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRAUMA</a> THERAPY
+                                <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRAUMA</a> THERAPY
                             </span>
 </div>
 </div>
@@ -280,7 +280,7 @@ include_once "../partials/head.php";
 </h2>
 <!-- Excerpt -->
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Psychological abuse is a devastating form of trauma that leaves deep, invisible scars on your mental health. With targeted, trauma-informed therapy, you can learn to recognize manipulation tactics, rebuild your shattered <a href="../specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">self-esteem</a>, set rigid boundaries, and rediscover your true identity outside of the abusive dynamic.</p>
+<p>Psychological abuse is a devastating form of trauma that leaves deep, invisible scars on your mental health. With targeted, trauma-informed therapy, you can learn to recognize manipulation tactics, rebuild your shattered <a href="/specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">self-esteem</a>, set rigid boundaries, and rediscover your true identity outside of the abusive dynamic.</p>
 </div>
 <!-- Footer -->
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
@@ -307,7 +307,7 @@ include_once "../partials/head.php";
 <!-- Category Badge -->
 <div class="absolute top-6 left-6 z-10">
 <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                INSURANCE & <a href="../services/tricare-tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRICARE</a>
+                                INSURANCE & <a href="/services/tricare-tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRICARE</a>
                             </span>
 </div>
 </div>
@@ -376,7 +376,7 @@ include_once "../partials/head.php";
 </h2>
 <!-- Excerpt -->
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Hormonal fluctuations can have a profound impact on a woman's mood, emotional resilience, and overall mental well-being across her lifespan. Recognizing the unique signs of these distinct hormonal mood disorders—from PMDD to postpartum <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>—is absolutely essential for women to receive the correct diagnosis and the most effective psychological support.</p>
+<p>Hormonal fluctuations can have a profound impact on a woman's mood, emotional resilience, and overall mental well-being across her lifespan. Recognizing the unique signs of these distinct hormonal mood disorders—from PMDD to postpartum <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>—is absolutely essential for women to receive the correct diagnosis and the most effective psychological support.</p>
 </div>
 <!-- Footer -->
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
@@ -478,7 +478,7 @@ include_once "../partials/head.php";
 </h2>
 <!-- Excerpt -->
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Attention-Deficit/Hyperactivity Disorder (<a href="../specialties/adhd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">ADHD</a>) is a complex neurological condition that
+<p>Attention-Deficit/Hyperactivity Disorder (<a href="/specialties/adhd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">ADHD</a>) is a complex neurological condition that
                                 affects focus, impulse control, emotional regulation, and executive functioning. For
                                 many individuals, ADHD can interfere with work performance, academic success,
                                 relationships, and daily routines. While medication and behavioral therapy remain common
@@ -533,7 +533,7 @@ include_once "../partials/head.php";
 <!-- Excerpt -->
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
 <p>Transcranial Magnetic Stimulation (TMS therapy) has become a highly effective
-                                non-invasive treatment for depression, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and <a href="../specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. While most patients
+                                non-invasive treatment for depression, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. While most patients
                                 notice improvement over the course of therapy, some may experience a temporary dip in
                                 mood, energy, or motivation, often referred to as a TMS dip. If you’re starting TMS
                                 therapy or curious about potential</p>

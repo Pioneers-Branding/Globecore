@@ -92,7 +92,7 @@ include_once "../partials/head.php";
                                 ND</span>
                         <h2 class="text-2xl font-bold text-[#071e26] mb-6">Sharon Belhamel, LMFT, ND</h2>
                         
-                        <a href="../contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
+                        <a href="/contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
                             Book Consultation
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </a>
@@ -138,7 +138,7 @@ include_once "../partials/head.php";
                         <div class="relative z-10">
                             <h3 class="text-3xl font-extrabold text-white mb-8">Personal Highlights</h3>
                             <div class="prose prose-lg prose-invert max-w-none text-gray-300">
-                                <p class="leading-relaxed">I specialize in using holistic health methods, <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>,
+                                <p class="leading-relaxed">I specialize in using holistic health methods, <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>,
                                     and naturopathy to manage mood disorders. I am trained as a Licensed Marriage and
                                     Family Therapist (LMFT), a Doctor of Naturopathy (ND), certified as a Professional
                                     in Human Resources (PHR), and credentialed as a Substance Abuse Professional (SAP).
@@ -169,13 +169,13 @@ include_once "../partials/head.php";
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                             clip-rule="evenodd"></path>
-                                    </svg><span><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a></span></li>
+                                    </svg><span><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a></span></li>
                                 <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary mt-1 flex-shrink-0"
                                         fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                             clip-rule="evenodd"></path>
-                                    </svg><span>Relationship, Identity, and <a href="../specialties/relationship-marriage-issues.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Marriage Issues</a></span></li>
+                                    </svg><span>Relationship, Identity, and <a href="/specialties/relationship-marriage-issues.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Marriage Issues</a></span></li>
                                 <li class="flex items-start gap-3"><svg class="w-5 h-5 text-primary mt-1 flex-shrink-0"
                                         fill="currentColor" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
@@ -199,7 +199,7 @@ include_once "../partials/head.php";
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
                                             clip-rule="evenodd"></path>
-                                    </svg><span><a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> &amp; Loss</span></li>
+                                    </svg><span><a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> &amp; Loss</span></li>
                             </ul>
                         </div>
                         <div

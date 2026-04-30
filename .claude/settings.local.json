@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:globecoreinc.com)",
-      "Bash(python fix_partials.py)"
+      "Bash(python fix_partials.py)",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(sed -i 's|href=\"\"\\\\.\\\\./services/|href=\"\"/services/|g' \"$f\")",
+      "Bash(sed -i 's|href=\"\"\\\\.\\\\./specialties/|href=\"\"/specialties/|g' \"$f\")",
+      "Bash(sed -i 's|href=\"\"\\\\.\\\\./blog/|href=\"\"/blog/|g' \"$f\")",
+      "Bash(sed -i 's|href=\"\"terms-of-service\\\\.php\"\"|href=\"\"/terms-of-service.php\"\"|g' \"$f\")",
+      "Bash(done)"
     ]
   }
 }

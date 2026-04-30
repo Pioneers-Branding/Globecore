@@ -16,13 +16,13 @@ include_once "../partials/head.php";
             <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope
                 itemtype="https://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Home</span></a>
                     <meta itemprop="position" content="1">
                 </li>
                 <li class="text-gray-300">&#8250;</li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Services</span></a>
                     <meta itemprop="position" content="2">
                 </li>
@@ -142,7 +142,7 @@ include_once "../partials/head.php";
                             </p>
                         </div>
                         <div class="mt-10">
-                            <a href="../contact.php"
+                            <a href="/contact.php"
                                 class="inline-flex items-center gap-2 bg-[#071e26] text-white font-bold py-3.5 px-8 rounded-full hover:bg-secondary hover:shadow-lg transition-all duration-300">
                                 Request Info
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -175,7 +175,7 @@ include_once "../partials/head.php";
                                 We offer naturopathic treatment options as an alternative solution to traditional
                                 medicine. Naturopathic medicine is a distinct system of primary holistic health care
                                 that emphasizes prevention, wellness, and self-healing processes through the use of
-                                natural therapies including herbs, exercise, and nutritional <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>.
+                                natural therapies including herbs, exercise, and nutritional <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>.
                             </p>
                             <p>
                                 Traditional naturopathy does not treat diseases, but instead, recognizes that the
@@ -184,7 +184,7 @@ include_once "../partials/head.php";
                             </p>
                         </div>
                         <div class="mt-10">
-                            <a href="../contact.php"
+                            <a href="/contact.php"
                                 class="inline-flex items-center gap-2 bg-primary text-white font-bold py-3.5 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg transition-all duration-300">
                                 Request Info
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

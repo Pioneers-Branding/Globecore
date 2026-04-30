@@ -69,16 +69,16 @@ include_once "../partials/head.php";
                     <ul>
                         <li><strong>Medication:</strong> Stimulants and non-stimulants prescribed by a psychiatrist.</li>
                         <li><strong>Behavioral Therapy:</strong> CBT to build coping skills and time management.</li>
-                        <li><strong>TMS Therapy:</strong> For some, <a href="services/tms-therapy.php">TMS Therapy</a> offers a non-invasive way to stimulate brain regions that regulate focus.</li>
+                        <li><strong>TMS Therapy:</strong> For some, <a href="/services/tms-therapy.php">TMS Therapy</a> offers a non-invasive way to stimulate brain regions that regulate focus.</li>
                     </ul>
 
                     <h2>When to Seek Professional Help</h2>
-                    <p>If ADHD symptoms are interfering with work, school, or relationships, it's time to seek a formal evaluation. A diagnosis from a licensed <a href="../about/meet-our-team.php">psychiatrist</a> is the first step toward accessing legal protections and effective treatment.</p>
+                    <p>If ADHD symptoms are interfering with work, school, or relationships, it's time to seek a formal evaluation. A diagnosis from a licensed <a href="/about/meet-our-team.php">psychiatrist</a> is the first step toward accessing legal protections and effective treatment.</p>
 
                     <h2 class="text-center mt-12 bg-primary/5 p-8 rounded-2xl border-2 border-dashed border-primary/20">
                         Empower Your Journey
                         <span class="block text-lg font-normal text-gray-500 mt-2">Get the clarity and support you need to thrive with ADHD.</span>
-                        <a href="../contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Schedule an Evaluation</a>
+                        <a href="/contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Schedule an Evaluation</a>
                     </h2>
                 </div>
             </article>

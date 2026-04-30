@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -61,7 +61,7 @@ include_once "../partials/head.php";
                     class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
                     Latest Insights & Updates
                 </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
+                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
                     mental wellness.</p>
             </div>
 
@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./how-much-does-tms-therapy-cost.php">How Much Does TMS Therapy Cost? Full 2025 Pricing Guide for Patients</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>If you are considering Transcranial Magnetic Stimulation (TMS) for <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> or <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, one of your first questions is likely: How much does TMS therapy cost? TMS is a revolutionary, non-invasive treatment that has helped thousands of people find relief when traditional medications have failed. However, navigating the costs, insurance coverage, and payment options can feel […]</p>
+<p>If you are considering Transcranial Magnetic Stimulation (TMS) for <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> or <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, one of your first questions is likely: How much does TMS therapy cost? TMS is a revolutionary, non-invasive treatment that has helped thousands of people find relief when traditional medications have failed. However, navigating the costs, insurance coverage, and payment options can feel […]</p>
 </div>
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
 <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
@@ -255,7 +255,7 @@ include_once "../partials/head.php";
 <a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./the-dopamine-trap-how-everyday-habits-mimic-addictive-patterns.php">The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>When we think of <a href="../specialties/addiction.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">addiction</a>, alcohol, nicotine, or drugs usually come to mind. But in today’s world, addiction often shows up in subtler ways. Hours lost on social media. “One more episode” that turns into three. Checking notifications the second they appear. These habits don’t look dangerous, but they share surprising similarities with substance use. At […]</p>
+<p>When we think of <a href="/specialties/addiction.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">addiction</a>, alcohol, nicotine, or drugs usually come to mind. But in today’s world, addiction often shows up in subtler ways. Hours lost on social media. “One more episode” that turns into three. Checking notifications the second they appear. These habits don’t look dangerous, but they share surprising similarities with substance use. At […]</p>
 </div>
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
 <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">

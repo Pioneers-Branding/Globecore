@@ -44,7 +44,7 @@ include_once "../partials/head.php";
                 </div>
                 <!-- Article Content -->
                 <div class="article-content text-[17px] md:text-[18px]">
-                    <p>Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals continue to struggle with persistent symptoms. This has led to increased interest in <a href="services/tms-therapy.php">TMS therapy</a> as a non-invasive, drug-free alternative.</p>
+                    <p>Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals continue to struggle with persistent symptoms. This has led to increased interest in <a href="/services/tms-therapy.php">TMS therapy</a> as a non-invasive, drug-free alternative.</p>
 
                     <p>A key concern for veterans is whether this advanced treatment is covered under TRICARE. This guide provides a comprehensive breakdown of <strong>TRICARE coverage for TMS therapy</strong>, eligibility requirements, and how to access care.</p>
 
@@ -86,7 +86,7 @@ include_once "../partials/head.php";
                     </ol>
 
                     <h2>Why Choose GlobeCoRe for Veteran Care?</h2>
-                    <p>At <a href="../index.php">GlobeCoRe</a>, we specialize in helping veterans navigate the complexities of TRICARE for advanced mental health care. We understand the unique challenges faced by the military community and provide tailored, compassionate support.</p>
+                    <p>At <a href="/index.php">GlobeCoRe</a>, we specialize in helping veterans navigate the complexities of TRICARE for advanced mental health care. We understand the unique challenges faced by the military community and provide tailored, compassionate support.</p>
 
                     <h2>Frequently Asked Questions</h2>
                     <details class="mb-4 bg-gray-50 p-4 rounded-xl border border-gray-100">
@@ -101,7 +101,7 @@ include_once "../partials/head.php";
                     <h2 class="text-center mt-12 bg-primary/5 p-8 rounded-2xl border-2 border-dashed border-primary/20">
                         Honor Your Health
                         <span class="block text-lg font-normal text-gray-500 mt-2">Let our expert team help you access the advanced care you deserve.</span>
-                        <a href="../contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Verify Your Coverage</a>
+                        <a href="/contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Verify Your Coverage</a>
                     </h2>
                 </div>
             </article>

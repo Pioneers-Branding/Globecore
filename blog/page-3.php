@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -61,7 +61,7 @@ include_once "../partials/head.php";
                     class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
                     Latest Insights & Updates
                 </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
+                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
                     mental wellness.</p>
             </div>
 
@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./best-psychiatrist-in-atlanta.php">Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Finding the Best <a href="./best-psychiatrist-in-atlanta.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Psychiatrist</a> in Atlanta means choosing a professional who understands your mental health needs, offers evidence-based treatment, and provides compassionate care. If you are struggling with <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, mood disorders, or emotional stress, the right psychiatrist can make a meaningful difference in your life. This guide explains how to identify the Best Psychiatrist in Atlanta, […]</p>
+<p>Finding the Best <a href="./best-psychiatrist-in-atlanta.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Psychiatrist</a> in Atlanta means choosing a professional who understands your mental health needs, offers evidence-based treatment, and provides compassionate care. If you are struggling with <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, mood disorders, or emotional stress, the right psychiatrist can make a meaningful difference in your life. This guide explains how to identify the Best Psychiatrist in Atlanta, […]</p>
 </div>
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
 <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
@@ -214,7 +214,7 @@ include_once "../partials/head.php";
 <a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./clinical-psychology-vs-counseling-psychology.php">Clinical Psychology vs Counseling Psychology: Key Differences</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> psychology? While both fields share the common goal of improving mental health and emotional well-being, they differ in training focus, client populations, and areas of specialization. Understanding these differences is essential […]</p>
+<p>When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> psychology? While both fields share the common goal of improving mental health and emotional well-being, they differ in training focus, client populations, and areas of specialization. Understanding these differences is essential […]</p>
 </div>
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
 <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">

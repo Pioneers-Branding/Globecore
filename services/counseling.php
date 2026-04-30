@@ -16,13 +16,13 @@ include_once "../partials/head.php";
             <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope
                 itemtype="https://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Home</span></a>
                     <meta itemprop="position" content="1">
                 </li>
                 <li class="text-gray-300">&#8250;</li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Services</span></a>
                     <meta itemprop="position" content="2">
                 </li>
@@ -100,28 +100,28 @@ include_once "../partials/head.php";
                     </h2>
                     <div class="space-y-4 text-gray-600 leading-relaxed text-[15px] font-medium flex-grow">
                         <p>Individual therapy focuses on a variety of issues, including <a
-                                href="../specialties/trauma.php"
+                                href="/specialties/trauma.php"
                                 class="text-secondary hover:text-primary transition-colors underline">trauma and
-                                abuse</a>, <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, codependency, <a href="../specialties/grief-loss.php"
+                                abuse</a>, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, codependency, <a href="/specialties/grief-loss.php"
                                 class="text-secondary hover:text-primary transition-colors underline">grief and
-                                loss</a>, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, women’s issues, <a href="../specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">self-esteem</a> and identity issues, and relationship
+                                loss</a>, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, women’s issues, <a href="/specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">self-esteem</a> and identity issues, and relationship
                             issues.</p>
-                        <p>Some social issues, such as struggles with being <a href="../specialties/lgbtqi.php"
+                        <p>Some social issues, such as struggles with being <a href="/specialties/lgbtqi.php"
                                 class="text-secondary hover:text-primary transition-colors underline">LGBTQIA+</a>,
                             racial and ethnic matters, work-related and academic stressors, and religious and spiritual
                             concerns, can be addressed through individual therapy.</p>
                         <p>Parents and partners struggling with infertility, parenthood, abortion, and miscarriages can
                             receive relief and be helped to cope with these problems.</p>
                         <p>Individual therapist in Atlanta can benefit those living with <a
-                                href="../specialties/chronic-illness.php"
+                                href="/specialties/chronic-illness.php"
                                 class="text-secondary hover:text-primary transition-colors underline">chronic
                                 illness</a>, including cancer survivors, bariatric surgical patients, individuals with
-                            HIV/AIDS, <a href="../specialties/developmental-intellectual-disabilities.php"
+                            HIV/AIDS, <a href="/specialties/developmental-intellectual-disabilities.php"
                                 class="text-secondary hover:text-primary transition-colors underline">developmental and
                                 intellectual disabilities</a>, and seniors/geriatrics adjusting to aging.</p>
                     </div>
                     <div class="mt-8">
-                        <a href="../contact.php"
+                        <a href="/contact.php"
                             class="inline-block bg-[#027289] text-white font-bold py-3 px-8 rounded-full hover:bg-[#071e26] transition-colors focus:ring-2 focus:ring-[#027289] focus:ring-offset-2">Get
                             in Touch</a>
                     </div>
@@ -136,7 +136,7 @@ include_once "../partials/head.php";
                         <p>Couples therapy is available for people in relationships, including those currently dating,
                             engaged, pre-marital, married, remarried, or divorced.</p>
                         <p>The primary goal of Couples Therapist in Atlanta is to help couples <a
-                                href="../specialties/finding-the-love-you-deserve.php"
+                                href="/specialties/finding-the-love-you-deserve.php"
                                 class="text-secondary hover:text-primary transition-colors underline">build a strong
                                 relationship</a> by exploring various areas of core relationships. Such core issues may
                             include conflict management, communication skills, financial responsibility, child and
@@ -144,20 +144,20 @@ include_once "../partials/head.php";
                             family roles.</p>
                         <p>Treatment is available for couples with other relationship challenges, including
                             extra-marital affairs, affairs, marriage disputes, divorce, betrayal, communication
-                            problems, work-life balance, lack of time, <a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a>/loss, intimacy struggles, spiritual and
+                            problems, work-life balance, lack of time, <a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a>/loss, intimacy struggles, spiritual and
                             religious struggles, racial and ethnic matters, <a
-                                href="../specialties/fertility-pregnancy-parenting.php"
+                                href="/specialties/fertility-pregnancy-parenting.php"
                                 class="text-secondary hover:text-primary transition-colors underline">infertility,
                                 delayed parenthood</a>, abortion, and miscarriages.<br>Pre-marital and post-marital
                             counseling is offered.</p>
                         <p>Our counseling meets the requirements outlined by Georgia for Qualifying Pre-marital
                             Education, thus allowing couples to receive their marriage license at no charge.</p>
-                        <p>Checkout our discounted Marital <a href="../pricing-insurance.php"
+                        <p>Checkout our discounted Marital <a href="/pricing-insurance.php"
                                 class="text-secondary hover:text-primary transition-colors underline">Counseling
                                 Packages</a></p>
                     </div>
                     <div class="mt-8">
-                        <a href="../contact.php"
+                        <a href="/contact.php"
                             class="inline-block bg-[#027289] text-white font-bold py-3 px-8 rounded-full hover:bg-[#071e26] transition-colors focus:ring-2 focus:ring-[#027289] focus:ring-offset-2">Get
                             in Touch</a>
                     </div>
@@ -178,14 +178,14 @@ include_once "../partials/head.php";
                             teens, family planning, family transition (birth of child, child leaving home, inability to
                             have a child, separation, divorce), spiritual and religious struggles, parental issues, and
                             race and cultural challenges.</p>
-                        <p>Support is available for families coping with <a href="../specialties/chronic-illness.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">chronic illness</a>, including cancer survivors,
+                        <p>Support is available for families coping with <a href="/specialties/chronic-illness.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">chronic illness</a>, including cancer survivors,
                             bariatric surgical patients, families dealing with HIV/AIDS, families dealing with
-                            developmental and intellectual disabilities, and <a href="../specialties/aging-issues.php"
+                            developmental and intellectual disabilities, and <a href="/specialties/aging-issues.php"
                                 class="text-secondary hover:text-primary transition-colors underline">seniors/geriatrics
                                 adjusting to aging</a>.</p>
                     </div>
                     <div class="mt-8">
-                        <a href="../contact.php"
+                        <a href="/contact.php"
                             class="inline-block bg-[#027289] text-white font-bold py-3 px-8 rounded-full hover:bg-[#071e26] transition-colors focus:ring-2 focus:ring-[#027289] focus:ring-offset-2">Get
                             in Touch</a>
                     </div>
@@ -226,7 +226,7 @@ include_once "../partials/head.php";
                                     discrimination.</p>
                             </div>
                             <div>
-                                <a href="../contact.php"
+                                <a href="/contact.php"
                                     class="inline-block bg-[#027289] text-white font-bold py-3 px-8 rounded-full hover:bg-[#071e26] transition-colors focus:ring-2 focus:ring-[#027289] focus:ring-offset-2">Learn
                                     More</a>
                             </div>
@@ -356,9 +356,9 @@ include_once "../partials/head.php";
                                             the business. I consent to receive Account notifications text messages from
                                             GlobeCoRe, Inc. Reply STOP to opt-out; Reply HELP for support. Message and
                                             data rates apply. Messaging frequency may vary. Visit <a
-                                                href="privacy-policy.php"
+                                                href="/privacy-policy.php"
                                                 class="text-blue-500 hover:underline">privacy-policy.php</a>
-                                            for privacy policy and <a href="privacy-policy.php"
+                                            for privacy policy and <a href="/privacy-policy.php"
                                                 class="text-blue-500 hover:underline">privacy-policy.php</a>
                                             for Terms of Service.
                                         </label>

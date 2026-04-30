@@ -16,13 +16,13 @@ include_once "../partials/head.php";
             <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope
                 itemtype="https://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Home</span></a>
                     <meta itemprop="position" content="1">
                 </li>
                 <li class="text-gray-300">&#8250;</li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Services</span></a>
                     <meta itemprop="position" content="2">
                 </li>
@@ -61,10 +61,10 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
-                <a href="../tms-quiz/"
+                <a href="/tms-quiz/"
                     class="bg-secondary text-white font-bold py-4 px-10 rounded-full hover:bg-deepTeal hover:shadow-lg hover:shadow-secondary/30 transition-all duration-300 text-lg">Take
                     Our Quiz</a>
             </div>
@@ -93,7 +93,7 @@ include_once "../partials/head.php";
                             is TMS Therapy?</h2>
                         <p class="text-[17px] text-gray-600 leading-[1.8] font-medium">
                             Transcranial Magnetic Stimulation (TMS) Therapy in Atlanta is a non-invasive treatment for
-                            mental health conditions like <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and <a href="../specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. It uses magnetic pulses to
+                            mental health conditions like <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. It uses magnetic pulses to
                             stimulate brain areas responsible for mood regulation, aiding individuals who haven't
                             benefited from traditional treatments.
                         </p>
@@ -369,7 +369,7 @@ include_once "../partials/head.php";
                         conducted in a calm, supportive environment. We combine the precision of neuroscience with the
                         warmth of compassionate mental health care, ensuring every patient feels safe and genuinely
                         supported.</p>
-                    <a href="../contact.php"
+                    <a href="/contact.php"
                         class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300">
                         Start Your Journey Today
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

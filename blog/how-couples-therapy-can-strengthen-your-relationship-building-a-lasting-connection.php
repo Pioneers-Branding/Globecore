@@ -143,7 +143,7 @@ Parenting adds new layers of complexity to a relationship, from dividing respons
 <li><strong>Deeper Emotional Connection:</strong> By exploring emotional vulnerabilities and addressing unresolved issues, couples therapy helps partners feel closer and more connected.</li>
 <li><strong>Conflict Management Skills:</strong> <a href="#">Therapists</a> teach practical strategies for managing disagreements, ensuring conflicts are addressed without damaging the relationship.</li>
 <li><strong>Renewed Intimacy:</strong> Therapy often revitalizes both physical and emotional intimacy, encouraging couples to explore their desires and emotional needs.</li>
-<li><strong>Building a Strong Foundation:</strong> For engaged or newlywed couples, pre-marital <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> helps establish a solid foundation by addressing potential challenges early on, such as financial responsibilities, extended family roles, or work-life balance.</li>
+<li><strong>Building a Strong Foundation:</strong> For engaged or newlywed couples, pre-marital <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> helps establish a solid foundation by addressing potential challenges early on, such as financial responsibilities, extended family roles, or work-life balance.</li>
 </ul>
 <h2>Who Can Benefit from Couples Therapy?</h2>
 Couples therapy isn’t just for relationships in crisis—it’s for anyone seeking to improve their connection. Here’s who it can benefit:
@@ -170,7 +170,7 @@ Some couples therapy services offer additional benefits tailored to specific nee
 <ul>
 <li><strong>Pre-Marital Counseling:</strong> Meeting legal requirements in some states, such as Georgia, where completing pre-marital education may allow couples to waive the marriage license fee.</li>
 <li><strong>Post-Marital Counseling:</strong> Helping couples <a href="#">navigate life after marriage</a>, including financial planning or dealing with unexpected challenges.</li>
-<li><strong><a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Trauma</a> and <a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> Counseling:</strong> Supporting couples dealing with miscarriages, abortions, or the loss of a loved one.</li>
+<li><strong><a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Trauma</a> and <a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> Counseling:</strong> Supporting couples dealing with miscarriages, abortions, or the loss of a loved one.</li>
 </ul>
 <h2>When to Seek Couples Therapy</h2>
 You don’t need to wait for a crisis to seek help. Here are some signs that couples therapy might be beneficial:

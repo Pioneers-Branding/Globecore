@@ -102,7 +102,7 @@ include_once "../partials/head.php";
                     </div>
 
                     <div class="mt-12 pt-10 border-t border-gray-100 flex flex-col sm:flex-row gap-4">
-                        <a href="../contact.php"
+                        <a href="/contact.php"
                             class="inline-flex items-center justify-center bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-secondary hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-lg">
                             Schedule an Appointment
                         </a>

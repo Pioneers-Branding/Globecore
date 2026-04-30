@@ -20,7 +20,7 @@ include_once "../partials/head.php";
             <span class="inline-block bg-primary/20 border border-primary/30 text-white text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-8">Midtown's Home for Healing</span>
             <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-8">Therapy in Midtown Atlanta</h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">Elevated psychological care at the intersection of culture and clinical excellence. We support the vibrant Midtown community with diverse therapeutic solutions.</p>
-            <a href="../contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Request a Consultation</a>
+            <a href="/contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Request a Consultation</a>
         </div>
     </section>
 
@@ -31,7 +31,7 @@ include_once "../partials/head.php";
                 <div class="lg:w-1/2 space-y-6">
                     <h2 class="text-3xl lg:text-5xl font-extrabold text-[#071e26]">Comprehensive Care in Midtown</h2>
                     <p class="text-lg text-gray-600 leading-relaxed">Midtown is the heart of Atlanta's arts and innovation. At GlobeCoRe Inc, we mirror that energy with creative, inclusive, and evidence-based mental health care tailored for urban professionals, students, and families.</p>
-                    <p class="text-lg text-gray-600 leading-relaxed">Whether you are seeking <a href="../services/tms-therapy.php" class="text-secondary underline">TMS Therapy</a> for treatment-resistant depression or <a href="../services/counseling.php" class="text-secondary underline">multicultural counseling</a>, our convenient Buckhead office serves as a primary hub for Midtown residents.</p>
+                    <p class="text-lg text-gray-600 leading-relaxed">Whether you are seeking <a href="/services/tms-therapy.php" class="text-secondary underline">TMS Therapy</a> for treatment-resistant depression or <a href="/services/counseling.php" class="text-secondary underline">multicultural counseling</a>, our convenient Buckhead office serves as a primary hub for Midtown residents.</p>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-2 gap-4">
                     <img src="/assets/Globe Core-104.jpg" alt="Midtown Living" class="w-full h-64 object-cover rounded-3xl shadow-lg">

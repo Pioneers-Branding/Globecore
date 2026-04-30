@@ -92,7 +92,7 @@ include_once "../partials/head.php";
                     <div class="prose prose-lg max-w-none text-gray-600 space-y-4">
                         <p class="text-gray-600 leading-relaxed mb-6">I am a recent USF graduate in Health Science and
                             Behavioral studies. As a TMS technician/coordinator I thrive to deliver compassionate,
-                            innovative care to individuals experiencing <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="../specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>, <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and other
+                            innovative care to individuals experiencing <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and other
                             psychological or neurological conditions. My motivation comes from believing in human
                             integrity and acknowledging an individual’s realities and that recovery is not a linear
                             experience.</p>
@@ -103,7 +103,7 @@ include_once "../partials/head.php";
                     </div>
 
                     <div class="mt-12 pt-10 border-t border-gray-100 flex flex-col sm:flex-row gap-4">
-                        <a href="../contact.php"
+                        <a href="/contact.php"
                             class="inline-flex items-center justify-center bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-secondary hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-lg">
                             Schedule an Appointment
                         </a>

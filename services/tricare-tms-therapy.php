@@ -16,13 +16,13 @@ include_once "../partials/head.php";
             <ol class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500" itemscope
                 itemtype="https://schema.org/BreadcrumbList">
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Home</span></a>
                     <meta itemprop="position" content="1">
                 </li>
                 <li class="text-gray-300">&#8250;</li>
                 <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a href="../index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
+                    <a href="/index.php#services" class="hover:text-primary transition-colors" itemprop="item"><span
                             itemprop="name">Services</span></a>
                     <meta itemprop="position" content="2">
                 </li>
@@ -90,7 +90,7 @@ include_once "../partials/head.php";
 
             <div class="mb-12">
 
-                <p class="text-xl text-gray-600">Access advanced TRICARE <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> treatment with our specialized TMS
+                <p class="text-xl text-gray-600">Access advanced TRICARE <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> treatment with our specialized TMS
                     for veterens Atlanta and military families.</p>
             </div>
 
@@ -102,11 +102,11 @@ include_once "../partials/head.php";
                     <h2 class="text-3xl font-extrabold text-[#071e26] mb-6 font-raleway">PTSD & Depression Education</h2>
                     <div class="space-y-4 text-gray-600 leading-relaxed font-medium">
                         <p>For active-duty service members, veterans, and their families, the invisible wounds of
-                            service—such as <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">PTSD</a> and <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">severe depression</a>—are challenging realities. Often, standard treatments
-                            like <a href="../services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">medications</a> or standard talk therapy aren't enough to provide long-lasting relief. When standard therapies fail to relieve debilitating symptoms, it is often classified as
+                            service—such as <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">PTSD</a> and <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">severe depression</a>—are challenging realities. Often, standard treatments
+                            like <a href="/services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">medications</a> or standard talk therapy aren't enough to provide long-lasting relief. When standard therapies fail to relieve debilitating symptoms, it is often classified as
                             Treatment-Resistant Depression (TRD).</p>
-                        <p><a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">Transcranial Magnetic Stimulation (TMS)</a> is an FDA-cleared, non-invasive, drug-free treatment that uses
-                            magnetic fields to stimulate nerve cells in the brain to improve symptoms of conditions like depression and <a href="../specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. We are
+                        <p><a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] font-bold">Transcranial Magnetic Stimulation (TMS)</a> is an FDA-cleared, non-invasive, drug-free treatment that uses
+                            magnetic fields to stimulate nerve cells in the brain to improve symptoms of conditions like depression and <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. We are
                             proud to offer <strong class="text-[#071e26]">TRICARE TMS in Atlanta</strong> to our
                             military community, providing a beacon of hope when other treatments have fallen short.</p>
                     </div>
@@ -129,7 +129,7 @@ include_once "../partials/head.php";
                 <div class="space-y-4 leading-relaxed font-medium text-lg relative z-10">
                     <p>We vividly understand the unique, often overwhelming stressors faced by military families—deployments, continuous relocations, isolation, and the complex
                         transition back to civilian life. Our clinical team at GlobeCoRe is deeply committed to supporting the long-term of those who serve and their loved ones.</p>
-                    <p>Through our comprehensive, TRICARE-covered <a href="../services/counseling.php" class="underline text-white hover:text-gray-200">counseling</a> and TMS services, we purposefully strive to remove administrative barriers to access, ensuring you actually
+                    <p>Through our comprehensive, TRICARE-covered <a href="/services/counseling.php" class="underline text-white hover:text-gray-200">counseling</a> and TMS services, we purposefully strive to remove administrative barriers to access, ensuring you actually
                         receive the high-quality, scientifically-backed, compassionate care you deserve right here in Atlanta, GA.</p>
                 </div>
             </div>
@@ -141,7 +141,7 @@ include_once "../partials/head.php";
                     <h2 class="text-2xl font-extrabold text-[#071e26] mb-6 font-raleway">TRICARE Eligibility Checklist
                     </h2>
                     <div class="space-y-4 text-gray-600 leading-relaxed font-medium flex-grow">
-                        <p>To qualify for TRICARE coverage for <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a>, patients generally need to meet the
+                        <p>To qualify for TRICARE coverage for <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a>, patients generally need to meet the
                             following criteria:</p>
                         <ul class="list-disc pl-5 mt-4 space-y-2">
                             <li>Diagnosis of severe major depressive disorder (MDD).</li>
@@ -178,7 +178,7 @@ include_once "../partials/head.php";
                 <div class="space-y-4 max-w-4xl mx-auto">
                     <details class="bg-white rounded-xl shadow-[0_5px_20px_rgba(0,0,0,0.08)] border border-gray-100 group" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                         <summary class="p-6 cursor-pointer font-bold text-lg text-[#071e26] flex justify-between items-center" itemprop="name">
-                            <span>Does TRICARE cover TMS for <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>?</span>
+                            <span>Does TRICARE cover TMS for <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>?</span>
                             <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
@@ -240,7 +240,7 @@ include_once "../partials/head.php";
 
             <!-- Direct Scheduling link -->
             <div class="mt-12 mb-20 flex justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="inline-block bg-[#027289] text-white font-bold py-4 px-10 rounded-full hover:bg-[#071e26] transition-colors focus:ring-2 focus:ring-[#027289] focus:ring-offset-2 text-lg shadow-lg">Schedule
                     Your Consultation Directly</a>
             </div>
@@ -296,9 +296,9 @@ include_once "../partials/head.php";
                                         the business. I consent to receive Account notifications text messages from
                                         GlobeCoRe, Inc. Reply STOP to opt-out; Reply HELP for support. Message and
                                         data rates apply. Messaging frequency may vary. Visit <a
-                                            href="privacy-policy.php"
+                                            href="/privacy-policy.php"
                                             class="text-blue-500 hover:underline">privacy-policy.php</a>
-                                        for privacy policy and <a href="privacy-policy.php"
+                                        for privacy policy and <a href="/privacy-policy.php"
                                             class="text-blue-500 hover:underline">privacy-policy.php</a>
                                         for Terms of Service.
                                     </label>

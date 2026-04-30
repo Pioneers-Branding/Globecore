@@ -180,7 +180,7 @@ By addressing parenting challenges, therapy ensures couples build a harmonious f
 Marriage is a major life transition, and without proper preparation or support, many couples face unexpected challenges. Engaged couples may struggle with expectations and adjustments, while married couples may encounter post-marital stress, unmet expectations, or loss of excitement.
 <h3>How Couples Therapy Helps:</h3>
 <ul>
-<li>Pre-marital <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> helps couples navigate expectations, responsibilities, and communication skills before marriage.</li>
+<li>Pre-marital <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> helps couples navigate expectations, responsibilities, and communication skills before marriage.</li>
 <li>Post-marital counseling helps couples <a href="#">maintain a healthy and fulfilling marriage</a> by addressing any emerging conflicts or changes in dynamics.</li>
 <li>Therapy ensures both partners feel heard, valued, and prepared for long-term relationship success.</li>
 </ul>

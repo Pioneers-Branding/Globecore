@@ -69,10 +69,10 @@ include_once "../partials/head.php";
                     <p>While immediate relief is vital, true healing comes from addressing the root causes and building resilient mental habits.</p>
                     
                     <h3>Cognitive Behavioral Therapy (CBT)</h3>
-                    <p>CBT is the gold standard for anxiety treatment. It helps you identify irrational thought patterns—like "catastrophizing"—and replace them with more balanced, realistic views. Working with a <a href="services/counseling.php">specialized therapist</a> can help you master these skills.</p>
+                    <p>CBT is the gold standard for anxiety treatment. It helps you identify irrational thought patterns—like "catastrophizing"—and replace them with more balanced, realistic views. Working with a <a href="/services/counseling.php">specialized therapist</a> can help you master these skills.</p>
                     
                     <h3>Innovative Brain Treatments: TMS Therapy</h3>
-                    <p>For some, traditional talk therapy and medication aren't enough. <a href="services/tms-therapy.php">TMS Therapy (Transcranial Magnetic Stimulation)</a> is a non-invasive, FDA-approved treatment that uses magnetic pulses to stimulate brain regions that regulate mood and anxiety. It’s an excellent option for "treatment-resistant" anxiety.</p>
+                    <p>For some, traditional talk therapy and medication aren't enough. <a href="/services/tms-therapy.php">TMS Therapy (Transcranial Magnetic Stimulation)</a> is a non-invasive, FDA-approved treatment that uses magnetic pulses to stimulate brain regions that regulate mood and anxiety. It’s an excellent option for "treatment-resistant" anxiety.</p>
                     
                     <h3>Lifestyle Adjustments</h3>
                     <ul>
@@ -98,7 +98,7 @@ include_once "../partials/head.php";
                     <h2 class="text-center mt-12 bg-primary/5 p-8 rounded-2xl border-2 border-dashed border-primary/20">
                         Ready for Clarity?
                         <span class="block text-lg font-normal text-gray-500 mt-2">Take the first step toward lasting relief with our compassionate team in Atlanta.</span>
-                        <a href="../contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Schedule a Consultation</a>
+                        <a href="/contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Schedule a Consultation</a>
                     </h2>
                 </div>
             </article>

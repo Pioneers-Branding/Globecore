@@ -95,7 +95,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
-<p>Transcranial Magnetic Stimulation (TMS) therapy is often introduced as a hopeful option for people who have struggled with <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> for years without success from medications or talk therapy. For many, it becomes a turning point toward recovery. Yet for some individuals, the experience feels frightening, overwhelming, and emotionally destabilizing, leading them to say things like “TMS ruined my life.”</p>
+<p>Transcranial Magnetic Stimulation (TMS) therapy is often introduced as a hopeful option for people who have struggled with <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> for years without success from medications or talk therapy. For many, it becomes a turning point toward recovery. Yet for some individuals, the experience feels frightening, overwhelming, and emotionally destabilizing, leading them to say things like “TMS ruined my life.”</p>
 <p>These words usually reflect intense distress rather than permanent harm. When someone is already emotionally vulnerable, even temporary changes can feel catastrophic. If symptoms worsen or emotions intensify, fear can quickly replace hope. Without proper understanding, patients may believe something has gone terribly wrong.</p>
 <p>For individuals exploring <strong><a href="#">TMS Therapy in Atlanta</a></strong>, it is important to understand why these reactions occur, what is actually happening in the brain, and how temporary experiences can be mistaken for permanent damage. This blog explains the emotional, neurological, and psychological reasons behind these fears—clearly and honestly.</p>
 <h3 class="wp-block-heading">Understanding TMS</h3>
@@ -127,7 +127,7 @@ include_once "../partials/head.php";
 <li>Mental fatigue or feeling overwhelmed</li>
 <li>Stronger negative thoughts</li>
 </ul>
-<p>This often occurs during the middle phase of treatment, when the brain is actively adjusting. Without proper explanation, this phase can feel frightening and lead to beliefs like <em><a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> ruined my life</em>, even when symptoms later improve.</p>
+<p>This often occurs during the middle phase of treatment, when the brain is actively adjusting. Without proper explanation, this phase can feel frightening and lead to beliefs like <em><a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> ruined my life</em>, even when symptoms later improve.</p>
 <h3 class="wp-block-heading">Controversy With TMS Therapy</h3>
 <p>TMS therapy has become controversial mainly because patients’ experiences vary widely. While many people benefit, others struggle emotionally, and negative experiences tend to be shared more frequently online.</p>
 <p>This creates fear and confusion for people considering treatment. Stories are often shared without a medical context, making temporary distress seem permanent or dangerous.</p>
@@ -135,7 +135,7 @@ include_once "../partials/head.php";
 <ul class="wp-block-list">
 <li>Emotional dips not explained beforehand</li>
 <li>Patients starting treatment in very fragile states</li>
-<li><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a> magnifying symptom changes</li>
+<li><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a> magnifying symptom changes</li>
 <li>Online discussions lacking clinical guidance</li>
 </ul>
 <p>Controversy does not mean TMS is unsafe—it highlights the importance of education and support.</p>

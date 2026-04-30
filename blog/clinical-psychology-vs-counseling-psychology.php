@@ -93,11 +93,11 @@ include_once "../partials/head.php";
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
-<p>When planning a career in psychology, one of the first questions that often arises is: <em>What is the difference between clinical psychology and <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> psychology?</em></p>
+<p>When planning a career in psychology, one of the first questions that often arises is: <em>What is the difference between clinical psychology and <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a> psychology?</em></p>
 <p>While both fields share the common goal of improving mental health and emotional well-being, they differ in <strong>training focus</strong>, <strong>client populations</strong>, and <strong>areas of specialization</strong>. Understanding these differences is essential for students, professionals, and organizations that work in the mental health sector.</p>
 <p>This comprehensive guide examines both disciplines in detail — from educational paths to practical applications — and helps you determine which career path best fits your interests and professional goals.</p>
 <h2 class="wp-block-heading"><strong>What Is Clinical Psychology?</strong></h2>
-<p><strong>Clinical psychology</strong> is the branch of psychology concerned with diagnosing and treating <strong>mental disorders</strong>, <strong>emotional difficulties</strong>, and <strong>behavioral problems</strong>. Clinical psychologists work with clients experiencing a wide range of issues, from mild <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> to severe psychiatric conditions.</p>
+<p><strong>Clinical psychology</strong> is the branch of psychology concerned with diagnosing and treating <strong>mental disorders</strong>, <strong>emotional difficulties</strong>, and <strong>behavioral problems</strong>. Clinical psychologists work with clients experiencing a wide range of issues, from mild <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> to severe psychiatric conditions.</p>
 <h3 class="wp-block-heading"><strong>Key Characteristics</strong></h3>
 <ul class="wp-block-list">
 <li>Focuses on <strong>mental illness and psychopathology</strong><strong><br/></strong></li>
@@ -122,7 +122,7 @@ include_once "../partials/head.php";
 <li>Concentrates on <strong>adjustment, coping, and resilience</strong><strong><br/></strong></li>
 <li>Promotes <strong>self-awareness, personal growth, and wellness</strong><strong><br/></strong></li>
 <li>Uses <strong>client-centered and humanistic approaches</strong><strong><br/></strong></li>
-<li>Addresses concerns such as relationship issues, career changes, stress, or <a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a><br/></li>
+<li>Addresses concerns such as relationship issues, career changes, stress, or <a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">grief</a><br/></li>
 </ul>
 <h3 class="wp-block-heading"><strong>Common Work Settings</strong></h3>
 <p>Counseling psychologists often work in:</p>

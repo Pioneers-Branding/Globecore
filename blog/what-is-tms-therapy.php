@@ -93,7 +93,7 @@ include_once "../partials/head.php";
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
-<p>Transcranial Magnetic Stimulation (TMS) treats mental health conditions using magnetic pulses to stimulate targeted brain regions noninvasively. FDA approval is most commonly for <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and is often considered by individuals who do not respond well to either medication or talk therapy.</p>
+<p>Transcranial Magnetic Stimulation (TMS) treats mental health conditions using magnetic pulses to stimulate targeted brain regions noninvasively. FDA approval is most commonly for <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and is often considered by individuals who do not respond well to either medication or talk therapy.</p>
 <div class="wp-block-wpseopress-table-of-contents"><h2>Table of Contents</h2><nav><ol><li><a href="#the-science-behind-tms">The Science Behind TMS</a></li><li><a href="#conditions-treated-with-tms-therapy">Conditions Treated with TMS Therapy</a></li><li><a href="#the-tms-therapy-procedure">The TMS Therapy Procedure</a></li><li><a href="#tms-therapy-benefits">TMS Therapy Benefits</a></li><li><a href="#risks-and-side-effects-of-tms-treatment">Risks and Side Effects Of TMS Treatment</a></li><li><a href="#comparing-tms-to-other-treatments">Comparing TMS to Other Treatments</a></li><li><a href="#who-is-a-good-candidate-for-tms">Who is a Good Candidate for TMS?</a></li><li><a href="#clinical-evidence-and-efficacy-rates-of-tms">Clinical Evidence and Efficacy Rates of TMS</a></li><li><a href="#cost-and-access-to-tms-therapy">Cost and Access to TMS Therapy</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#faqs">FAQs</a></li></ol></nav></div>
 <h2 class="wp-block-heading" id="the-science-behind-tms">The Science Behind TMS</h2>
 <p><strong>How Magnetic Pulses Stimulate the Brain</strong>:</p>
@@ -103,9 +103,9 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading" id="conditions-treated-with-tms-therapy">Conditions Treated with TMS Therapy</h2>
 <p><strong>Major Depressive Disorder</strong>:</p>
 <p>TMS is FDA-approved for individuals suffering from depression that has not responded to other therapies. Many patients see an improvement in their mood with TMS.</p>
-<p><strong><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a> Disorders</strong>:</p>
+<p><strong><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a> Disorders</strong>:</p>
 <p>Research shows that TMS may alleviate anxiety and panic attack symptoms, but researchers are still exploring TMS’s full potential.</p>
-<p><strong><a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a> and <a href="../specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a></strong>:</p>
+<p><strong><a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a> and <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a></strong>:</p>
 <p>The FDA has cleared TMS for obsessive-compulsive disorder (OCD), and research is promising with patients suffering from post-traumatic stress disorder (PTSD).</p>
 <h2 class="wp-block-heading" id="the-tms-therapy-procedure">The TMS Therapy Procedure</h2>
 <p><strong>Preparing for a Session</strong></p>
@@ -119,7 +119,7 @@ include_once "../partials/head.php";
 <li>Non-invasive and drug-free</li>
 <li>Side effects are mild compared to the side effects of medications</li>
 <li>Many patients go on to have long-term symptom relief</li>
-<li><a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> can be combined with other treatments</li>
+<li><a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> can be combined with other treatments</li>
 </ul>
 <h2 class="wp-block-heading" id="risks-and-side-effects-of-tms-treatment">Risks and Side Effects Of TMS Treatment</h2>
 <p>TMS therapy is typically safe and effective, although some mild side effects can occur:</p>

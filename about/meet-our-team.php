@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<?php
-$pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
-include_once "../partials/head.php";
-?>
+    <?php
+    $pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
+    include_once "../partials/head.php";
+    ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
@@ -71,8 +72,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="dr-kelly-lewis-arthur.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg"
-                            alt="Dr. Kelly Lewis-Arthur"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg" alt="Dr. Kelly Lewis-Arthur"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="dr-kelly-lewis-arthur.php"
@@ -85,7 +85,7 @@ include_once "../partials/head.php";
                 <!-- Dr. Maria Johnson -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="maria-elizabeth-johnson.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="m  aria-elizabeth-johnson.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="assets/wp-content/uploads/2025/06/maria-elizabeth-johnson-md-819x1024.png"
                             alt="Dr. Maria Johnson"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500 bg-gray-50">
@@ -126,7 +126,7 @@ include_once "../partials/head.php";
                         <h3 class="text-xl font-bold mb-2">Dr. Brad Johns</h3>
                     </a>
                     <p class="text-secondary font-medium text-sm">Collaborating <a
-                            href="../blog/best-psychiatrist-in-atlanta.php"
+                            href="/blog/best-psychiatrist-in-atlanta.php"
                             class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Psychiatrist</a>
                     </p>
                 </div>
@@ -150,8 +150,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="victoria-taylor.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2021/03/IMG_2989.jpg"
-                            alt="Victoria TaylorLPC, NCC"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2989.jpg" alt="Victoria TaylorLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="victoria-taylor.php"
@@ -195,8 +194,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="yma-kabia-williams.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2021/03/IMG_2994-819x1024.jpg"
-                            alt="Yma Kabia-WilliamsLCSW"
+                        <img src="assets/wp-content/uploads/2021/03/IMG_2994-819x1024.jpg" alt="Yma Kabia-WilliamsLCSW"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="yma-kabia-williams.php"
@@ -214,8 +212,7 @@ include_once "../partials/head.php";
                             alt="Gail Foorman"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="gail.php"
-                        class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
+                    <a href="gail.php" class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Gail Foorman</h3>
                     </a>
                     <p class="text-secondary font-medium text-sm">Clinician</p>
@@ -241,8 +238,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="rebecca-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2022/11/brick-background-18.png"
-                            alt="Rebecca Andrews"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-18.png" alt="Rebecca Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="rebecca-andrews.php"
@@ -256,8 +252,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="brittany-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2022/11/brick-background-17.png"
-                            alt="Brittany Andrews"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-17.png" alt="Brittany Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="brittany-andrews.php"
@@ -271,8 +266,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="marcos-lopez.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2022/11/brick-background-22.png"
-                            alt="Marcos Lopez"
+                        <img src="assets/wp-content/uploads/2022/11/brick-background-22.png" alt="Marcos Lopez"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="marcos-lopez.php"
@@ -286,8 +280,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="grace-lu.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2024/03/brick-background-68-819x1024.png"
-                            alt="Grace Lu"
+                        <img src="assets/wp-content/uploads/2024/03/brick-background-68-819x1024.png" alt="Grace Lu"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="grace-lu.php"
@@ -301,8 +294,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="stephen-luna.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2023/06/brick-background-31-819x1024.png"
-                            alt="Stephen Luna"
+                        <img src="assets/wp-content/uploads/2023/06/brick-background-31-819x1024.png" alt="Stephen Luna"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="stephen-luna.php"
@@ -318,8 +310,7 @@ include_once "../partials/head.php";
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="eden-levites.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="assets/wp-content/uploads/2025/07/26-819x1024.jpg"
-                            alt="Eden Levites"
+                        <img src="assets/wp-content/uploads/2025/07/26-819x1024.jpg" alt="Eden Levites"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="eden-levites.php"

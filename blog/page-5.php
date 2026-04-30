@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -61,7 +61,7 @@ include_once "../partials/head.php";
                     class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
                     Latest Insights & Updates
                 </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
+                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
                     mental wellness.</p>
             </div>
 
@@ -91,7 +91,7 @@ include_once "../partials/head.php";
 <a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./the-role-of-counseling-in-mental-health-recovery.php">The Role of Counseling in Mental Health Recovery</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Mental health recovery is a deeply personal journey. It’s a process that involves understanding emotions, building resilience, and finding meaning after experiencing distress. While recovery often looks different for everyone, one element that consistently plays a vital role is <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>. In a world where mental health challenges are becoming increasingly recognized, counseling offers a safe [...]</p>
+<p>Mental health recovery is a deeply personal journey. It’s a process that involves understanding emotions, building resilience, and finding meaning after experiencing distress. While recovery often looks different for everyone, one element that consistently plays a vital role is <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>. In a world where mental health challenges are becoming increasingly recognized, counseling offers a safe [...]</p>
 </div>
 <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
 <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">

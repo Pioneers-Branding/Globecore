@@ -439,7 +439,7 @@ include_once "../partials/head.php";
                                         <div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
                                     </div>
                                     <span class="text-gray-700 leading-relaxed font-medium">Addressing pervasive issues
-                                        of <a href="../specialties/eating-disorders.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">eating disorders</a>, ableism, sizeism, and colorism holistically.</span>
+                                        of <a href="/specialties/eating-disorders.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">eating disorders</a>, ableism, sizeism, and colorism holistically.</span>
                                 </li>
                                 <li
                                     class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm hover:border-primary/30 transition-colors">

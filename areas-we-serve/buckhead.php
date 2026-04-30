@@ -14,9 +14,9 @@ include_once "../partials/head.php";
     <nav class="bg-bgOffWhite border-b border-gray-200 py-2">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <ol class="flex items-center gap-1.5 text-xs text-gray-500">
-          <li><a href="../index.php" class="hover:text-primary">Home</a></li>
+          <li><a href="/index.php" class="hover:text-primary">Home</a></li>
           <li>&#8250;</li>
-          <li><a href="../index.php#locations" class="hover:text-primary">Locations</a></li>
+          <li><a href="/index.php#locations" class="hover:text-primary">Locations</a></li>
           <li>&#8250;</li>
           <li class="text-primary font-semibold">Therapist in Buckhead, GA</li>
         </ol>
@@ -36,7 +36,7 @@ include_once "../partials/head.php";
             </div>
             <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-8 drop-shadow-2xl">Therapy in Buckhead, GA</h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed">Expert psychological care in the heart of Atlanta. We provide inclusive, evidence-based therapy and advanced TMS treatments.</p>
-            <div class="mt-10"><a href="../contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Book a Consultation</a></div>
+            <div class="mt-10"><a href="/contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Book a Consultation</a></div>
         </div>
         <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none text-white">
             <svg fill="currentColor" viewBox="0 0 1200 120" preserveAspectRatio="none" class="w-full h-[60px] md:h-[100px]"><path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C52.16,108.83,106.6,117.8,162,118.8,216.7,119.78,271.69,103.55,321.39,56.44Z"></path></svg>
@@ -53,7 +53,7 @@ include_once "../partials/head.php";
                         <p class="text-primary italic font-medium leading-relaxed">"We support diverse individuals, couples, and families in Buckhead to develop sustainable solutions to life's challenges. Our commitment to cultural humility defines our practice."</p>
                     </div>
                     <p class="text-lg text-gray-600 leading-relaxed">Located directly in <strong>Buckhead</strong> at 3355 Lenox Road NE, GlobeCoRe Inc. offers a premium private practice experience for those seeking high-level mental health support.</p>
-                    <p class="text-lg text-gray-600 leading-relaxed">From <a href="../services/counseling.php" class="text-secondary underline font-medium">individual psychotherapy</a> to <a href="../services/tms-therapy.php" class="text-secondary underline font-medium">Deep TMS Therapy</a>, we serve the Buckhead community with clinical excellence and absolute discretion.</p>
+                    <p class="text-lg text-gray-600 leading-relaxed">From <a href="/services/counseling.php" class="text-secondary underline font-medium">individual psychotherapy</a> to <a href="/services/tms-therapy.php" class="text-secondary underline font-medium">Deep TMS Therapy</a>, we serve the Buckhead community with clinical excellence and absolute discretion.</p>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-2 gap-4">
                     <img src="/assets/Globe Core-100.jpg" alt="Buckhead Office" class="w-full h-48 object-cover rounded-3xl mt-8 shadow-lg">
@@ -80,7 +80,7 @@ include_once "../partials/head.php";
           <span class="text-primary font-bold uppercase tracking-widest text-xs bg-primary/10 px-4 py-1 rounded-full">Buckhead Focus</span>
           <h2 class="text-3xl md:text-4xl font-bold text-[#071e26] mt-4 mb-6">Expert Mental Health in Buckhead</h2>
           <p class="text-gray-600 mb-5 leading-relaxed">Buckhead is the financial and fashion heart of Atlanta. We understand the high-stress, high-performance lifestyle of this district and provide tailored mental health strategies to help you thrive.</p>
-          <a href="../contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] shadow-md transition-all">Schedule in Buckhead <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+          <a href="/contact.php" class="inline-flex items-center gap-2 bg-primary text-white font-bold py-4 px-8 rounded-full hover:bg-[#7a9e3f] shadow-md transition-all">Schedule in Buckhead <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
         </div>
         <div class="flex-1 mt-12 lg:mt-0 grid grid-cols-2 gap-5 text-sm">
           <div class="bg-white p-5 rounded-2xl border border-gray-100 shadow-sm"><h4 class="font-bold mb-1">Local Headquarters</h4><p class="text-gray-500">We are embedded in the Buckhead community at 3355 Lenox Road.</p></div>
@@ -96,15 +96,15 @@ include_once "../partials/head.php";
       <div class="max-w-6xl mx-auto px-4">
         <h2 class="text-3xl font-bold text-center text-[#071e26] mb-12">Services for Buckhead Residents</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <a href="../services/counseling.php" class="bg-bgOffWhite p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-primary/20">
+          <a href="/services/counseling.php" class="bg-bgOffWhite p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-primary/20">
             <h3 class="text-xl font-bold mb-3 text-primary">Counseling</h3>
             <p class="text-gray-600 text-sm">Individual and family therapy with a multicultural focus.</p>
           </a>
-          <a href="../services/tms-therapy.php" class="bg-bgOffWhite p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-secondary/20">
+          <a href="/services/tms-therapy.php" class="bg-bgOffWhite p-8 rounded-3xl hover:bg-white hover:shadow-xl transition-all border border-transparent hover:border-secondary/20">
             <h3 class="text-xl font-bold mb-3 text-secondary">TMS Therapy</h3>
             <p class="text-gray-600 text-sm">FDA-cleared treatment for depression, right on Lenox Road.</p>
           </a>
-          <a href="../contact.php" class="bg-[#071e26] p-8 rounded-3xl text-white hover:shadow-xl transition-all">
+          <a href="/contact.php" class="bg-[#071e26] p-8 rounded-3xl text-white hover:shadow-xl transition-all">
             <h3 class="text-xl font-bold mb-3 text-primary">Book Now</h3>
             <p class="text-gray-300 text-sm">Start your path to wellness with a Buckhead clinician today.</p>
           </a>

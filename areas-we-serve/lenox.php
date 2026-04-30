@@ -13,8 +13,8 @@ include_once "../partials/head.php";
     <!-- BREADCRUMB -->
     <nav class="bg-bgOffWhite border-b border-gray-100 py-2">
       <div class="max-w-7xl mx-auto px-4 text-xs text-gray-500">
-        <a href="../index.php" class="hover:text-primary">Home</a> &#8250; 
-        <a href="../index.php#locations" class="hover:text-primary">Locations</a> &#8250; 
+        <a href="/index.php" class="hover:text-primary">Home</a> &#8250; 
+        <a href="/index.php#locations" class="hover:text-primary">Locations</a> &#8250; 
         <span class="text-primary font-semibold">Lenox Road, GA</span>
       </div>
     </nav>
@@ -29,7 +29,7 @@ include_once "../partials/head.php";
             <span class="inline-block bg-primary/20 border border-primary/30 text-white text-xs font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-8">Direct Access on Lenox Road</span>
             <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-8">Mental Health on Lenox Road</h1>
             <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">Premium psychological and TMS services directly at the heart of the Lenox corridor. Quality care, exactly where you need it.</p>
-            <a href="../contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Schedule Your Visit</a>
+            <a href="/contact.php" class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] transition-all text-lg shadow-lg">Schedule Your Visit</a>
         </div>
         <div class="absolute bottom-0 left-0 w-full text-white">
             <svg fill="currentColor" viewBox="0 0 1200 120" preserveAspectRatio="none" class="w-full h-[60px] md:h-[100px]"><path d="M321.39,56.44C379.39,45.65,435.55,26.31,493.39,14.58c82.39-16.72,168.19-17.73,250.45-.39,72.63,16.89,155.52,57.89,234.51,78.72,70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C52.16,108.83,106.6,117.8,162,118.8c54.7,0.98,109.69-15.25,159.39-62.36Z"></path></svg>

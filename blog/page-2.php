@@ -34,7 +34,7 @@ include_once "../partials/head.php";
             </p>
 
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="../contact.php"
+                <a href="/contact.php"
                     class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
                     a Consultation</a>
             </div>
@@ -61,7 +61,7 @@ include_once "../partials/head.php";
                     class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
                     Latest Insights & Updates
                 </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
+                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
                     mental wellness.</p>
             </div>
 
@@ -142,7 +142,7 @@ include_once "../partials/head.php";
                                 Therapy Help Anxiety in Atlanta, GA? Honest Benefits, Risks, and Results</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Are you grappling with persistent <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> and seeking alternative treatments?
+<p>Are you grappling with persistent <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a> and seeking alternative treatments?
                                 Transcranial Magnetic Stimulation (TMS) therapy might be the solution you’re looking
                                 for. TMS is a non-invasive procedure that uses magnetic pulses to stimulate specific
                                 areas of the brain, offering a promising treatment option for various mental health
@@ -191,7 +191,7 @@ include_once "../partials/head.php";
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
 <p>Transcranial Magnetic Stimulation (TMS) offers hope for individuals battling stubborn
-                                <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>. This article delves into the duration of TMS therapy, exploring its
+                                <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>. This article delves into the duration of TMS therapy, exploring its
                                 effectiveness and long-term impact on mental health. Discover how TMS can provide
                                 lasting relief and improve the quality of life for those seeking a non-invasive
                                 treatment option. TMS Therapy What is Transcranial Magnetic</p>
@@ -238,7 +238,7 @@ include_once "../partials/head.php";
                                 Chronic Illness With Sustainable Lifestyle Choices</a>
 </h2>
 <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Understanding how to prevent <a href="../specialties/chronic-illness.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">chronic illness</a> has become one of the most important health
+<p>Understanding how to prevent <a href="/specialties/chronic-illness.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">chronic illness</a> has become one of the most important health
                                 priorities of our time. Long term conditions such as heart disease, diabetes, autoimmune
                                 disorders, chronic pain, anxiety, and depression are increasing across all age groups.
                                 These conditions rarely appear suddenly. They develop gradually due to lifestyle habits,

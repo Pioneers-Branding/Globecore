@@ -95,9 +95,9 @@ include_once "../partials/head.php";
 </div>
 <!-- Article Content -->
 <div class="article-content text-[17px] md:text-[18px]">
-<p>Attention-Deficit/Hyperactivity Disorder (<a href="../specialties/adhd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">ADHD</a>) is a complex neurological condition that affects focus, impulse control, emotional regulation, and executive functioning. For many individuals, ADHD can interfere with work performance, academic success, relationships, and daily routines.</p>
+<p>Attention-Deficit/Hyperactivity Disorder (<a href="/specialties/adhd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">ADHD</a>) is a complex neurological condition that affects focus, impulse control, emotional regulation, and executive functioning. For many individuals, ADHD can interfere with work performance, academic success, relationships, and daily routines.</p>
 <p>While medication and behavioral therapy remain common treatment options, they don’t work for everyone. Side effects, incomplete symptom relief, or a desire for non-drug alternatives have led many people to explore advanced treatment options such as Transcranial Magnetic Stimulation (TMS) therapy.</p>
-<p>At <a href="#">GlobeCoRe</a>, serving the Greater Atlanta area, <a href="../services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> is being utilized as an innovative, non-invasive approach to addressing the underlying brain activity associated with ADHD.</p>
+<p>At <a href="#">GlobeCoRe</a>, serving the Greater Atlanta area, <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> is being utilized as an innovative, non-invasive approach to addressing the underlying brain activity associated with ADHD.</p>
 <p>This blog explores <strong>how TMS therapy works for ADHD</strong>, its benefits, and whether it may be the right option for you.</p>
 <h2 class="wp-block-heading"><strong>Understanding ADHD from a Brain-Based Perspective</strong></h2>
 <p>ADHD is not caused by laziness or lack of willpower. It is a neurodevelopmental condition rooted in how certain areas of the brain function and communicate.</p>
@@ -117,7 +117,7 @@ include_once "../partials/head.php";
 <li>Outpatient treatment with no downtime<br/></li>
 <li>Targeted stimulation of precise brain regions</li>
 </ul>
-<p>TMS therapy is FDA-cleared for <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and is increasingly used in clinical settings to support other neurological and mental health conditions, including ADHD.</p>
+<p>TMS therapy is FDA-cleared for <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a> and is increasingly used in clinical settings to support other neurological and mental health conditions, including ADHD.</p>
 <h2 class="wp-block-heading"><strong>How TMS Therapy Works for ADHD</strong></h2>
 <p>TMS therapy works by improving communication between neurons in areas of the brain that are underactive or dysregulated in ADHD.</p>
 <h3 class="wp-block-heading"><strong>The Treatment Process</strong></h3>
@@ -141,7 +141,7 @@ include_once "../partials/head.php";
 <ul class="wp-block-list">
 <li>Sleep disturbances<br/></li>
 <li>Appetite changes<br/></li>
-<li><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a><br/></li>
+<li><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a><br/></li>
 <li>Cardiovascular concerns</li>
 </ul>
 <h3 class="wp-block-heading"><strong>A Drug-Free, Targeted Alternative</strong></h3>
@@ -229,7 +229,7 @@ include_once "../partials/head.php";
 <div class="rank-math-list-item" id="faq-question-1770466948529">
 <h3 class="rank-math-question">5. <strong>Can TMS be combined with other ADHD treatments?</strong></h3>
 <div class="rank-math-answer">
-<p>Yes. TMS therapy can often be combined with <a href="../services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>, coaching, or medication as part of a comprehensive treatment plan.</p>
+<p>Yes. TMS therapy can often be combined with <a href="/services/counseling.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">counseling</a>, coaching, or medication as part of a comprehensive treatment plan.</p>
 </div>
 </div>
 </div>

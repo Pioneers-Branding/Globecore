@@ -316,7 +316,7 @@ include_once "partials/head.php";
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <!-- Card: Counseling -->
-                <a href="services/counseling.php" class="block">
+                <a href="/services/counseling.php" class="block">
                     <div
                         class="group bg-white rounded-3xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-pointer">
 
@@ -335,7 +335,7 @@ include_once "partials/head.php";
 
                 <!-- Card: Psychological Evaluations -->
                 <!-- Card: Medication Management -->
-                <a href="services/medication-management.php" class="block">
+                <a href="/services/medication-management.php" class="block">
                     <div
                         class="group bg-white rounded-3xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-pointer">
 
@@ -353,7 +353,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card: TMS Therapy -->
-                <a href="services/tms-therapy.php" class="block">
+                <a href="/services/tms-therapy.php" class="block">
                     <div
                         class="group bg-white rounded-3xl p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 cursor-pointer">
 
@@ -387,66 +387,66 @@ include_once "partials/head.php";
                 <div class="w-16 h-1 bg-gradient-to-r from-secondary to-primary rounded-full mx-auto mt-5"></div>
             </div>
             <div class="flex flex-wrap justify-center gap-3">
-                <a href="./specialties/addiction.php"
+                <a href="/specialties/addiction.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Addiction</a>
-                <a href="./specialties/adhd.php"
+                <a href="/specialties/adhd.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">ADHD</a>
-                <a href="./specialties/aging-issues.php"
+                <a href="/specialties/aging-issues.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Aging
                     Issues</a>
-                <a href="./specialties/anger-management.php"
+                <a href="/specialties/anger-management.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Anger
                     Management</a>
-                <a href="./specialties/bipolar-disorder.php"
+                <a href="/specialties/bipolar-disorder.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Bipolar
                     Disorder</a>
-                <a href="./specialties/chronic-illness.php"
+                <a href="/specialties/chronic-illness.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Chronic
                     Illness</a>
-                <a href="./specialties/codependency.php"
+                <a href="/specialties/codependency.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Codependency</a>
-                <a href="./specialties/depression-anxiety.php"
+                <a href="/specialties/depression-anxiety.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Depression
                     & Anxiety</a>
-                <a href="./specialties/developmental-intellectual-disabilities.php"
+                <a href="/specialties/developmental-intellectual-disabilities.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Developmental
                     & Intellectual Disabilities</a>
-                <a href="./specialties/eating-disorders.php"
+                <a href="/specialties/eating-disorders.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Eating
                     Disorders</a>
-                <a href="./specialties/fertility-pregnancy-parenting.php"
+                <a href="/specialties/fertility-pregnancy-parenting.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Fertility,
                     Pregnancy & Parenting</a>
-                <a href="./specialties/finding-purpose.php"
+                <a href="/specialties/finding-purpose.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Finding
                     Purpose</a>
-                <a href="./specialties/grief-loss.php"
+                <a href="/specialties/grief-loss.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Grief
                     & Loss</a>
-                <a href="./specialties/life-transitions.php"
+                <a href="/specialties/life-transitions.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Life
                     Transitions</a>
-                <a href="./specialties/lgbtqi.php"
+                <a href="/specialties/lgbtqi.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">LGBTQI+</a>
-                <a href="./specialties/ocd.php"
+                <a href="/specialties/ocd.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">OCD</a>
-                <a href="./specialties/racial-ethnic-and-religious-stressors.php"
+                <a href="/specialties/racial-ethnic-and-religious-stressors.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Racial,
                     Ethnic and Religious Stressors</a>
-                <a href="./specialties/relationship-marriage-issues.php"
+                <a href="/specialties/relationship-marriage-issues.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Relationship
                     & Marriage Issues</a>
-                <a href="./specialties/self-esteem.php"
+                <a href="/specialties/self-esteem.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Self-Esteem</a>
-                <a href="./specialties/sleep-disorders.php"
+                <a href="/specialties/sleep-disorders.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Sleep
                     Disorders</a>
-                <a href="./specialties/trauma.php"
+                <a href="/specialties/trauma.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Trauma</a>
-                <a href="./specialties/women-s-issues.php"
+                <a href="/specialties/women-s-issues.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Women's
                     Issues</a>
-                <a href="./specialties/work-related-or-academic-stressors.php"
+                <a href="/specialties/work-related-or-academic-stressors.php"
                     class="px-4 py-2 bg-white border border-gray-200 rounded-full text-sm font-medium text-textMain hover:bg-primary/15 hover:border-primary/40 hover:text-primary hover:shadow-sm transition-all duration-300 cursor-pointer text-center leading-tight hover:-translate-y-0.5">Work-Related
                     or Academic Stressors</a>
             </div>
@@ -469,7 +469,7 @@ include_once "partials/head.php";
                         and group sessions, our licensed therapists provide compassionate care to help you heal, grow,
                         and thrive. Choose excellence, choose GlobeCoRe.</p>
                     <div class="flex items-center gap-6">
-                        <a href="./services/counseling.php"
+                        <a href="/services/counseling.php"
                             class="inline-flex items-center text-secondary font-bold text-sm hover:gap-2 gap-1 transition-all duration-300">View
                             All Services <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -489,7 +489,7 @@ include_once "partials/head.php";
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
 
                 <!-- Card 1: Individual Therapy -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
                     <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=400&q=80"
                         alt="Individual therapist in Atlanta"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
@@ -507,7 +507,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card 2: Couples Therapy -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
                     <img src="assets/Couple-Tharapy.webp"
                         alt="Couples therapist in Atlanta"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
@@ -525,7 +525,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card 3: Family Therapy -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
                     <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&w=400&q=80"
                         alt="Family therapist in Atlanta"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
@@ -543,7 +543,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card 4: Racial Healing and Hope -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
                     <img src="assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
                         alt="Racial Healing and Hope group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
@@ -561,7 +561,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card 5: The Roaring 20s -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
                     <img src="assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
                         alt="The Roaring 20s group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
@@ -579,7 +579,7 @@ include_once "partials/head.php";
                 </a>
 
                 <!-- Card 6: Self Esteem Building for Women -->
-                <a href="./services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
+                <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
                     <img src="assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
                         alt="Self Esteem Building for Women group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">

@@ -71,7 +71,7 @@ include_once "../partials/head.php";
                     <h2>What Happens in Couples Therapy?</h2>
                     <p>Many couples are nervous about what therapy actually looks like. Here is what you can generally expect:</p>
                     <h3>Assessment & Skills Building</h3>
-                    <p>Your therapist helps you identify negative patterns in your communication, understand each other’s emotional needs and triggers, and practice healthier ways of expressing feelings. Common approaches include <a href="specialties/relationship-marriage-issues.php">The Gottman Method</a> and Emotionally Focused Therapy (EFT).</p>
+                    <p>Your therapist helps you identify negative patterns in your communication, understand each other’s emotional needs and triggers, and practice healthier ways of expressing feelings. Common approaches include <a href="/specialties/relationship-marriage-issues.php">The Gottman Method</a> and Emotionally Focused Therapy (EFT).</p>
 
                     <h2>Benefits of Marriage Counseling</h2>
                     <ul>
@@ -98,7 +98,7 @@ include_once "../partials/head.php";
                     <h2 class="text-center mt-12 bg-primary/5 p-8 rounded-2xl border-2 border-dashed border-primary/20">
                         Strengthen Your Bond
                         <span class="block text-lg font-normal text-gray-500 mt-2">Rebuild your connection with expert support in Atlanta.</span>
-                        <a href="../contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Book a Session</a>
+                        <a href="/contact.php" class="inline-block mt-6 bg-primary text-white px-8 py-3 rounded-full hover:bg-deepTeal transition-colors font-bold uppercase tracking-wider text-sm">Book a Session</a>
                     </h2>
                 </div>
             </article>

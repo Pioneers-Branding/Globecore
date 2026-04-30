@@ -92,7 +92,7 @@ include_once "../partials/head.php";
                                 OF TMS</span>
                         <h2 class="text-2xl font-bold text-[#071e26] mb-6">Dr. Maria Johnson</h2>
                         
-                        <a href="../contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
+                        <a href="/contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
                             Book Consultation
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </a>
@@ -112,15 +112,15 @@ include_once "../partials/head.php";
 
                         <div class="prose prose-lg max-w-none">
                             <h3 class="text-2xl font-bold text-deepTeal mt-8 mb-4">My Services Offered</h3>
-                            <p>Individual therapy, <a href="../services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">medication management</a>, and integrated care planning with a focus on <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a>-informed and evidence-based treatment.</p>
+                            <p>Individual therapy, <a href="/services/medication-management.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">medication management</a>, and integrated care planning with a focus on <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">trauma</a>-informed and evidence-based treatment.</p>
                             <h3 class="text-2xl font-bold text-deepTeal mt-8 mb-4">What It’s Like Being in Session with Me</h3>
                             <p>Sessions are warm, collaborative, and practical. I listen deeply, explore your goals, and use tailored strategies so you feel understood and empowered.</p>
                             <h3 class="text-2xl font-bold text-deepTeal mt-8 mb-4">Treatment Approach</h3>
-                            <p>I use cognitive-behavioral techniques, mindfulness, and relational therapy to create sustainable change across mood, <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, and life transitions.</p>
+                            <p>I use cognitive-behavioral techniques, mindfulness, and relational therapy to create sustainable change across mood, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, and life transitions.</p>
                             <h3 class="text-2xl font-bold text-deepTeal mt-8 mb-4">Specialties</h3>
                             <ul class="list-disc pl-5 text-gray-700">
-                                <li><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and Anxiety Disorders</li>
-                                <li>Trauma and <a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a></li>
+                                <li><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and Anxiety Disorders</li>
+                                <li>Trauma and <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a></li>
                                 <li>Family and Relationship Stress</li>
                                 <li>Life Transitions and Self-Development</li>
                             </ul>

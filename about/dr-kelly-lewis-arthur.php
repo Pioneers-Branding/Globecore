@@ -91,7 +91,7 @@ include_once "../partials/head.php";
                         <span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">CEO</span>
                         <h2 class="text-2xl font-bold text-[#071e26] mb-6">Dr. Kelly Lewis-Arthur</h2>
                         
-                        <a href="../contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
+                        <a href="/contact.php" class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300">
                             Book Consultation
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </a>
@@ -158,7 +158,7 @@ include_once "../partials/head.php";
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span class="font-medium"><a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and <a href="../specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a></span>
+                                    <span class="font-medium"><a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Depression</a> and <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Anxiety</a></span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-6 h-6 text-[#7A9E3F] flex-shrink-0 mt-0.5" fill="none"
@@ -174,7 +174,7 @@ include_once "../partials/head.php";
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span class="font-medium"><a href="../specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> and Loss</span>
+                                    <span class="font-medium"><a href="/specialties/grief-loss.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Grief</a> and Loss</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-6 h-6 text-[#7A9E3F] flex-shrink-0 mt-0.5" fill="none"
@@ -190,7 +190,7 @@ include_once "../partials/head.php";
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span class="font-medium">Relationship, Identity, And <a href="../specialties/relationship-marriage-issues.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Marriage Issues</a></span>
+                                    <span class="font-medium">Relationship, Identity, And <a href="/specialties/relationship-marriage-issues.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Marriage Issues</a></span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-6 h-6 text-[#7A9E3F] flex-shrink-0 mt-0.5" fill="none"
@@ -198,7 +198,7 @@ include_once "../partials/head.php";
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span class="font-medium">Issues Tied to <a href="../specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Self-Esteem</a>/Identity</span>
+                                    <span class="font-medium">Issues Tied to <a href="/specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Self-Esteem</a>/Identity</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-6 h-6 text-[#7A9E3F] flex-shrink-0 mt-0.5" fill="none"
@@ -206,7 +206,7 @@ include_once "../partials/head.php";
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
-                                    <span class="font-medium"><a href="../specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Trauma</a></span>
+                                    <span class="font-medium"><a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">Trauma</a></span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-6 h-6 text-[#7A9E3F] flex-shrink-0 mt-0.5" fill="none"
