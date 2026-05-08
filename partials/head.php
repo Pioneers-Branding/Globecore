@@ -100,6 +100,11 @@ $P = str_repeat('../', $depth);
     }
     </script>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="<?php echo $ASSET_URL; ?>/assets/favicon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $ASSET_URL; ?>/assets/favicon.jpg">
+    <link rel="apple-touch-icon" href="<?php echo $ASSET_URL; ?>/assets/favicon.jpg">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 

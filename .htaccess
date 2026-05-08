@@ -5,6 +5,11 @@
 RewriteEngine On
 RewriteBase /
 
+# Map /wp-content/uploads/* -> assets/assets/wp-content/uploads/*
+RewriteCond %{REQUEST_URI} ^/wp-content/uploads/(.*)$
+RewriteCond %{DOCUMENT_ROOT}/assets/assets/wp-content/uploads/%1 -f
+RewriteRule ^wp-content/uploads/(.*)$ assets/assets/wp-content/uploads/$1 [L]
+
 # Force HTTPS (uncomment when SSL is ready)
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

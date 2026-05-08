@@ -13,7 +13,8 @@
       "Bash(ls \"a:\\\\Work\\\\Globecore\\\\partials\"/*.php)",
       "Bash(find about:*)",
       "Read(//a/Work/Globecore/dir=$DEST/**)",
-      "Bash(chmod +x /tmp/download_assets.sh)"
+      "Bash(chmod +x /tmp/download_assets.sh)",
+      "Bash(file assets/extracted-img/globe-img/*.jpg assets/extracted-img/globe-img/*.webp assets/extracted-img/globe-img/*.png)"
     ]
   }
 }
