@@ -123,16 +123,113 @@ include_once __DIR__ . '/nav-data.php';
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobileMenu" class="hidden xl:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 px-6 pb-5 shadow-2xl absolute w-full">
-            <nav class="flex flex-col gap-2 text-sm font-semibold pt-4">
-                <a href="/" class="bg-primary/10 text-primary px-4 py-3 rounded-xl">Home</a>
-                <a href="/about/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">About</a>
-                <a href="/services/counseling.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Services</a>
-                <a href="/specialties/adhd.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Specialties</a>
-                <a href="/resources" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Resources</a>
-                <a href="/blog/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Blog</a>
-                <a href="/pricing-insurance.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">Rates</a>
-                <a href="/contact.php" class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300">Contact</a>
+        <div id="mobileMenu" class="hidden xl:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-2xl absolute w-full overflow-y-auto max-h-[85vh]">
+            <nav class="flex flex-col gap-1 text-sm font-semibold pt-4 pb-4 px-4">
+                <!-- Home -->
+                <a href="/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 border-b border-gray-50">Home</a>
+
+                <!-- About Dropdown -->
+                <div class="mobile-dropdown" data-group="about">
+                    <button class="mobile-dropdown-btn w-full flex items-center justify-between px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">
+                        <span>About</span>
+                        <svg class="w-4 h-4 transition-transform duration-300 chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 pb-2 flex flex-col gap-1">
+                        <?php foreach ($aboutLinks as $link): ?>
+                        <a href="<?php echo $link['href']; ?>" class="px-4 py-2.5 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors text-[13px]"><?php echo $link['label']; ?></a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <!-- Services Dropdown -->
+                <div class="mobile-dropdown" data-group="services">
+                    <button class="mobile-dropdown-btn w-full flex items-center justify-between px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">
+                        <span>Services</span>
+                        <svg class="w-4 h-4 transition-transform duration-300 chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 pb-2 flex flex-col gap-1">
+                        <?php foreach ($servicesLinks as $link): ?>
+                        <a href="<?php echo $link['href']; ?>" class="px-4 py-2.5 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors text-[13px]"><?php echo $link['label']; ?></a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <!-- Specialties Dropdown -->
+                <div class="mobile-dropdown" data-group="specialties">
+                    <button class="mobile-dropdown-btn w-full flex items-center justify-between px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">
+                        <span>Specialties</span>
+                        <svg class="w-4 h-4 transition-transform duration-300 chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 pb-2 grid grid-cols-1 gap-1">
+                        <?php foreach ($specialtiesLinks as $link): ?>
+                        <a href="<?php echo $link['href']; ?>" class="px-4 py-2.5 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors text-[13px]"><?php echo $link['label']; ?></a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <!-- Areas We Serve Dropdown -->
+                <div class="mobile-dropdown" data-group="areas">
+                    <button class="mobile-dropdown-btn w-full flex items-center justify-between px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300">
+                        <span>Areas We Serve</span>
+                        <svg class="w-4 h-4 transition-transform duration-300 chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </button>
+                    <div class="mobile-dropdown-content hidden pl-4 pb-2 grid grid-cols-2 gap-1">
+                        <?php foreach ($areasLinks as $link): ?>
+                        <a href="<?php echo $link['href']; ?>" class="px-3 py-2.5 rounded-lg hover:bg-primary/10 hover:text-primary transition-colors text-[13px]"><?php echo $link['label']; ?></a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+
+                <a href="/resources" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 border-b border-gray-50">Resources</a>
+                <a href="/blog/" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 border-b border-gray-50">Blog</a>
+                <a href="/pricing-insurance.php" class="px-4 py-3 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 border-b border-gray-50">Rates</a>
+                <a href="/contact.php" class="px-4 py-3 rounded-xl bg-primary text-white text-center mt-2 hover:bg-[#7a9e3f] transition-all duration-300">Book Now</a>
+
+                <div class="mt-3 pt-3 border-t border-gray-100 flex flex-col gap-2">
+                    <a href="/client-portal.php" class="px-4 py-2.5 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 text-[13px] text-gray-500">Client Portal</a>
+                    <a href="/staff-portal.php" class="px-4 py-2.5 rounded-xl hover:bg-bgOffWhite hover:text-primary transition-all duration-300 text-[13px] text-gray-500">Staff Portal</a>
+                    <a href="tel:7702841044" class="flex items-center gap-2 px-4 py-2.5 rounded-xl hover:bg-bgOffWhite text-primary font-bold text-[13px]">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
+                        (770) 284-1044
+                    </a>
+                </div>
             </nav>
         </div>
     </header>
+
+    <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        document.body.classList.toggle('overflow-hidden', !mobileMenu.classList.contains('hidden'));
+    });
+
+    // Mobile dropdown accordion
+    document.querySelectorAll('.mobile-dropdown-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const dropdown = btn.closest('.mobile-dropdown');
+            const content = dropdown.querySelector('.mobile-dropdown-content');
+            const chevron = btn.querySelector('.chevron');
+            const isOpen = !content.classList.contains('hidden');
+
+            // Close all others
+            document.querySelectorAll('.mobile-dropdown-content').forEach(c => c.classList.add('hidden'));
+            document.querySelectorAll('.mobile-dropdown-btn .chevron').forEach(c => c.style.transform = '');
+
+            if (!isOpen) {
+                content.classList.remove('hidden');
+                chevron.style.transform = 'rotate(180deg)';
+            }
+        });
+    });
+
+    // Close mobile menu on outside click
+    document.addEventListener('click', (e) => {
+        if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+            mobileMenu.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+    });
+    </script>
