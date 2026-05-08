@@ -72,7 +72,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="dr-kelly-lewis-arthur.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg" alt="Dr. Kelly Lewis-Arthur"
+                        <img src="/assets/images/drkelly.webp" alt="Dr. Kelly Lewis-Arthur"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="dr-kelly-lewis-arthur.php"
@@ -86,7 +86,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="m  aria-elizabeth-johnson.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2025/06/maria-elizabeth-johnson-md-819x1024.png"
+                        <img src="/assets/images/maria-elizabeth-johnson-md-768x960.png"
                             alt="Dr. Maria Johnson"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500 bg-gray-50">
                     </a>
@@ -150,7 +150,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="victoria-taylor.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2021/03/IMG_2989.jpg" alt="Victoria TaylorLPC, NCC"
+                        <img src="/assets/images/drvictoria.webp" alt="Victoria TaylorLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="victoria-taylor.php"
@@ -164,7 +164,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="sueellen-hollowell.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2021/03/IMG_2997-818x1024.jpg"
+                        <img src="/assets/images/sueallen.webp"
                             alt="SueEllen HollowellLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
@@ -194,7 +194,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="yma-kabia-williams.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2021/03/IMG_2994-819x1024.jpg" alt="Yma Kabia-WilliamsLCSW"
+                        <img src="/assets/images/ymakabia.webp" alt="Yma Kabia-WilliamsLCSW"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="yma-kabia-williams.php"
@@ -208,7 +208,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="gail.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2021/03/IMG_3001_Facetune_10-03-2021-13-36-03-819x1024.jpg"
+                        <img src="/assets/images/Gail-foorman.webp"
                             alt="Gail Foorman"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
@@ -252,7 +252,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="brittany-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2022/11/brick-background-17.png" alt="Brittany Andrews"
+                        <img src="/assets/images/brittany.webp" alt="Brittany Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="brittany-andrews.php"
