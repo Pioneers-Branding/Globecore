@@ -125,7 +125,7 @@ include_once "../partials/head.php";
 <li><strong>Medical or psychological history</strong> (including past therapy experiences)</li>
 <li><strong>Emergency contact information</strong></li>
 </ul>
-<p>If you’re meeting a <strong>psychiatrist</strong> (like Dr. Maria Johnson at GlobeCoRe Inc.), medication history is particularly helpful. If you’re meeting a <strong>psychologist</strong> (like Dr. Kim Miller), prior therapy notes or summaries may also be useful.</p>
+<p>If you’re meeting a <strong>psychiatrist</strong>, medication history is particularly helpful. If you’re meeting a <strong>psychologist</strong> (like Dr. Kim Miller), prior therapy notes or summaries may also be useful.</p>
 <h2 class="wp-block-heading">4. Complete Any Pre-Session Forms</h2>
 <p>Most clinics, including <strong>GlobeCoRe Inc.</strong>, will ask you to complete <strong>intake forms</strong> before your appointment. These forms often include:</p>
 <ul class="wp-block-list">
@@ -188,7 +188,7 @@ include_once "../partials/head.php";
 <p>At <strong>GlobeCoRe Inc.</strong>, your first session is structured to help you feel comfortable and informed.</p>
 <p>Here’s what typically happens:</p>
 <ol class="wp-block-list">
-<li><strong>Introductions and Orientation:</strong> You’ll meet your clinician (such as Dr. Kim Miller or Dr. Maria Johnson) and discuss confidentiality and the therapeutic process.</li>
+<li><strong>Introductions and Orientation:</strong> You’ll meet your clinician (such as Dr. Kim Miller) and discuss confidentiality and the therapeutic process.</li>
 <li><strong>Assessment:</strong> Your provider will ask about your concerns, history, and goals.</li>
 <li><strong>Goal Setting:</strong> You’ll work together to outline priorities for therapy.</li>
 <li><strong>Next Steps:</strong> Your therapist may recommend ongoing sessions, specific techniques (like CBT or mindfulness), or additional evaluations — including advanced treatments such as <a href="#"><strong>TMS therapy in Atlanta</strong></a> for clients struggling with treatment-resistant <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>.</li>
@@ -206,7 +206,7 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Final Thoughts: Your First Session Is the Beginning of Change</h2>
 <p>Preparing for your first therapy session helps you walk in with clarity and confidence, but remember — it’s okay to feel uncertain. Therapy is not about perfection; it’s about progress.</p>
 <p>By taking this step, you’re investing in your emotional health, personal growth, and long-term resilience.</p>
-<p>At <strong>GlobeCoRe Inc.</strong>, our team of psychologists and psychiatrists — including <strong>Dr. Kim Miller</strong> and <strong>Dr. Maria Johnson</strong> — are here to support you with compassionate, evidence-based care designed to meet your unique needs.</p>
+<p>At <strong>GlobeCoRe Inc.</strong>, our team of psychologists and psychiatrists — including <strong>Dr. Kim Miller</strong> — are here to support you with compassionate, evidence-based care designed to meet your unique needs.</p>
 <p>Whether you’re starting therapy for the first time or returning after a break, your courage to begin is something to celebrate.</p>
 <p><strong>Request an appointment today</strong> and take that important first step toward a healthier, more centered you.</p>
 </div>

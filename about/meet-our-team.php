@@ -82,20 +82,6 @@
                     <p class="text-secondary font-medium text-sm">CEO</p>
                 </div>
 
-                <!-- Dr. Maria Johnson -->
-                <div
-                    class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="m  aria-elizabeth-johnson.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/maria-elizabeth-johnson-md-768x960.png"
-                            alt="Dr. Maria Johnson"
-                            class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500 bg-gray-50">
-                    </a>
-                    <a href="maria-elizabeth-johnson.php"
-                        class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
-                        <h3 class="text-xl font-bold mb-2">Dr. Maria Johnson</h3>
-                    </a>
-                    <p class="text-secondary font-medium text-sm">Director of TMS</p>
-                </div>
 
                 <!-- Dr. Sharon Belhamel LMFT, ND -->
                 <div
