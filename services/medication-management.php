@@ -207,181 +207,83 @@ include_once "../partials/head.php";
             </div>
         </section>
 
-        <!-- Schedule A 15 Minute Consultation CTA & Form -->
-        <section class="bg-white py-14 lg:py-20 mb-8">
-            <div class="max-w-[1050px] mx-auto px-4 sm:px-6">
-                <!-- Banner Section -->
-                <div class="relative w-full rounded-[24px] overflow-visible mb-16 shadow-none border border-transparent"
-                    style="height: 380px;">
-                    <!-- Image Container to strictly clip the corners without hiding the absolute overlapping button -->
-                    <div class="absolute inset-0 rounded-[24px] overflow-hidden">
-                        <img src="/wp-content/uploads/2020/12/df4262_3697e0344b0f47e3831777d8c0bdfbc6_mv2.jpg"
-                            alt="Consultation"
-                            class="absolute inset-0 w-full h-full object-cover object-top scale-[1.03]">
+        <!-- Contact Form Section Custom Build -->
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-24 relative z-10 pt-10">
+            <div
+                class="bg-white rounded-[32px] md:rounded-[40px] shadow-2xl overflow-hidden flex flex-col lg:flex-row border border-gray-100 relative">
 
-                        <!-- Smoother gradient mapping to the image style -->
-                        <div
-                            class="absolute inset-0 bg-gradient-to-r from-[#21576d]/95 via-[#0c242e]/60 to-transparent mix-blend-multiply">
-                        </div>
-                        <div
-                            class="absolute inset-x-0 bottom-0 top-1/2 bg-gradient-to-t from-[#0e3b4d]/80 to-transparent mix-blend-multiply">
-                        </div>
-                        <div class="absolute inset-0 bg-[#071e26]/30"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 z-10 w-full h-full">
-                            <h2
-                                class="text-3xl md:text-[40px] font-semibold text-white mb-4 drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] tracking-wide">
-                                Schedule A 15 Minute Consultation</h2>
-                            <p
-                                class="text-white/95 text-[15px] max-w-[850px] mx-auto font-light leading-relaxed drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">
-                                Call Today for more information on our competitive rates and packages and let us get you
-                                started!<br>
-                                You owe it to yourself, your organization, your staff and customers and our community as
-                                a whole.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Downward Circle Arrow (Overlapping bottom edge exactly halfway) -->
+                <!-- Left Info Panel -->
+                <div
+                    class="lg:w-2/5 md:bg-gradient-to-br from-[#071e26] to-[#027289] bg-[#071e26] text-white p-8 md:p-12 lg:p-16 flex flex-col justify-between relative overflow-hidden">
+                    <!-- Abstract decorative BG shapes -->
                     <div
-                        class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-14 h-14 bg-[#38b6ff] rounded-full flex items-center justify-center shadow-md cursor-pointer hover:bg-[#2596d9] transition-colors z-20 hover:scale-105 duration-200">
-                        <svg class="w-6 h-6 text-white translate-y-[1px]" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7">
-                            </path>
-                        </svg>
+                        class="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
                     </div>
-                </div>
-
-                <!-- Contact & Form Section -->
-                <div class="grid grid-cols-1 md:grid-cols-[1fr_1.1fr] gap-10 lg:gap-14 items-stretch pt-2">
-
-                    <!-- LEFT COLUMN: Contact Info -->
-                    <div class="flex flex-col">
-                        <h2 class="text-[30px] font-semibold text-[#1a1a1a] tracking-tight mb-8">GlobeCoRe, Inc</h2>
-
-                        <div class="space-y-5 text-[#147b85] text-[13px] font-medium max-w-sm">
-                            <div class="flex items-start gap-4">
-                                <svg class="w-5 h-5 shrink-0 mt-[1px]" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
-                                    </path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                </svg>
-                                <span class="leading-relaxed text-[#147b85] tracking-wide">3355 Lenox Road NE. Suite 1000
-                                    Atlanta, GA 30326.</span>
-                            </div>
-
-                            <div class="flex items-center gap-4">
-                                <svg class="w-[18px] h-[18px] shrink-0 translate-x-[1px]" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                                    </path>
-                                </svg>
-                                <span>(770) 284-1044</span>
-                            </div>
-
-                            <div class="flex items-center gap-4">
-                                <svg class="w-[19px] h-[19px] shrink-0 translate-x-[1px]" fill="none"
-                                    stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                                    </path>
-                                </svg>
-                                <span>help@globecoreinc.com</span>
-                            </div>
-                        </div>
-
-                        <div class="mt-8">
-                            <a href="#contact"
-                                class="inline-flex items-center gap-1.5 text-[#147b85] text-[17px] font-semibold hover:text-[#0e5c66] transition-colors">
-                                Request Appointment
-                                <svg class="w-[14px] h-[14px] mt-[1px]" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
-                                        d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </a>
-                        </div>
+                    <div
+                        class="absolute bottom-0 left-0 w-64 h-64 bg-secondary/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2">
                     </div>
 
-                    <!-- RIGHT COLUMN: The Form -->
-                    <!-- Very thin teal border to match design -->
-                    <div class="border-[1.5px] border-[#147b85] bg-white p-7">
-                        <form class="flex flex-col gap-[14px]">
-                            <input type="text" placeholder="Full Name"
-                                class="w-full px-[14px] py-[10px] border border-gray-300 text-[12px] focus:outline-none focus:border-[#147b85] text-gray-700 placeholder-gray-400 rounded-sm">
-
-                            <input type="email" placeholder="Email*"
-                                class="w-full px-[14px] py-[10px] border border-gray-300 text-[12px] focus:outline-none focus:border-[#147b85] text-gray-700 placeholder-gray-400 rounded-sm"
-                                required>
-
+                    <div class="relative z-10">
+                        <div
+                            class="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mb-10 backdrop-blur-md border border-white/20 shadow-lg">
+                            <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Icon"
+                                class="w-14 h-14 object-contain brightness-0 invert opacity-90">
+                        </div>
+                        <h3 class="text-3xl md:text-4xl font-extrabold mb-6 leading-tight tracking-tight">GlobeCoRe
+                            Callback Scheduling</h3>
+                        <p class="text-white/80 leading-relaxed text-[15px] mb-12">
+                            Hi, Thank you for choosing GlobeCoRe for your Mental Health & Consulting Services. Please
+                            schedule a day and time that works best for our callback so we can match you with one of our
+                            clinicians. For questions and immediate concerns, please email us at <br><a
+                                href="mailto:help@globecoreinc.com"
+                                class="text-primary hover:text-white underline font-semibold transition-colors mt-2 inline-block">help@globecoreinc.com</a>
+                            or call us at <strong class="text-white">(770) 284-1044</strong>. Thank you.
+                        </p>
+                    </div>
+                    <!-- Details mimicking the widget sidepanel -->
+                    <div
+                        class="space-y-5 relative z-10 bg-black/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+                        <div class="flex items-start gap-4 text-white">
                             <div
-                                class="relative flex border border-gray-300 focus-within:border-[#147b85] bg-white text-[12px] rounded-sm">
-                                <div
-                                    class="flex items-center px-3 bg-white border-r border-gray-300 text-gray-600 gap-1.5 cursor-pointer hover:bg-gray-50 h-[38px]">
-                                    <span class="text-[14px] leading-none">🇮🇳</span>
-                                    <svg class="w-2.5 h-2.5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd"
-                                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <input type="tel" placeholder="Phone*"
-                                    class="w-full px-[14px] py-[10px] focus:outline-none text-gray-700 placeholder-gray-400 h-[38px] rounded-r-sm"
-                                    required>
+                                class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
                             </div>
-
-                            <input type="text" placeholder="Select Date"
-                                class="w-full px-[14px] py-[10px] border border-gray-300 text-[12px] focus:outline-none focus:border-[#147b85] text-gray-700 placeholder-gray-400 rounded-sm">
-
-                            <input type="text" placeholder="Enter Time"
-                                class="w-full px-[14px] py-[10px] border border-gray-300 text-[12px] focus:outline-none focus:border-[#147b85] text-gray-700 placeholder-gray-400 rounded-sm">
-
-                            <div class="relative w-full">
-                                <textarea placeholder="How can we help you?" rows="3"
-                                    class="w-full px-[14px] py-[10px] border border-gray-300 text-[12px] focus:outline-none focus:border-[#147b85] text-gray-700 placeholder-gray-400 resize-none rounded-sm min-h-[70px]"></textarea>
-                                <!-- Inner corner resize drag lines -->
-                                <div class="absolute bottom-1 right-1 pointer-events-none text-gray-400 opacity-60">
-                                    <svg class="w-2.5 h-2.5" viewBox="0 0 10 10" fill="currentColor">
-                                        <path d="M10 0v10H0L10 0z" />
-                                    </svg>
-                                </div>
+                            <div>
+                                <span class="font-bold block mb-0.5">Duration</span>
+                                <span class="text-white/70 text-sm">15 Mins</span>
                             </div>
-
-                            <div class="flex items-start gap-3 mt-1.5 mb-2.5">
-                                <input type="checkbox" id="terms"
-                                    class="mt-[2px] w-[11px] h-[11px] border-gray-400 text-[#147b85] focus:ring-[#147b85] rounded-sm shrink-0"
-                                    required>
-                                <label for="terms"
-                                    class="text-[8.5px] text-black font-semibold leading-[1.3] text-justify tracking-normal">
-                                    I agree to terms & conditions provided by the company. By providing my phone number
-                                    and email address, I agree to receive text messages or emails from the business. I
-                                    consent to receive Account notifications text messages from GlobeCoRe, Inc. Reply
-                                    STOP to opt-out; Reply HELP for support. Message and data rates apply. Messaging
-                                    frequency may vary. Visit
-                                    <a href="#"
-                                        class="text-blue-600 hover:underline">privacy-policy.php</a>
-                                    for privacy policy and
-                                    <a href="#"
-                                        class="text-blue-600 hover:underline">privacy-policy.php</a>
-                                    for Terms of Service.
-                                </label>
+                        </div>
+                        <div class="flex items-start gap-4 text-white">
+                            <div
+                                class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+                                    </path>
+                                </svg>
                             </div>
-
-                            <button type="submit"
-                                class="w-full bg-[#147b85] text-white font-bold h-[42px] hover:bg-[#0e5c66] transition-colors uppercase tracking-[0.05em] text-[13px] shadow-sm rounded-sm">
-                                GET IN TOUCH
-                            </button>
-                        </form>
+                            <div>
+                                <span class="font-bold block mb-0.5">Location</span>
+                                <span class="text-white/70 text-sm">Web meeting details provided upon
+                                    confirmation.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Right Form Panel -->
+                <div class="lg:w-3/5 p-8 md:p-12 lg:p-16 bg-white relative">
+                    <h4 class="text-2xl md:text-3xl font-extrabold text-[#071e26] mb-8">Book Your Appointment</h4>
+                    <div class="h-[600px] lg:h-[700px] overflow-y-auto pr-2 custom-scrollbar border border-gray-50 rounded-2xl">
+                        <iframe src="https://api.leadconnectorhq.com/widget/bookings/globecore9wb1k6" style="border:none;" name="myiFrame" scrolling="yes" frameborder="0" height="1000" width="100%" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
             </div>
-        </section>
+        </div>
     </main>
 
     <?php include "../partials/footer.php"; ?>
