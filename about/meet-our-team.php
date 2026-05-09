@@ -71,11 +71,11 @@
                 <!-- Dr. Kelly Lewis-Arthur -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="dr-kelly-lewis-arthur.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/dr-kelly-lewis-arthur.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/drkelly.webp" alt="Dr. Kelly Lewis-Arthur"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="dr-kelly-lewis-arthur.php"
+                    <a href="/about/dr-kelly-lewis-arthur.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Dr. Kelly Lewis-Arthur</h3>
                     </a>
@@ -86,12 +86,12 @@
                 <!-- Dr. Sharon Belhamel LMFT, ND -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="dr-sharon.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2024/03/brick-background-69-819x1024.png"
+                    <a href="/about/dr-sharon.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-69-768x960.png"
                             alt="Dr. Sharon Belhamel LMFT, ND"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="dr-sharon.php"
+                    <a href="/about/dr-sharon.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2 whitespace-pre-wrap">Dr. Sharon Belhamel
                             LMFT, ND</h3>
@@ -102,12 +102,12 @@
                 <!-- Dr. Brad Johns -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="brad-johns.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2023/10/brick-background-59-819x1024.png"
+                    <a href="/about/brad-johns.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-59-768x960.png"
                             alt="Dr. Brad Johns"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="brad-johns.php"
+                    <a href="/about/brad-johns.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Dr. Brad Johns</h3>
                     </a>
@@ -120,12 +120,12 @@
                 <!-- Dr. Anna Hurlebaus, DNP, APRN, BC -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="anna-hurlebaus.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2023/10/brick-background-54-819x1024.png"
+                    <a href="/about/anna-hurlebaus.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-54-768x960.png"
                             alt="Dr. Anna Hurlebaus, DNP, APRN, BC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="anna-hurlebaus.php"
+                    <a href="/about/anna-hurlebaus.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Dr. Anna Hurlebaus, DNP, APRN, BC</h3>
                     </a>
@@ -135,11 +135,11 @@
                 <!-- Victoria TaylorLPC, NCC -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="victoria-taylor.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/victoria-taylor.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/drvictoria.webp" alt="Victoria TaylorLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="victoria-taylor.php"
+                    <a href="/about/victoria-taylor.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Victoria TaylorLPC, NCC</h3>
                     </a>
@@ -149,12 +149,12 @@
                 <!-- SueEllen HollowellLPC, NCC -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="sueellen-hollowell.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/sueellen-hollowell.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/sueallen.webp"
                             alt="SueEllen HollowellLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="sueellen-hollowell.php"
+                    <a href="/about/sueellen-hollowell.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">SueEllen HollowellLPC, NCC</h3>
                     </a>
@@ -164,12 +164,12 @@
                 <!-- Affiniti Harris-Mordecai -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="affiniti-harris-mordecai.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2026/01/brick-background-74-819x1024.png"
+                    <a href="/about/affiniti-harris-mordecai.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-74-768x960.png"
                             alt="Affiniti Harris-Mordecai"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="affiniti-harris-mordecai.php"
+                    <a href="/about/affiniti-harris-mordecai.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Affiniti Harris-Mordecai</h3>
                     </a>
@@ -179,11 +179,11 @@
                 <!-- Yma Kabia-WilliamsLCSW -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="yma-kabia-williams.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/yma-kabia-williams.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/ymakabia.webp" alt="Yma Kabia-WilliamsLCSW"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="yma-kabia-williams.php"
+                    <a href="/about/yma-kabia-williams.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Yma Kabia-WilliamsLCSW</h3>
                     </a>
@@ -193,12 +193,12 @@
                 <!-- Gail Foorman -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="gail.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/gail.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/Gail-foorman.webp"
                             alt="Gail Foorman"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="gail.php" class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
+                    <a href="/about/gail.php" class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Gail Foorman</h3>
                     </a>
                     <p class="text-secondary font-medium text-sm">Clinician</p>
@@ -223,11 +223,11 @@
                 <!-- Rebecca Andrews -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="rebecca-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2022/11/brick-background-18.png" alt="Rebecca Andrews"
+                    <a href="/about/rebecca-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-18.png" alt="Rebecca Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="rebecca-andrews.php"
+                    <a href="/about/rebecca-andrews.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Rebecca Andrews</h3>
                     </a>
@@ -237,11 +237,11 @@
                 <!-- Brittany Andrews -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="brittany-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                    <a href="/about/brittany-andrews.php" class="block w-full mb-5 overflow-hidden rounded-xl">
                         <img src="/assets/images/brittany.webp" alt="Brittany Andrews"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="brittany-andrews.php"
+                    <a href="/about/brittany-andrews.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Brittany Andrews</h3>
                     </a>
@@ -251,11 +251,11 @@
                 <!-- Marcos Lopez -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="marcos-lopez.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2022/11/brick-background-22.png" alt="Marcos Lopez"
+                    <a href="/about/marcos-lopez.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-22.png" alt="Marcos Lopez"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="marcos-lopez.php"
+                    <a href="/about/marcos-lopez.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Marcos Lopez</h3>
                     </a>
@@ -265,11 +265,11 @@
                 <!-- Grace Lu -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="grace-lu.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2024/03/brick-background-68-819x1024.png" alt="Grace Lu"
+                    <a href="/about/grace-lu.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-68-768x960.png" alt="Grace Lu"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="grace-lu.php"
+                    <a href="/about/grace-lu.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Grace Lu</h3>
                     </a>
@@ -279,11 +279,11 @@
                 <!-- Stephen Luna -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="stephen-luna.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2023/06/brick-background-31-819x1024.png" alt="Stephen Luna"
+                    <a href="/about/stephen-luna.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/brick-background-31-768x960.png" alt="Stephen Luna"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="stephen-luna.php"
+                    <a href="/about/stephen-luna.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Stephen Luna</h3>
                     </a>
@@ -295,11 +295,11 @@
                 <!-- Eden Levites -->
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
-                    <a href="eden-levites.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/wp-content/uploads/2025/07/26-819x1024.jpg" alt="Eden Levites"
+                    <a href="/about/eden-levites.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/26-768x960.jpg" alt="Eden Levites"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="eden-levites.php"
+                    <a href="/about/eden-levites.php"
                         class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
                         <h3 class="text-xl font-bold mb-2">Eden Levites</h3>
                     </a>

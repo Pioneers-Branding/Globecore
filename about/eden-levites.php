@@ -72,7 +72,7 @@ include_once "../partials/head.php";
                         <div
                             class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
                         </div>
-                        <img src="/wp-content/uploads/2025/07/26-819x1024.jpg"
+                        <img src="/assets/images/26-768x960.jpg"
                             alt="Eden Levites"
                             class="w-full h-auto object-cover aspect-[4/5] transform group-hover:scale-105 transition-transform duration-700">
                     </div>
