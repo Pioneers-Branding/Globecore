@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<?php
-$pageTitle = "Philosophy & Core Values | GlobeCoRe Inc. Atlanta, GA";
-include_once "../partials/head.php";
-?>
+    <?php
+    $pageTitle = "Philosophy & Core Values | GlobeCoRe Inc. Atlanta, GA";
+    include_once "../partials/head.php";
+    ?>
 </head>
 
 <body class="font-raleway text-textMain bg-white">
@@ -108,8 +109,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-73.jpg"
-                                    alt="Racially, Ethnically & Religiously Inclusive"
+                                <img src="/assets/Globe Core-73.jpg" alt="Racially, Ethnically & Religiously Inclusive"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>
@@ -127,8 +127,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-103.jpg"
-                                    alt="LGBTQIA+ & Gender Minority Ally"
+                                <img src="/assets/Globe Core-103.jpg" alt="LGBTQIA+ & Gender Minority Ally"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>
@@ -228,8 +227,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-89.jpg"
-                                    alt="Disability-Inclusive & Neurodiverse"
+                                <img src="/assets/Globe Core-89.jpg" alt="Disability-Inclusive & Neurodiverse"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>
@@ -247,8 +245,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-52.jpg"
-                                    alt="Body Positivity & Self-Acceptance"
+                                <img src="/assets/Globe Core-52.jpg" alt="Body Positivity & Self-Acceptance"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>
@@ -280,7 +277,9 @@ include_once "../partials/head.php";
                                         <div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
                                     </div>
                                     <span class="text-gray-700 leading-relaxed font-medium">Addressing pervasive issues
-                                        of <a href="/specialties/eating-disorders.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">eating disorders</a>, ableism, sizeism, and colorism holistically.</span>
+                                        of <a href="/specialties/eating-disorders.php"
+                                            class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">eating
+                                            disorders</a>, ableism, sizeism, and colorism holistically.</span>
                                 </li>
                                 <li
                                     class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm hover:border-primary/30 transition-colors">
@@ -350,8 +349,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-104.jpg"
-                                    alt="Indigenous Land Acknowledgment & Respect"
+                                <img src="/assets/Globe Core-104.jpg" alt="Indigenous Land Acknowledgment & Respect"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>
@@ -369,8 +367,7 @@ include_once "../partials/head.php";
                             </div>
                             <div
                                 class="overflow-hidden rounded-[2.5rem] shadow-2xl relative z-0 border-[8px] border-white">
-                                <img src="/assets/Globe Core-72.jpg"
-                                    alt="Empowerment & Social Justice Advocacy"
+                                <img src="/assets/Globe Core-72.jpg" alt="Empowerment & Social Justice Advocacy"
                                     class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out">
                             </div>
                         </div>

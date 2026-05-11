@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php
-$pageTitle = "Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment | GlobeCoRe Inc.";
+$pageTitle = "Is TMS Therapy Actually Worth It? A Transparent Review | GlobeCoRe Inc.";
 include_once "../partials/head.php";
 ?>
 <style>
@@ -31,7 +31,7 @@ include_once "../partials/head.php";
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             <a href="/blog/" class="hover:text-primary transition-colors">Blog</a>
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            <span class="text-gray-900 line-clamp-1">Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment</span>
+            <span class="text-gray-900 line-clamp-1">Is TMS Therapy Actually Worth It? A Transparent Review</span>
         </div>
     </div>
 
@@ -43,17 +43,17 @@ include_once "../partials/head.php";
         </div>
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center">
             <div class="flex items-center justify-center gap-4 text-gray-400 text-xs font-bold uppercase tracking-widest mb-8">
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> February 3, 2026</span>
+                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> February 13, 2026</span>
                 <span class="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
                 <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 8 min read</span>
                 <span class="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg> Dr. Keerthy Sunder</span>
+                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg> GlobeCore Team</span>
             </div>
             <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-10 font-raleway">
-                Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment
+                Is TMS Therapy Actually Worth It? A Transparent Review
             </h1>
             <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed italic">
-                Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.
+                Wondering if TMS therapy is worth it? We provide a transparent, no-hype review of costs, effectiveness, side effects, and long-term results to help you decide.
             </p>
             <div class="flex justify-center">
                 <a href="/contact.php" class="bg-white text-[#071e26] font-bold py-4 px-10 rounded-full hover:bg-primary hover:text-white transition-all duration-300 shadow-xl">Get Mental Health Support</a>
@@ -89,12 +89,12 @@ include_once "../partials/head.php";
                 <!-- Content Area -->
                 <div class="lg:w-3/4">
                     <div class="rounded-[2.5rem] overflow-hidden mb-16 shadow-2xl relative group">
-                        <img src="/assets/blog/Is_TMS_Therapy_Safe.png" alt="Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
+                        <img src="/assets/blog/is_tms_therapy_legitimate.png" alt="Is TMS Therapy Actually Worth It? A Transparent Review" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
                     </div>
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
-                        <p class="text-xl font-medium mb-6">Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.</p>
-                <p>Full content for this article is being migrated. Please contact GlobeCore for more details on Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment.</p>
+                        <p class="text-xl font-medium mb-6">Wondering if TMS therapy is worth it? We provide a transparent, no-hype review of costs, effectiveness, side effects, and long-term results to help you decide.</p>
+                <p>Full content for this article is being migrated. Please contact GlobeCore for more details on Is TMS Therapy Actually Worth It? A Transparent Review.</p>
                 
                 <h2 class="text-2xl font-bold mt-10 mb-4">Key Takeaways</h2>
                 <ul class="list-disc pl-6 space-y-2">
