@@ -1,252 +1,442 @@
 [
   {
-    "title": "Mental Health Awareness Month: Why It Matters More Than Ever",
-    "link": "blogs/mental-health-awareness-month.html",
+    "title": "How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection",
+    "link": "blogs/how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.html",
+    "image": "images/blog/couples_therapy.jpg",
+    "category": "Mental Health",
+    "excerpt": "Intimate relationships are the foundation of human connection, yet maintaining a strong bond with your partner can sometimes feel like an uphill battle. Research on intimate relationships shows that...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "5 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Common Relationship Problems That Couples Therapy Can Resolve",
+    "link": "blogs/common-relationship-problems-that-couples-therapy-can-resolve.html",
+    "image": "images/blog/couples_therapy.jpg",
+    "category": "Mental Health",
+    "excerpt": "Relationships are a beautiful yet complex journey, filled with highs and lows. While love is an essential foundation, sustaining a healthy and fulfilling relationship requires effort, patience, and...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "5 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "The Role of Counseling in Mental Health Recovery",
+    "link": "blogs/the-role-of-counseling-in-mental-health-recovery.html",
     "image": "images/blog/counseling_in_mental_health_recovery.png",
     "category": "Mental Health",
-    "excerpt": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available for those struggling in the Coachella Valley.",
+    "excerpt": "Mental health recovery is a deeply personal journey. It\u2019s a process that involves understanding emotions, building resilience, and finding meaning after experiencing distress. While recovery often...",
     "author": "Dr. Keerthy Sunder",
-    "readTime": "8 min read",
-    "date": "May 5, 2026"
+    "readTime": "5 min read",
+    "date": "May 12, 2026"
   },
   {
-    "title": "Is TMS Shock Therapy? The Truth About TMS vs. ECT",
-    "link": "blogs/is-tms-shock-therapy.html",
-    "image": "images/blog/is_tms_therapy_legitimate.png",
-    "category": "TMS Therapy",
-    "excerpt": "Does TMS use shock therapy? No — it's a common misconception. Learn the critical differences between TMS and ECT, why the word 'shock' is misleading, and what patients in Palm Springs should know.",
+    "title": "The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns",
+    "link": "blogs/the-dopamine-trap-how-everyday-habits-mimic-addictive-patterns.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "When we think of addiction, alcohol, nicotine, or drugs usually come to mind. But in today\u2019s world, addiction often shows up in subtler ways. Hours lost on social media. \u201cOne more episode\u201d that turns...",
     "author": "Dr. Keerthy Sunder",
-    "readTime": "9 min read",
-    "date": "May 2, 2026"
+    "readTime": "5 min read",
+    "date": "May 12, 2026"
   },
   {
-    "title": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
-    "link": "blogs/why-tms-works-when-antidepressants-dont.html",
-    "image": "images/blog/what_is_tms_therapy_and_how_does_it_work.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "If antidepressants haven't worked for you, you're not broken — your brain just needs a different approach. A board-certified psychiatrist explains exactly why TMS succeeds where medication fails.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "11 min read",
-    "date": "April 20, 2026"
-  },
-  {
-    "title": "Your Brain on TMS: What Actually Happens During Those 20 Minutes (Most Clinics Won't Show You This)",
-    "link": "blogs/your-brain-on-tms.html",
+    "title": "What Is TMS Therapy? How It Works, Benefits & What to Expect (2026)",
+    "link": "blogs/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.html",
     "image": "images/blog/tms_therapy_in_atlanta.jpg",
     "category": "TMS Therapy",
-    "excerpt": "What really happens inside your brain during a TMS session? We break down the neuroscience — from the magnetic pulse to the synaptic change — in plain English.",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) treats mental health conditions using magnetic pulses to stimulate targeted brain regions noninvasively. FDA approval is most commonly for depression and is...",
     "author": "Dr. Keerthy Sunder",
-    "readTime": "10 min read",
-    "date": "April 17, 2026"
+    "readTime": "7 min read",
+    "date": "May 12, 2026"
   },
   {
-    "title": "Does TRICARE Cover TMS Therapy? Coverage, Costs & Requirements",
-    "link": "blogs/does-tricare-cover-tms-therapy.html",
-    "image": "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg",
+    "title": "Transcranial Magnetic Stimulation (TMS): A Beginner\u2019s Guide to Rapid Relief",
+    "link": "blogs/transcranial-magnetic-stimulation-tms-a-beginners-guide-to-rapid-relief.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
     "category": "TMS Therapy",
-    "excerpt": "Does TRICARE cover TMS therapy? Learn about TRICARE TMS coverage, eligibility requirements, costs, and how to access TMS for depression and OCD in Palm Springs.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "12 min read",
-    "date": "April 14, 2026"
-  },
-  {
-    "title": "Is OCD a Disability? ADA Rights, Benefits & Treatment Options",
-    "link": "blogs/is-ocd-a-disability.html",
-    "image": "images/blog/is_adhd_a_disability.png",
-    "category": "Mental Health",
-    "excerpt": "Is OCD a disability? Learn about OCD disability benefits, ADA coverage, severe OCD symptoms, and treatment options including TMS therapy.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "15 min read",
-    "date": "April 7, 2026"
-  },
-  {
-    "title": "How Much Does TMS Therapy Cost in the US?",
-    "link": "blogs/how-much-does-tms-therapy-cost-in-the-us.html",
-    "image": "images/blog/how_much_does_TMS_therapy_cost.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "Curious about the cost of TMS therapy? We break down the factors that influence the price, from insurance coverage to treatment protocols, and why it's a valuable investment in your future.",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) is a non-invasive brain treatment unlike any other. With a coil on the scalp, magnetic pulses are sent into parts of the brain that regulate mood. It's an...",
     "author": "Dr. Keerthy Sunder",
     "readTime": "8 min read",
-    "date": "March 20, 2026"
+    "date": "May 12, 2026"
   },
   {
-    "title": "When Anxiety Becomes a Disorder: Signs, Types & Treatment",
-    "link": "blogs/when-anxiety-becomes-a-disorder.html",
-    "image": "images/blog/what_is_social_anxiety.png",
+    "title": "What is Medication Management in Mental Health?",
+    "link": "blogs/what-is-medication-management-in-mental-health.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
     "category": "Mental Health",
-    "excerpt": "When does everyday anxiety become a clinical disorder? Learn the warning signs, the 6 most common anxiety disorder types, and modern treatments including TMS therapy in Palm Springs.",
+    "excerpt": "Mental health problems such as depression, anxiety, bipolar disorder, PTSD, OCD, ADHD, and schizophrenia often require a combination of therapy and medicines. But taking medicines is not just about...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "6 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How Long Does a Psychological Evaluation Take? A Complete Guide",
+    "link": "blogs/how-long-does-a-psychological-evaluation-take-a-complete-guide.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "A psychological evaluation is an important process used to understand a person\u2019s mental, emotional, behavioral, or cognitive health. It helps diagnose conditions, plan treatment, assess strengths and...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "7 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "TMS Therapy Cost in 2026: What to Expect Per Session, Full Course &amp; With Insurance",
+    "link": "blogs/tms-therapy-cost-in-2026-what-to-expect-per-session-full-course-amp-with-insurance.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "If you're searching for how much does TMS therapy cost, you want clear numbers right away. On average, TMS is a non-invasive brain stimulation treatment for depression, anxiety, and OCD \u2014 and...",
     "author": "Dr. Keerthy Sunder",
     "readTime": "10 min read",
-    "date": "March 14, 2026"
+    "date": "May 12, 2026"
   },
   {
-    "title": "Depression vs Burnout: How to Tell the Difference",
-    "link": "blogs/depression-vs-burnout.html",
-    "image": "images/blog/Depression_Treatment_in_Atlanta.png",
+    "title": "What Is Medication Management in Mental Health? Complete Guide for Patients",
+    "link": "blogs/what-is-medication-management-in-mental-health-complete-guide-for-patients.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
     "category": "Mental Health",
-    "excerpt": "Depression and burnout share overlapping symptoms but require very different treatments. Learn how to tell them apart and what to do if you think you have one or both.",
+    "excerpt": "If you're wondering what is medication management in mental health, you're likely looking for clear, patient-friendly guidance. Medication management is a structured, clinical process where a mental...",
     "author": "Dr. Keerthy Sunder",
-    "readTime": "11 min read",
-    "date": "March 10, 2026"
+    "readTime": "13 min read",
+    "date": "May 12, 2026"
   },
   {
-    "title": "Signs Your Depression Needs Professional Treatment",
-    "link": "blogs/signs-your-depression-needs-professional-treatment.html",
+    "title": "The 10 Best Psychologists in Atlanta, GA for 2026",
+    "link": "blogs/the-10-best-psychologists-in-atlanta-ga-for-2026.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Atlanta, Georgia, has become a center for innovation in mental health care. From anxiety and depression to trauma recovery and relationship therapy, the city\u2019s mental health professionals are helping...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How to Prepare for Your First Therapy Session: A Step-by-Step Guide",
+    "link": "blogs/how-to-prepare-for-your-first-therapy-session-a-step-by-step-guide.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Beginning therapy can be one of the most meaningful decisions you\u2019ll ever make for your well-being. Yet, it\u2019s also normal to feel uncertain, nervous, or even skeptical before your first session....",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "10 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is Psychiatry Primary Care? Understanding the Field, Competitiveness, and Career Path",
+    "link": "blogs/is-psychiatry-primary-care-understanding-the-field-competitiveness-and-career-path.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Psychiatry has become one of the fastest-evolving medical specialties, blending medicine, psychology, and neuroscience to address mental health conditions. With increasing awareness around mental...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is Psychiatry Primary Care? Understanding the Field, Competitiveness, and Career Path",
+    "link": "blogs/is-psychiatry-primary-care-understanding-the-field-competitiveness-and-career-path.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Psychiatry has become one of the fastest-evolving medical specialties, blending medicine, psychology, and neuroscience to address mental health conditions. With increasing awareness around mental...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Clinical Psychology vs Counseling Psychology: Understanding the Key Differences and Career Paths",
+    "link": "blogs/clinical-psychology-vs-counseling-psychology-understanding-the-key-differences-and-career-paths.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and counseling psychology? While both fields share the common...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "10 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Depression Treatment in Atlanta With Therapy | GlobeCore Inc",
+    "link": "blogs/depression-treatment-in-atlanta-with-therapy-globecore-inc.html",
     "image": "images/blog/Depression_Treatment_in_Atlanta.png",
     "category": "Depression",
-    "excerpt": "Not sure if your depression requires professional help? Learn the 10 warning signs that your depression has crossed into a medical condition requiring expert care.",
+    "excerpt": "Introduction Reaching out for help with depression can feel like standing at the edge of a busy Atlanta street, trying to decide when it is safe to step forward. The traffic of thoughts,...",
     "author": "Dr. Keerthy Sunder",
-    "readTime": "10 min read",
-    "date": "March 7, 2026"
+    "readTime": "21 min read",
+    "date": "May 12, 2026"
   },
   {
-    "title": "How Long Does TMS Therapy Take to Work for Depression?",
-    "link": "blogs/how-long-does-tms-take-to-work-for-depression.html",
-    "image": "images/blog/How_Long_Does_TMS_Therapy_Last.png",
-    "category": "TMS Therapy",
-    "excerpt": "Wondering how long TMS therapy takes to work for depression? Get a week-by-week breakdown, learn what to expect, and find out what factors affect your response speed.",
+    "title": "Clinical Psychology vs Counseling Psychology:  Key Differences",
+    "link": "blogs/clinical-psychology-vs-counseling-psychology-key-differences.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and counseling psychology? While both fields share the common...",
     "author": "Dr. Keerthy Sunder",
     "readTime": "9 min read",
-    "date": "March 3, 2026"
+    "date": "May 12, 2026"
   },
   {
-    "title": "Does Medicaid Cover TMS Therapy? A Complete Guide 2026",
-    "link": "blogs/does-medicaid-cover-tms-therapy.html",
+    "title": "Atlanta\u2019s Best Psychiatrists: Where Cultural Understanding Meets Compassionate, Effective Care",
+    "link": "blogs/atlantas-best-psychiatrists-where-cultural-understanding-meets-compassionate-effective-care.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Introduction If you\u2019re searching for a psychiatrist in Atlanta GA, you\u2019re likely seeking expert care that goes beyond medication\u2014a trusted professional who listens, understands, and guides you toward...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "9 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care",
+    "link": "blogs/psychiatrist-in-atlanta-that-accept-medicaid-your-complete-guide-to-accessible-mental-health-care.html",
     "image": "images/blog/Psychiatrist_in_Atlanta_That_Accept_Medicaid.png",
     "category": "Mental Health",
-    "excerpt": "Navigating mental health coverage can be confusing. Here\u2019s everything you need to know about accessing TMS therapy through Medicaid.",
-    "author": "GlobeCore Team",
-    "readTime": "7 min read",
-    "date": "February 17, 2026"
-  },
-  {
-    "title": "Is TMS Therapy Actually Worth It? A Transparent Review",
-    "link": "blogs/is-tms-therapy-worth-it.html",
-    "image": "images/blog/is_tms_therapy_legitimate.png",
-    "category": "TMS Therapy",
-    "excerpt": "Wondering if TMS therapy is worth it? We provide a transparent, no-hype review of costs, effectiveness, side effects, and long-term results to help you decide.",
-    "author": "GlobeCore Team",
-    "readTime": "8 min read",
-    "date": "February 13, 2026"
-  },
-  {
-    "title": "What Are the First Signs of Schizophrenia?",
-    "link": "blogs/what-are-the-first-signs-of-schizophrenia.html",
-    "image": "images/blog/psychiatric_evaluation.png",
-    "category": "Mental Health",
-    "excerpt": "Learn the early signs of schizophrenia, from social withdrawal to subtle paranoia. Discover the prodromal phase, risk factors, and treatment options in Palm Springs.",
-    "author": "GlobeCore Team",
-    "readTime": "7 min read",
-    "date": "February 10, 2026"
-  },
-  {
-    "title": "What Is PrTMS & How Does It Work? A Complete Guide by GlobeCore",
-    "link": "blogs/what-is-prtms.html",
-    "image": "images/blog/what_is_tms_therapy_and_how_does_it_work.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "Discover PrTMS (Personalized Repetitive Transcranial Magnetic Stimulation), a non-invasive, drug-free mental health treatment in Palm Springs. Learn how it works, what conditions it treats, and how it differs from traditional TMS.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "8 min read",
-    "date": "February 6, 2026"
-  },
-  {
-    "title": "Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment",
-    "link": "blogs/is-tms-therapy-safe.html",
-    "image": "images/blog/Is_TMS_Therapy_Safe.png",
-    "category": "TMS Therapy",
-    "excerpt": "Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "8 min read",
-    "date": "February 3, 2026"
-  },
-  {
-    "title": "Top 5 TMS Therapy Clinics in Palm Springs, CA",
-    "link": "blogs/top-tms-clinics-palm-springs.html",
-    "image": "images/blog/tms_therapy_in_atlanta.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "Comparing the best TMS providers in Palm Springs. We review the top 5 clinics to help you find the right treatment for depression.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "8 min read",
-    "date": "January 24, 2026"
-  },
-  {
-    "title": "Is TMS a Hoax? A Deep Dive Into the Science, Myths, and Real Outcomes",
-    "link": "blogs/is-tms-a-hoax.html",
-    "image": "images/blog/is_tms_therapy_legitimate.png",
-    "category": "TMS Therapy",
-    "excerpt": "Is TMS a hoax? We dive deep into the science, debunk myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "9 min read",
-    "date": "January 12, 2026"
-  },
-  {
-    "title": "Who Is a Good Candidate for TMS Therapy? Complete Guide",
-    "link": "blogs/who-is-a-good-candidate-for-tms-therapy.html",
-    "image": "images/blog/tms_therapy_in_atlanta.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "Learn who is a good candidate for TMS therapy, eligibility criteria, benefits, risks, and how to know if TMS treatment is right for you.",
+    "excerpt": "Introduction Finding a psychiatrist in Atlanta that accept Medicaid can sometimes feel like searching for a needle in a haystack. You know help is out there, but the process of finding affordable,...",
     "author": "Dr. Keerthy Sunder",
     "readTime": "12 min read",
-    "date": "January 7, 2026"
+    "date": "May 12, 2026"
   },
   {
-    "title": "Is TMS Therapy Covered by Insurance? What You Should Know",
-    "link": "blogs/is-tms-therapy-covered-by-insurance.html",
-    "image": "images/blog/how_much_does_TMS_therapy_cost.jpg",
-    "category": "TMS Therapy",
-    "excerpt": "Is TMS therapy covered by insurance? Learn eligibility, approval criteria, costs, and coverage details to access effective TMS treatment.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "15 min read",
-    "date": "January 1, 2026"
-  },
-  {
-    "title": "Can You Get Disability for Depression? Understanding Your Rights, Benefits, and Treatment Options",
-    "link": "blogs/can-you-get-disability-for-depression.html",
-    "image": "images/blog/can_you_get_disability_for_depression.png",
+    "title": "Find an African American Psychiatrist in Atlanta, GA",
+    "link": "blogs/find-an-african-american-psychiatrist-in-atlanta-ga.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
     "category": "Mental Health",
-    "excerpt": "Complete guide to disability benefits for depression, covering SSDI and SSI eligibility, application process, documentation requirements, and treatment options including TMS therapy.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "16 min read",
-    "date": "December 2, 2025"
-  },
-  {
-    "title": "Is Depression a Disability? Understanding Rights, Treatment, and Support Options",
-    "link": "blogs/is-depression-a-disability.html",
-    "image": "images/blog/can_you_get_disability_for_depression.png",
-    "category": "Mental Health",
-    "excerpt": "Comprehensive guide on depression as a disability, including legal rights, workplace accommodations, treatment options like TMS therapy, and support resources.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "15 min read",
-    "date": "December 1, 2025"
-  },
-  {
-    "title": "Does TMS Therapy Work for Anxiety?",
-    "link": "blogs/does-tms-therapy-work-for-anxiety.html",
-    "image": "images/blog/how_to_calm_anxiety.png",
-    "category": "TMS Therapy",
-    "excerpt": "Discover how TMS therapy effectively treats anxiety disorders. Learn about success rates, benefits, treatment process, and what to expect from TMS for anxiety relief.",
-    "author": "Dr. Keerthy Sunder",
-    "readTime": "14 min read",
-    "date": "November 28, 2025"
-  },
-  {
-    "title": "How to Avoid Stress During the Holidays?",
-    "link": "blogs/how-to-avoid-stress-during-holidays.html",
-    "image": "images/blog/how_to_calm_anxiety.png",
-    "category": "Wellness Tips",
-    "excerpt": "Discover practical strategies to manage holiday stress with 7 actionable tips. Learn how to maintain mental wellness during the holiday season.",
+    "excerpt": "At GlobeCoRe, Inc., we know that choosing the right psychiatrist is one of the most personal and important decisions you can make for your mental health. Our mission is to provide compassionate,...",
     "author": "Dr. Keerthy Sunder",
     "readTime": "10 min read",
-    "date": "November 22, 2025"
+    "date": "May 12, 2026"
   },
   {
-    "title": "Tech And Mental Health: The Impact Of Technology On Mental Health",
-    "link": "blogs/tech-mental-health-impact.html",
-    "image": "images/blog/dopamine_trap.png",
+    "title": "Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust",
+    "link": "blogs/best-psychiatrist-in-atlanta-expert-mental-health-care-you-can-trust.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
     "category": "Mental Health",
-    "excerpt": "Understanding the complex relationship between technology and mental wellbeing in our digital world. Exploring both positive and negative impacts.",
-    "author": "GlobeCore Team",
+    "excerpt": "Introduction Finding the&nbsp;Best Psychiatrist in Atlanta&nbsp;means choosing a professional who understands your mental health needs, offers evidence-based treatment, and provides compassionate...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "9 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How Effective Is Treatment in Psychiatry for Mental Health Care",
+    "link": "blogs/how-effective-is-treatment-in-psychiatry-for-mental-health-care.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "When emotional distress starts affecting sleep, relationships, work performance, or physical health, people naturally look for answers they can trust. One of the most searched and most important...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "11 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How to Prevent Chronic Illness With Sustainable Lifestyle Choices",
+    "link": "blogs/how-to-prevent-chronic-illness-with-sustainable-lifestyle-choices.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Understanding how to prevent chronic illness has become one of the most important health priorities of our time. Long term conditions such as heart disease, diabetes, autoimmune disorders, chronic...",
+    "author": "Dr. Keerthy Sunder",
     "readTime": "13 min read",
-    "date": "January 22, 2025"
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How Long Does TMS Therapy Last? Understanding TMS Results Over Time",
+    "link": "blogs/how-long-does-tms-therapy-last-understanding-tms-results-over-time.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) offers hope for individuals battling stubborn depression. This article delves into the duration of TMS therapy, exploring its effectiveness and long-term...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "11 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Does TMS Therapy Help Anxiety in Atlanta, GA? Honest Benefits, Risks, and Results",
+    "link": "blogs/does-tms-therapy-help-anxiety-in-atlanta-ga-honest-benefits-risks-and-results.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Are you grappling with persistent anxiety and seeking alternative treatments? Transcranial Magnetic Stimulation (TMS) therapy might be the solution you're looking for. TMS is a non-invasive procedure...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "15 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Top 10 Psychiatrists in Atlanta Offering Trusted Mental Health Care",
+    "link": "blogs/top-10-psychiatrists-in-atlanta-offering-trusted-mental-health-care.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Mental health concerns can affect anyone, at any stage of life. When symptoms begin to interfere with daily functioning, work, relationships, or emotional stability, seeking professional psychiatric...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "7 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "\"TMS Ruined My Life\" \u2014 What's Really Happening & How to Find Relief",
+    "link": "blogs/tms-ruined-my-life-whats-really-happening-how-to-find-relief.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) therapy is often introduced as a hopeful option for people who have struggled with depression for years without success from medications or talk therapy. For...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "7 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is TMS Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits",
+    "link": "blogs/is-tms-therapy-legitimate-exploring-the-science-safety-amp-real-benefits.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) Therapy has grown rapidly in popularity as a non-invasive mental health treatment, but many people still ask: \u201cIs TMS therapy legitimate?\u201d If you\u2019re...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "5 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is TMS Dip Normal? Understanding Temporary Mood Changes During TMS Therapy",
+    "link": "blogs/is-tms-dip-normal-understanding-temporary-mood-changes-during-tms-therapy.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS therapy) has become a highly effective non-invasive treatment for depression, anxiety, PTSD, and OCD. While most patients notice improvement over the course of...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "6 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "TMS Therapy for ADHD: How Non-Invasive Brain Stimulation Works",
+    "link": "blogs/tms-therapy-for-adhd-how-non-invasive-brain-stimulation-works.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Attention-Deficit/Hyperactivity Disorder (ADHD) is a complex neurological condition that affects focus, impulse control, emotional regulation, and executive functioning. For many individuals, ADHD...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is TMS Therapy Safe? What You Need to Know",
+    "link": "blogs/is-tms-therapy-safe-what-you-need-to-know.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Transcranial Magnetic Stimulation (TMS) therapy has become an increasingly popular option for individuals seeking non-invasive, drug-free treatment for mental health and neurological conditions. As...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is Counseling the Same as Therapy? The Honest Answer",
+    "link": "blogs/is-counseling-the-same-as-therapy-the-honest-answer.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "When seeking mental health support, many people use the terms counseling and therapy interchangeably. While they share similarities and often overlap, they are not exactly the same. Understanding the...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Can You Get Disability for Depression? A Complete Guide for Atlanta Residents",
+    "link": "blogs/can-you-get-disability-for-depression-a-complete-guide-for-atlanta-residents.html",
+    "image": "images/blog/Depression_Treatment_in_Atlanta.png",
+    "category": "Depression",
+    "excerpt": "Depression is not just a difficult season. For many individuals, it is a chronic, life-altering condition that affects work performance, relationships, decision-making, and even the ability to...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "9 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "What Is Social Anxiety? Understanding Symptoms, Causes, and Treatment",
+    "link": "blogs/what-is-social-anxiety-understanding-symptoms-causes-and-treatment.html",
+    "image": "images/blog/how_to_calm_anxiety.png",
+    "category": "Mental Health",
+    "excerpt": "Feeling nervous before a big meeting or social event is completely normal. Most people experience occasional self-consciousness. But when fear of being judged, embarrassed, or scrutinized becomes...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "12 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Does TRICARE Cover Mental Health Therapy?",
+    "link": "blogs/does-tricare-cover-mental-health-therapy.html",
+    "image": "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg",
+    "category": "Mental Health",
+    "excerpt": "Mental health care plays an important role in maintaining emotional balance, managing stress, and improving overall quality of life. For military service members, veterans, and their families, access...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "11 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "What Happens During a Psychiatric Evaluation?",
+    "link": "blogs/what-happens-during-a-psychiatric-evaluation.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "If you have been referred to a psychiatrist or are considering making an appointment on your own, you may be wondering what to expect. A psychiatric evaluation is often the first step in...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "10 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Therapy for Psychological Abuse: How Recovery Works",
+    "link": "blogs/therapy-for-psychological-abuse-how-recovery-works.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Psychological abuse leaves deep emotional wounds that are not always visible. According to psychological abuse research, this form of abuse can be as damaging as physical trauma and requires...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Hormonal Mood Disorders in Women: What You Should Know",
+    "link": "blogs/hormonal-mood-disorders-in-women-what-you-should-know.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Hormones play a powerful role in regulating mood, energy, and emotional well-being. For women, fluctuations in hormone levels throughout life can significantly affect mental health. Hormonal mood...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "9 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Anxiety and Depression During Pregnancy: Signs, Causes, and Treatment",
+    "link": "blogs/anxiety-and-depression-during-pregnancy-signs-causes-and-treatment.html",
+    "image": "images/blog/Depression_Treatment_in_Atlanta.png",
+    "category": "Depression",
+    "excerpt": "Pregnancy is often portrayed as a joyful and exciting time, but for many women, it also brings significant emotional challenges. Anxiety and depression during pregnancy are more common than most...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "7 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How Pregnancy Affects Mental Health: What Every Mother Should Know",
+    "link": "blogs/how-pregnancy-affects-mental-health-what-every-mother-should-know.html",
+    "image": "images/blog/counseling_in_mental_health_recovery.png",
+    "category": "Mental Health",
+    "excerpt": "Pregnancy is a transformative life experience that affects every aspect of a woman's health, including her mental and emotional well-being. While pregnancy is often associated with joy and...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "8 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Can Veterans Get TRICARE for TMS Therapy? (Complete Coverage Guide)",
+    "link": "blogs/can-veterans-get-tricare-for-tms-therapy-complete-coverage-guide.html",
+    "image": "images/blog/tms_therapy_in_atlanta.jpg",
+    "category": "TMS Therapy",
+    "excerpt": "Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "10 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Is ADHD a Disability? What You Need to Know",
+    "link": "blogs/is-adhd-a-disability-what-you-need-to-know.html",
+    "image": "images/blog/can_you_get_disability_for_depression.png",
+    "category": "Mental Health",
+    "excerpt": "Is ADHD a disability? If you've been asking this question, for yourself, your child, or someone you love, you're not alone. Millions of people live with Attention Deficit Hyperactivity Disorder...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "11 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "How to Calm Anxiety: Proven Techniques for Immediate Relief",
+    "link": "blogs/how-to-calm-anxiety-proven-techniques-for-immediate-relief.html",
+    "image": "images/blog/how_to_calm_anxiety.png",
+    "category": "Mental Health",
+    "excerpt": "Feeling your heart race, your chest tighten, or your mind spinning out of control \u2014 anxiety can be absolutely overwhelming. If you are searching for how to calm anxiety, you are already taking an...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "13 min read",
+    "date": "May 12, 2026"
+  },
+  {
+    "title": "Does Marriage Counseling Work? What the Research Really Says",
+    "link": "blogs/does-marriage-counseling-work-what-the-research-really-says.html",
+    "image": "images/blog/marriage_counseling_in_atlanta_ga.jpg",
+    "category": "Mental Health",
+    "excerpt": "If your relationship has been struggling and you are wondering, does marriage counseling work? \u2014 you are asking exactly the right question. Whether you are dealing with constant conflict, emotional...",
+    "author": "Dr. Keerthy Sunder",
+    "readTime": "13 min read",
+    "date": "May 12, 2026"
   }
 ]
