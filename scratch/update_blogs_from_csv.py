@@ -43,32 +43,76 @@ def get_excerpt(html, length=200):
         return text
     return text[:length].rsplit(' ', 1)[0] + "..."
 
-def get_image_for_title(title):
+def get_image_for_title(title, blog_index=0):
     title = title.lower()
-    mapping = {
-        "tms": "images/blog/tms_therapy_in_atlanta.jpg",
-        "depression": "images/blog/Depression_Treatment_in_Atlanta.png",
-        "anxiety": "images/blog/how_to_calm_anxiety.png",
-        "disability": "images/blog/can_you_get_disability_for_depression.png",
-        "cost": "images/blog/how_much_does_TMS_therapy_cost.jpg",
-        "insurance": "images/blog/how_much_does_TMS_therapy_cost.jpg",
-        "medicaid": "images/blog/Psychiatrist_in_Atlanta_That_Accept_Medicaid.png",
-        "tricare": "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg",
-        "schizophrenia": "images/blog/psychiatric_evaluation.png",
-        "ocd": "images/blog/is_adhd_a_disability.png",
-        "burnout": "images/blog/Depression_Treatment_in_Atlanta.png",
-        "stress": "images/blog/how_to_calm_anxiety.png",
-        "tech": "images/blog/dopamine_trap.png",
-        "couples": "images/blog/couples_therapy.jpg",
-        "relationship": "images/blog/couples_therapy.jpg",
-        "marriage": "images/blog/marriage_counseling_in_atlanta_ga.jpg",
-        "schizophrenia": "images/blog/psychiatric_evaluation.png",
-        "personality": "images/blog/psychiatric_evaluation.png",
-    }
-    for key, img in mapping.items():
+    
+    # Specific high-priority matches
+    specific_mapping = [
+        ("ruined my life", "images/blog/TMS_Ruined_My_Life.webp"),
+        ("pregnancy", "images/blog/anxiety_depression_during_pregnancy.png"),
+        ("mother", "images/blog/how_pregnancy_affect_mental_health.png"),
+        ("women", "images/blog/hormonal_mood_disorders_in_women.png"),
+        ("chronic illness", "images/blog/How_to_Prevent_Chronic_Illness.png"),
+        ("dopamine", "images/blog/dopamine_trap.png"),
+        ("social anxiety", "images/blog/what_is_social_anxiety.png"),
+        ("calm anxiety", "images/blog/how_to_calm_anxiety.png"),
+        ("adhd", "images/blog/tms_therapy_for_adhd.png"),
+        ("disability", "images/blog/can_you_get_disability_for_depression.png"),
+        ("medicaid", "images/blog/Psychiatrist_in_Atlanta_That_Accept_Medicaid.png"),
+        ("african american", "images/blog/African_American_Psychiatrist_in_Atlanta_GA.jpg"),
+        ("clinical psychology", "images/blog/clinical_psychology_vs_counseling_psychology.jpg"),
+        ("couples", "images/blog/couples_therapy.jpg"),
+        ("marriage", "images/blog/marriage_counseling_in_atlanta_ga.jpg"),
+        ("abuse", "images/blog/therapy_for_psychological_abuse.png"),
+        ("dip", "images/blog/is_tms_dip_normal.png"),
+        ("legitimate", "images/blog/is_tms_therapy_legitimate.png"),
+    ]
+    
+    for key, img in specific_mapping:
         if key in title:
             return img
-    return "images/blog/counseling_in_mental_health_recovery.png"
+
+    # Pools for rotation if no specific match
+    tms_pool = [
+        "images/blog/tms_therapy_in_atlanta.jpg",
+        "images/blog/what_is_tms_therapy_and_how_does_it_work.jpg",
+        "images/blog/Is_TMS_Therapy_Safe.png",
+        "images/blog/How_Long_Does_TMS_Therapy_Last.png",
+        "images/blog/how_much_does_TMS_therapy_cost.jpg",
+        "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg"
+    ]
+    
+    depression_pool = [
+        "images/blog/Depression_Treatment_in_Atlanta.png",
+        "images/blog/how_to_calm_anxiety.png",
+        "images/blog/can_you_get_disability_for_depression.png",
+        "images/blog/what_is_social_anxiety.png"
+    ]
+    
+    therapy_pool = [
+        "images/blog/counseling_in_mental_health_recovery.png",
+        "images/blog/Is_Counseling_the_Same_as_Therapy.png",
+        "images/blog/relationship_problems.jpg",
+        "images/blog/therapy_for_psychological_abuse.png"
+    ]
+    
+    general_pool = [
+        "images/blog/Best_Psychiatrist_in_atlanta.jpg",
+        "images/blog/best_psychiatrist_in_atlanta.png",
+        "images/blog/top_10_psychiatrists_in_Atlanta.png",
+        "images/blog/How_effective_is_treatment_in_psychiatry.png",
+        "images/blog/psychiatric_evaluation.png",
+        "images/blog/psychological_evaluation.jpg"
+    ]
+
+    if "tms" in title:
+        return tms_pool[blog_index % len(tms_pool)]
+    elif "depression" in title or "anxiety" in title or "pregnancy" in title:
+        return depression_pool[blog_index % len(depression_pool)]
+    elif "therapy" in title or "counseling" in title or "relationship" in title:
+        return therapy_pool[blog_index % len(therapy_pool)]
+    else:
+        return general_pool[blog_index % len(general_pool)]
 
 # Template for PHP
 post_template = """<!DOCTYPE html>
@@ -104,7 +148,7 @@ include_once "../partials/head.php";
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             <a href="/blog/" class="hover:text-primary transition-colors">Blog</a>
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            <span class="text-gray-900 line-clamp-1">{title}</span>
+            <span class="text-gray-900 line-clamp-1">{raw_title}</span>
         </div>
     </div>
 
@@ -123,7 +167,7 @@ include_once "../partials/head.php";
                 <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg> {author}</span>
             </div>
             <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-10 font-raleway">
-                {title}
+                {raw_title}
             </h1>
             <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed italic">
                 {excerpt}
@@ -162,7 +206,7 @@ include_once "../partials/head.php";
                 <!-- Content Area -->
                 <div class="lg:w-3/4">
                     <div class="rounded-[2.5rem] overflow-hidden mb-16 shadow-2xl relative group">
-                        <img src="/assets/blog/{image_filename}" alt="{title}" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
+                        <img src="/assets/blog/{image_filename}" alt="{html_title}" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
                     </div>
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
@@ -194,8 +238,37 @@ include_once "../partials/head.php";
 
 updated_blogs = []
 
+# distribution of dates: 4 blogs per month
+total_blogs_count = 0
 with open(csv_path, 'r', encoding='utf-8-sig') as f:
     reader = csv.DictReader(f)
+    for row in reader:
+        if not row['Title'].strip().startswith("Elementor"):
+            total_blogs_count += 1
+
+def get_backdated_date(index):
+    # current index starts from 0 (latest)
+    # 4 blogs per month
+    month_offset = index // 4
+    day_offset = (index % 4) * 7 + 1 # Spread them across the month (approx every 7 days)
+    
+    current_year = 2026
+    current_month = 5 # May
+    
+    # Calculate target month and year
+    target_month = current_month - month_offset
+    target_year = current_year
+    while target_month <= 0:
+        target_month += 12
+        target_year -= 1
+        
+    # Return formatted date
+    dt = datetime(target_year, target_month, min(28, day_offset))
+    return dt.strftime("%B %d, %Y")
+
+with open(csv_path, 'r', encoding='utf-8-sig') as f:
+    reader = csv.DictReader(f)
+    blog_index = 0
     for row in reader:
         title = row['Title'].strip()
         if title.startswith("Elementor"):
@@ -203,25 +276,30 @@ with open(csv_path, 'r', encoding='utf-8-sig') as f:
         content = clean_html(row['Content'])
         title_lower = title.lower()
         
+        # Calculate backdate
+        blog_date = get_backdated_date(blog_index)
+        blog_index += 1
+
         if title_lower in metadata_map:
             meta = metadata_map[title_lower]
             meta['title'] = title
             meta['excerpt'] = get_excerpt(content)
-            # Use existing image if possible, otherwise map it
-            if "counseling_in_mental_health_recovery.png" in meta['image']:
-                meta['image'] = get_image_for_title(title)
+            meta['author'] = "Kelly Lewis Arthur"
+            meta['date'] = blog_date
+            # Update image from mapping to ensure most specific one is used
+            meta['image'] = get_image_for_title(title, blog_index)
         else:
             # Create new metadata
             slug = slugify(title)
             meta = {
                 "title": title,
                 "link": f"blogs/{slug}.html",
-                "image": get_image_for_title(title),
+                "image": get_image_for_title(title, blog_index),
                 "category": "Mental Health",
                 "excerpt": get_excerpt(content),
-                "author": "Dr. Keerthy Sunder",
+                "author": "Kelly Lewis Arthur",
                 "readTime": f"{max(5, len(content.split()) // 200)} min read",
-                "date": datetime.now().strftime("%B %d, %Y")
+                "date": blog_date
             }
             # Update category based on title keywords too
             if "tms" in title.lower():
@@ -241,8 +319,14 @@ with open(csv_path, 'r', encoding='utf-8-sig') as f:
         filename = meta['link'].replace('blogs/', '').replace('.html', '.php')
         image_filename = meta['image'].replace('images/blog/', '')
         
+        # Escape double quotes ONLY for the PHP pageTitle variable
+        escaped_title = meta['title'].replace('"', '\\"')
+        html_title = meta['title'].replace('"', '&quot;')
+        
         php_content = post_template.format(
-            title=meta['title'],
+            title=escaped_title,
+            raw_title=meta['title'],
+            html_title=html_title,
             category=meta['category'],
             date=meta['date'],
             author=meta['author'],

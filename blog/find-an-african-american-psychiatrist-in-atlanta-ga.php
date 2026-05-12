@@ -43,11 +43,11 @@ include_once "../partials/head.php";
         </div>
         <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center">
             <div class="flex items-center justify-center gap-4 text-gray-400 text-xs font-bold uppercase tracking-widest mb-8">
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> May 12, 2026</span>
+                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg> January 22, 2026</span>
                 <span class="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
                 <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 10 min read</span>
                 <span class="w-1.5 h-1.5 rounded-full bg-gray-600"></span>
-                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg> Dr. Keerthy Sunder</span>
+                <span class="flex items-center gap-2"><svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg> Kelly Lewis Arthur</span>
             </div>
             <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-10 font-raleway">
                 Find an African American Psychiatrist in Atlanta, GA
@@ -89,7 +89,7 @@ include_once "../partials/head.php";
                 <!-- Content Area -->
                 <div class="lg:w-3/4">
                     <div class="rounded-[2.5rem] overflow-hidden mb-16 shadow-2xl relative group">
-                        <img src="/assets/blog/counseling_in_mental_health_recovery.png" alt="Find an African American Psychiatrist in Atlanta, GA" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
+                        <img src="/assets/blog/African_American_Psychiatrist_in_Atlanta_GA.jpg" alt="Find an African American Psychiatrist in Atlanta, GA" class="w-full h-auto object-cover max-h-[600px] group-hover:scale-105 transition-transform duration-700">
                     </div>
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
