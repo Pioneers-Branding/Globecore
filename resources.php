@@ -63,7 +63,7 @@
                     ["title" => "Healing the 7 Types of ADD", "url" => "#", "type" => "[Book]"],
                     ["title" => "The ADHD Effect on Marriage", "url" => "https://www.amazon.com/ADHD-Effect-Marriage-Understand-Relationship/dp/1886941971", "type" => "[Book]"],
                     ["title" => "Smart but Scattered for Adults", "url" => "https://www.amazon.com/Smart-but-Scattered-Guide-Success/dp/1462516963", "type" => "[Book]"],
-                    ["title" => "ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction", "url" => "#", "type" => "[Book]"],
+                    ["title" => "ADHD 2.0: New Science and Essential Strategies for Thriving with Distraction", "url" => "https://www.amazon.com/s?k=adhd+2.0+book", "type" => "[Book]"],
                     ["title" => "The Disintegrating Student: Struggling but Smart, Falling Apart, and how to turn it around", "url" => "https://www.jeanninejannot.com/book", "type" => "[Book]"]
                 ],
                 "Adoption" => [
@@ -77,7 +77,7 @@
                     ["title" => "The 36 Hour Day", "url" => "https://www.amazon.com/36-Hour-Day-Alzheimer-Disease-Dementias/dp/1421441713", "type" => "[Book]"]
                 ],
                 "Anger & Aggression" => [
-                    ["title" => "Anger & Aggression Fact Sheet", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Anger-vs.-Agression-Fact-Sheet-Updated-1.pdf", "type" => "[Article]"],
+                    ["title" => "Anger & Aggression Fact Sheet", "url" => "/assets/wp-content/uploads/2021/03/Anger-vs.-Agression-Fact-Sheet-Updated-1.pdf", "type" => "[Article]"],
                     ["title" => "Anger Management for Everyone: Seven Proven Ways to Control Anger", "url" => "https://www.amazon.com/Anger-Management-Everyone-Control-Happier/dp/1886230838", "type" => "[Book]"],
                     ["title" => "Overcoming Passive-Aggression: How To Stop Hidden Anger", "url" => "https://www.amazon.com/Overcoming-Passive-Aggression-Spoiling-Relationships-Happiness/dp/1569243611", "type" => "[Book]"],
                     ["title" => "The Surprising Purpose of Anger: Beyond Anger Management", "url" => "https://www.amazon.com/gp/product/1892005158", "type" => "[Book]"],
@@ -87,7 +87,7 @@
                     ["title" => "10 Best-Ever Anxiety Management Techniques", "url" => "https://www.amazon.com/Best-Ever-Anxiety-Management-Techniques-Understanding/dp/0393705560", "type" => "[Book]"],
                     ["title" => "Overcoming Anxiety, Worry and Peace: Practical Ways to Find Peace", "url" => "https://www.amazon.com/Overcoming-Anxiety-Worry-Fear-Practical/dp/0800719689", "type" => "[Book]"],
                     ["title" => "On Edge: A Journey Through Anxiety", "url" => "https://www.amazon.com/Edge-Journey-Through-Anxiety/dp/0553418572", "type" => "[Book]"],
-                    ["title" => "Anxiety Tracking Form", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Anxiety-Tracking-Form.pdf", "type" => "[Assessment]"],
+                    ["title" => "Anxiety Tracking Form", "url" => "/assets/wp-content/uploads/2021/03/Anxiety-Tracking-Form.pdf", "type" => "[Assessment]"],
                     ["title" => "Cognitive Behavioral Therapy (CBT) & Dialectical Behavioral Therapy (DBT) (2 in 1)", "url" => "https://www.walmart.com/ip/Cognitive-Behavioral-Therapy-CBT-Dialectical-DBT-2-1-How-CBT-DBT-ACT-Techniques-Can-Help-You-To-Overcoming-Anxiety-Depression-OCD-Intrusive-Thoughts--9781801342025/293120168", "type" => "[Book]"],
                     ["title" => "DBT Workbook for Adults: Develop Emotional Wellbeing", "url" => "https://www.amazon.com/DBT-Workbook-Adults-Emotional-Wellbeing/dp/1774870061", "type" => "[Workbook]"],
                     ["title" => "DBT Workbook for Anxiety: Dialectical Behavior Therapy Strategies", "url" => "https://www.amazon.com/DBT-Workbook-Anxiety-Dialectical-Strategies-ebook/dp/B09Y2BVXYG", "type" => "[Workbook]"],
@@ -109,15 +109,15 @@
                     ["title" => "Divorce & New Beginnings", "url" => "https://www.amazon.com/Divorce-New-Beginnings-Co-Parenting-Stepfamilies/dp/0471326488", "type" => "[Book]"],
                     ["title" => "Caught in the Middle: Protecting the Children of High-Conflict Divorce", "url" => "https://www.amazon.com/Caught-Middle-Protecting-Children-High-Conflict-ebook/dp/B0028Y43V8", "type" => "[Book]"],
                     ["title" => "Divorce: The Art of Screwing Up Your Children", "url" => "https://www.amazon.com/Divorce-Art-Screwing-Your-Children/dp/1500243167", "type" => "[Book]"],
-                    ["title" => "Mom’s House, Dad’s House", "url" => "https://www.amazon.com/Moms-House-Dads-Making-homes/dp/0684830787", "type" => "[Book]"]
+                    ["title" => "Mom's House, Dad's House", "url" => "https://www.amazon.com/Moms-House-Dads-Making-homes/dp/0684830787", "type" => "[Book]"]
                 ],
                 "Boundary and Goal Setting" => [
                     ["title" => "Boundaries: Where you End and I Begin", "url" => "https://www.amazon.com/Boundaries-Where-Begin-Recognize-Healthy/dp/1568380305", "type" => "[Book]"],
                     ["title" => "Boundaries: When to Say Yes, How to Say No", "url" => "http://www.boundariesbooks.com/", "type" => "[Book]"],
-                    ["title" => "Goal Exploration", "url" => "https://globecoreinc.com/wp-content/uploads/2020/12/goal-exploration.pdf", "type" => "[Website]"],
-                    ["title" => "Setting Boundaries", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Setting-Boundaries.pdf", "type" => "[Activity]"],
-                    ["title" => "Identifying Triggers", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Triggers.pdf", "type" => "[Activity]"],
-                    ["title" => "Interpersonal Effectiveness", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/dbt-interpersonal-effectiveness-grp-4-handouts.pdf", "type" => "[Activity]"],
+                    ["title" => "Goal Exploration", "url" => "/assets/wp-content/uploads/2020/12/goal-exploration.pdf", "type" => "[Website]"],
+                    ["title" => "Setting Boundaries", "url" => "/assets/wp-content/uploads/2021/03/Setting-Boundaries.pdf", "type" => "[Activity]"],
+                    ["title" => "Identifying Triggers", "url" => "/assets/wp-content/uploads/2021/03/Triggers.pdf", "type" => "[Activity]"],
+                    ["title" => "Interpersonal Effectiveness", "url" => "/assets/wp-content/uploads/2021/03/dbt-interpersonal-effectiveness-grp-4-handouts.pdf", "type" => "[Activity]"],
                     ["title" => "Build Better Relationship Through Consent...", "url" => "https://www.amazon.com/dp/1621061760", "type" => "[Book]"],
                     ["title" => "Set Boundaries, Find Peace", "url" => "https://www.nedratawwab.com/my-book", "type" => "[Book]"],
                     ["title" => "Boundary Quiz from Set Boundaries, Find Peace", "url" => "https://www.nedratawwab.com/boundariesquiz", "type" => "[Activity]"],
@@ -125,11 +125,11 @@
                 ],
                 "Bullying" => [
                     ["title" => "stopbullying.gov", "url" => "https://www.stopbullying.gov/", "type" => "[Website]"],
-                    ["title" => "Cyberbullying.org", "url" => "https://cyberbullying.org", "type" => "[Website]"],
+                    ["title" => "Cyberbullying.org", "url" => "https://cyberbullying.org/", "type" => "[Website]"],
                     ["title" => "American Psychological Association Children's Books about Bullying", "url" => "https://www.apa.org/pubs/magination/browse?query=subject:Bullying", "type" => "[Books]"]
                 ],
                 "Cancer" => [
-                    ["title" => "Cancer Journey: A Caregiver’s View from the Passenger Seat", "url" => "https://www.amazon.com/Cancer-Journey-Caregivers-View-Passenger/dp/0615625835", "type" => "[Book]"],
+                    ["title" => "Cancer Journey: A Caregiver's View from the Passenger Seat", "url" => "https://www.amazon.com/Cancer-Journey-Caregivers-View-Passenger/dp/0615625835", "type" => "[Book]"],
                     ["title" => "The Emperor of All Maladies", "url" => "https://www.amazon.com/The-Emperor-of-All-Maladies-audiobook/dp/B017DQSQD6", "type" => "[Book]"]
                 ],
                 "Chronic Pain" => [
@@ -139,7 +139,7 @@
                     ["title" => "Reiki for the Management of Neuropathic Pain", "url" => "https://clinicaltrials.gov/ct2/show/NCT02328703", "type" => "[Article]"]
                 ],
                 "Co-Dependency" => [
-                    ["title" => "Co-Dependency: The New Addiction", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Final-Codependency-Info-Sheet-GlobeCoRe.pdf", "type" => "[Article]"],
+                    ["title" => "Co-Dependency: The New Addiction", "url" => "/assets/wp-content/uploads/2021/03/Final-Codependency-Info-Sheet-GlobeCoRe.pdf", "type" => "[Article]"],
                     ["title" => "Co-Dependent No More", "url" => "https://www.amazon.com/Codependent-No-More-Controlling-Yourself/dp/B0B622JFNN", "type" => "[Book]"],
                     ["title" => "The New Co-Dependency", "url" => "https://www.amazon.com/The-New-Codependency-Guidance-Generation-ebook/dp/B001NLL7SO", "type" => "[Book]"],
                     ["title" => "Women Who Love Too Much", "url" => "https://www.amazon.com/Women-Who-Love-Too-Much/dp/1416550216", "type" => "[Book]"],
@@ -156,20 +156,20 @@
                     ["title" => "Stress and Coping Tips From CDC", "url" => "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html", "type" => "[Website]"],
                     ["title" => "Science-Based Coping Strategies", "url" => "https://theconversation.com/7-science-based-strategies-to-cope-with-coronavirus-anxiety-133207", "type" => "[Website]"],
                     ["title" => "How Teenagers Can Protect Their Mental Health", "url" => "https://www.unicef.org/coronavirus/how-teenagers-can-protect-their-mental-health-during-coronavirus-covid-19", "type" => "[Website]"],
-                    ["title" => "Information and Resource Guide – NAMI", "url" => "https://globecoreinc.com/wp-content/uploads/2020/12/COVID-19-Updated-Guide-1.pdf", "type" => "[Guide]"],
+                    ["title" => "Information and Resource Guide - NAMI", "url" => "/assets/wp-content/uploads/2020/12/COVID-19-Updated-Guide-1.pdf", "type" => "[Guide]"],
                     ["title" => "Coping With Isolation", "url" => "https://news.northwestern.edu/stories/2020/03/coping-with-covid-19-social-isolation", "type" => "[Website]"]
                 ],
                 "Depression" => [
                     ["title" => "Feeling Good: The New Mood Therapy", "url" => "https://www.amazon.com/Feeling-Good-The-Mood-Therapy/dp/0380810336", "type" => "[Book]"],
-                    ["title" => "I Don’t Want to Talk About It", "url" => "https://www.amazon.com/Terrence-Real-Overcoming-1997-01-31-Hardcover/dp/B001UG2U0Q", "type" => "[Book]"],
-                    ["title" => "Depression Tracking Form", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Depression-Tracking-Form.pdf", "type" => "[Assessment]"],
+                    ["title" => "I Don't Want to Talk About It", "url" => "https://www.amazon.com/Terrence-Real-Overcoming-1997-01-31-Hardcover/dp/B001UG2U0Q", "type" => "[Book]"],
+                    ["title" => "Depression Tracking Form", "url" => "/assets/wp-content/uploads/2021/03/Depression-Tracking-Form.pdf", "type" => "[Assessment]"],
                     ["title" => "Why Some People Are More Prone to Depression", "url" => "https://www.verywellmind.com/why-are-some-people-more-prone-to-depression-1067622", "type" => "[Article]"],
                     ["title" => "The Chemistry of Depression", "url" => "https://www.verywellmind.com/the-chemistry-of-depression-1065137", "type" => "[Article]"],
                     ["title" => "Rhodiola Rosea for Depression", "url" => "https://www.verywellmind.com/how-is-rhodiola-rosea-used-to-treat-anxiety-3024972", "type" => "[Article]"]
                 ],
                 "Diversity, Equity & Inclusion" => [
                     ["title" => "Anti-Racism for Kids 101", "url" => "https://booksforlittles.com/racial-diversity/", "type" => "[Article]"],
-                    ["title" => "White Fragility: Why It’s So Hard for White People to Talk About Racism", "url" => "https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414", "type" => "[Book]"],
+                    ["title" => "White Fragility: Why It's So Hard for White People to Talk About Racism", "url" => "https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414", "type" => "[Book]"],
                     ["title" => "Blindspot: Hidden Biases of Good People", "url" => "https://a.co/d/97TxIuI", "type" => "[Book]"],
                     ["title" => "Implicit Bias: An Educator's Guide", "url" => "https://a.co/d/cgiAUjl", "type" => "[Book]"],
                     ["title" => "Biased: Uncovering the Hidden Prejudice", "url" => "https://a.co/d/6uXfeDY", "type" => "[Book]"],
@@ -178,233 +178,305 @@
                 ],
                 "Eating Disorders" => [
                     ["title" => "Weight Science: Evaluating the Evidence", "url" => "https://nutritionj.biomedcentral.com/articles/10.1186/1475-2891-10-9", "type" => "[Article]"],
+                    ["title" => "The Weight-Inclusive versus Weight-Normative Approach to Health", "url" => "https://www.hindawi.com/journals/jobe/2014/983495/", "type" => "[Article]"],
+                    ["title" => "19 Tips to Help Your Eating Disorder Recovery", "url" => "https://eatwithknowledge.com/19-tips-eating-disorder-recovery/", "type" => "[Article]"],
+                    ["title" => "11 Do's and Dont's for Recovering From Eating Disorders", "url" => "https://www.verywellmind.com/things-to-stop-if-you-have-an-eating-disorder-1138275", "type" => "[Article]"],
+                    ["title" => "Tips for Anorexia Recovery", "url" => "https://americanaddictioncenters.org/anorexia-treatment/tips", "type" => "[Article]"],
                     ["title" => "Overcoming Disordered Eating", "url" => "https://www.cci.health.wa.gov.au/Resources/Looking-After-Yourself/Disordered-Eating", "type" => "[Activity]"],
-                    ["title" => "Eating Disorders- A Guide to Medical Care", "url" => "https://globecoreinc.com/wp-content/uploads/2021/04/AED_Medical_Care_Guidelines_English_04_03_18_a.pdf", "type" => "[Guide]"],
+                    ["title" => "Change Process Balance Sheet", "url" => "/assets/wp-content/uploads/2021/04/Eating-Disorders-Worksheet-01-Change-Process-Balance-Sheet.pdf", "type" => "[Activity]"],
+                    ["title" => "Tackling Avoided Foods", "url" => "/assets/wp-content/uploads/2021/04/Eating-Disorders-Worksheet-02-Tackling-Avoided-Foods.pdf", "type" => "[Activity]"],
+                    ["title" => "Self-Monitoring Form", "url" => "/assets/wp-content/uploads/2021/04/Eating-Disorders-Worksheet-03-Self-Monitoring-Form.pdf", "type" => "[Activity]"],
+                    ["title" => "Eating Disorders - A Guide to Medical Care", "url" => "/assets/wp-content/uploads/2021/04/AED_Medical_Care_Guidelines_English_04_03_18_a.pdf", "type" => "[Guide]"],
+                    ["title" => "Eating Disorder Information & Community Service Guide", "url" => "/assets/wp-content/uploads/2021/04/Resource_Guide_August2020.pdf", "type" => "[Guide]"],
                     ["title" => "8 Keys to Recovery from an Eating Disorder", "url" => "https://www.amazon.com/Keys-Recovery-Eating-Disorder-Therapeutic/dp/0393706958", "type" => "[Book]"],
+                    ["title" => "More Than a Body: Your Body Is an Instrument, Not an Ornament", "url" => "https://www.amazon.com/More-Than-Body-Instrument-Ornament/dp/0358229243", "type" => "[Book]"],
+                    ["title" => "What We Don't Talk About When We Talk About Fat", "url" => "https://www.amazon.com/What-Dont-Talk-About-When/dp/0807041300", "type" => "[Book]"],
                     ["title" => "Health at Every Size", "url" => "https://www.amazon.com/Health-At-Every-Size-Surprising/dp/1935618253", "type" => "[Book]"],
+                    ["title" => "Body Respect: What Conventional Health Books Get Wrong", "url" => "https://www.amazon.com/Body-Respect-Conventional-Health-Understand/dp/1940363195", "type" => "[Book]"],
+                    ["title" => "10 Actions for Clinicians, Caregivers and Individuals", "url" => "#", "type" => "[Flyer]", "subItems" => [
+                        ["title" => "Caregiver", "url" => "/assets/wp-content/uploads/2021/04/ExE_Caregivers_10_Actions.pdf"],
+                        ["title" => "Clinicians", "url" => "/assets/wp-content/uploads/2021/04/ExE_Clinicians_10_Actions.pdf"],
+                        ["title" => "Individual", "url" => "/assets/wp-content/uploads/2021/04/ExE_Individuals_10_Actions.pdf"]
+                    ]],
+                    ["title" => "Support Groups in Atlanta, GA", "url" => "http://www.atlantaiaedp.com/community-groups", "type" => "[Support Group]"],
+                    ["title" => "Help Your Child Eat with Trust, not Logic: the Bungee Jump (Anorexia & Other Eating Disorders)", "url" => "https://youtu.be/2O9nZAWCkLc", "type" => "[Video]"],
+                    ["title" => "How Should Parents Understand Eating Disorders?", "url" => "https://youtu.be/iJwEBOUvynU", "type" => "[Video]"],
+                    ["title" => "How Can Parents Best Support Their Child Through the Recovery Process?", "url" => "https://youtu.be/XdtskC1r9bU", "type" => "[Video]"],
+                    ["title" => "What are the Stages of Change or Recovery, and What Can Helpers do to Facilitate Change?", "url" => "https://youtu.be/mtxW_etGRz8", "type" => "[Video]"],
                     ["title" => "Recovery Warriors", "url" => "https://www.recoverywarriors.com/app/", "type" => "[App]"],
-                    ["title" => "National Eating Disorder Helpline", "url" => "tel:1-800-931-2237", "type" => "[Hotline]"],
-                    ["title" => "Overcoming Binge Eating", "url" => "https://www.amazon.com/Overcoming-Binge-Eating-Second-Edition/dp/1572305614", "type" => "[Book]"]
+                    ["title" => "Recovery Records", "url" => "https://www.recoveryrecord.com/", "type" => "[App]"],
+                    ["title" => "National Eating Disorder Helpline (Toll Free Number): 1-800-931-2237", "url" => "tel:1-800-931-2237", "type" => "[Hotline]"],
+                    ["title" => "Overcoming Binge Eating, Second Edition", "url" => "https://www.amazon.com/Overcoming-Binge-Eating-Second-Edition/dp/1572305614", "type" => "[Book]"],
+                    ["title" => "How To STOP, END, and CURE Compulsive, Emotional, and Binge Eating", "url" => "https://www.amazon.com/STOP-Compulsive-Emotional-Binge-Eating/dp/1470126532", "type" => "[Book]"],
+                    ["title" => "The DBT Solution for Emotional Eating", "url" => "https://www.amazon.com/DBT-Solution-Emotional-Eating-Control/dp/1462520928", "type" => "[Book]"],
+                    ["title" => "The Beginner's Guide to Eating Disorders Recovery", "url" => "https://www.amazon.com/Beginners-Guide-Eating-Disorders-Recovery/dp/093607745X", "type" => "[Book]"],
+                    ["title" => "The Hunger Fix: The Three-Stage Detox and Recovery Plan for Overeating and Food Addiction", "url" => "https://www.amazon.com/Hunger-Fix-Three-Stage-Overeating-Addiction/dp/1623361583", "type" => "[Book]"],
+                    ["title" => "The Fix for Cravings: One(s) That Didn't Work, and Now One Which Works", "url" => "https://www.amazon.com/FIX-Cravings-didnt-which-WORKS/dp/1796091650", "type" => "[Book]"]
                 ],
                 "Empowerment" => [
-                    ["title" => "70 Affirmations to Help You Stay Positive", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/70-Affirmations.pdf", "type" => "[Article]"],
+                    ["title" => "70 Affirmations to Help You Stay Positive", "url" => "/assets/wp-content/uploads/2021/03/70-Affirmations.pdf", "type" => "[Article]"],
+                    ["title" => "5 Secrets to Manifesting Your Own Destiny", "url" => "/assets/wp-content/uploads/2021/03/5-Secrets-to-Manifesting-Your-Own-Destiny.pdf", "type" => "[Article]"],
                     ["title" => "Authentic Happiness", "url" => "https://www.amazon.com/Authentic-Happiness-Psychology-Potential-Fulfillment/dp/0743222989", "type" => "[Book]"],
-                    ["title" => "The Power of NOW", "url" => "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808", "type" => "[Book]"],
-                    ["title" => "Personal Values Card Sort", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/valuescardsort_0.pdf", "type" => "[Activity]"],
-                    ["title" => "Atomic Habits", "url" => "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/1847941842", "type" => "[Book]"],
-                    ["title" => "The 7 Habits of Highly Effective People", "url" => "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1982137274", "type" => "[Book]"]
+                    ["title" => "Learned Optimism", "url" => "https://www.amazon.com/Learned-Optimism-Change-Your-Mind/dp/1400078393", "type" => "[Book]"],
+                    ["title" => "The Power of NOW: A Guide to Spiritual Enlightenment", "url" => "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808", "type" => "[Book]"],
+                    ["title" => "The Art of Creating the Life You Want", "url" => "https://www.amazon.com/Empowerment-Creating-Your-Life-Want/dp/1402764553", "type" => "[Book]"],
+                    ["title" => "How to Live in the Now: Achieve Awareness, Growth and Inner Peace In Your Life", "url" => "https://www.amazon.com/How-Live-Now-Awareness-Empowerment-ebook/dp/B00RSUURP8", "type" => "[Book]"],
+                    ["title" => "Social Support", "url" => "/assets/wp-content/uploads/2021/03/social-support.pdf", "type" => "[Website]"],
+                    ["title" => "Assertive Communication", "url" => "/assets/wp-content/uploads/2021/03/assertive-communication.pdf", "type" => "[Website]"],
+                    ["title" => "Personal Values Card Sort", "url" => "/assets/wp-content/uploads/2021/03/valuescardsort_0.pdf", "type" => "[Activity]"],
+                    ["title" => "Positive Experiences", "url" => "/assets/wp-content/uploads/2021/03/positive-experiences.pdf", "type" => "[Website]"]
                 ],
                 "Feelings" => [
-                    ["title" => "How Do You Feel Today", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/How-Do-you-feel-today.pdf", "type" => "[Exercise]"],
-                    ["title" => "Gratitude Exercises", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Gratitude-Exercises.pdf", "type" => "[Exercise]"],
-                    ["title" => "Feeling Wheel", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Feeling-Wheel.pdf", "type" => "[Exercise]"]
+                    ["title" => "How Do You Feel Today", "url" => "/assets/wp-content/uploads/2021/03/How-Do-you-feel-today.pdf", "type" => "[Exercise]"],
+                    ["title" => "Changing Your Emotional Blue Print", "url" => "https://tysoncoaching.com/your-mental-blueprint-a-window-to-your-happiness/", "type" => "[Article]"],
+                    ["title" => "Authentic Happiness: Using the New Positive Psychology to Realize Your Potential for Lasting Fulfillment", "url" => "https://www.amazon.com/Authentic-Happiness-Psychology-Potential-Fulfillment/dp/0743222989", "type" => "[Book]"],
+                    ["title" => "Learned Optimism: How to Change Your Mind and Your Life", "url" => "https://www.amazon.com/Learned-Optimism-Change-Your-Mind/dp/1400078393", "type" => "[Book]"],
+                    ["title" => "Gratitude Exercises", "url" => "/assets/wp-content/uploads/2021/03/Gratitude-Exercises.pdf", "type" => "[Exercise]"],
+                    ["title" => "Feeling Wheel", "url" => "/assets/wp-content/uploads/2021/03/Feeling-Wheel.pdf", "type" => "[Exercise]"],
+                    ["title" => "Gratitude Journal", "url" => "https://www.therapistaid.com/worksheets/gratitude-journal.pdf", "type" => "[Website]"],
+                    ["title" => "Positive Journal", "url" => "https://www.therapistaid.com/worksheets/positive-journal.pdf", "type" => "[Website]"]
+                ],
+                "Forgiveness" => [
+                    ["title" => "The Book of Forgiving: The Fourfold Path for Healing Ourselves and Our World", "url" => "https://www.amazon.com/Book-Forgiving-Fourfold-Healing-Ourselves/dp/0062203568", "type" => "[Book]"],
+                    ["title" => "I Thought We'd Never Speak Again: The Road from Estrangement to Reconciliation", "url" => "https://www.amazon.com/Thought-Never-Speak-Again-Reconciliation/dp/0060957026", "type" => "[Book]"],
+                    ["title" => "How Can I Forgive You?: The Courage to Forgive, The Freedom Not To", "url" => "https://www.amazon.com/How-Can-Forgive-You-Courage/dp/0060009314", "type" => "[Book]"]
                 ],
                 "Friendships" => [
                     ["title" => "The Lost Art of Listening", "url" => "https://a.co/d/0eewC3S3", "type" => "[Book]"],
                     ["title" => "Platonic: How the Science of Attachment Can Help You Make Friends", "url" => "https://a.co/d/0gdr04RE", "type" => "[Book]"],
                     ["title" => "Big Friendship: How We Keep Each Other Close", "url" => "https://a.co/d/04U8dV0g", "type" => "[Book]"]
                 ],
-                "Forgiveness" => [
-                    ["title" => "The Book of Forgiving", "url" => "https://www.amazon.com/Book-Forgiving-Fourfold-Healing-Ourselves/dp/0062203568", "type" => "[Book]"],
-                    ["title" => "How Can I Forgive You?", "url" => "https://www.amazon.com/How-Can-Forgive-You-Courage/dp/0060009314", "type" => "[Book]"]
-                ],
                 "Grief & Loss" => [
                     ["title" => "The Art of Listening in a Healing Way", "url" => "https://www.amazon.com/Art-Listening-Healing-Way/dp/1885933355", "type" => "[Book]"],
-                    ["title" => "Companioning You!", "url" => "https://www.amazon.com/Companioning-You-Soulful-Yourself-Bereaved/dp/161722166X", "type" => "[Book]"],
+                    ["title" => "Companioning You!: A Soulful Guide to Caring for Yourself While You Care for the Dying and the Bereaved", "url" => "https://www.amazon.com/Companioning-You-Soulful-Yourself-Bereaved/dp/161722166X", "type" => "[Book]"],
+                    ["title" => "The Understanding Your Grief Journal: Exploring the 10 Essential Touchstones", "url" => "https://www.amazon.com/Understanding-Your-Grief-Journal-Touchstones/dp/1879651394", "type" => "[Book]"],
+                    ["title" => "Healing Your Grieving Soul: 100 Spiritual Practices for Mourners", "url" => "https://www.amazon.com/Healing-Your-Grieving-Soul-Spiritual/dp/1879651572", "type" => "[Book]"],
+                    ["title" => "The Handbook for Companioning the Mourner: Eleven Essential Principles", "url" => "https://www.amazon.com/Handbook-Companioning-Mourner-Essential-Principles/dp/1879651610", "type" => "[Book]"],
+                    ["title" => "Final Gifts: Understanding the Special Awareness, Needs and Communication of the Dying", "url" => "https://www.amazon.com/Final-Gifts-Understanding-Awareness-Communications/dp/1451667256", "type" => "[Book]"],
+                    ["title" => "Talking with Children About Loss", "url" => "https://www.amazon.com/Talking-Children-About-Maria-Trozzi/dp/0399525432", "type" => "[Book]"],
+                    ["title" => "Helping Children Cope with Death", "url" => "https://www.amazon.com/Helping-Children-Death-Dougy-Center/dp/1890534005", "type" => "[Book]"],
+                    ["title" => "The Grieving Teen: A Guide for Teenagers and Their Friends", "url" => "https://www.amazon.com/Grieving-Teen-Guide-Teenagers-Friends/dp/0684868040", "type" => "[Book]"],
+                    ["title" => "Nobody's Child, Older Women's Say Goodbye to Their Mothers", "url" => "https://www.amazon.com/Nobodys-Child-Older-Good-Bye-Mothers/dp/0895032538", "type" => "[Book]"],
                     ["title" => "Griefnet.org", "url" => "https://www.rivendell.org/", "type" => "[Website]"],
-                    ["title" => "Symptoms of Grief", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Symptoms-of-Grief.pdf", "type" => "[Article]"],
-                    ["title" => "On Grief and Grieving", "url" => "https://www.amazon.com/Grief-Grieving-Finding-Meaning-Through-dp-1476775559/dp/1476775559", "type" => "[Book]"],
-                    ["title" => "Finding Meaning: The Sixth Stage of Grief", "url" => "https://www.amazon.com/Finding-Meaning-Sixth-Stage-Grief/dp/1501192736", "type" => "[Book]"]
+                    ["title" => "Symptoms of Grief", "url" => "/assets/wp-content/uploads/2021/03/Symptoms-of-Grief.pdf", "type" => "[Article]"],
+                    ["title" => "Grief Wheel", "url" => "/assets/wp-content/uploads/2021/03/Grief-Wheel.pdf", "type" => "[Article]"],
+                    ["title" => "Grief After Suicide", "url" => "#", "type" => "[Article]"],
+                    ["title" => "Widow to Widow: Thoughtful, Practical Ideas for Rebuilding Your Life", "url" => "https://www.amazon.com/s?k=Widow+To+Widow", "type" => "[Book]"],
+                    ["title" => "Grief Emotions Aren't Good or Bad, They Just Are", "url" => "/assets/wp-content/uploads/2021/03/Grief-Emotions-Arent-Good-Or-Bad-They-Just-Are-Whats-your-Grief.pdf", "type" => "[Article]"],
+                    ["title" => "Normal Grief Responses", "url" => "/assets/wp-content/uploads/2021/03/Grief-Reaction-StatPearls-NCBI-Bookshelf.pdf", "type" => "[Article]"],
+                    ["title" => "Guidelines for Grief Support Group", "url" => "/assets/wp-content/uploads/2021/03/Ground-Rules-for-Grief-Group.pdf", "type" => "[Article]"],
+                    ["title" => "The Grief Recovery Handbook", "url" => "https://www.amazon.com/Grief-Recovery-Handbook-Anniversary-Expanded/dp/0061686077", "type" => "[Book]"],
+                    ["title" => "On Grief and Grieving: Finding the Meaning of Grief Through the Five Stages of Loss", "url" => "https://www.amazon.com/Grief-Grieving-Finding-Meaning-Through-dp-1476775559/dp/1476775559", "type" => "[Book]"],
+                    ["title" => "Bereavement Camps for Children and Adolescents", "url" => "https://www.amazon.com/Bereavement-Children-Adolescents-Searles-McClatchey-dp-1138284394/dp/1138284394", "type" => "[Book]"],
+                    ["title" => "Helping Children Cope with Separation and Loss", "url" => "https://www.amazon.com/Helping-Children-Cope-Separation-Loss/dp/1558320512", "type" => "[Book]"],
+                    ["title" => "Finding Meaning: The Sixth Stage of Grief", "url" => "https://www.amazon.com/Finding-Meaning-Sixth-Stage-Grief/dp/1501192736", "type" => "[Book]"],
+                    ["title" => "Courses, Seminars, Videos, and Workshops to Help Deal With Grief", "url" => "https://grief.com/", "type" => "[Website]"],
+                    ["title" => "On Death and Dying", "url" => "https://www.amazon.com/Death-Dying-Doctors-Nurses-Families/dp/1476775540", "type" => "[Book]"],
+                    ["title" => "It's Okay that You're Not Okay", "url" => "https://www.amazon.com/Its-That-Youre-Not-Understand/dp/1622039076", "type" => "[Book]"],
+                    ["title" => "Finding Meaning", "url" => "https://www.amazon.com/Finding-Meaning-Sixth-Stage-Grief/dp/1501192744", "type" => "[Book]"],
+                    ["title" => "Collateral Beauty", "url" => "https://www.goodreads.com/book/show/34020824-collateral-beauty", "type" => "[Book]"],
+                    ["title" => "Death, Dying, and Bereavement: African American Grief", "url" => "https://www.amazon.com/African-American-Grief-Death-Bereavement/dp/0415951526", "type" => "[Book]"],
+                    ["title" => "Routledge Mental Health Classic Editions: African American Grief", "url" => "https://www.amazon.com/African-American-Routledge-Classic-Editions/dp/0367764156", "type" => "[Book]"],
+                    ["title" => "Resources for Biblical Living: Grief: Learning to Live with Loss", "url" => "https://www.amazon.com/Grief-Learning-Resources-Biblical-Living/dp/1596382031", "type" => "[Book]"],
+                    ["title" => "Healing After Loss: Daily Meditations for Working Through Grief", "url" => "https://www.amazon.com/Healing-After-Loss-Meditations-Working/dp/0380773384", "type" => "[Book]"],
+                    ["title" => "Hope for the Heart: Grief: Living at Peace with Loss", "url" => "https://www.amazon.com/Grief-June-Hunt-Hope-Heart/dp/1596366575", "type" => "[Book]"]
                 ],
                 "Identity" => [
                     ["title" => "My Mother/Myself: The Daughters Search for Identity", "url" => "https://www.amazon.com/My-Mother-Self-Daughters-Identity/dp/0385320159", "type" => "[Book]"],
-                    ["title" => "Wheel of Life", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Wheel-of-Life.pdf", "type" => "[Activity]"],
-                    ["title" => "Identity Mind Map", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Identity-Mind-Map.pdf", "type" => "[Activity]"]
+                    ["title" => "Wheel of Life", "url" => "/assets/wp-content/uploads/2021/03/Wheel-of-Life.pdf", "type" => "[Activity]"],
+                    ["title" => "Identity Mind Map", "url" => "/assets/wp-content/uploads/2021/03/Identity-Mind-Map.pdf", "type" => "[Activity]"],
+                    ["title" => "Core Beliefs", "url" => "https://www.therapistaid.com/worksheets/core-beliefs-info-sheet.pdf", "type" => "[Website]"]
                 ],
                 "Illness" => [
                     ["title" => "The Alchemy of Illness", "url" => "https://www.amazon.com/Alchemy-Illness-Kat-Duff/dp/0609899430", "type" => "[Book]"],
                     ["title" => "Love, Medicine, and Miracles", "url" => "https://www.amazon.com/Love-Medicine-Miracles-Self-Healing-Exceptional/dp/0060919833", "type" => "[Book]"],
-                    ["title" => "Peace, Love, & Healing", "url" => "https://www.amazon.com/Peace-Love-Healing-Communication-Self-Healing/dp/B007WZTPTS", "type" => "[Book]"]
+                    ["title" => "How to Live Between Office Visits: A Guide to Life, Love, and Health", "url" => "https://www.amazon.com/How-to-Live-Between-Office-Visits-audiobook/dp/B0064I18B2", "type" => "[Book]"],
+                    ["title" => "Peace, Love, & Healing: Bodymind Communication and the Path to Self-Healing", "url" => "https://www.amazon.com/Peace-Love-Healing-Communication-Self-Healing/dp/B007WZTPTS", "type" => "[Book]"],
+                    ["title" => "The Art of Healing: Uncovering Your Inner-Wisdom and Your Path to Self-Healing", "url" => "https://www.amazon.com/Art-Healing-Uncovering-Potential-Self-Healing/dp/1608681858", "type" => "[Book]"],
+                    ["title" => "No Endings, Only Beginnings: A Doctor's Notes on Living, Loving, and Learning Who You Are", "url" => "https://www.amazon.com/No-Endings-Only-Beginnings-Learning/dp/B08779VBTP", "type" => "[Book]"]
+                ],
+                "Laws & Restrictions, Regarding Therapy & Therapeutic Care" => [
+                    ["title" => "Telemental Services Across State Lines", "url" => "https://www.zurinstitute.com/telehealth-across-state-lines/", "type" => "[Website]"],
+                    ["title" => "Digital Ethics, HIPAA, & Telemental Health", "url" => "https://www.zurinstitute.com/resources/hipaa/", "type" => "[Website]"]
                 ],
                 "LGBTQ+" => [
-                    ["title" => "Guides for Sex and Relationships", "url" => "https://web.archive.org/web/20250130133211/http://www.joekort.com/", "type" => "[Website]"],
-                    ["title" => "Coming Out Stories: Personal Experiences of Coming Out from Across the LGBTQ+ Spectrum", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Coming-Out-Stories-Personal-Experiences/dp/1787754952", "type" => "[Book]"]
+                    ["title" => "Guides for Sex and Relationships", "url" => "http://www.joekort.com/", "type" => "[Website]"],
+                    ["title" => "Coming Out Stories: Personal Experiences of Coming Out from Across the LGBTQ+ Spectrum", "url" => "https://www.amazon.com/Coming-Out-Stories-Personal-Experiences/dp/1787754952", "type" => "[Book]"]
                 ],
                 "Meditation" => [
-                    ["title" => "Guided Meditation on Difficult Emotions", "url" => "https://web.archive.org/web/20250130133211/http://www.joekort.com/", "type" => "[Article]"]
+                    ["title" => "Guided Meditation on Difficult Emotions", "url" => "http://www.joekort.com/", "type" => "[Article]"]
                 ],
                 "Mindfulness" => [
-                    ["title" => "Mindfulness for Beginners: Reclaiming the Present Moment and Your Life", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Mindfulness-Beginners-Reclaiming-Present-Moment/dp/1622036670", "type" => "[Book]"],
-                    ["title" => "Wherever You Go, There You Are", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Wherever-You-There-Are-Mindfulness/dp/1401307787", "type" => "[Book]"],
-                    ["title" => "Mindfulness for Dummies", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Mindfulness-Dummies-Shamash-Alidina/dp/1118868188", "type" => "[Book]"],
-                    ["title" => "The Mindful Way Through Stress: The Proven 8-Week Path to Health, Happiness, and Well-Being", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Mindful-Way-through-Stress-Well-Being/dp/1462509401", "type" => "[Book]"],
-                    ["title" => "The Mindful Way Through Anxiety: Break Free from Chronic Worry and Reclaim Your Life", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Mindful-Way-through-Anxiety-Chronic/dp/1606239821", "type" => "[Book]"],
-                    ["title" => "The Power of Now: A Guide to Spiritual Enlightenment", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808", "type" => "[Book]"],
-                    ["title" => "Relaxation Techniques", "url" => "https://globecoreinc.com/wp-content/uploads/2020/12/relaxation-techniques.pdf", "type" => "[Website]"],
-                    ["title" => "Mindfulness Exercise", "url" => "https://globecoreinc.com/wp-content/uploads/2020/12/mindfulness-exercises.pdf", "type" => "[Website]"]
+                    ["title" => "Mindfulness for Beginners: Reclaiming the Present Moment and Your Life", "url" => "https://www.amazon.com/Mindfulness-Beginners-Reclaiming-Present-Moment/dp/1622036670", "type" => "[Book]"],
+                    ["title" => "Wherever You Go, There You Are", "url" => "https://www.amazon.com/Wherever-You-There-Are-Mindfulness/dp/1401307787", "type" => "[Book]"],
+                    ["title" => "Mindfulness for Dummies", "url" => "https://www.amazon.com/Mindfulness-Dummies-Shamash-Alidina/dp/1118868188", "type" => "[Book]"],
+                    ["title" => "The Mindful Way Through Stress: The Proven 8-Week Path to Health, Happiness, and Well-Being", "url" => "https://www.amazon.com/Mindful-Way-through-Stress-Well-Being/dp/1462509401", "type" => "[Book]"],
+                    ["title" => "The Mindful Way Through Anxiety: Break Free from Chronic Worry and Reclaim Your Life", "url" => "https://www.amazon.com/Mindful-Way-through-Anxiety-Chronic/dp/1606239821", "type" => "[Book]"],
+                    ["title" => "The Power of Now: A Guide to Spiritual Enlightenment", "url" => "https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808", "type" => "[Book]"],
+                    ["title" => "Relaxation Techniques", "url" => "/assets/wp-content/uploads/2020/12/relaxation-techniques.pdf", "type" => "[Website]"],
+                    ["title" => "Mindfulness Exercise", "url" => "/assets/wp-content/uploads/2020/12/mindfulness-exercises.pdf", "type" => "[Website]"]
                 ],
                 "Narcissism" => [
-                    ["title" => "Web of Lies – My Life with a Narcissist", "url" => "https://web.archive.org/web/20250130133211/https://www.faim.org/heal-yourself-with-food", "type" => "[Book]"],
-                    ["title" => "NARCISSISTIC ABUSE RECOVERY: How to heal from emotional abuse and survive abusive relationships", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/NARCISSISTIC-ABUSE-RECOVERY-emotional-relationships-ebook/dp/B07QZSX9Z2", "type" => "[Book]"],
-                    ["title" => "Counseling Victims of Violence: A Handbook for Helping Professionals", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Counseling-Victims-Violence-Handbook-Professionals/dp/0897934636", "type" => "[Book]"],
-                    ["title" => "Cutting Loose: An Adult's Guide to Coming to Terms with Your Parents", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Cutting-Loose-Adults-Coming-Parents/dp/0671696041", "type" => "[Book]"],
-                    ["title" => "Why Is It Always About You?: The Seven Deadly Sins of Narcissism", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Why-Always-About-You-Narcissism/dp/0743214285", "type" => "[Book]"],
-                    ["title" => "The Narcissist in Your Life: Recognizing the Patterns and Learning to Break Free", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Narcissist-Your-Life-Recognizing-Patterns/dp/0738285773", "type" => "[Book]"],
-                    ["title" => "The Verbally Abusive Relationship, Expanded Third Edition", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
-                    ["title" => "Coping with BPD: DBT and CBT Skills to Soothe the Symptoms of Borderline Personality Disorder", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Coping-BPD-Symptoms-Borderline-Personality/dp/1626252181", "type" => "[Book]"],
-                    ["title" => "Narcissistic Mothers: Deal with Toxic Parents' Abuse & Borderline Personality Disorder", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Narcissistic-Mothers-Personality-Intelligence-Relationship-ebook/dp/B07Z5LGQ43", "type" => "[Book]"],
-                    ["title" => "Complex Borderline Personality Disorder: How Coexisting Conditions Affect Your BPD", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Complex-Borderline-Personality-Disorder-Coexisting/dp/1684038553", "type" => "[Book]"],
-                    ["title" => "Personality Disorders: A Short History of Narcissistic, Borderline, Antisocial, and Other Types", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Personality-Disorders-Narcissistic-Borderline-Antisocial-ebook/dp/B0BKLSX33F", "type" => "[Book]"],
-                    ["title" => "Antisocial, Borderline, Narcissistic and Histrionic Workbook: Treatment Strategies for Cluster B Personality Disorders", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Antisocial-Borderline-Narcissistic-Histrionic-Workbook/dp/1559570180", "type" => "[Book]"]
+                    ["title" => "Web of Lies - My Life with a Narcissist", "url" => "https://www.faim.org/heal-yourself-with-food", "type" => "[Book]"],
+                    ["title" => "NARCISSISTIC ABUSE RECOVERY: How to heal from emotional abuse and survive abusive relationships", "url" => "https://www.amazon.com/NARCISSISTIC-ABUSE-RECOVERY-emotional-relationships-ebook/dp/B07QZSX9Z2", "type" => "[Book]"],
+                    ["title" => "Counseling Victims of Violence: A Handbook for Helping Professionals", "url" => "https://www.amazon.com/Counseling-Victims-Violence-Handbook-Professionals/dp/0897934636", "type" => "[Book]"],
+                    ["title" => "Cutting Loose: An Adult's Guide to Coming to Terms with Your Parents", "url" => "https://www.amazon.com/Cutting-Loose-Adults-Coming-Parents/dp/0671696041", "type" => "[Book]"],
+                    ["title" => "Why Is It Always About You?: The Seven Deadly Sins of Narcissism", "url" => "https://www.amazon.com/Why-Always-About-You-Narcissism/dp/0743214285", "type" => "[Book]"],
+                    ["title" => "The Narcissist in Your Life: Recognizing the Patterns and Learning to Break Free", "url" => "https://www.amazon.com/Narcissist-Your-Life-Recognizing-Patterns/dp/0738285773", "type" => "[Book]"],
+                    ["title" => "The Verbally Abusive Relationship, Expanded Third Edition", "url" => "https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
+                    ["title" => "Coping with BPD: DBT and CBT Skills to Soothe the Symptoms of Borderline Personality Disorder", "url" => "https://www.amazon.com/Coping-BPD-Symptoms-Borderline-Personality/dp/1626252181", "type" => "[Book]"],
+                    ["title" => "Narcissistic Mothers: Deal with Toxic Parents' Abuse & Borderline Personality Disorder", "url" => "https://www.amazon.com/Narcissistic-Mothers-Personality-Intelligence-Relationship-ebook/dp/B07Z5LGQ43", "type" => "[Book]"],
+                    ["title" => "Complex Borderline Personality Disorder: How Coexisting Conditions Affect Your BPD", "url" => "https://www.amazon.com/Complex-Borderline-Personality-Disorder-Coexisting/dp/1684038553", "type" => "[Book]"],
+                    ["title" => "Personality Disorders: A Short History of Narcissistic, Borderline, Antisocial, and Other Types", "url" => "https://www.amazon.com/Personality-Disorders-Narcissistic-Borderline-Antisocial-ebook/dp/B0BKLSX33F", "type" => "[Book]"],
+                    ["title" => "Antisocial, Borderline, Narcissistic and Histrionic Workbook: Treatment Strategies for Cluster B Personality Disorders", "url" => "https://www.amazon.com/Antisocial-Borderline-Narcissistic-Histrionic-Workbook/dp/1559570180", "type" => "[Book]"]
                 ],
                 "Naturopathic Care" => [
-                    ["title" => "Ulta Lab Tests", "url" => "https://web.archive.org/web/20250130133211/https://www.ultalabtests.com/sharonbelhamel", "type" => "[Assessment]"],
-                    ["title" => "Pure Caps Pro: Vitamins, Dietary & Health Supplements", "url" => "https://web.archive.org/web/20250130133211/https://www.purecapspro.com/DrSharonBelhamel/pe/home.asp", "type" => "[Products]"],
-                    ["title" => "Blood Work – Definition of Terms", "url" => "https://web.archive.org/web/20250130133211/https://globecoreinc.com/wp-content/uploads/2021/03/BloodWork.pdf", "type" => "[Article]"],
-                    ["title" => "Heal Yourself With Food", "url" => "https://web.archive.org/web/20250130133211/https://www.faim.org/heal-yourself-with-food", "type" => "[Article]"],
-                    ["title" => "Essential Oils to Help Ease Stress", "url" => "https://web.archive.org/web/20250130133211/https://www.verywellmind.com/essential-oils-to-help-ease-stress-89636", "type" => "[Article]"],
-                    ["title" => "10 Ways to Neutralize Body Acids", "url" => "https://web.archive.org/web/20250130133211/https://www.tyentusa.com/blog/ph-balance-maintain-tips/", "type" => "[Article]"],
-                    ["title" => "How to Reduce Tension with Progressive Muscle Relaxation", "url" => "https://web.archive.org/web/20250130133211/https://www.verywellmind.com/reduce-tension-with-progressive-muscle-relaxation-3144608", "type" => "[Article]"],
-                    ["title" => "Nutritional Resources: Flower Remedies", "url" => "https://web.archive.org/web/20250130133211/https://store.nutritionalresources.com/collections/flower-remedies", "type" => "[Products]"],
-                    ["title" => "6 Foods That Reduce Anxiety", "url" => "https://web.archive.org/web/20250130133211/https://www.healthline.com/nutrition/6-foods-that-reduce-anxiety", "type" => "[Article]"],
-                    ["title" => "10 Evidence Based Health Benefits of Tumeric", "url" => "https://web.archive.org/web/20250130133211/https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-turmeric", "type" => "[Article]"]
+                    ["title" => "Ulta Lab Tests", "url" => "https://www.ultalabtests.com/sharonbelhamel", "type" => "[Assessment]"],
+                    ["title" => "Pure Caps Pro: Vitamins, Dietary & Health Supplements", "url" => "https://www.purecapspro.com/DrSharonBelhamel/pe/home.asp", "type" => "[Products]"],
+                    ["title" => "Blood Work - Definition of Terms", "url" => "/assets/wp-content/uploads/2021/03/BloodWork.pdf", "type" => "[Article]"],
+                    ["title" => "Heal Yourself With Food", "url" => "https://www.faim.org/heal-yourself-with-food", "type" => "[Article]"],
+                    ["title" => "Essential Oils to Help Ease Stress", "url" => "https://www.verywellmind.com/essential-oils-to-help-ease-stress-89636", "type" => "[Article]"],
+                    ["title" => "10 Ways to Neutralize Body Acids", "url" => "https://www.tyentusa.com/blog/ph-balance-maintain-tips/", "type" => "[Article]"],
+                    ["title" => "How to Reduce Tension with Progressive Muscle Relaxation", "url" => "https://www.verywellmind.com/reduce-tension-with-progressive-muscle-relaxation-3144608", "type" => "[Article]"],
+                    ["title" => "Nutritional Resources: Flower Remedies", "url" => "https://store.nutritionalresources.com/collections/flower-remedies", "type" => "[Products]"],
+                    ["title" => "6 Foods That Reduce Anxiety", "url" => "https://www.healthline.com/nutrition/6-foods-that-reduce-anxiety", "type" => "[Article]"],
+                    ["title" => "10 Evidence Based Health Benefits of Tumeric", "url" => "https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-turmeric", "type" => "[Article]"]
                 ],
                 "Pain" => [
-                    ["title" => "Pain-Tracking-Form", "url" => "https://web.archive.org/web/20250130133211/https://globecoreinc.com/wp-content/uploads/2021/03/Pain-Tracking-Form.pdf", "type" => "[Assessment]"]
+                    ["title" => "Pain-Tracking-Form", "url" => "/assets/wp-content/uploads/2021/03/Pain-Tracking-Form.pdf", "type" => "[Assessment]"]
                 ],
                 "Parenting" => [
-                    ["title" => "Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Toxic-Parents-Overcoming-Hurtful-Reclaiming/dp/0553381407", "type" => "[Book]"],
-                    ["title" => "The Best Parental Control Apps for Your Phone", "url" => "https://web.archive.org/web/20250130133211/https://www.pcmag.com/picks/the-best-parental-control-apps-for-your-phone", "type" => "[Article]"],
-                    ["title" => "Don't Alienate the Kids!: Raising Resilient Children While Avoiding High-Conflict Divorce", "url" => "https://web.archive.org/web/20250130133211/https://www.familyaccessfightingforchildrensrights.com/book-referrals-for-alienated-family-members-and-professionals.html", "type" => "[Book]"],
-                    ["title" => "CBT Toolbox for Depressed, Anxious & Suicidal Children and Adolescents", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Toolbox-Depressed-Suicidal-Children-Adolescents/dp/1683732537", "type" => "[Book]"],
-                    ["title" => "DBT for Kids: Effective Dialectical Behavior Therapy Tips and Strategy", "url" => "https://web.archive.org/web/20250130133211/https://www.walmart.com/ip/DBT-Kids-Effective-Dialectical-Behavior-therapy-Tips-Strategy-parenting-child-emotional-distress-aggressive-behavior-build-better-relationships-Paper-9798506985433/627857905", "type" => "[Book]"],
-                    ["title" => "Anxiety, Depression & Anger Toolbox for Teens", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Anxiety-Depression-Anger-Toolbox-Teens/dp/1683732715", "type" => "[Book]"],
-                    ["title" => "Breaking Free of Child Anxiety and OCD: A Scientifically Proven Program for Parents", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/dp/0190883529", "type" => "[Book]"],
-                    ["title" => "Raising Resilience: 25 Tips for Parenting your Child with Anxiety and OCD", "url" => "https://web.archive.org/web/20250130133211/https://www.youtube.com/@AnxietyATL", "type" => "[Video]"],
-                    ["title" => "Young Caregivers", "url" => "https://web.archive.org/web/20250130133211/https://www.apa.org/pi/about/publications/caregivers/practice-settings/intervention/young-caregivers", "type" => "[Article]"],
-                    ["title" => "Self-Centered Parents and Their Role-Reversed Children", "url" => "https://web.archive.org/web/20250130133211/https://www.psychologytoday.com/us/blog/living-on-automatic/202303/self-centered-parents-and-role-reversed-children-0", "type" => "[Article]"],
-                    ["title" => "Gregory J. Jurkovic's Filial Responsibility Research", "url" => "https://web.archive.org/web/20250130133211/https://www.researchgate.net/scientific-contributions/Gregory-J-Jurkovic-11276965", "type" => "[Articles]"],
-                    ["title" => "Great Ways to Sabotage a Good Conversation", "url" => "https://web.archive.org/web/20250130133211/https://a.co/d/0ii1wdmB", "type" => "[Book]"]
+                    ["title" => "Toxic Parents: Overcoming Their Hurtful Legacy and Reclaiming Your Life", "url" => "https://www.amazon.com/Toxic-Parents-Overcoming-Hurtful-Reclaiming/dp/0553381407", "type" => "[Book]"],
+                    ["title" => "The Best Parental Control Apps for Your Phone", "url" => "https://www.pcmag.com/picks/the-best-parental-control-apps-for-your-phone", "type" => "[Article]"],
+                    ["title" => "Don't Alienate the Kids!: Raising Resilient Children While Avoiding High-Conflict Divorce", "url" => "https://www.familyaccessfightingforchildrensrights.com/book-referrals-for-alienated-family-members-and-professionals.html", "type" => "[Book]"],
+                    ["title" => "CBT Toolbox for Depressed, Anxious & Suicidal Children and Adolescents", "url" => "https://www.amazon.com/Toolbox-Depressed-Suicidal-Children-Adolescents/dp/1683732537", "type" => "[Book]"],
+                    ["title" => "DBT for Kids: Effective Dialectical Behavior Therapy Tips and Strategy", "url" => "https://www.walmart.com/ip/DBT-Kids-Effective-Dialectical-Behavior-therapy-Tips-Strategy-parenting-child-emotional-distress-aggressive-behavior-build-better-relationships-Paper-9798506985433/627857905", "type" => "[Book]"],
+                    ["title" => "Anxiety, Depression & Anger Toolbox for Teens", "url" => "https://www.amazon.com/Anxiety-Depression-Anger-Toolbox-Teens/dp/1683732715", "type" => "[Book]"],
+                    ["title" => "Breaking Free of Child Anxiety and OCD: A Scientifically Proven Program for Parents", "url" => "https://www.amazon.com/dp/0190883529", "type" => "[Book]"],
+                    ["title" => "Raising Resilience: 25 Tips for Parenting your Child with Anxiety and OCD", "url" => "https://www.youtube.com/@AnxietyATL", "type" => "[Video]"],
+                    ["title" => "Young Caregivers", "url" => "https://www.apa.org/pi/about/publications/caregivers/practice-settings/intervention/young-caregivers", "type" => "[Article]"],
+                    ["title" => "Self-Centered Parents and Their Role-Reversed Children", "url" => "https://www.psychologytoday.com/us/blog/living-on-automatic/202303/self-centered-parents-and-role-reversed-children-0", "type" => "[Article]"],
+                    ["title" => "Gregory J. Jurkovic's Filial Responsibility Research", "url" => "https://www.researchgate.net/scientific-contributions/Gregory-J-Jurkovic-11276965", "type" => "[Articles]"],
+                    ["title" => "Great Ways to Sabotage a Good Conversation", "url" => "https://a.co/d/0ii1wdmB", "type" => "[Book]"]
                 ],
                 "Pregnancy, Fertility & Postpartum Depression" => [
-                    ["title" => "This Isn't What I Expected [2nd Edition]: Overcoming Postpartum Depression", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/This-Isnt-What-Expected-2nd-ebook/dp/B00E257TWQ", "type" => "[Book]"],
-                    ["title" => "Postpartum Depression: How to Overcome Postpartum Depression and Be a Happy Mom", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Postpartum-Depression-Overcome-Happy-Postnatal-ebook/dp/B00NQN64YE", "type" => "[Book]"],
-                    ["title" => "Postpartum Depression Demystified: An Essential Guide for Understanding and Overcoming the Most Common Complication after Childbirth", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Postpartum-Depression-Demystified-Understanding-Complication/dp/1569242666", "type" => "[Book]"],
-                    ["title" => "Women's Moods: What Every Woman Must Know About Hormones, the Brain, and Emotional Health", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Womens-Moods-Hormones-Emotional-Health/dp/0380728524", "type" => "[Book]"],
-                    ["title" => "When Bad Things Happen to Good People", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/When-Things-Happen-Good-People/dp/1400034728", "type" => "[Book]"]
+                    ["title" => "This Isn't What I Expected [2nd Edition]: Overcoming Postpartum Depression", "url" => "https://www.amazon.com/This-Isnt-What-Expected-2nd-ebook/dp/B00E257TWQ", "type" => "[Book]"],
+                    ["title" => "Postpartum Depression: How to Overcome Postpartum Depression and Be a Happy Mom", "url" => "https://www.amazon.com/Postpartum-Depression-Overcome-Happy-Postnatal-ebook/dp/B00NQN64YE", "type" => "[Book]"],
+                    ["title" => "Postpartum Depression Demystified: An Essential Guide for Understanding and Overcoming the most Common Complication after Childbirth", "url" => "https://www.amazon.com/Postpartum-Depression-Demystified-Understanding-Complication/dp/1569242666", "type" => "[Book]"],
+                    ["title" => "Women's Moods: What Every Woman Must Know About Hormones, the Brain, and Emotional Health", "url" => "https://www.amazon.com/Womens-Moods-Hormones-Emotional-Health/dp/0380728524", "type" => "[Book]"],
+                    ["title" => "When Bad Things Happen to Good People", "url" => "https://www.amazon.com/When-Things-Happen-Good-People/dp/1400034728", "type" => "[Book]"]
                 ],
                 "Post Traumatic Stress Disorder (PTSD)" => [
-                    ["title" => "Brain, Mind, and Body in the Healing of Trauma", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/The-Body-Keeps-Score-Healing/dp/0143127748", "type" => "[Book]"],
-                    ["title" => "DBT Workbook for PTSD: Strategies to Reduce Intrusive Thoughts, Manage Emotions, and Find Calm", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/DBT-Workbook-PTSD-Strategies-Intrusive/dp/1638784930", "type" => "[Workbook]"],
-                    ["title" => "The PTSD Workbook: Simple, Effective Techniques for Overcoming Traumatic Stress Symptoms", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/PTSD-Workbook-Effective-Techniques-Overcoming/dp/1626253706", "type" => "[Workbook]"]
+                    ["title" => "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma", "url" => "https://www.amazon.com/The-Body-Keeps-Score-Healing/dp/0143127748", "type" => "[Book]"],
+                    ["title" => "DBT Workbook for PTSD: Strategies to Reduce Intrusive Thoughts, Manage Emotions, and Find Calm", "url" => "https://www.amazon.com/DBT-Workbook-PTSD-Strategies-Intrusive/dp/1638784930", "type" => "[Workbook]"],
+                    ["title" => "The PTSD Workbook: Simple, Effective Techniques for Overcoming Traumatic Stress Symptoms", "url" => "https://www.amazon.com/PTSD-Workbook-Effective-Techniques-Overcoming/dp/1626253706", "type" => "[Workbook]"]
                 ],
                 "Racial Stressors" => [
-                    ["title" => "Anti-Racism for Kids 101", "url" => "https://web.archive.org/web/20250130133211/https://booksforlittles.com/racial-diversity/", "type" => "[Article]"],
-                    ["title" => "White Fragility: Why It's So Hard for White People to Talk About Racism", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414", "type" => "[Book]"],
+                    ["title" => "Anti-Racism for Kids 101", "url" => "https://booksforlittles.com/racial-diversity/", "type" => "[Article]"],
+                    ["title" => "White Fragility: Why It's So Hard for White People to Talk About Racism", "url" => "https://www.amazon.com/White-Fragility-People-About-Racism/dp/0807047414", "type" => "[Book]"],
                     ["title" => "Asian American Support", "url" => "#", "type" => "[Hotline]"]
                 ],
                 "Relationship Change in Love" => [
-                    ["title" => "Communication that Makes a Difference", "url" => "https://web.archive.org/web/20250130133211/https://www.nytimes.com/roomfordebate/2011/02/02/where-are-the-women-in-wikipedia/communication-styles-make-a-difference", "type" => "[Article]"],
-                    ["title" => "The Five Love Languages: The Secret to Love that Lasts", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X", "type" => "[Book]"],
-                    ["title" => "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Five-Love-Languages-Heartfelt-Commitment/dp/B006Q2LTRO", "type" => "[Book]"],
-                    ["title" => "Calling in 'The One': 7 Weeks to Attract the Love of Your Life", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Calling-One-Weeks-Attract-Love/dp/1400049296", "type" => "[Book]"],
-                    ["title" => "The Seven Principles for Making Marriage Work", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Seven-Principles-Making-Marriage-Work-ebook/dp/B00N6PEQV0", "type" => "[Book]"],
-                    ["title" => "Getting the Love You Want, 20th Anniversary Edition: A Guide for Couples", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Getting-Love-Want-20th-Anniversary-ebook/dp/B000V770GY", "type" => "[Book]"],
-                    ["title" => "Keeping the Love You Find: A Personal Guide", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Keeping-Love-You-Find-Personal/dp/0671734202", "type" => "[Book]"],
-                    ["title" => "Making Marriage Simple: Ten Relationship-Saving Truths", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Making-Marriage-Simple-Relationship-Saving-Truths-ebook/dp/B009C5XLUU", "type" => "[Book]"],
-                    ["title" => "Making Marriage Simple: Ten Truths for Changing the Relationship You Have into the One You Want", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Making-Marriage-Simple-Changing-Relationship/dp/B00D822GR2", "type" => "[Book]"],
-                    ["title" => "Giving The Love That Heals", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Giving-Love-Heals-Harville-Hendrix/dp/0671793993", "type" => "[Book]"],
-                    ["title" => "Receiving Love: Transform Your Relationship by Letting Yourself Be Loved", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Receiving-Love-Transform-Relationship-Yourself-ebook/dp/B000FC2L50", "type" => "[Book]"],
-                    ["title" => "Relationship Map", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Relationship-Map.pdf", "type" => "[Activity]"],
-                    ["title" => "Conversation Starters for Couples", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/6063674ed14487003e93cdf8.pdf", "type" => "[Activity]"],
-                    ["title" => "Speaker Listener Activity", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Speaker_Listener_with_Example.pdf", "type" => "[Activity]"],
-                    ["title" => "Couples Strengths Exploration", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/couples-strengths-exploration.pdf", "type" => "[Activity]"],
-                    ["title" => "Couples Gratitude Journal", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/couples-gratitude-journal.pdf", "type" => "[Activity]"],
-                    ["title" => "Relationship Growth Activity", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/relationship-growth-activity.pdf", "type" => "[Activity]"],
-                    ["title" => "Conversation Transformation: Recognize and Overcome the 6 Most Destructive Communication Patterns", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Conversation-Transformation-Recognize-Destructive-Communication/dp/007176996X", "type" => "[Book]"],
-                    ["title" => "Difficult Conversation: How to Discuss What Matters Most", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Difficult-Conversations-Discuss-What-Matters/dp/0143118447", "type" => "[Book]"],
-                    ["title" => "Grown-Up Marriage: What We Know, Wish We Had Known, and Still Need to Know About Being Married", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Grown-Up-Marriage-Known-Still-Married/dp/0743210816", "type" => "[Book]"],
-                    ["title" => "Why Marriages Succeed or Fail", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Why-Marriages-Succeed-Fail-Yours/dp/0684802414", "type" => "[Book]"],
-                    ["title" => "The Relationship Cure", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Relationship-Cure-Strengthening-Marriage-Friendships/dp/0609809539", "type" => "[Book]"],
-                    ["title" => "I Love You, Don't Leave Me", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Hate-You-Dont-Leave-Me/dp/0380713055", "type" => "[Book]"],
-                    ["title" => "Stop Walking on Eggshells", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Stop-Walking-Eggshells-Borderline-Personality/dp/1684036895", "type" => "[Book]"],
-                    ["title" => "The Emotionally Unavailable Man", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Emotionally-Unavailable-Man-Patti-Henry-ebook/dp/B009R9ICVO", "type" => "[Book]"],
-                    ["title" => "The Verbally Abusive Relationship", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
-                    ["title" => "Love Me, Don't Leave Me: Overcoming Fear of Abandonment and Building Lasting, Loving Relationships", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Love-Dont-Leave-Abandonment-Relationships/dp/1608829529", "type" => "[Book]"],
-                    ["title" => "DBT for Couples: Effective ways to manage distress, regulate emotional outbursts and improve your marriage with Dialectical Behavior Therapy", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/DBT-Couples-Effective-emotional-Dialectical-ebook/dp/B095SVQNJY", "type" => "[Book]"],
-                    ["title" => "Couples Therapy Workbook: 30 Guided Conversations to Re-Connect Relationships", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Couples-Therapy-Workbook-Kathleen-Mates-Youngman/dp/1937661466", "type" => "[Workbook]"],
-                    ["title" => "Couples Therapy Workbook for Healing: Emotionally Focused Therapy Techniques to Restore Your Relationship", "url" => "https://web.archive.org/web/20250130133211/http://Couples%20Therapy%20Workbook%20for%20Healing:%20Emotionally%20Focused%20Therapy%20Techniques%20to%20Restore%20Your%20Relationship", "type" => "[Workbook]"],
-                    ["title" => "Hold Me Tight", "url" => "https://web.archive.org/web/20250130133211/https://a.co/d/jaGbtak", "type" => "[Book]"],
-                    ["title" => "The Lost Art of Listening", "url" => "https://web.archive.org/web/20250130133211/https://a.co/d/hsR9To8", "type" => "[Book]"]
+                    ["title" => "Communication that Makes a Difference", "url" => "https://www.nytimes.com/roomfordebate/2011/02/02/where-are-the-women-in-wikipedia/communication-styles-make-a-difference", "type" => "[Article]"],
+                    ["title" => "The Five Love Languages: The Secret to Love that Lasts", "url" => "https://www.amazon.com/Love-Languages-Secret-that-Lasts/dp/080241270X", "type" => "[Book]"],
+                    ["title" => "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate", "url" => "https://www.amazon.com/Five-Love-Languages-Heartfelt-Commitment/dp/B006Q2LTRO", "type" => "[Book]"],
+                    ["title" => "Calling in 'The One': 7 Weeks to Attract the Love of Your Life", "url" => "https://www.amazon.com/Calling-One-Weeks-Attract-Love/dp/1400049296", "type" => "[Book]"],
+                    ["title" => "The Seven Principles for Making Marriage Work: A Practical Guide from the Country's Foremost Relationship Expert", "url" => "https://www.amazon.com/Seven-Principles-Making-Marriage-Work-ebook/dp/B00N6PEQV0", "type" => "[Book]"],
+                    ["title" => "Getting the Love You Want, 20th Anniversary Edition: A Guide for Couples", "url" => "https://www.amazon.com/Getting-Love-Want-20th-Anniversary-ebook/dp/B000V770GY", "type" => "[Book]"],
+                    ["title" => "Keeping the Love You Find: A Personal Guide", "url" => "https://www.amazon.com/Keeping-Love-You-Find-Personal/dp/0671734202", "type" => "[Book]"],
+                    ["title" => "Making Marriage Simple: Ten Relationship-Saving Truths", "url" => "https://www.amazon.com/Making-Marriage-Simple-Relationship-Saving-Truths-ebook/dp/B009C5XLUU", "type" => "[Book]"],
+                    ["title" => "Making Marriage Simple: Ten Truths for Changing the Relationship You Have into the One You Want", "url" => "https://www.amazon.com/Making-Marriage-Simple-Changing-Relationship/dp/B00D822GR2", "type" => "[Book]"],
+                    ["title" => "Giving The Love That Heals", "url" => "https://www.amazon.com/Giving-Love-Heals-Harville-Hendrix/dp/0671793993", "type" => "[Book]"],
+                    ["title" => "Receiving Love: Transform Your Relationship by Letting Yourself Be Loved", "url" => "https://www.amazon.com/Receiving-Love-Transform-Relationship-Yourself-ebook/dp/B000FC2L50", "type" => "[Book]"],
+                    ["title" => "Relationship Map", "url" => "/assets/wp-content/uploads/2021/03/Relationship-Map.pdf", "type" => "[Activity]"],
+                    ["title" => "Conversation Starters for Couples", "url" => "/assets/wp-content/uploads/2021/03/Conversation-Starters-Couples.pdf", "type" => "[Activity]"],
+                    ["title" => "Speaker Listener Activity", "url" => "/assets/wp-content/uploads/2021/03/Speaker_Listener_with_Example.pdf", "type" => "[Activity]"],
+                    ["title" => "Couples Strengths Exploration", "url" => "/assets/wp-content/uploads/2021/03/couples-strengths-exploration.pdf", "type" => "[Activity]"],
+                    ["title" => "Couples Gratitude Journal", "url" => "/assets/wp-content/uploads/2021/03/couples-gratitude-journal.pdf", "type" => "[Activity]"],
+                    ["title" => "Relationship Growth Activity", "url" => "/assets/wp-content/uploads/2021/03/relationship-growth-activity.pdf", "type" => "[Activity]"],
+                    ["title" => "Conversation Transformation: Recognize and Overcome the 6 Most Destructive Communication Patterns", "url" => "https://www.amazon.com/Conversation-Transformation-Recognize-Destructive-Communication/dp/007176996X", "type" => "[Book]"],
+                    ["title" => "Difficult Conversation: How to Discuss What Matters Most", "url" => "https://www.amazon.com/Difficult-Conversations-Discuss-What-Matters/dp/0143118447", "type" => "[Book]"],
+                    ["title" => "Grown-Up Marriage: What We Know, Wish We Had Known, and Still Need to Know About Being Married", "url" => "https://www.amazon.com/Grown-Up-Marriage-Known-Still-Married/dp/0743210816", "type" => "[Book]"],
+                    ["title" => "Why Marriages Succeed or Fail", "url" => "https://www.amazon.com/Why-Marriages-Succeed-Fail-Yours/dp/0684802414", "type" => "[Book]"],
+                    ["title" => "The Relationship Cure", "url" => "https://www.amazon.com/Relationship-Cure-Strengthening-Marriage-Friendships/dp/0609809539", "type" => "[Book]"],
+                    ["title" => "I Love You, Don't Leave Me", "url" => "https://www.amazon.com/Hate-You-Dont-Leave-Me/dp/0380713055", "type" => "[Book]"],
+                    ["title" => "Stop Walking on Eggshells", "url" => "https://www.amazon.com/Stop-Walking-Eggshells-Borderline-Personality/dp/1684036895", "type" => "[Book]"],
+                    ["title" => "The Emotionally Unavailable Man", "url" => "https://www.amazon.com/Emotionally-Unavailable-Man-Patti-Henry-ebook/dp/B009R9ICVO", "type" => "[Book]"],
+                    ["title" => "The Verbally Abusive Relationship", "url" => "https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
+                    ["title" => "Love Me, Don't Leave Me: Overcoming Fear of Abandonment and Building Lasting, Loving Relationships", "url" => "https://www.amazon.com/Love-Dont-Leave-Abandonment-Relationships/dp/1608829529", "type" => "[Book]"],
+                    ["title" => "DBT for Couples: Effective ways to manage distress, regulate emotional outbursts and improve your marriage with Dialectical Behavior Therapy", "url" => "https://www.amazon.com/DBT-Couples-Effective-emotional-Dialectical-ebook/dp/B095SVQNJY", "type" => "[Book]"],
+                    ["title" => "Couples Therapy Workbook: 30 Guided Conversations to Re-Connect Relationships", "url" => "https://www.amazon.com/Couples-Therapy-Workbook-Kathleen-Mates-Youngman/dp/1937661466", "type" => "[Workbook]"],
+                    ["title" => "Couples Therapy Workbook for Healing: Emotionally Focused Therapy Techniques to Restore Your Relationship", "url" => "http://www.couplestherapyworkbook.net/", "type" => "[Workbook]"],
+                    ["title" => "Hold Me Tight", "url" => "https://a.co/d/jaGbtak", "type" => "[Book]"],
+                    ["title" => "The Lost Art of Listening", "url" => "https://a.co/d/hsR9To8", "type" => "[Book]"]
                 ],
                 "Self-Esteem" => [
-                    ["title" => "Personal Inventory (Negative)", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Personal-Inventory-Negative.pdf", "type" => "[Assessment]"],
-                    ["title" => "Personal Inventory (Positive)", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/Personal-Inventory-Positive-.pdf", "type" => "[Assessment]"],
-                    ["title" => "Homecoming: Reclaiming and Championing Your Inner Child", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Homecoming-Reclaiming-Championing-Inner-Child/dp/0553353896", "type" => "[Book]"],
-                    ["title" => "Positive Traits", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/positive-traits-2.pdf", "type" => "[Activity]"],
-                    ["title" => "My Strengths and Qualities", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/my-strengths-and-qualities-1.pdf", "type" => "[Activity]"],
-                    ["title" => "Challenging Negative Thoughts", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/challenging-negative-thoughts.pdf", "type" => "[Activity]"]
+                    ["title" => "Personal Inventory (Negative)", "url" => "/assets/wp-content/uploads/2021/03/Personal-Inventory-Negative.pdf", "type" => "[Assessment]"],
+                    ["title" => "Personal Inventory (Positive)", "url" => "/assets/wp-content/uploads/2021/03/Personal-Inventory-Positive-.pdf", "type" => "[Assessment]"],
+                    ["title" => "Homecoming: Reclaiming and Championing Your Inner Child", "url" => "https://www.amazon.com/Homecoming-Reclaiming-Championing-Inner-Child/dp/0553353896", "type" => "[Book]"],
+                    ["title" => "Positive Traits", "url" => "/assets/wp-content/uploads/2021/03/positive-traits-2.pdf", "type" => "[Activity]"],
+                    ["title" => "My Strengths and Qualities", "url" => "/assets/wp-content/uploads/2021/03/my-strengths-and-qualities-1.pdf", "type" => "[Activity]"],
+                    ["title" => "Challenging Negative Thoughts", "url" => "/assets/wp-content/uploads/2021/03/challenging-negative-thoughts.pdf", "type" => "[Activity]"]
                 ],
                 "Sexual Addiction" => [
-                    ["title" => "Facing the Shadow: Starting Sexual and Relationship Recovery", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Facing-Shadow-3rd-Starting-Relationship/dp/0985063378", "type" => "[Book]"]
+                    ["title" => "Facing the Shadow: Starting Sexual and Relationship Recovery", "url" => "https://www.amazon.com/Facing-Shadow-3rd-Starting-Relationship/dp/0985063378", "type" => "[Book]"]
                 ],
                 "Sexual Development & Behavior in Children" => [
-                    ["title" => "Sexual Development & Behavior in Children: Information for Parents & Caregivers", "url" => "https://web.archive.org/web/20250130133211/https://www.nctsn.org/resources/sexual-development-and-behavior-children-information-parents-and-caregivers", "type" => "[Article]"]
+                    ["title" => "Sexual Development & Behavior in Children: Information for Parents & Caregivers", "url" => "https://www.nctsn.org/resources/sexual-development-and-behavior-children-information-parents-and-caregivers", "type" => "[Article]"]
                 ],
                 "Stalking Challenges" => [
-                    ["title" => "I Know You Really Love Me: A Psychiatrist's Journal of Erotomania, Stalking and Obsessive Love", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Know-You-Really-Love-Psychiatrists/dp/0028616650", "type" => "[Book]"],
-                    ["title" => "Stop the Stalker: A Guide for Targets", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Stop-Stalker-Targets-BETSY-RAMSEY-ebook/dp/B00V9128EK", "type" => "[Book]"]
+                    ["title" => "I Know You Really Love Me: A Psychiatrist's Journal of Erotomania, Stalking and Obsessive Love", "url" => "https://www.amazon.com/Know-You-Really-Love-Psychiatrists/dp/0028616650", "type" => "[Book]"],
+                    ["title" => "Stop the Stalker: A Guide for Targets", "url" => "https://www.amazon.com/Stop-Stalker-Targets-BETSY-RAMSEY-ebook/dp/B00V9128EK", "type" => "[Book]"]
                 ],
                 "Stress" => [
-                    ["title" => "Symptoms of Stress", "url" => "https://web.archive.org/web/20250130133211/https://www.therapistaid.com/worksheets/symptoms-of-stress.pdf", "type" => "[Website]"]
+                    ["title" => "Symptoms of Stress", "url" => "https://www.therapistaid.com/worksheets/symptoms-of-stress.pdf", "type" => "[Website]"]
                 ],
                 "Suicide Prevention" => [
-                    ["title" => "LifeLine: A Special Confidential Service: 24 Hour Suicide Prevention Hotline", "url" => "https://globecoreinc.com/wp-content/uploads/2021/03/LifeLine_Service.pdf", "type" => "[Hotline]"],
-                    ["title" => "My Son…My Son…: A Guide to Healing After Death, Loss, or Suicide", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/My-Son-Guide-Healing-Suicide/dp/0961632607", "type" => "[Book]"]
+                    ["title" => "LifeLine: A Special Confidential Service: 24 Hour Suicide Prevention Hotline", "url" => "/assets/wp-content/uploads/2021/03/LifeLine_Service.pdf", "type" => "[Hotline]"],
+                    ["title" => "My Son...My Son...: A Guide to Healing After Death, Loss, or Suicide", "url" => "https://www.amazon.com/My-Son-Guide-Healing-Suicide/dp/0961632607", "type" => "[Book]"]
                 ],
                 "Teen Issues" => [
-                    ["title" => "The Teenage Brain: A Neuroscientist's Survival Guide to Raising Adolescents & Young Adults", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Teenage-Brain-Neuroscientists-Survival-Adolescents/dp/0062067842", "type" => "[Book]"],
-                    ["title" => "Parenting Teenagers: A Guide to Solving Problems, Building Relationship, and Creating Harmony in the Family", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Parenting-Teenagers-Problems-Building-Relationship-ebook/dp/B00DWCH5BU", "type" => "[Book]"],
-                    ["title" => "Stuff That Sucks: A Teen's Guide to Accepting What You Can't Change and Committing to What You Can", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Stuff-That-Sucks-Accepting-Committing-ebook/dp/B01LVYLWU3", "type" => "[Book]"],
-                    ["title" => "Talking Back to OCD: The Program that Helps Kids and Teens Say 'No Way' — and Parents Say 'Way to Go'", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Talking-Back-OCD-Program-Parents-ebook/dp/B005D5ASJU", "type" => "[Book]"],
-                    ["title" => "Stuff That's Loud: A Teen's Guide to Unspiraling When OCD Gets Noisy", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Stuff-Thats-Loud-Unspiraling-Solutions-ebook/dp/B07YWFTFHW", "type" => "[Book]"]
+                    ["title" => "The Teenage Brain: A Neuroscientist's Survival Guide to Raising Adolescents & Young Adults", "url" => "https://www.amazon.com/Teenage-Brain-Neuroscientists-Survival-Adolescents/dp/0062067842", "type" => "[Book]"],
+                    ["title" => "Parenting Teenagers: A Guide to Solving Problems, Building Relationship, and Creating Harmony in the Family", "url" => "https://www.amazon.com/Parenting-Teenagers-Problems-Building-Relationship-ebook/dp/B00DWCH5BU", "type" => "[Book]"],
+                    ["title" => "Stuff That Sucks: A Teen's Guide to Accepting What You Can't Change and Committing to What You Can", "url" => "https://www.amazon.com/Stuff-That-Sucks-Accepting-Committing-ebook/dp/B01LVYLWU3", "type" => "[Book]"],
+                    ["title" => "Talking Back to OCD: The Program that Helps Kids and Teens Say 'No Way' - and Parents Say 'Way to Go'", "url" => "https://www.amazon.com/Talking-Back-OCD-Program-Parents-ebook/dp/B005D5ASJU", "type" => "[Book]"],
+                    ["title" => "Stuff That's Loud: A Teen's Guide to Unspiraling When OCD Gets Noisy", "url" => "https://www.amazon.com/Stuff-Thats-Loud-Unspiraling-Solutions-ebook/dp/B07YWFTFHW", "type" => "[Book]"]
                 ],
                 "Therapy Basics" => [
-                    ["title" => "Why Your Therapist Isn't Giving You Direct Advice", "url" => "https://web.archive.org/web/20250130133211/https://www.psychologytoday.com/intl/blog/relationship-and-trauma-insights/202212/why-your-therapist-isnt-giving-you-direct-advice", "type" => "[Article]"]
+                    ["title" => "Why Your Therapist Isn't Giving You Direct Advice", "url" => "https://www.psychologytoday.com/intl/blog/relationship-and-trauma-insights/202212/why-your-therapist-isnt-giving-you-direct-advice", "type" => "[Article]"]
                 ],
                 "Trauma, Violence & Abuse" => [
-                    ["title" => "Trauma & Recovery: The Aftermath of Violence–From Domestic Abuse to Political Terror", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Trauma-Recovery-Aftermath-Violence---Political/dp/0465061710", "type" => "[Book]"],
-                    ["title" => "Homecoming: Reclaiming and Championing Your Inner Child", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Homecoming-Reclaiming-Championing-Inner-Child/dp/0553353896", "type" => "[Book]"],
-                    ["title" => "Waking the Tiger: Healing Trauma", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Waking-Tiger-Healing-Peter-Levine/dp/155643233X", "type" => "[Book]"],
-                    ["title" => "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Body-Keeps-Score-Healing-Trauma/dp/0143127748", "type" => "[Book]"],
-                    ["title" => "Getting Past Your Past: Take Control of Your Life with Self-Help Techniques from EMDR Therapy", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Getting-Past-Your-Self-Help-Techniques-ebook/dp/B00758AT24", "type" => "[Book]"],
-                    ["title" => "The Verbally Abusive Relationship", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
-                    ["title" => "Complex PTSD: From Surviving to Thriving: A guide to recovering from childhood trauma", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Complex-PTSD-Surviving-RECOVERING-CHILDHOOD-ebook/dp/B00HJBMDXK", "type" => "[Book]"],
+                    ["title" => "Trauma & Recovery: The Aftermath of Violence-From Domestic Abuse to Political Terror", "url" => "https://www.amazon.com/Trauma-Recovery-Aftermath-Violence---Political/dp/0465061710", "type" => "[Book]"],
+                    ["title" => "Homecoming: Reclaiming and Championing Your Inner Child", "url" => "https://www.amazon.com/Homecoming-Reclaiming-Championing-Inner-Child/dp/0553353896", "type" => "[Book]"],
+                    ["title" => "Waking the Tiger: Healing Trauma", "url" => "https://www.amazon.com/Waking-Tiger-Healing-Peter-Levine/dp/155643233X", "type" => "[Book]"],
+                    ["title" => "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma", "url" => "https://www.amazon.com/Body-Keeps-Score-Healing-Trauma/dp/0143127748", "type" => "[Book]"],
+                    ["title" => "Getting Past Your Past: Take Control of Your Life with Self-Help Techniques from EMDR Therapy", "url" => "https://www.amazon.com/Getting-Past-Your-Self-Help-Techniques-ebook/dp/B00758AT24", "type" => "[Book]"],
+                    ["title" => "The Verbally Abusive Relationship", "url" => "https://www.amazon.com/Verbally-Abusive-Relationship-Expanded-Third/dp/1440504636", "type" => "[Book]"],
+                    ["title" => "Complex PTSD: From Surviving to Thriving: A guide to recovering from childhood trauma", "url" => "https://www.amazon.com/Complex-PTSD-Surviving-RECOVERING-CHILDHOOD-ebook/dp/B00HJBMDXK", "type" => "[Book]"],
                     ["title" => "13 Steps for Managing Flashbacks", "url" => "http://www.pete-walker.com/13StepsManageFlashbacks.htm", "type" => "[Article/PDF]"]
                 ],
                 "Women's Issues" => [
-                    ["title" => "Women's Who Love Too Much: When you Keep Wishing and Hoping He'll Change", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Women-Who-Love-Too-Much/dp/1416550216", "type" => "[Book]"],
-                    ["title" => "Lioness Arising: Wake Up and Change Your World", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Lioness-Arising-Wake-Change-World/dp/0307457796", "type" => "[Book]"],
-                    ["title" => "Successful Women Think Differently: 9 Habits To Make You Happier, Healthier & More Resilient", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Successful-Women-Differently-Valorie-Burton-ebook/dp/B006UAAVF8", "type" => "[Book]"],
-                    ["title" => "Happy Women Live Better", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Happy-Women-Better-Valorie-Burton-ebook/dp/B00ET7Q4KU", "type" => "[Book]"],
-                    ["title" => "What's Really Holding You Back?: Closing the Gap Between Where You Are and Where You Want To Be", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Whats-Really-Holding-You-Back-ebook/dp/B001RLTFL6", "type" => "[Book]"],
-                    ["title" => "Where Will You Go From Here? Moving Forward When Life Doesn't Go as Planned", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Where-Will-You-Go-Here/dp/0307729761", "type" => "[Book]"]
+                    ["title" => "Women's Who Love Too Much: When you Keep Wishing and Hoping He'll Change", "url" => "https://www.amazon.com/Women-Who-Love-Too-Much/dp/1416550216", "type" => "[Book]"],
+                    ["title" => "Lioness Arising: Wake Up and Change Your World", "url" => "https://www.amazon.com/Lioness-Arising-Wake-Change-World/dp/0307457796", "type" => "[Book]"],
+                    ["title" => "Successful Women Think Differently: 9 Habits To Make You Happier, Healthier & More Resilient", "url" => "https://www.amazon.com/Successful-Women-Differently-Valorie-Burton-ebook/dp/B006UAAVF8", "type" => "[Book]"],
+                    ["title" => "Happy Women Live Better", "url" => "https://www.amazon.com/Happy-Women-Better-Valorie-Burton-ebook/dp/B00ET7Q4KU", "type" => "[Book]"],
+                    ["title" => "What's Really Holding You Back?: Closing the Gap Between Where You Are and Where You Want To Be", "url" => "https://www.amazon.com/Whats-Really-Holding-You-Back-ebook/dp/B001RLTFL6", "type" => "[Book]"],
+                    ["title" => "Where Will You Go From Here? Moving Forward When Life Doesn't Go as Planned", "url" => "https://www.amazon.com/Where-Will-You-Go-Here/dp/0307729761", "type" => "[Book]"]
                 ],
                 "Workplace Change" => [
-                    ["title" => "Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work & in Your Life", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Who-Moved-My-Cheese-Amazing/dp/0399144463", "type" => "[Book]"],
-                    ["title" => "The Purpose Driven Life: What on Earth am I Here For?", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Purpose-Driven-Life-Earth-Campaign/dp/B00CMUCXWE", "type" => "[Book]"],
-                    ["title" => "7 Habits of Highly Effective People", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Habits-Highly-Effective-People-Miniature/dp/0762408332", "type" => "[Book]"],
-                    ["title" => "Get Unstuck: Be Unstoppable", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Get-Unstuck-Be-Unstoppable-Imagined/dp/0736956786", "type" => "[Book]"],
-                    ["title" => "What Are the Different Types of Resume Formats?", "url" => "https://web.archive.org/web/20250130133211/https://www.americasjobexchange.com/career-advice/types-of-resume-formats", "type" => "[Article]"],
-                    ["title" => "Smarter Faster Better: Work Smarter, Not Harder and Be Productive in Life and Business", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Smarter-Faster-Better-Productive-Productivity-ebook/dp/B06W54J36Q", "type" => "[Book]"],
-                    ["title" => "Smarter Faster Better: The Transformative Power of Real Productivity", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Smarter-Faster-Better-Transformative-Productivity-ebook/dp/B00Z3FRYB0", "type" => "[Book]"],
-                    ["title" => "Grit: The Power of Passion and Perseverance", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108", "type" => "[Book]"],
-                    ["title" => "What Color is Your Parachute", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/s?k=what+color+is+your+parachute+2022", "type" => "[Book]"]
+                    ["title" => "Who Moved My Cheese: An Amazing Way to Deal with Change in Your Work & in Your Life", "url" => "https://www.amazon.com/Who-Moved-My-Cheese-Amazing/dp/0399144463", "type" => "[Book]"],
+                    ["title" => "The Purpose Driven Life: What on Earth am I Here For?", "url" => "https://www.amazon.com/Purpose-Driven-Life-Earth-Campaign/dp/B00CMUCXWE", "type" => "[Book]"],
+                    ["title" => "7 Habits of Highly Effective People", "url" => "https://www.amazon.com/Habits-Highly-Effective-People-Miniature/dp/0762408332", "type" => "[Book]"],
+                    ["title" => "Get Unstuck: Be Unstoppable", "url" => "https://www.amazon.com/Get-Unstuck-Be-Unstoppable-Imagined/dp/0736956786", "type" => "[Book]"],
+                    ["title" => "What Are the Different Types of Resume Formats?", "url" => "https://www.americasjobexchange.com/career-advice/types-of-resume-formats", "type" => "[Article]"],
+                    ["title" => "Smarter Faster Better: Work Smarter, Not Harder and Be Productive in Life and Business", "url" => "https://www.amazon.com/Smarter-Faster-Better-Productive-Productivity-ebook/dp/B06W54J36Q", "type" => "[Book]"],
+                    ["title" => "Grit: The Power of Passion and Perseverance", "url" => "https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108", "type" => "[Book]"],
+                    ["title" => "What Color is Your Parachute", "url" => "https://www.amazon.com/s?k=what+color+is+your+parachute+2022", "type" => "[Book]"]
                 ],
                 "Young Adult Issues" => [
-                    ["title" => "What Color is Your Parachute", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/s?k=what+color+is+your+parachute+2022", "type" => "[Book]"],
-                    ["title" => "How parents and their adult children can build strong relationships", "url" => "https://web.archive.org/web/20250130133211/https://www.listennotes.com/podcasts/speaking-of/how-parents-and-their-adult-TQYx19B_OZy/", "type" => "[Podcast]"],
-                    ["title" => "You and Your Adult Child", "url" => "https://web.archive.org/web/20250130133211/https://www.amazon.com/You-Your-Adult-Child-Challenging/dp/166800948X", "type" => "[Book]"]
+                    ["title" => "What Color is Your Parachute", "url" => "https://www.amazon.com/s?k=what+color+is+your+parachute+2022", "type" => "[Book]"],
+                    ["title" => "How parents and their adult children can build strong relationships", "url" => "https://www.listennotes.com/podcasts/speaking-of/how-parents-and-their-adult-TQYx19B_OZy/", "type" => "[Podcast]"],
+                    ["title" => "You and Your Adult Child", "url" => "https://www.amazon.com/You-Your-Adult-Child-Challenging/dp/166800948X", "type" => "[Book]"]
                 ]
             ];
             ?>
@@ -420,36 +492,57 @@
                         <ul class="space-y-4 relative z-10">
                             <?php foreach ($items as $item): ?>
                                 <li class="flex items-start gap-3">
-                                    <?php if (strpos(strtolower($item['type']), 'book') !== false): ?>
-                                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253">
-                                            </path>
-                                        </svg>
-                                    <?php elseif (strpos(strtolower($item['type']), 'video') !== false): ?>
-                                        <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z">
-                                            </path>
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                        </svg>
+                                    <?php if (isset($item['subItems']) && $item['subItems']): ?>
+                                        <div class="w-full">
+                                            <?php if (strpos(strtolower($item['type']), 'book') !== false): ?>
+                                                <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                                </svg>
+                                            <?php elseif (strpos(strtolower($item['type']), 'video') !== false): ?>
+                                                <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                </svg>
+                                            <?php else: ?>
+                                                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                                                </svg>
+                                            <?php endif; ?>
+                                            <span class="text-gray-700 font-medium text-sm"><?php echo $item['title']; ?></span>
+                                            <span class="inline-block text-[10px] text-gray-400 font-normal ml-1 whitespace-nowrap bg-gray-50 px-1.5 py-0.5 rounded-md border border-gray-100"><?php echo trim($item['type'], "[]"); ?></span>
+                                            <ul class="ml-6 mt-2 space-y-1">
+                                                <?php foreach ($item['subItems'] as $sub): ?>
+                                                    <li>
+                                                        <a href="<?php echo $sub['url']; ?>" target="_blank" rel="noopener noreferrer"
+                                                            class="text-gray-600 hover:text-primary transition-colors text-xs inline-block">
+                                                            <?php echo $sub['title']; ?>
+                                                        </a>
+                                                    </li>
+                                                <?php endforeach; ?>
+                                            </ul>
+                                        </div>
                                     <?php else: ?>
-                                        <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
-                                            viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
-                                            </path>
-                                        </svg>
+                                        <?php if (strpos(strtolower($item['type']), 'book') !== false): ?>
+                                            <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                                            </svg>
+                                        <?php elseif (strpos(strtolower($item['type']), 'video') !== false): ?>
+                                            <svg class="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                            </svg>
+                                        <?php else: ?>
+                                            <svg class="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+                                            </svg>
+                                        <?php endif; ?>
+                                        <a href="<?php echo $item['url']; ?>" target="_blank" rel="noopener noreferrer"
+                                            class="text-gray-700 hover:text-primary transition-colors font-medium text-sm leading-tight inline-block">
+                                            <?php echo $item['title']; ?>
+                                            <span
+                                                class="inline-block text-[10px] text-gray-400 font-normal ml-1 whitespace-nowrap bg-gray-50 px-1.5 py-0.5 rounded-md border border-gray-100"><?php echo trim($item['type'], "[]"); ?></span>
+                                        </a>
                                     <?php endif; ?>
-                                    <a href="<?php echo $item['url']; ?>" target="_blank" rel="noopener noreferrer"
-                                        class="text-gray-700 hover:text-primary transition-colors font-medium text-sm leading-tight inline-block">
-                                        <?php echo $item['title']; ?>
-                                        <span
-                                            class="inline-block text-[10px] text-gray-400 font-normal ml-1 whitespace-nowrap bg-gray-50 px-1.5 py-0.5 rounded-md border border-gray-100"><?php echo trim($item['type'], "[]"); ?></span>
-                                    </a>
                                 </li>
                             <?php endforeach; ?>
                         </ul>

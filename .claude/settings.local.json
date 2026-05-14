@@ -14,7 +14,12 @@
       "Bash(find about:*)",
       "Read(//a/Work/Globecore/dir=$DEST/**)",
       "Bash(chmod +x /tmp/download_assets.sh)",
-      "Bash(file assets/extracted-img/globe-img/*.jpg assets/extracted-img/globe-img/*.webp assets/extracted-img/globe-img/*.png)"
+      "Bash(file assets/extracted-img/globe-img/*.jpg assets/extracted-img/globe-img/*.webp assets/extracted-img/globe-img/*.png)",
+      "Bash(wget -q --no-check-certificate \"https://web.archive.org/web/20250130/https://globecoreinc.com/wp-content/uploads/2020/12/goal-exploration.pdf\" -O \"2020/12/goal-exploration.pdf\")",
+      "Bash(curl -sL --insecure \"https://web.archive.org/web/20250130/https://globecoreinc.com/wp-content/uploads/2021/03/Anger-vs.-Agression-Fact-Sheet-Updated-1.pdf\" -o \"2021/03/Anger-vs.-Agression-Fact-Sheet-Updated-1.pdf\")",
+      "Bash(curl -sL --insecure \"https://web.archive.org/web/20250130/https://globecoreinc.com/wp-content/uploads/2021/03/Setting-Boundaries.pdf\" -o \"2021/03/Setting-Boundaries.pdf\")",
+      "Bash(curl -sL --insecure \"https://web.archive.org/web/20250130/https://globecoreinc.com/wp-content/uploads/2021/04/ExE_Clinicians_10_Actions.pdf\" -o \"2021/04/ExE_Clinicians_10_Actions.pdf\")",
+      "Bash(curl -sL --insecure --retry 3 \"https://web.archive.org/web/20250130/https://globecoreinc.com/wp-content/uploads/2021/03/relationship-growth-activity.pdf\" -o \"2021/03/relationship-growth-activity.pdf\")"
     ]
   }
 }
