@@ -85,7 +85,7 @@ include_once "../partials/head.php";
             <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
                 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
                     <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-                        <img src="/wp-content/uploads/2021/03/IMG_2992-819x1024.jpg" alt="Dr. Kelly Lewis-Arthur" class="w-full aspect-[4/5] object-cover object-top">
+                        <img src="/assets/images/drkelly.webp" alt="Dr. Kelly Lewis-Arthur" class="w-full aspect-[4/5] object-cover object-top">
                     </div>
                     <div class="text-center w-full px-2">
                         <span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">CEO</span>
@@ -417,5 +417,14 @@ include_once "../partials/head.php";
                                 see the results. I didn’t have a great relationship with my mother, and now I do thanks
                                 to Dr. Lewis-Arthur. I was dealing with a lot of hurt with the loss of my children and I
                                 was able to get on the ball and get my children back!"</p>
+                        </blockquote>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- END OF TWO COLUMN LAYOUT -->
+        </section>
+    </main>
 
     <?php include "../partials/footer.php"; ?>

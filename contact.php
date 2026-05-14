@@ -241,7 +241,9 @@ include_once "partials/head.php";
                 <!-- Right Form Panel -->
                 <div class="lg:w-3/5 p-8 md:p-12 lg:p-16 bg-white relative">
                     <h4 class="text-2xl md:text-3xl font-extrabold text-[#071e26] mb-8">Book Your Appointment</h4>
-                    <iframe src="https://api.leadconnectorhq.com/widget/bookings/globecore9wb1k6" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="800" width="100%" allowfullscreen=""></iframe>
+                    <div class="h-[600px] lg:h-[700px] overflow-y-auto pr-2 custom-scrollbar border border-gray-50 rounded-2xl">
+                        <iframe src="https://api.leadconnectorhq.com/widget/bookings/globecore9wb1k6" style="border:none;" name="myiFrame" scrolling="yes" frameborder="0" height="1000" width="100%" allowfullscreen=""></iframe>
+                    </div>
                 </div>
 
             </div>

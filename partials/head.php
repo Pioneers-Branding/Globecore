@@ -13,7 +13,7 @@ $scriptPath = dirname($_SERVER['PHP_SELF']);
 $depth = max(0, substr_count($scriptPath, '/') - 1);
 $P = str_repeat('../', $depth);
 ?>
-    <base href="https://globecoreinc.com/">
+    <!-- <base href="https://globecoreinc.com/"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle ?? 'GlobeCoRe Inc. Atlanta, GA'; ?></title>

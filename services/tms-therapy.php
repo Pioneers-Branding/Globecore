@@ -798,160 +798,82 @@ include_once "../partials/head.php";
     </section>
 
     <!-- ===== CONTACT US ===== -->
-    <section id="contact-us" class="py-24 bg-bgOffWhite border-t border-gray-100">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-extrabold text-[#1a2b3c] mb-4">Contact Us</h2>
-                <p class="text-[15px] md:text-[16px] text-[#4a5568] max-w-2xl mx-auto">Ready to begin your TMS therapy
-                    journey? Schedule your consultation today and take the first step toward better mental health.</p>
-            </div>
+    <!-- Contact Form Section Custom Build -->
+    <div id="contact-us" class="max-w-6xl mx-auto px-4 sm:px-6 pb-24 relative z-10 pt-20">
+        <div
+            class="bg-white rounded-[32px] md:rounded-[40px] shadow-2xl overflow-hidden flex flex-col lg:flex-row border border-gray-100 relative">
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
-                <!-- Left: Contact Info -->
-                <div>
-                    <h3 class="text-2xl font-extrabold text-[#1a2b3c] mb-8">Get in Touch</h3>
+            <!-- Left Info Panel -->
+            <div
+                class="lg:w-2/5 md:bg-gradient-to-br from-[#071e26] to-[#027289] bg-[#071e26] text-white p-8 md:p-12 lg:p-16 flex flex-col justify-between relative overflow-hidden">
+                <!-- Abstract decorative BG shapes -->
+                <div
+                    class="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2">
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 w-64 h-64 bg-secondary/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2">
+                </div>
 
-                    <div class="space-y-8">
-                        <!-- Office Location -->
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="w-12 h-12 bg-[#e2f0f1] rounded-xl flex items-center justify-center flex-shrink-0 text-[#027b87]">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-bold text-[#1a2b3c] mb-1">Office Location</p>
-                                <p class="text-[#4a5568] text-sm leading-relaxed">3355 Lenox Road NE, Suite
-                                    700<br>Atlanta, GA 30326</p>
-                            </div>
+                <div class="relative z-10">
+                    <div
+                        class="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mb-10 backdrop-blur-md border border-white/20 shadow-lg">
+                        <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Icon"
+                            class="w-14 h-14 object-contain brightness-0 invert opacity-90">
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-extrabold mb-6 leading-tight tracking-tight">GlobeCoRe
+                        Callback Scheduling</h3>
+                    <p class="text-white/80 leading-relaxed text-[15px] mb-12">
+                        Hi, Thank you for choosing GlobeCoRe for your Mental Health & Consulting Services. Please
+                        schedule a day and time that works best for our callback so we can match you with one of our
+                        clinicians. For questions and immediate concerns, please email us at <br><a
+                            href="mailto:help@globecoreinc.com"
+                            class="text-primary hover:text-white underline font-semibold transition-colors mt-2 inline-block">help@globecoreinc.com</a>
+                        or call us at <strong class="text-white">(770) 284-1044</strong>. Thank you.
+                    </p>
+                </div>
+                <!-- Details mimicking the widget sidepanel -->
+                <div
+                    class="space-y-5 relative z-10 bg-black/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
+                    <div class="flex items-start gap-4 text-white">
+                        <div
+                            class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
                         </div>
-
-                        <!-- Phone -->
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="w-12 h-12 bg-[#eef5e1] rounded-xl flex items-center justify-center flex-shrink-0 text-[#8baf4c]">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-bold text-[#1a2b3c] mb-1">Phone</p>
-                                <a href="tel:+17702841044"
-                                    class="text-[#027b87] font-medium text-sm hover:underline">+17702841044</a>
-                            </div>
-                        </div>
-
-                        <!-- Email -->
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="w-12 h-12 bg-[#e2f0f1] rounded-xl flex items-center justify-center flex-shrink-0 text-[#027b87]">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-bold text-[#1a2b3c] mb-1">Email</p>
-                                <a href="mailto:help@globecoreinc.com"
-                                    class="text-[#027b87] font-medium text-sm hover:underline">help@globecoreinc.com</a>
-                            </div>
-                        </div>
-
-                        <!-- Office Hours -->
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="w-12 h-12 bg-[#eef5e1] rounded-xl flex items-center justify-center flex-shrink-0 text-[#8baf4c]">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <p class="font-bold text-[#1a2b3c] mb-1">Office Hours</p>
-                                <p class="text-[#4a5568] text-sm leading-relaxed">Monday - Friday: 9:00 AM - 6:00
-                                    PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: By appointment only</p>
-                            </div>
+                        <div>
+                            <span class="font-bold block mb-0.5">Duration</span>
+                            <span class="text-white/70 text-sm">15 Mins</span>
                         </div>
                     </div>
-
-                    <!-- Crisis Support -->
-                    <div class="mt-8 bg-[#fff5f5] rounded-2xl p-6 border border-[#fed7d7]">
-                        <h4 class="font-bold text-[#c53030] mb-3">Crisis Support</h4>
-                        <p class="text-sm text-[#c53030] mb-4">If you're experiencing a mental health emergency, please
-                            contact:</p>
-                        <div class="space-y-2 text-sm text-[#c53030]">
-                            <p class="font-bold">National Suicide Prevention Lifeline: 988</p>
-                            <p class="font-bold">Crisis Text Line: Text HOME to 741741</p>
-                            <p class="font-bold">Emergency Services: 911</p>
+                    <div class="flex items-start gap-4 text-white">
+                        <div
+                            class="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="font-bold block mb-0.5">Location</span>
+                            <span class="text-white/70 text-sm">Web meeting details provided upon
+                                confirmation.</span>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Right: Form -->
-                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] h-fit">
-                    <h3 class="text-[18px] font-bold text-[#1a2b3c] mb-6">Schedule Your Free TMS Consultation</h3>
-                    <form class="space-y-4">
-                        <div>
-                            <label class="block text-[13px] font-bold text-[#1a2b3c] mb-1.5">Full Name *</label>
-                            <input type="text" placeholder="Your full name"
-                                class="w-full bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#027b87]/20 focus:border-[#027b87] transition-colors"
-                                required>
-                        </div>
-                        <div>
-                            <label class="block text-[13px] font-bold text-[#1a2b3c] mb-1.5">Email Address *</label>
-                            <input type="email" placeholder="your.email@example.com"
-                                class="w-full bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#027b87]/20 focus:border-[#027b87] transition-colors"
-                                required>
-                        </div>
-                        <div>
-                            <label class="block text-[13px] font-bold text-[#1a2b3c] mb-1.5">Phone Number *</label>
-                            <input type="tel" placeholder="(555) 123-4567"
-                                class="w-full bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#027b87]/20 focus:border-[#027b87] transition-colors"
-                                required>
-                        </div>
-                        <div>
-                            <label class="block text-[13px] font-bold text-[#1a2b3c] mb-1.5">Condition of
-                                Interest</label>
-                            <div class="relative">
-                                <select
-                                    class="w-full bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm appearance-none focus:outline-none focus:ring-2 focus:ring-[#027b87]/20 focus:border-[#027b87] transition-colors text-gray-500">
-                                    <option value="" disabled selected>Select a condition</option>
-                                    <option value="depression">Depression</option>
-                                    <option value="anxiety">Anxiety</option>
-                                    <option value="ocd">OCD</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <div
-                                    class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-gray-400">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M19 9l-7 7-7-7" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <label class="block text-[13px] font-bold text-[#1a2b3c] mb-1.5">Message</label>
-                            <textarea rows="3"
-                                placeholder="Tell us about your condition and any questions you have about TMS therapy..."
-                                class="w-full bg-white border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#027b87]/20 focus:border-[#027b87] transition-colors resize-none"></textarea>
-                        </div>
-                        <div class="pt-2">
-                            <button type="submit"
-                                class="w-full bg-[#8baf4c] text-white font-bold py-3.5 rounded-lg hover:bg-[#7a9e3f] transition-colors text-sm">Schedule
-                                Free Consultation</button>
-                        </div>
-                        <p class="text-[11px] text-center text-[#4a5568] mt-4 leading-relaxed">Our front office team
-                            will reach out to you to provide the clinical assistance and schedule your consultation.</p>
-                    </form>
+            <!-- Right Form Panel -->
+            <div class="lg:w-3/5 p-8 md:p-12 lg:p-16 bg-white relative">
+                <h4 class="text-2xl md:text-3xl font-extrabold text-[#071e26] mb-8">Book Your Appointment</h4>
+                <div class="h-[600px] lg:h-[700px] overflow-y-auto pr-2 custom-scrollbar border border-gray-50 rounded-2xl">
+                    <iframe src="https://api.leadconnectorhq.com/widget/bookings/globecore9wb1k6" style="border:none;" name="myiFrame" scrolling="yes" frameborder="0" height="1000" width="100%" allowfullscreen=""></iframe>
                 </div>
             </div>
+
         </div>
-    </section>
+    </div>
 
     <?php include "../partials/footer.php"; ?>

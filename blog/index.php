@@ -1,686 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
 <?php
+$blogs_json = <<<'JSON'
+[{"title": "How Couples Therapy Can Strengthen Your Relationship: Building a Lasting Connection", "link": "blogs/how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.html", "image": "images/blog/couples_therapy.jpg", "category": "Mental Health", "excerpt": "Intimate relationships are the foundation of human connection, yet maintaining a strong bond with your partner can sometimes feel like an uphill battle. Research on intimate relationships shows that...", "author": "Kelly Lewis Arthur", "readTime": "5 min read", "date": "May 01, 2026"}, {"title": "Common Relationship Problems That Couples Therapy Can Resolve", "link": "blogs/common-relationship-problems-that-couples-therapy-can-resolve.html", "image": "images/blog/couples_therapy.jpg", "category": "Mental Health", "excerpt": "Relationships are a beautiful yet complex journey, filled with highs and lows. While love is an essential foundation, sustaining a healthy and fulfilling relationship requires effort, patience, and...", "author": "Kelly Lewis Arthur", "readTime": "5 min read", "date": "May 08, 2026"}, {"title": "The Role of Counseling in Mental Health Recovery", "link": "blogs/the-role-of-counseling-in-mental-health-recovery.html", "image": "images/blog/therapy_for_psychological_abuse.png", "category": "Mental Health", "excerpt": "Mental health recovery is a deeply personal journey. It\u2019s a process that involves understanding emotions, building resilience, and finding meaning after experiencing distress. While recovery often...", "author": "Kelly Lewis Arthur", "readTime": "5 min read", "date": "May 15, 2026"}, {"title": "The Dopamine Trap: How Everyday Habits Mimic Addictive Patterns", "link": "blogs/the-dopamine-trap-how-everyday-habits-mimic-addictive-patterns.html", "image": "images/blog/dopamine_trap.png", "category": "Mental Health", "excerpt": "When we think of addiction, alcohol, nicotine, or drugs usually come to mind. But in today\u2019s world, addiction often shows up in subtler ways. Hours lost on social media. \u201cOne more episode\u201d that turns...", "author": "Kelly Lewis Arthur", "readTime": "5 min read", "date": "May 22, 2026"}, {"title": "What Is TMS Therapy? How It Works, Benefits & What to Expect (2026)", "link": "blogs/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.html", "image": "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) treats mental health conditions using magnetic pulses to stimulate targeted brain regions noninvasively. FDA approval is most commonly for depression and is...", "author": "Kelly Lewis Arthur", "readTime": "7 min read", "date": "April 01, 2026"}, {"title": "Transcranial Magnetic Stimulation (TMS): A Beginner\u2019s Guide to Rapid Relief", "link": "blogs/transcranial-magnetic-stimulation-tms-a-beginners-guide-to-rapid-relief.html", "image": "images/blog/tms_therapy_in_atlanta.jpg", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) is a non-invasive brain treatment unlike any other. With a coil on the scalp, magnetic pulses are sent into parts of the brain that regulate mood. It's an...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "April 08, 2026"}, {"title": "What is Medication Management in Mental Health?", "link": "blogs/what-is-medication-management-in-mental-health.html", "image": "images/blog/best_psychiatrist_in_atlanta.png", "category": "Mental Health", "excerpt": "Mental health problems such as depression, anxiety, bipolar disorder, PTSD, OCD, ADHD, and schizophrenia often require a combination of therapy and medicines. But taking medicines is not just about...", "author": "Kelly Lewis Arthur", "readTime": "6 min read", "date": "April 15, 2026"}, {"title": "How Long Does a Psychological Evaluation Take? A Complete Guide", "link": "blogs/how-long-does-a-psychological-evaluation-take-a-complete-guide.html", "image": "images/blog/top_10_psychiatrists_in_Atlanta.png", "category": "Mental Health", "excerpt": "A psychological evaluation is an important process used to understand a person\u2019s mental, emotional, behavioral, or cognitive health. It helps diagnose conditions, plan treatment, assess strengths and...", "author": "Kelly Lewis Arthur", "readTime": "7 min read", "date": "April 22, 2026"}, {"title": "TMS Therapy Cost in 2026: What to Expect Per Session, Full Course &amp; With Insurance", "link": "blogs/tms-therapy-cost-in-2026-what-to-expect-per-session-full-course-amp-with-insurance.html", "image": "images/blog/How_Long_Does_TMS_Therapy_Last.png", "category": "TMS Therapy", "excerpt": "If you're searching for how much does TMS therapy cost, you want clear numbers right away. On average, TMS is a non-invasive brain stimulation treatment for depression, anxiety, and OCD \u2014 and...", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "March 01, 2026"}, {"title": "What Is Medication Management in Mental Health? Complete Guide for Patients", "link": "blogs/what-is-medication-management-in-mental-health-complete-guide-for-patients.html", "image": "images/blog/psychiatric_evaluation.png", "category": "Mental Health", "excerpt": "If you're wondering what is medication management in mental health, you're likely looking for clear, patient-friendly guidance. Medication management is a structured, clinical process where a mental...", "author": "Kelly Lewis Arthur", "readTime": "13 min read", "date": "March 08, 2026"}, {"title": "The 10 Best Psychologists in Atlanta, GA for 2026", "link": "blogs/the-10-best-psychologists-in-atlanta-ga-for-2026.html", "image": "images/blog/psychological_evaluation.jpg", "category": "Mental Health", "excerpt": "Atlanta, Georgia, has become a center for innovation in mental health care. From anxiety and depression to trauma recovery and relationship therapy, the city\u2019s mental health professionals are helping...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "March 15, 2026"}, {"title": "How to Prepare for Your First Therapy Session: A Step-by-Step Guide", "link": "blogs/how-to-prepare-for-your-first-therapy-session-a-step-by-step-guide.html", "image": "images/blog/counseling_in_mental_health_recovery.png", "category": "Mental Health", "excerpt": "Beginning therapy can be one of the most meaningful decisions you\u2019ll ever make for your well-being. Yet, it\u2019s also normal to feel uncertain, nervous, or even skeptical before your first session....", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "March 22, 2026"}, {"title": "Is Psychiatry Primary Care? Understanding the Field, Competitiveness, and Career Path", "link": "blogs/is-psychiatry-primary-care-understanding-the-field-competitiveness-and-career-path.html", "image": "images/blog/top_10_psychiatrists_in_Atlanta.png", "category": "Mental Health", "excerpt": "Psychiatry has become one of the fastest-evolving medical specialties, blending medicine, psychology, and neuroscience to address mental health conditions. With increasing awareness around mental...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "February 08, 2026"}, {"title": "Is Psychiatry Primary Care? Understanding the Field, Competitiveness, and Career Path", "link": "blogs/is-psychiatry-primary-care-understanding-the-field-competitiveness-and-career-path.html", "image": "images/blog/top_10_psychiatrists_in_Atlanta.png", "category": "Mental Health", "excerpt": "Psychiatry has become one of the fastest-evolving medical specialties, blending medicine, psychology, and neuroscience to address mental health conditions. With increasing awareness around mental...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "February 08, 2026"}, {"title": "Clinical Psychology vs Counseling Psychology: Understanding the Key Differences and Career Paths", "link": "blogs/clinical-psychology-vs-counseling-psychology-understanding-the-key-differences-and-career-paths.html", "image": "images/blog/clinical_psychology_vs_counseling_psychology.jpg", "category": "Mental Health", "excerpt": "When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and counseling psychology? While both fields share the common...", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "February 15, 2026"}, {"title": "Depression Treatment in Atlanta With Therapy | GlobeCore Inc", "link": "blogs/depression-treatment-in-atlanta-with-therapy-globecore-inc.html", "image": "images/blog/Depression_Treatment_in_Atlanta.png", "category": "Depression", "excerpt": "Introduction Reaching out for help with depression can feel like standing at the edge of a busy Atlanta street, trying to decide when it is safe to step forward. The traffic of thoughts,...", "author": "Kelly Lewis Arthur", "readTime": "21 min read", "date": "February 22, 2026"}, {"title": "Clinical Psychology vs Counseling Psychology:  Key Differences", "link": "blogs/clinical-psychology-vs-counseling-psychology-key-differences.html", "image": "images/blog/clinical_psychology_vs_counseling_psychology.jpg", "category": "Mental Health", "excerpt": "When planning a career in psychology, one of the first questions that often arises is: What is the difference between clinical psychology and counseling psychology? While both fields share the common...", "author": "Kelly Lewis Arthur", "readTime": "9 min read", "date": "January 01, 2026"}, {"title": "Atlanta\u2019s Best Psychiatrists: Where Cultural Understanding Meets Compassionate, Effective Care", "link": "blogs/atlantas-best-psychiatrists-where-cultural-understanding-meets-compassionate-effective-care.html", "image": "images/blog/Best_Psychiatrist_in_atlanta.jpg", "category": "Mental Health", "excerpt": "Introduction If you\u2019re searching for a psychiatrist in Atlanta GA, you\u2019re likely seeking expert care that goes beyond medication\u2014a trusted professional who listens, understands, and guides you toward...", "author": "Kelly Lewis Arthur", "readTime": "9 min read", "date": "January 08, 2026"}, {"title": "Psychiatrist in Atlanta That Accept Medicaid: Your Complete Guide to Accessible Mental Health Care", "link": "blogs/psychiatrist-in-atlanta-that-accept-medicaid-your-complete-guide-to-accessible-mental-health-care.html", "image": "images/blog/Psychiatrist_in_Atlanta_That_Accept_Medicaid.png", "category": "Mental Health", "excerpt": "Introduction Finding a psychiatrist in Atlanta that accept Medicaid can sometimes feel like searching for a needle in a haystack. You know help is out there, but the process of finding affordable,...", "author": "Kelly Lewis Arthur", "readTime": "12 min read", "date": "January 15, 2026"}, {"title": "Find an African American Psychiatrist in Atlanta, GA", "link": "blogs/find-an-african-american-psychiatrist-in-atlanta-ga.html", "image": "images/blog/African_American_Psychiatrist_in_Atlanta_GA.jpg", "category": "Mental Health", "excerpt": "At GlobeCoRe, Inc., we know that choosing the right psychiatrist is one of the most personal and important decisions you can make for your mental health. Our mission is to provide compassionate,...", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "January 22, 2026"}, {"title": "Best Psychiatrist in Atlanta: Expert Mental Health Care You Can Trust", "link": "blogs/best-psychiatrist-in-atlanta-expert-mental-health-care-you-can-trust.html", "image": "images/blog/How_effective_is_treatment_in_psychiatry.png", "category": "Mental Health", "excerpt": "Introduction Finding the&nbsp;Best Psychiatrist in Atlanta&nbsp;means choosing a professional who understands your mental health needs, offers evidence-based treatment, and provides compassionate...", "author": "Kelly Lewis Arthur", "readTime": "9 min read", "date": "December 01, 2025"}, {"title": "How Effective Is Treatment in Psychiatry for Mental Health Care", "link": "blogs/how-effective-is-treatment-in-psychiatry-for-mental-health-care.html", "image": "images/blog/psychiatric_evaluation.png", "category": "Mental Health", "excerpt": "When emotional distress starts affecting sleep, relationships, work performance, or physical health, people naturally look for answers they can trust. One of the most searched and most important...", "author": "Kelly Lewis Arthur", "readTime": "11 min read", "date": "December 08, 2025"}, {"title": "How to Prevent Chronic Illness With Sustainable Lifestyle Choices", "link": "blogs/how-to-prevent-chronic-illness-with-sustainable-lifestyle-choices.html", "image": "images/blog/How_to_Prevent_Chronic_Illness.png", "category": "Mental Health", "excerpt": "Understanding how to prevent chronic illness has become one of the most important health priorities of our time. Long term conditions such as heart disease, diabetes, autoimmune disorders, chronic...", "author": "Kelly Lewis Arthur", "readTime": "13 min read", "date": "December 15, 2025"}, {"title": "How Long Does TMS Therapy Last? Understanding TMS Results Over Time", "link": "blogs/how-long-does-tms-therapy-last-understanding-tms-results-over-time.html", "image": "images/blog/tms_therapy_in_atlanta.jpg", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) offers hope for individuals battling stubborn depression. This article delves into the duration of TMS therapy, exploring its effectiveness and long-term...", "author": "Kelly Lewis Arthur", "readTime": "11 min read", "date": "December 22, 2025"}, {"title": "Does TMS Therapy Help Anxiety in Atlanta, GA? Honest Benefits, Risks, and Results", "link": "blogs/does-tms-therapy-help-anxiety-in-atlanta-ga-honest-benefits-risks-and-results.html", "image": "images/blog/what_is_tms_therapy_and_how_does_it_work.jpg", "category": "TMS Therapy", "excerpt": "Are you grappling with persistent anxiety and seeking alternative treatments? Transcranial Magnetic Stimulation (TMS) therapy might be the solution you're looking for. TMS is a non-invasive procedure...", "author": "Kelly Lewis Arthur", "readTime": "15 min read", "date": "November 01, 2025"}, {"title": "Top 10 Psychiatrists in Atlanta Offering Trusted Mental Health Care", "link": "blogs/top-10-psychiatrists-in-atlanta-offering-trusted-mental-health-care.html", "image": "images/blog/top_10_psychiatrists_in_Atlanta.png", "category": "Mental Health", "excerpt": "Mental health concerns can affect anyone, at any stage of life. When symptoms begin to interfere with daily functioning, work, relationships, or emotional stability, seeking professional psychiatric...", "author": "Kelly Lewis Arthur", "readTime": "7 min read", "date": "November 08, 2025"}, {"title": "\"TMS Ruined My Life\" \u2014 What's Really Happening & How to Find Relief", "link": "blogs/tms-ruined-my-life-whats-really-happening-how-to-find-relief.html", "image": "images/blog/TMS_Ruined_My_Life.webp", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) therapy is often introduced as a hopeful option for people who have struggled with depression for years without success from medications or talk therapy. For...", "author": "Kelly Lewis Arthur", "readTime": "7 min read", "date": "November 15, 2025"}, {"title": "Is TMS Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits", "link": "blogs/is-tms-therapy-legitimate-exploring-the-science-safety-amp-real-benefits.html", "image": "images/blog/is_tms_therapy_legitimate.png", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) Therapy has grown rapidly in popularity as a non-invasive mental health treatment, but many people still ask: \u201cIs TMS therapy legitimate?\u201d If you\u2019re...", "author": "Kelly Lewis Arthur", "readTime": "5 min read", "date": "November 22, 2025"}, {"title": "Is TMS Dip Normal? Understanding Temporary Mood Changes During TMS Therapy", "link": "blogs/is-tms-dip-normal-understanding-temporary-mood-changes-during-tms-therapy.html", "image": "images/blog/is_tms_dip_normal.png", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS therapy) has become a highly effective non-invasive treatment for depression, anxiety, PTSD, and OCD. While most patients notice improvement over the course of...", "author": "Kelly Lewis Arthur", "readTime": "6 min read", "date": "October 01, 2025"}, {"title": "TMS Therapy for ADHD: How Non-Invasive Brain Stimulation Works", "link": "blogs/tms-therapy-for-adhd-how-non-invasive-brain-stimulation-works.html", "image": "images/blog/tms_therapy_for_adhd.png", "category": "TMS Therapy", "excerpt": "Attention-Deficit/Hyperactivity Disorder (ADHD) is a complex neurological condition that affects focus, impulse control, emotional regulation, and executive functioning. For many individuals, ADHD...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "October 08, 2025"}, {"title": "Is TMS Therapy Safe? What You Need to Know", "link": "blogs/is-tms-therapy-safe-what-you-need-to-know.html", "image": "images/blog/what_is_tms_therapy_and_how_does_it_work.jpg", "category": "TMS Therapy", "excerpt": "Transcranial Magnetic Stimulation (TMS) therapy has become an increasingly popular option for individuals seeking non-invasive, drug-free treatment for mental health and neurological conditions. As...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "October 15, 2025"}, {"title": "Is Counseling the Same as Therapy? The Honest Answer", "link": "blogs/is-counseling-the-same-as-therapy-the-honest-answer.html", "image": "images/blog/counseling_in_mental_health_recovery.png", "category": "Mental Health", "excerpt": "When seeking mental health support, many people use the terms counseling and therapy interchangeably. While they share similarities and often overlap, they are not exactly the same. Understanding the...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "October 22, 2025"}, {"title": "Can You Get Disability for Depression? A Complete Guide for Atlanta Residents", "link": "blogs/can-you-get-disability-for-depression-a-complete-guide-for-atlanta-residents.html", "image": "images/blog/can_you_get_disability_for_depression.png", "category": "Depression", "excerpt": "Depression is not just a difficult season. For many individuals, it is a chronic, life-altering condition that affects work performance, relationships, decision-making, and even the ability to...", "author": "Kelly Lewis Arthur", "readTime": "9 min read", "date": "September 01, 2025"}, {"title": "What Is Social Anxiety? Understanding Symptoms, Causes, and Treatment", "link": "blogs/what-is-social-anxiety-understanding-symptoms-causes-and-treatment.html", "image": "images/blog/what_is_social_anxiety.png", "category": "Mental Health", "excerpt": "Feeling nervous before a big meeting or social event is completely normal. Most people experience occasional self-consciousness. But when fear of being judged, embarrassed, or scrutinized becomes...", "author": "Kelly Lewis Arthur", "readTime": "12 min read", "date": "September 08, 2025"}, {"title": "Does TRICARE Cover Mental Health Therapy?", "link": "blogs/does-tricare-cover-mental-health-therapy.html", "image": "images/blog/therapy_for_psychological_abuse.png", "category": "Mental Health", "excerpt": "Mental health care plays an important role in maintaining emotional balance, managing stress, and improving overall quality of life. For military service members, veterans, and their families, access...", "author": "Kelly Lewis Arthur", "readTime": "11 min read", "date": "September 15, 2025"}, {"title": "What Happens During a Psychiatric Evaluation?", "link": "blogs/what-happens-during-a-psychiatric-evaluation.html", "image": "images/blog/Best_Psychiatrist_in_atlanta.jpg", "category": "Mental Health", "excerpt": "If you have been referred to a psychiatrist or are considering making an appointment on your own, you may be wondering what to expect. A psychiatric evaluation is often the first step in...", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "September 22, 2025"}, {"title": "Therapy for Psychological Abuse: How Recovery Works", "link": "blogs/therapy-for-psychological-abuse-how-recovery-works.html", "image": "images/blog/therapy_for_psychological_abuse.png", "category": "Mental Health", "excerpt": "Psychological abuse leaves deep emotional wounds that are not always visible. According to psychological abuse research, this form of abuse can be as damaging as physical trauma and requires...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "August 01, 2025"}, {"title": "Hormonal Mood Disorders in Women: What You Should Know", "link": "blogs/hormonal-mood-disorders-in-women-what-you-should-know.html", "image": "images/blog/hormonal_mood_disorders_in_women.png", "category": "Mental Health", "excerpt": "Hormones play a powerful role in regulating mood, energy, and emotional well-being. For women, fluctuations in hormone levels throughout life can significantly affect mental health. Hormonal mood...", "author": "Kelly Lewis Arthur", "readTime": "9 min read", "date": "August 08, 2025"}, {"title": "Anxiety and Depression During Pregnancy: Signs, Causes, and Treatment", "link": "blogs/anxiety-and-depression-during-pregnancy-signs-causes-and-treatment.html", "image": "images/blog/anxiety_depression_during_pregnancy.png", "category": "Depression", "excerpt": "Pregnancy is often portrayed as a joyful and exciting time, but for many women, it also brings significant emotional challenges. Anxiety and depression during pregnancy are more common than most...", "author": "Kelly Lewis Arthur", "readTime": "7 min read", "date": "August 15, 2025"}, {"title": "How Pregnancy Affects Mental Health: What Every Mother Should Know", "link": "blogs/how-pregnancy-affects-mental-health-what-every-mother-should-know.html", "image": "images/blog/anxiety_depression_during_pregnancy.png", "category": "Mental Health", "excerpt": "Pregnancy is a transformative life experience that affects every aspect of a woman's health, including her mental and emotional well-being. While pregnancy is often associated with joy and...", "author": "Kelly Lewis Arthur", "readTime": "8 min read", "date": "August 22, 2025"}, {"title": "Can Veterans Get TRICARE for TMS Therapy? (Complete Coverage Guide)", "link": "blogs/can-veterans-get-tricare-for-tms-therapy-complete-coverage-guide.html", "image": "images/blog/can_veterens_get_tricare_for_tms_therapy.jpg", "category": "TMS Therapy", "excerpt": "Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments like antidepressants and psychotherapy are effective for many, some individuals...", "author": "Kelly Lewis Arthur", "readTime": "10 min read", "date": "July 01, 2025"}, {"title": "Is ADHD a Disability? What You Need to Know", "link": "blogs/is-adhd-a-disability-what-you-need-to-know.html", "image": "images/blog/tms_therapy_for_adhd.png", "category": "Mental Health", "excerpt": "Is ADHD a disability? If you've been asking this question, for yourself, your child, or someone you love, you're not alone. Millions of people live with Attention Deficit Hyperactivity Disorder...", "author": "Kelly Lewis Arthur", "readTime": "11 min read", "date": "July 08, 2025"}, {"title": "How to Calm Anxiety: Proven Techniques for Immediate Relief", "link": "blogs/how-to-calm-anxiety-proven-techniques-for-immediate-relief.html", "image": "images/blog/how_to_calm_anxiety.png", "category": "Mental Health", "excerpt": "Feeling your heart race, your chest tighten, or your mind spinning out of control \u2014 anxiety can be absolutely overwhelming. If you are searching for how to calm anxiety, you are already taking an...", "author": "Kelly Lewis Arthur", "readTime": "13 min read", "date": "July 15, 2025"}, {"title": "Does Marriage Counseling Work? What the Research Really Says", "link": "blogs/does-marriage-counseling-work-what-the-research-really-says.html", "image": "images/blog/marriage_counseling_in_atlanta_ga.jpg", "category": "Mental Health", "excerpt": "If your relationship has been struggling and you are wondering, does marriage counseling work? \u2014 you are asking exactly the right question. Whether you are dealing with constant conflict, emotional...", "author": "Kelly Lewis Arthur", "readTime": "13 min read", "date": "July 22, 2025"}]
+JSON;
+$blogs = json_decode($blogs_json, true);
+
+$currentCategory = $_GET['category'] ?? 'All';
+$page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+$perPage = 6;
+
+// Filter blogs by category
+$filteredBlogs = array_filter($blogs, function($b) use ($currentCategory) {
+    if ($currentCategory === 'All') return true;
+    
+    // Exact match or contains
+    return strtolower($b['category']) === strtolower($currentCategory) || 
+           strpos(strtolower($b['category']), strtolower($currentCategory)) !== false;
+});
+
+// Reset keys for array_slice
+$filteredBlogs = array_values($filteredBlogs);
+
+$totalPosts = count($filteredBlogs);
+$totalPages = ceil($totalPosts / $perPage);
+if ($totalPages > 0 && $page > $totalPages) $page = $totalPages;
+if ($page < 1) $page = 1;
+
+$startIndex = ($page - 1) * $perPage;
+$displayBlogs = array_slice($filteredBlogs, $startIndex, $perPage);
+
 $pageTitle = "Blog | GlobeCoRe Inc. Atlanta, GA";
 include_once "../partials/head.php";
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .filter-tab.active {
+        background-color: #8BAF4C !important;
+        color: white !important;
+        box-shadow: 0 4px 14px 0 rgba(139, 175, 76, 0.39);
+    }
+</style>
 </head>
-
 <body class="font-raleway text-textMain bg-white">
     <?php include "../partials/header.php"; ?>
 
-    <!-- Creative Hero Section -->
-    <section class="relative pt-32 pb-40 lg:pt-40 lg:pb-48 overflow-hidden bg-[#071e26]">
-        <div class="absolute inset-0">
-            <img src="/assets/Globe Core-108.jpg" alt="Blog"
-                class="w-full h-full object-cover opacity-30 mix-blend-overlay filter blur-[2px]">
-            <div class="absolute inset-0 bg-gradient-to-t from-[#071e26] via-[#071e26]/80 to-transparent"></div>
-        </div>
-
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10 text-center">
-            <div
-                class="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-5 py-2 mb-8 backdrop-blur-md">
-                <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-                <span class="text-white text-xs font-bold tracking-[0.2em] uppercase">Help & Information</span>
-            </div>
-            <h1
-                class="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight mb-8 tracking-tight drop-shadow-2xl">
-                Blog
+    <section class="pt-24 pb-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-[#071e26] mb-6">
+                Mental Health <span class="text-primary">Insights</span>
             </h1>
-            <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto font-medium leading-relaxed drop-shadow-md">
-                Empowering individuals and families in Atlanta, GA with evidence-based approaches, compassionate care,
-                and profound expertise.
+            <p class="text-gray-500 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+                Stay informed with the latest research, treatments, and expert insights in mental health care from our team of specialists.
             </p>
-
-            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact.php"
-                    class="bg-primary text-white font-bold py-4 px-10 rounded-full hover:bg-[#7a9e3f] hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-lg">Book
-                    a Consultation</a>
-            </div>
-        </div>
-
-        <!-- Custom Wave Divider -->
-        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-none drop-shadow-lg text-white">
-            <svg fill="currentColor" viewBox="0 0 1200 120" preserveAspectRatio="none"
-                class="w-full h-[60px] md:h-[100px]">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C52.16,108.83,106.6,117.8,162,118.8,216.7,119.78,271.69,103.55,321.39,56.44Z">
-                </path>
-            </svg>
         </div>
     </section>
 
-
-    <!-- BLOG MAIN CONTENT SECTION -->
-    <main id="main" class="bg-[#f8fcfc] py-24 selection:bg-deepTeal/20">
-        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-8">
-            <div class="text-center mb-16 max-w-3xl mx-auto">
-                <span class="text-primary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">Our Journal</span>
-                <h1
-                    class="text-[40px] md:text-[54px] font-extrabold text-[#071e26] mb-6 font-raleway tracking-tight leading-tight">
-                    Latest Insights & Updates
-                </h1>
-                <p class="text-gray-500 text-lg">Discover the latest news, research, and stories on <a href="/services/tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TMS therapy</a> and
-                    mental wellness.</p>
+    <section class="pb-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex flex-wrap justify-center gap-4 border-b border-gray-100 pb-8">
+                <?php
+                $categories = ['All', 'TMS Therapy', 'Mental Health', 'Depression', 'Wellness Tips'];
+                foreach ($categories as $cat):
+                    $isActive = ($currentCategory === $cat) ? 'active' : '';
+                    $url = "?category=" . urlencode($cat);
+                ?>
+                <a href="<?php echo $url; ?>" class="filter-tab <?php echo $isActive; ?> bg-gray-50 text-gray-500 hover:bg-gray-100 px-8 py-2.5 rounded-lg font-bold text-sm transition-all shadow-sm"><?php echo $cat; ?></a>
+                <?php endforeach; ?>
             </div>
+        </div>
+    </section>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <main id="main" class="bg-white pb-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <?php if (empty($displayBlogs)): ?>
+                <div class="text-center py-20">
+                    <h3 class="text-2xl font-bold text-gray-400">No posts found in this category.</h3>
+                    <a href="?category=All" class="text-primary font-bold mt-4 inline-block">View All Posts</a>
+                </div>
+            <?php else: ?>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <?php foreach ($displayBlogs as $post): 
+                        $link = "./" . str_replace(['blogs/', '.html'], ['', '.php'], $post['link']);
+                        $img = "/assets/blog/" . str_replace('images/blog/', '', $post['image']);
+                    ?>
+                    <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100 relative">
+                        <div class="relative overflow-hidden aspect-[16/10] w-full flex-shrink-0 bg-primary/5">
+                            <div class="absolute inset-0 z-0 opacity-20 pointer-events-none">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-primary rounded-full blur-xl translate-x-1/2 -translate-y-1/2"></div>
+                                <div class="absolute bottom-0 left-0 w-32 h-32 bg-secondary rounded-full blur-xl -translate-x-1/2 translate-y-1/2"></div>
+                            </div>
+                            <a href="<?php echo $link; ?>" class="block w-full h-full relative z-10 p-4">
+                                <img src="<?php echo $img; ?>" alt="<?php echo $post['title']; ?>" class="w-full h-full object-cover rounded-xl shadow-md group-hover:scale-105 transition-transform duration-700 ease-out">
+                            </a>
+                            <div class="absolute top-6 left-6 z-20">
+                                <span class="bg-white text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block border border-gray-100"><?php echo strtoupper($post['category']); ?></span>
+                            </div>
+                        </div>
+                        <div class="p-8 flex flex-col flex-grow relative bg-white w-full z-10">
+                            <div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 uppercase tracking-widest">
+                                <span class="flex items-center gap-1.5">
+                                    <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                                    <?php echo $post['date']; ?>
+                                </span>
+                            </div>
+                            <h2 class="text-[20px] md:text-[22px] font-extrabold text-[#071e26] leading-snug mb-4 group-hover:text-primary transition-colors duration-300">
+                                <a href="<?php echo $link; ?>"><?php echo $post['title']; ?></a>
+                            </h2>
+                            <div class="text-gray-500 text-[15px] leading-relaxed mb-8 flex-grow line-clamp-3">
+                                <p><?php echo $post['excerpt']; ?></p>
+                            </div>
+                            <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
+                                <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest">By <?php echo $post['author']; ?></span>
+                                <a href="<?php echo $link; ?>" class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform">Read More <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg></a>
+                            </div>
+                        </div>
+                    </article>
+                    <?php endforeach; ?>
+                </div>
 
-                <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-                    <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-                        <a href="./how-to-calm-anxiety.php" class="block w-full h-full">
-                            <img src="/wp-content/uploads/2026/04/gemini_generated_image_ivhigmivhigmivhi.png" alt="How to Calm Anxiety" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                <!-- Pagination -->
+                <div class="mt-16 flex justify-center items-center gap-2 md:gap-3 flex-wrap">
+                    <?php if ($page > 1): ?>
+                        <a href="?category=<?php echo urlencode($currentCategory); ?>&page=<?php echo $page-1; ?>" class="px-6 h-12 mr-2 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all group gap-2">
+                            <svg class="w-5 h-5 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" /></svg> Prev
                         </a>
-                        <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
-                        <div class="absolute top-6 left-6 z-10">
-                            <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">ANXIETY</span>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-                        <div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-                            <span class="flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                                14/04/2026
-                            </span>
-                        </div>
-                        <h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-                            <a href="./how-to-calm-anxiety.php" class="focus:outline-none before:absolute before:inset-0 cursor-pointer">How to Calm Anxiety: Proven Techniques for Immediate Relief</a>
-                        </h2>
-                        <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-                            <p>Anxiety can feel like a heavy weight sitting on your chest, a racing heart that won’t slow down, or a mind that constantly plays “what-if” scenarios on repeat. Discover proven techniques for immediate relief and long-term management.</p>
-                        </div>
-                        <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-                            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">By Kelly Lewis-Arthur</span>
-                            <span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
-                            </span>
-                        </div>
-                    </div>
-                </article>
+                    <?php endif; ?>
 
-                <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-                    <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-                        <a href="./does-marriage-counseling-work.php" class="block w-full h-full">
-                            <img src="/wp-content/uploads/2026/04/marriage-counseling.jpg" alt="Does Marriage Counseling Work?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
+                    <?php for ($p = 1; $p <= $totalPages; $p++): ?>
+                        <?php if ($p == $page): ?>
+                            <span class="w-12 h-12 flex items-center justify-center rounded-full bg-[#071e26] text-white font-extrabold text-lg shadow-[0_8px_16px_rgb(7,30,38,0.2)]"><?php echo $p; ?></span>
+                        <?php else: ?>
+                            <a href="?category=<?php echo urlencode($currentCategory); ?>&page=<?php echo $p; ?>" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all"><?php echo $p; ?></a>
+                        <?php endif; ?>
+                    <?php endfor; ?>
+
+                    <?php if ($page < $totalPages): ?>
+                        <a href="?category=<?php echo urlencode($currentCategory); ?>&page=<?php echo $page+1; ?>" class="px-6 h-12 ml-2 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all group gap-2">
+                            Next <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" /></svg>
                         </a>
-                        <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
-                        <div class="absolute top-6 left-6 z-10">
-                            <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">COUNSELLING</span>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-                        <div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-                            <span class="flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                                09/04/2026
-                            </span>
-                        </div>
-                        <h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-                            <a href="./does-marriage-counseling-work.php" class="focus:outline-none before:absolute before:inset-0 cursor-pointer">Does Marriage Counseling Work? What the Research Really Says</a>
-                        </h2>
-                        <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-                            <p>Whether you are dealing with constant conflict, emotional distance, or infidelity, couples therapy may be the turning point your relationship needs. Explore what the research says about marriage counseling success rates.</p>
-                        </div>
-                        <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-                            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">By Kelly Lewis-Arthur</span>
-                            <span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
-                            </span>
-                        </div>
-                    </div>
-                </article>
-
-
-                <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-                    <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-                        <a href="./can-veterans-get-tricare-for-tms-therapy.php" class="block w-full h-full">
-                            <img src="/wp-content/uploads/2026/04/image-globecore-1.jpg" alt="Can Veterans Get TRICARE for TMS Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
-                        </a>
-                        <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
-                        <div class="absolute top-6 left-6 z-10">
-                            <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">TMS</span>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-                        <div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-                            <span class="flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                                07/04/2026
-                            </span>
-                        </div>
-                        <h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-                            <a href="./can-veterans-get-tricare-for-tms-therapy.php" class="focus:outline-none before:absolute before:inset-0 cursor-pointer">Can Veterans Get TRICARE for TMS Therapy? (Complete Coverage Guide)</a>
-                        </h2>
-                        <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-                            <p>Mental health conditions such as depression and PTSD affect a large number of veterans. While traditional treatments are effective for many, some struggle with persistent symptoms. Learn about TRICARE coverage for TMS therapy.</p>
-                        </div>
-                        <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-                            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">By Kelly Lewis-Arthur</span>
-                            <span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
-                            </span>
-                        </div>
-                    </div>
-                </article>
-
-
-                <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-                    <div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-                        <a href="./is-adhd-a-disability.php" class="block w-full h-full">
-                            <img src="/wp-content/uploads/2026/04/is-adhd-a-disability-1024x742.png" alt="Is ADHD a Disability?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out">
-                        </a>
-                        <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none"></div>
-                        <div class="absolute top-6 left-6 z-10">
-                            <span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">ADHD</span>
-                        </div>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-                        <div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-                            <span class="flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
-                                07/04/2026
-                            </span>
-                        </div>
-                        <h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-                            <a href="./is-adhd-a-disability.php" class="focus:outline-none before:absolute before:inset-0 cursor-pointer">Is ADHD a Disability? What You Need to Know</a>
-                        </h2>
-                        <div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-                            <p>Millions live with ADHD and wonder whether it qualifies as a disability under the law. The answer is yes, but it depends on how significantly it affects daily life. Understand your rights and support options.</p>
-                        </div>
-                        <div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-                            <span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">By Kelly Lewis-Arthur</span>
-                            <span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
-                            </span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./what-happens-during-a-psychiatric-evaluation.php">
-<img alt="What Happens During a Psychiatric Evaluation?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/psych_eval_blog_1773723989285.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                EVALUATIONS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                17/03/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./what-happens-during-a-psychiatric-evaluation.php">What Happens During a Psychiatric Evaluation?</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>If you've been feeling overwhelmed, anxious, or unable to focus, a is often the critical first step toward healing. Demystifying the evaluation process can ease your mind, help you prepare the right questions, and ultimately set you on the best path toward finding clarity and achieving a balanced mental state.</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./therapy-for-psychological-abuse-how-recovery-works.php">
-<img alt="Therapy for Psychological Abuse: How Recovery Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/psych_abuse_blog_1773724005530.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRAUMA</a> THERAPY
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                16/03/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./therapy-for-psychological-abuse-how-recovery-works.php">Therapy for Psychological Abuse: How Recovery Works</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Psychological abuse is a devastating form of trauma that leaves deep, invisible scars on your mental health. With targeted, trauma-informed therapy, you can learn to recognize manipulation tactics, rebuild your shattered <a href="/specialties/self-esteem.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">self-esteem</a>, set rigid boundaries, and rediscover your true identity outside of the abusive dynamic.</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./does-tricare-cover-mental-health-therapy.php">
-<img alt="Does TRICARE Cover Mental Health Therapy?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/tricare_mental_health_blog_1773724024240.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                INSURANCE & <a href="/services/tricare-tms-therapy.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">TRICARE</a>
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                14/03/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./does-tricare-cover-mental-health-therapy.php">Does TRICARE Cover Mental Health Therapy?</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Navigating mental health insurance coverage can be confusing, especially for active-duty military members, veterans, and their dependents. Understanding exactly what TRICARE covers for mental health—including standard psychotherapy, psychological evaluations, and innovative treatments like TMS therapy—is the key to unlocking the care you deserve.</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./hormonal-mood-disorders-in-women-what-you-should-know.php">
-<img alt="Hormonal Mood Disorders in Women: What You Should Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/assets/hormonal_mood_blog_1773724039183.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                WOMEN'S HEALTH
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                12/03/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./hormonal-mood-disorders-in-women-what-you-should-know.php">Hormonal Mood Disorders in Women: What You Should Know</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Hormonal fluctuations can have a profound impact on a woman's mood, emotional resilience, and overall mental well-being across her lifespan. Recognizing the unique signs of these distinct hormonal mood disorders—from PMDD to postpartum <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">depression</a>—is absolutely essential for women to receive the correct diagnosis and the most effective psychological support.</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./is-tms-therapy-safe.php">
-<img alt="Is TMS Therapy Safe? What You Need to Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/wp-content/uploads/2026/02/globecore-blgo-photoroom-1024x683.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                TMS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                10/02/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./is-tms-therapy-safe.php">Is TMS
-                                Therapy Safe? What You Need to Know</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Transcranial Magnetic Stimulation (TMS) therapy has become an increasingly popular option
-                                for individuals seeking non-invasive, drug-free treatment for mental health and
-                                neurological conditions. As interest grows, one question consistently comes up: Is TMS
-                                therapy safe? This is a valid and important concern. Any treatment involving the brain
-                                naturally raises questions about risk, side effects, and […]</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./tms-therapy-for-adhd.php">
-<img alt="TMS Therapy for ADHD: How Non-Invasive Brain Stimulation Works" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/wp-content/uploads/2026/02/gemini_generated_image_vhpn1svhpn1svhpn-1024x571.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                TMS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                06/02/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./tms-therapy-for-adhd.php">TMS
-                                Therapy for ADHD: How Non-Invasive Brain Stimulation Works</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Attention-Deficit/Hyperactivity Disorder (<a href="/specialties/adhd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">ADHD</a>) is a complex neurological condition that
-                                affects focus, impulse control, emotional regulation, and executive functioning. For
-                                many individuals, ADHD can interfere with work performance, academic success,
-                                relationships, and daily routines. While medication and behavioral therapy remain common
-                                treatment options, they don’t work for everyone. Side effects, incomplete symptom
-                                relief, or a desire</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./is-a-tms-dip-normal.php">
-<img alt="Is TMS Dip Normal? Understanding Temporary Mood Changes During TMS Therapy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/wp-content/uploads/2026/02/gemini_generated_image_efctrefctrefctre-1024x570.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                TMS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                31/01/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./is-a-tms-dip-normal.php">Is TMS
-                                Dip Normal? Understanding Temporary Mood Changes During TMS Therapy</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Transcranial Magnetic Stimulation (TMS therapy) has become a highly effective
-                                non-invasive treatment for depression, <a href="/specialties/depression-anxiety.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">anxiety</a>, <a href="/specialties/trauma.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">PTSD</a>, and <a href="/specialties/ocd.php" class="text-[#1C8193] underline hover:text-[#071e26] transition-colors font-medium">OCD</a>. While most patients
-                                notice improvement over the course of therapy, some may experience a temporary dip in
-                                mood, energy, or motivation, often referred to as a TMS dip. If you’re starting TMS
-                                therapy or curious about potential</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./is-tms-therapy-legitimate.php">
-<img alt="Is TMS Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/wp-content/uploads/2026/01/gemini_generated_image_wx4n7fwx4n7fwx4n.png"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                TMS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                30/01/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./is-tms-therapy-legitimate.php">Is TMS
-                                Therapy Legitimate? Exploring the Science, Safety &amp; Real Benefits</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Transcranial Magnetic Stimulation (TMS) Therapy has grown rapidly in popularity as a
-                                non-invasive mental health treatment, but many people still ask: “Is TMS therapy
-                                legitimate?” If you’re considering this innovative treatment for depression, anxiety,
-                                PTSD, OCD, or other conditions, it’s important to understand the science, the evidence,
-                                and how it works. In this comprehensive guide,</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-
-<article class="bg-white rounded-[2rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-500 group flex flex-col h-full border border-gray-100">
-<div class="relative overflow-hidden aspect-[4/3] w-full flex-shrink-0 h-64">
-<a class="block w-full h-full" href="./why-some-people-feel-tms-ruined-my-life.php">
-<img alt="Why Some People Feel: “TMS Ruined My Life”" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 ease-out" src="/wp-content/uploads/2026/01/apollo_acool_greiner-tms-therapy-system-1-1024x683.webp"/>
-</a>
-<div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#071e26]/50 md:from-[#071e26]/30 to-transparent pointer-events-none">
-</div>
-<!-- Category Badge -->
-<div class="absolute top-6 left-6 z-10">
-<span class="bg-white/95 backdrop-blur-md text-[#071e26] text-[10px] font-extrabold px-3 py-1.5 rounded-full shadow-sm uppercase tracking-[0.15em] block">
-                                TMS
-                            </span>
-</div>
-</div>
-<div class="p-8 flex flex-col flex-grow relative bg-white w-full">
-<!-- Meta -->
-<div class="flex items-center gap-3 text-xs text-gray-400 font-bold mb-4 font-inter uppercase tracking-widest">
-<span class="flex items-center gap-1.5">
-<svg class="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-</path>
-</svg>
-                                22/01/2026
-                            </span>
-</div>
-<!-- Title -->
-<h2 class="text-[22px] md:text-[24px] font-extrabold text-[#071e26] leading-snug font-raleway mb-4 group-hover:text-primary transition-colors duration-300">
-<a class="focus:outline-none before:absolute before:inset-0 cursor-pointer" href="./why-some-people-feel-tms-ruined-my-life.php">Why
-                                Some People Feel: “TMS Ruined My Life”</a>
-</h2>
-<!-- Excerpt -->
-<div class="text-gray-500 text-[15px] md:text-[16px] leading-relaxed mb-8 flex-grow">
-<p>Transcranial Magnetic Stimulation (TMS) therapy is often introduced as a hopeful option
-                                for people who have struggled with depression for years without success from medications
-                                or talk therapy. For many, it becomes a turning point toward recovery. Yet for some
-                                individuals, the experience feels frightening, overwhelming, and emotionally
-                                destabilizing, leading them to say things like</p>
-</div>
-<!-- Footer -->
-<div class="mt-auto pt-6 border-t border-gray-100 flex items-center justify-between z-20 relative">
-<span class="text-[10px] font-extrabold text-gray-400 uppercase tracking-widest flex items-center gap-2">
-                                By Kelly Lewis-Arthur
-                            </span>
-<span class="inline-flex items-center gap-1.5 text-primary text-sm font-bold group-hover:translate-x-1 transition-transform cursor-pointer">
-                                Read More
-                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
-</svg>
-</span>
-</div>
-</div>
-</article>
-</div>
-
-<!-- Pagination block -->
-            <div class="mt-16 flex justify-center items-center gap-2 md:gap-3 font-inter flex-wrap">
-                <span class="px-6 h-12 mr-2 flex items-center justify-center rounded-full bg-gray-50 border border-gray-100 text-gray-300 font-extrabold text-lg cursor-not-allowed gap-2">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
-            </svg>
-            Prev
-        </span>
-                <span class="w-12 h-12 flex items-center justify-center rounded-full bg-[#071e26] text-white font-extrabold text-lg shadow-[0_8px_16px_rgb(7,30,38,0.2)]">1</span>
-                <a href="./page-2.php" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all">2</a>
-                <a href="./page-3.php" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all">3</a>
-                <a href="./page-4.php" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all">4</a>
-                <a href="./page-5.php" class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all">5</a>
-                <a href="./page-2.php" class="px-6 h-12 ml-2 flex items-center justify-center rounded-full bg-white border border-gray-100 text-[#071e26] font-extrabold text-lg shadow-sm hover:border-[#071e26] transition-all group gap-2">
-            Next
-            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
-            </svg>
-        </a>
-            </div>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
         </div>
     </main>
 
     <?php include "../partials/footer.php"; ?>
+</body>
+</html>

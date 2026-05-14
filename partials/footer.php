@@ -21,7 +21,7 @@ if (!isset($P)) {
                 <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                     <div>
                         <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Ready to Start Your Healing Journey?</h3>
-                        <p class="text-gray-400 text-sm max-w-lg">Take the first step toward better mental health. Our compassionate team is here to support you every step of the way.</p>
+                        <p class="text-gray-200 text-sm max-w-lg">Take the first step toward better mental health. Our compassionate team is here to support you every step of the way.</p>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
                         <a href="tel:7702841044" class="inline-flex items-center justify-center gap-2 bg-primary text-white font-bold py-3.5 px-8 rounded-xl hover:shadow-lg hover:shadow-primary/30 hover:-translate-y-0.5 transition-all duration-300">
@@ -47,7 +47,7 @@ if (!isset($P)) {
                     <a href="/" class="inline-block mb-5">
                         <img src="/assets/globecore_logo-removebg-preview.png" alt="GlobeCoRe Logo" class="h-10 w-auto brightness-0 invert">
                     </a>
-                    <p class="text-sm leading-relaxed text-gray-400">
+                    <p class="text-sm leading-relaxed text-gray-200">
                         Providing expert psychological services, testing, and consulting in the Atlanta area, tailored for multicultural and diverse communities. Empowering you toward lasting well-being.
                     </p>
                     <div class="flex gap-2.5 mt-6">
@@ -78,10 +78,14 @@ if (!isset($P)) {
                 <div>
                     <h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Quick Links</h4>
                     <ul class="space-y-3 text-sm">
+                        <li><a href="/" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Home</a></li>
                         <li><a href="/about/" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>About Us</a></li>
                         <li><a href="/about/meet-our-team.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Meet Our Team</a></li>
-                        <li><a href="/services/counseling.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Services</a></li>
-                        <li><a href="/specialties/adhd.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Specialties</a></li>
+                        <li><a href="/resources.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Resources</a></li>
+                        <li><a href="/services/medication-management.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Medication Management</a></li>
+                        <li><a href="/services/tms-therapy.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>TMS Therapy</a></li>
+                        <li><a href="/services/counseling.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Counseling-Psychotherapy</a></li>
+                        <li><a href="/contact.php" class="flex items-center gap-2 hover:text-primary hover:translate-x-1 transition-all duration-300"><span class="w-1 h-1 bg-primary/50 rounded-full"></span>Contact</a></li>
                     </ul>
                 </div>
 
@@ -117,14 +121,14 @@ if (!isset($P)) {
                         </li>
                     </ul>
                     <div class="mt-5 pt-4 border-t border-white/10">
-                        <p class="text-sm text-gray-400 leading-relaxed italic">Clinicians and Consultants are available to see clients M-F from 9 am – 7 pm and Saturdays by appointment only.</p>
+                        <p class="text-sm text-gray-200 leading-relaxed italic">Clinicians and Consultants are available to see clients M-F from 9 am – 7 pm and Saturdays by appointment only.</p>
                     </div>
                 </div>
 
                 <!-- Col 4: Areas We Serve -->
                 <div>
                     <h4 class="text-sm font-bold text-white tracking-wider uppercase mb-6 flex items-center gap-2"><span class="w-6 h-px bg-primary"></span>Areas We Serve</h4>
-                    <ul class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-400">
+                    <ul class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-200">
                         <li><a href="/areas-we-serve/marietta.php" class="hover:text-primary transition-colors duration-300">Marietta</a></li>
                         <li><a href="/areas-we-serve/alpharetta.php" class="hover:text-primary transition-colors duration-300">Alpharetta</a></li>
                         <li><a href="/areas-we-serve/sandy-springs.php" class="hover:text-primary transition-colors duration-300">Sandy Springs</a></li>
@@ -157,7 +161,7 @@ if (!isset($P)) {
 
         <!-- Copyright Bar -->
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-6">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-300">
                 <p>&copy; <?php echo date('Y'); ?> GlobeCoRe Inc. All rights reserved.</p>
                 <div class="flex items-center gap-6">
                     <a href="/privacy-policy.php" class="hover:text-primary transition-colors duration-300">Privacy Policy</a>
