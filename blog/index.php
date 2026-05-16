@@ -4,6 +4,11 @@ $blogs_json = <<<'JSON'
 JSON;
 $blogs = json_decode($blogs_json, true);
 
+// Sort blogs by date descending (newest first)
+usort($blogs, function($a, $b) {
+    return strtotime($b['date']) - strtotime($a['date']);
+});
+
 $currentCategory = $_GET['category'] ?? 'All';
 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 $perPage = 6;
