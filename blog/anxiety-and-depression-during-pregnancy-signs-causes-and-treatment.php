@@ -242,7 +242,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Medication Management</h3>
+<h3 class="wp-block-heading"><a href="/blog/what-is-medication-management-in-mental-health.php">Medication Management</a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -250,7 +250,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">TMS Therapy</h3>
+<h3 class="wp-block-heading"><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS Therapy</a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -272,7 +272,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A formal psychiatric evaluation can help establish an accurate diagnosis and treatment plan. Our guide on <a href="https://globecoreinc.com/what-happens-during-a-psychiatric-evaluation/">what happens during a psychiatric evaluation</a> explains the process in detail, helping you feel more prepared and informed before your first appointment.</p>
+<p>A formal <a href="/blog/what-happens-during-a-psychiatric-evaluation.php">psychiatric evaluation</a> can help establish an accurate diagnosis and treatment plan. Our guide on <a href="https://globecoreinc.com/what-happens-during-a-psychiatric-evaluation/">what happens during a psychiatric evaluation</a> explains the process in detail, helping you feel more prepared and informed before your first appointment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -314,43 +314,50 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Can anxiety harm my baby during pregnancy?</h3>
+<h3 class="wp-block-heading">What are the most common signs of an anxiety disorder?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Yes, untreated chronic anxiety can affect fetal development through elevated cortisol levels and stress hormones. Seeking treatment protects both you and your baby.</p>
+<p>Common signs include excessive worrying, restlessness, increased heart rate, difficulty concentrating, and sleep disturbances that persist for months.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is it safe to take antidepressants while pregnant?</h3>
+<h3 class="wp-block-heading">How is depression different from feeling sad?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Some antidepressants are considered relatively safe during pregnancy. Your psychiatrist will weigh the risks of untreated depression against the risks of medication to develop the safest plan for you and your baby.</p>
+<p>While sadness is a temporary emotional reaction, depression is a persistent condition characterized by a loss of interest in activities, hopelessness, and significant fatigue lasting for weeks or more.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What is the difference between prenatal depression and postpartum depression?</h3>
+<h3 class="wp-block-heading">Can anxiety and depression happen at the same time?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Prenatal depression occurs during pregnancy, while postpartum depression develops after childbirth. Both are serious conditions requiring professional care and are often interconnected — women with prenatal depression are at higher risk for postpartum depression.</p>
+<p>Yes, it is very common for anxiety and depression to co-occur. Treatment plans often address both conditions simultaneously through therapy and sometimes medication.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">How do I find a therapist for pregnancy-related depression in Atlanta?</h3>
+<h3 class="wp-block-heading">What are the best therapies for anxiety and depression?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>GlobeCoRe, Inc. offers specialized perinatal mental health services in Atlanta and via telehealth. You can <a href="https://globecoreinc.com/request-appointment/">schedule an appointment</a> online or call us at (770) 284-1044 to speak with our care team.</p>
+<p>Cognitive Behavioral Therapy (CBT) is highly effective for both, helping patients identify and change negative thought patterns. Other approaches include mindfulness and TMS therapy for resistant cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How can I support a loved one with depression?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen without judgment, encourage them to seek professional help, and be patient. Small gestures of support and maintaining a steady presence can make a significant difference.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-red","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-red-background-color has-text-color has-background wp-element-button" href="tel:+17702841044">Call GlobeCoRe: (770) 284-1044</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-                    </div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

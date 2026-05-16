@@ -102,7 +102,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In this guide, you will understand what medication management is, why it matters, how it works, the benefits, who needs it, safety concerns, and what to expect during the process.</p>
+<p>In this guide, you will understand what <a href="/blog/what-is-medication-management-in-mental-health.php">medication management</a> is, why it matters, how it works, the benefits, who needs it, safety concerns, and what to expect during the process.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -188,7 +188,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Consistency is key in mental health recovery. Regular medication management helps maintain emotional balance and prevents relapse of anxiety, depression, or bipolar episodes. By adjusting treatment as life circumstances change it provides stable long-term results. Patients experience better functioning, relationships, and overall quality of life.</p>
+<p>Consistency is key in <a href="/blog/the-role-of-counseling-in-mental-health-recovery.php">mental health recovery</a>. Regular medication management helps maintain emotional balance and prevents relapse of anxiety, depression, or bipolar episodes. By adjusting treatment as life circumstances change it provides stable long-term results. Patients experience better functioning, relationships, and overall quality of life.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -337,14 +337,51 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:wpseopress/faq-block {"faqs":[{"question":"\u003cstrong\u003eWhat is medication management in mental health?\u003c/strong\u003e","answer":"It is a process where mental health professionals prescribe, monitor, and adjust psychiatric medicines to ensure safe and effective treatment.","image":""},{"question":"\u003cstrong\u003eWhy is medication management important?\u003c/strong\u003e","answer":"It prevents side effects, improves treatment results, ensures safety, and helps patients recover faster.","image":""},{"question":"\u003cstrong\u003eHow long do I need medication management?\u003c/strong\u003e","answer":"It depends on your diagnosis and symptoms. Some need it short-term; others need long-term monitoring.","image":""},{"question":"\u003cstrong\u003eCan I stop taking medication once I feel better?\u003c/strong\u003e","answer":"No. Always consult your provider before stopping or changing medication.","image":""},{"question":"\u003cstrong\u003eDoes medication management include therapy?\u003c/strong\u003e","answer":"No, but providers often coordinate with therapists to improve recovery.","image":""}]} /-->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Medication Management Consultation</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-                    </div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

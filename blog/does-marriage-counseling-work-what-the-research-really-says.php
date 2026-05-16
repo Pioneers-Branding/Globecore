@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <!-- wp:paragraph -->
-<p>If your relationship has been struggling and you are wondering, <strong>does marriage counseling work?</strong> — you are asking exactly the right question. Whether you are dealing with constant conflict, emotional distance, infidelity, or just feeling disconnected from your partner, couples therapy may be the turning point your relationship needs. The research is clear: marriage counseling is one of the most effective psychological treatments available. But it works best when you understand how it works and when to start.</p>
+<p>If your relationship has been struggling and you are wondering, <strong>does <a href="/blog/does-marriage-counseling-work-what-the-research-really-says.php">marriage counseling</a> work?</strong> — you are asking exactly the right question. Whether you are dealing with constant conflict, emotional distance, infidelity, or just feeling disconnected from your partner, <a href="/blog/how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.php">couples therapy</a> may be the turning point your relationship needs. The research is clear: marriage counseling is one of the most effective psychological treatments available. But it works best when you understand how it works and when to start.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -524,7 +524,57 @@ include_once "../partials/head.php";
 <!-- wp:paragraph -->
 <p>Book your session for psychological and <a href="https://globecoreinc.com/services/therapist-atlanta/">counseling services in Atlanta, GA</a> today. Take the first step toward a healthier, happier relationship.</p>
 <!-- /wp:paragraph -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When is the right time to seek couples therapy?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The right time is whenever you or your partner feel stuck, whether facing communication breakdowns, intimacy issues, or major life transitions. Early intervention often yields the best results.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does couples therapy mean our relationship is failing?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not at all. Couples therapy is a proactive step to strengthen your bond, improve communication, and resolve conflicts in a healthy, guided environment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How long does couples therapy typically last?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The duration varies depending on your specific goals. Some couples find resolution in just a few months, while others may continue for longer to work through deep-seated issues.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What if my partner refuses to go to therapy?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your partner is hesitant, you can still benefit from individual therapy to improve your own communication skills and gain clarity on the relationship dynamics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can couples therapy help recover from infidelity?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, with commitment from both partners, couples therapy provides a safe space to process betrayal, rebuild trust, and establish a healthier foundation for the future.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

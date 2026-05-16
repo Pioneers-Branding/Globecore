@@ -290,40 +290,50 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Can therapy help with psychological abuse?</h3>
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Yes, therapy is one of the most effective treatments for survivors of psychological abuse. It helps individuals process trauma, rebuild self-esteem, and develop healthier patterns of thinking and relating to others.</p>
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What type of therapy is best for emotional abuse survivors?</h3>
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Cognitive Behavioral Therapy (CBT), trauma-focused therapy, and EMDR are among the most effective approaches for survivors of psychological and emotional abuse. The best type depends on the individual's needs and goals.</p>
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">How long does it take to recover from psychological abuse?</h3>
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Recovery timelines vary depending on the severity of the abuse, the presence of other mental health conditions, and the person's support system. With consistent therapy and support, many survivors experience significant healing over months to years.</p>
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What are the signs you need therapy after psychological abuse?</h3>
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Signs that you may benefit from therapy include persistent anxiety, depression, difficulty trusting others, low self-esteem, PTSD symptoms, or difficulty functioning in daily life following an abusive relationship.</p>
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is psychological abuse as serious as physical abuse?</h3>
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
 <!-- /wp:heading -->
+
 <!-- wp:paragraph -->
-<p>Yes. Psychological abuse can be just as damaging as physical abuse, and in some cases, the emotional wounds can be even harder to heal. Both types of abuse require professional support and are taken seriously by mental health professionals.</p>
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
 <!-- /wp:paragraph -->
-                    </div>
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

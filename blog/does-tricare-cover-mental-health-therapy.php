@@ -481,20 +481,51 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1773134317656","title":"Does TRICARE cover mental health therapy?","content":"Yes, TRICARE generally covers mental health therapy when the treatment is medically necessary and provided by a licensed mental health professional who accepts TRICARE.","visible":true},{"id":"faq-question-1773134340326","title":"Does TRICARE pay for mental health therapy?","content":"TRICARE usually pays a large portion of therapy costs, but the exact coverage depends on the type of TRICARE plan and whether the provider is in-network.","visible":true},{"id":"faq-question-1773134353466","title":"Do I need a referral to see a therapist with TRICARE?","content":"Some TRICARE plans require referrals from a primary care manager, while others allow direct appointments with mental health specialists.","visible":true},{"id":"faq-question-1773134374066","title":"What mental health conditions does TRICARE cover?","content":"TRICARE covers therapy for conditions such as depression, anxiety, PTSD, substance use disorders, and stress-related disorders.","visible":true},{"id":"faq-question-1773134385910","title":"How long are TRICARE therapy sessions?","content":"Therapy sessions usually last between 45 and 60 minutes depending on the type of treatment and therapy plan.","visible":true}]} -->
-<div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">Does TRICARE cover mental health therapy?</h3><div class="rank-math-answer">Yes, TRICARE generally covers mental health therapy when the treatment is medically necessary and provided by a licensed mental health professional who accepts TRICARE.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Does TRICARE pay for mental health therapy?</h3><div class="rank-math-answer">TRICARE usually pays a large portion of therapy costs, but the exact coverage depends on the type of TRICARE plan and whether the provider is in-network.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Do I need a referral to see a therapist with TRICARE?</h3><div class="rank-math-answer">Some TRICARE plans require referrals from a primary care manager, while others allow direct appointments with mental health specialists.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What mental health conditions does TRICARE cover?</h3><div class="rank-math-answer">TRICARE covers therapy for conditions such as depression, anxiety, PTSD, substance use disorders, and stress-related disorders.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">How long are TRICARE therapy sessions?</h3><div class="rank-math-answer">Therapy sessions usually last between 45 and 60 minutes depending on the type of treatment and therapy plan.</div></div></div>
-<!-- /wp:rank-math/faq-block -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p></p>
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/contact/">Verify Your TRICARE Coverage — Book Now</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-                    </div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

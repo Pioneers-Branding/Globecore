@@ -326,7 +326,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Medication Management</h3>
+<h3 class="wp-block-heading"><a href="/blog/what-is-medication-management-in-mental-health.php">Medication Management</a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -376,45 +376,50 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What are the most common hormonal mood disorders in women?</h3>
+<h3 class="wp-block-heading">What are the most common signs of an anxiety disorder?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The most common hormonal mood disorders in women include premenstrual syndrome (PMS), premenstrual dysphoric disorder (PMDD), postpartum depression, perinatal anxiety disorders, and menopausal depression.</p>
+<p>Common signs include excessive worrying, restlessness, increased heart rate, difficulty concentrating, and sleep disturbances that persist for months.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Can hormones cause depression and anxiety in women?</h3>
+<h3 class="wp-block-heading">How is depression different from feeling sad?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Yes. Hormonal fluctuations in estrogen, progesterone, and other hormones can significantly impact neurotransmitter systems in the brain, triggering or worsening depression and anxiety in women.</p>
+<p>While sadness is a temporary emotional reaction, depression is a persistent condition characterized by a loss of interest in activities, hopelessness, and significant fatigue lasting for weeks or more.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">How are hormonal mood disorders treated?</h3>
+<h3 class="wp-block-heading">Can anxiety and depression happen at the same time?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Treatment typically involves a combination of psychotherapy, medication management and <a href="https://globecoreinc.com/depression-treatment-in-atlanta/">depression treatment in Atlanta</a>, and sometimes hormonal therapy. Lifestyle changes such as regular exercise and stress management also play an important supportive role.</p>
+<p>Yes, it is very common for anxiety and depression to co-occur. Treatment plans often address both conditions simultaneously through therapy and sometimes medication.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">When should I see a doctor for hormonal mood changes?</h3>
+<h3 class="wp-block-heading">What are the best therapies for anxiety and depression?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You should seek professional help if your mood changes are severe, persistent, or interfering with your ability to function in daily life, work, or relationships.</p>
+<p>Cognitive Behavioral Therapy (CBT) is highly effective for both, helping patients identify and change negative thought patterns. Other approaches include mindfulness and TMS therapy for resistant cases.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is PMDD the same as PMS?</h3>
+<h3 class="wp-block-heading">How can I support a loved one with depression?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>No. While PMS and PMDD share some symptoms, PMDD is significantly more severe and can cause extreme emotional distress that interferes with daily functioning. PMDD is a recognized clinical condition that typically requires professional treatment.</p>
+<p>Listen without judgment, encourage them to seek professional help, and be patient. Small gestures of support and maintaining a steady presence can make a significant difference.</p>
 <!-- /wp:paragraph -->
-                    </div>
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

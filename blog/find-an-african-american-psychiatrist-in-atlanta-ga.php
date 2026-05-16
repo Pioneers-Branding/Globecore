@@ -102,7 +102,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong>Why Choose an African American Psychiatrist in Atlanta GA?</strong></h2>
+<h2 class="wp-block-heading"><strong>Why Choose an African American <a href="/blog/best-psychiatrist-in-atlanta-expert-mental-health-care-you-can-trust.php">Psychiatrist in Atlanta</a> GA?</strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -122,7 +122,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>GlobeCoRe, Inc.</strong> stands apart because of our holistic and culturally responsive approach to psychiatry. We are a multidisciplinary practice, offering not only <a href="https://globecoreinc.com/what-happens-during-a-psychiatric-evaluation/">psychiatric evaluation</a>s and medication management but also psychotherapy, consultation, and DEI-based mental health programs. Our psychiatrists work collaboratively with therapists, psychologists, and wellness professionals to ensure that each treatment plan reflects your individual needs.</p>
+<p><strong>GlobeCoRe, Inc.</strong> stands apart because of our holistic and culturally responsive approach to psychiatry. We are a multidisciplinary practice, offering not only <a href="https://globecoreinc.com/what-happens-during-a-psychiatric-evaluation/">psychiatric evaluation</a>s and <a href="/blog/what-is-medication-management-in-mental-health.php">medication management</a> but also psychotherapy, consultation, and DEI-based mental health programs. Our psychiatrists work collaboratively with therapists, psychologists, and wellness professionals to ensure that each treatment plan reflects your individual needs.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -184,7 +184,7 @@ include_once "../partials/head.php";
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Each treatment plan begins with a thorough psychiatric evaluation to understand your symptoms, history, and goals. From there, our psychiatrists provide evidence-based interventions such as:</p>
+<p>Each treatment plan begins with a thorough <a href="/blog/what-happens-during-a-psychiatric-evaluation.php">psychiatric evaluation</a> to understand your symptoms, history, and goals. From there, our psychiatrists provide evidence-based interventions such as:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -297,7 +297,7 @@ include_once "../partials/head.php";
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>TMS Therapy:</strong> For treatment-resistant depression and mood disorders.<br></li>
+<li><strong><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS Therapy</a>:</strong> For treatment-resistant depression and mood disorders.<br></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -368,7 +368,57 @@ include_once "../partials/head.php";
 <!-- wp:paragraph -->
 <p>We invite you to <a href="https://globecoreinc.com/contact/">contact us today</a> to schedule your first appointment or learn more about our psychiatric and therapeutic services. Our experienced <a href="https://globecoreinc.com/psychiatrist-in-atlanta-ga/">psychiatrist in Atlanta GA</a> will help you find the right path toward emotional balance, and for those seeking advanced treatment options, we also offer <a href="https://globecoreinc.com/tms-therapy-in-atlanta/"><a href="https://globecoreinc.com/what-is-tms-therapy/">TMS therapy</a> in Atlanta</a>, a proven, noninvasive solution for depression and other mood disorders. Together, we’ll create a path toward healing that honors your identity, values, and aspirations.</p>
 <!-- /wp:paragraph -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

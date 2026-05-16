@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         Relationships are a beautiful yet complex journey, filled with highs and lows. While love is an essential foundation, sustaining a healthy and fulfilling relationship requires effort, patience, and communication. Unfortunately, many couples face challenges that strain their bond over time. This is where<a href="https://globecoreinc.com/services/therapy/"> <a href="https://en.wikipedia.org/wiki/Couples_therapy" rel="nofollow" target="_blank">couples therapy</a></a> plays a crucial role.
-Whether you’re dating, engaged, married, or even divorced, couples therapy helps partners navigate difficulties, strengthen their connection, and rebuild trust. It provides a safe space to address conflicts, communication barriers, intimacy struggles, financial disagreements, and more.
+Whether you’re dating, engaged, married, or even divorced, <a href="/blog/how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.php">couples therapy</a> helps partners navigate difficulties, strengthen their connection, and rebuild trust. It provides a safe space to address conflicts, communication barriers, intimacy struggles, financial disagreements, and more.
 In this blog, we’ll explore some of the most common relationship problems and how couples therapy can effectively resolve them.
 <h2>Communication Problems</h2>
 <h3><strong>The Issue:</strong></h3>
@@ -161,12 +161,57 @@ Every relationship encounters challenges, but the key to long-term happiness lie
 Seeking therapy is not a sign of failure—it’s a commitment to growth, love, and mutual understanding. With <a href="https://globecoreinc.com/">professional help</a>, couples can overcome obstacles, heal emotional wounds, and create a healthier, more fulfilling partnership.
 If you and your partner are facing challenges, consider couples therapy as a proactive step toward a stronger, happier relationship. The journey toward a healthier and more connected love life starts today!
 
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When is the right time to seek couples therapy?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The right time is whenever you or your partner feel stuck, whether facing communication breakdowns, intimacy issues, or major life transitions. Early intervention often yields the best results.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does couples therapy mean our relationship is failing?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not at all. Couples therapy is a proactive step to strengthen your bond, improve communication, and resolve conflicts in a healthy, guided environment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How long does couples therapy typically last?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The duration varies depending on your specific goals. Some couples find resolution in just a few months, while others may continue for longer to work through deep-seated issues.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What if my partner refuses to go to therapy?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your partner is hesitant, you can still benefit from individual therapy to improve your own communication skills and gain clarity on the relationship dynamics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can couples therapy help recover from infidelity?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, with commitment from both partners, couples therapy provides a safe space to process betrayal, rebuild trust, and establish a healthier foundation for the future.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Couples Therapy Consultation Today</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-                    </div>
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

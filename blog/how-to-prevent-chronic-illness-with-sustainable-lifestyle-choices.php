@@ -453,7 +453,57 @@ include_once "../partials/head.php";
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1767612167059","title":"How to prevent chronic illness naturally?","content":"To prevent chronic illness naturally, focus on consistent lifestyle habits such as balanced nutrition, regular physical activity, quality sleep, stress management, and emotional wellbeing. Addressing mental health early, reducing chronic stress, and maintaining healthy daily routines significantly lowers the risk of long-term diseases.","visible":true},{"id":"faq-question-1767612189495","title":"What are the main causes of chronic illness?","content":"Chronic illness often develops due to a combination of long-term stress, poor diet, physical inactivity, lack of sleep, unresolved mental health issues, and environmental or lifestyle factors. Genetics may increase risk, but daily habits largely determine whether chronic disease develops.","visible":true},{"id":"faq-question-1767612201407","title":"Can mental health affect chronic illness?","content":"Yes, mental health plays a major role in chronic illness prevention. Chronic stress, anxiety, depression, and unresolved trauma can increase inflammation, weaken immunity, and disrupt hormones, all of which contribute to long-term illness. Supporting mental wellbeing is essential when learning how to avoid long term illness.","visible":true},{"id":"faq-question-1767612215186","title":"What lifestyle changes help prevent chronic diseases naturally?","content":"Preventing chronic diseases naturally involves eating whole foods, staying physically active, managing stress, getting adequate sleep, avoiding harmful habits, and maintaining strong social connections. Small, consistent changes over time are more effective than extreme short-term efforts.","visible":true},{"id":"faq-question-1767612227760","title":"Does stress increase the risk of chronic illness?","content":"Yes, prolonged stress is one of the strongest contributors to chronic illness. Chronic stress keeps the body in a constant state of alert, increasing the risk of heart disease, diabetes, digestive disorders, and mental health conditions. Stress management is a key part of preventing chronic illness.","visible":true}]} -->
 <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">How to prevent chronic illness naturally?</h3><div class="rank-math-answer">To prevent chronic illness naturally, focus on consistent lifestyle habits such as balanced nutrition, regular physical activity, quality sleep, stress management, and emotional wellbeing. Addressing mental health early, reducing chronic stress, and maintaining healthy daily routines significantly lowers the risk of long-term diseases.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What are the main causes of chronic illness?</h3><div class="rank-math-answer">Chronic illness often develops due to a combination of long-term stress, poor diet, physical inactivity, lack of sleep, unresolved mental health issues, and environmental or lifestyle factors. Genetics may increase risk, but daily habits largely determine whether chronic disease develops.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Can mental health affect chronic illness?</h3><div class="rank-math-answer">Yes, mental health plays a major role in chronic illness prevention. Chronic stress, anxiety, depression, and unresolved trauma can increase inflammation, weaken immunity, and disrupt hormones, all of which contribute to long-term illness. Supporting mental wellbeing is essential when learning how to avoid long term illness.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What lifestyle changes help prevent chronic diseases naturally?</h3><div class="rank-math-answer">Preventing chronic diseases naturally involves eating whole foods, staying physically active, managing stress, getting adequate sleep, avoiding harmful habits, and maintaining strong social connections. Small, consistent changes over time are more effective than extreme short-term efforts.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Does stress increase the risk of chronic illness?</h3><div class="rank-math-answer">Yes, prolonged stress is one of the strongest contributors to chronic illness. Chronic stress keeps the body in a constant state of alert, increasing the risk of heart disease, diabetes, digestive disorders, and mental health conditions. Stress management is a key part of preventing chronic illness.</div></div></div>
 <!-- /wp:rank-math/faq-block -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

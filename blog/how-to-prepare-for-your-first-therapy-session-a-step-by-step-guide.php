@@ -435,7 +435,7 @@ include_once "../partials/head.php";
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Next Steps:</strong> Your therapist may recommend ongoing sessions, specific techniques (like CBT or mindfulness), or additional evaluations — including advanced treatments such as <a href="https://globecoreinc.com/"><strong>TMS therapy in Atlanta</strong></a> for clients struggling with treatment-resistant <a href="https://globecoreinc.com/depression-treatment-in-atlanta/">depression</a>.</li>
+<li><strong>Next Steps:</strong> Your therapist may recommend ongoing sessions, specific techniques (like CBT or mindfulness), or additional evaluations — including advanced treatments such as <a href="https://globecoreinc.com/"><strong><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a> in Atlanta</strong></a> for clients struggling with treatment-resistant <a href="https://globecoreinc.com/depression-treatment-in-atlanta/">depression</a>.</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
@@ -463,46 +463,51 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><strong>1. How long does the first therapy session last?</strong><strong><br></strong>Typically, 45–60 minutes. The first session may run slightly longer if intake forms or assessments are included.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>2. What if I feel uncomfortable?</strong><strong><br></strong>It’s okay to say so. Therapists appreciate feedback and will adjust their approach to make you feel more at ease.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>3. Can I do my first session online?</strong><strong><br></strong>Yes. At GlobeCoRe Inc., we offer secure telehealth therapy in over 40 states to make care accessible wherever you are.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>4. What if I don’t “click” with my therapist?</strong><strong><br></strong>Finding the right fit matters. If you’re not connecting after a few sessions, it’s perfectly acceptable to discuss it or try a different provider.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Final Thoughts: Your First Session Is the Beginning of Change</h2>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Preparing for your first therapy session helps you walk in with clarity and confidence, but remember — it’s okay to feel uncertain. Therapy is not about perfection; it’s about progress.</p>
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>By taking this step, you’re investing in your emotional health, personal growth, and long-term resilience.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>At <strong>GlobeCoRe Inc.</strong>, our team of psychologists and psychiatrists — including <strong>Dr. Kim Miller</strong> and <strong>Dr. Maria Johnson</strong> — are here to support you with compassionate, evidence-based care designed to meet your unique needs.</p>
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Whether you’re starting therapy for the first time or returning after a break, your courage to begin is something to celebrate.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>Request an appointment today</strong> and take that important first step toward a healthier, more centered you.</p>
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
 <!-- /wp:paragraph -->
-                    </div>
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

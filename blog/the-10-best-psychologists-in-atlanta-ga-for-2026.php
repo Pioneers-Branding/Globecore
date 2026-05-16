@@ -152,7 +152,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>Affiliation:</strong> GlobeCoRe Inc.<br><strong>Specialties:</strong> Psychiatry, Depression Treatment, Transcranial Magnetic Stimulation (TMS)<br><strong>Location:</strong> Atlanta, GA<br><strong>About:</strong> Dr. Maria Johnson serves as GlobeCoRe’s Director of TMS and is a board-certified psychiatrist dedicated to advancing innovative treatments for mood disorders. She specializes in Transcranial Magnetic Stimulation, a non-invasive therapy for treatment-resistant depression, and offers a compassionate, science-driven approach to care.<br><strong>Why She’s One of the Best:</strong> Combining medical expertise with a client-centered philosophy, Dr. Johnson ensures every patient receives personalized care backed by the latest research in psychiatric treatment.<br><strong>Keywords:</strong> psychiatrist Atlanta GA, TMS therapy Atlanta, <a href="https://globecoreinc.com/depression-treatment-in-atlanta/">depression treatment</a> Atlanta</p>
+<p><strong>Affiliation:</strong> GlobeCoRe Inc.<br><strong>Specialties:</strong> Psychiatry, <a href="/blog/depression-treatment-in-atlanta-with-therapy-globecore-inc.php">Depression Treatment</a>, Transcranial Magnetic Stimulation (TMS)<br><strong>Location:</strong> Atlanta, GA<br><strong>About:</strong> Dr. Maria Johnson serves as GlobeCoRe’s Director of TMS and is a board-certified psychiatrist dedicated to advancing innovative treatments for mood disorders. She specializes in Transcranial Magnetic Stimulation, a non-invasive therapy for treatment-resistant depression, and offers a compassionate, science-driven approach to care.<br><strong>Why She’s One of the Best:</strong> Combining medical expertise with a client-centered philosophy, Dr. Johnson ensures every patient receives personalized care backed by the latest research in psychiatric treatment.<br><strong>Keywords:</strong> psychiatrist Atlanta GA, <a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a> Atlanta, <a href="https://globecoreinc.com/depression-treatment-in-atlanta/">depression treatment</a> Atlanta</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -204,7 +204,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>Specialties:</strong> Couples Therapy, Marriage Counseling, Infidelity Recovery<br><strong>Location:</strong> Buckhead<br><strong>About:</strong> Certified in Gottman Method Couples Therapy, Dr. O’Neill helps couples rebuild communication and trust.<br><strong>Why He’s One of the Best:</strong> Known for his mix of directness and empathy that produces lasting relationship change.</p>
+<p><strong>Specialties:</strong> <a href="/blog/how-couples-therapy-can-strengthen-your-relationship-building-a-lasting-connection.php">Couples Therapy</a>, <a href="/blog/does-marriage-counseling-work-what-the-research-really-says.php">Marriage Counseling</a>, Infidelity Recovery<br><strong>Location:</strong> Buckhead<br><strong>About:</strong> Certified in Gottman Method Couples Therapy, Dr. O’Neill helps couples rebuild communication and trust.<br><strong>Why He’s One of the Best:</strong> Known for his mix of directness and empathy that produces lasting relationship change.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
@@ -331,38 +331,51 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><strong>1. How do I find the best psychologist near me in Atlanta?</strong><br>Start with Google Maps, Psychology Today, or professional directories. Focus on verified reviews and credentials.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>2. Do Atlanta psychologists offer telehealth?</strong><br>Yes, most provide virtual therapy sessions that meet HIPAA standards.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>3. How do psychologists differ from psychiatrists?</strong><br>Psychologists (Ph.D. or Psy.D.) specialize in therapy and testing, while psychiatrists (M.D.) can prescribe medication.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>4. How long does therapy usually take?</strong><br>It depends on your goals. Some clients see improvement within 8–12 sessions, while others continue for ongoing personal growth.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Final Thoughts</h2>
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Atlanta is home to some of the best psychologists and psychiatrists in the Southeast. Whether you choose <strong>Dr. Kim Miller</strong>, <strong>Dr. Maria Johnson</strong>, or another top professional, you’re taking an important step toward emotional balance and resilience.</p>
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Therapy is not just about solving problems — it’s about building the tools to thrive. The right psychologist can help you uncover your strengths and guide you toward lasting change. Reach out, schedule a consultation, and begin your journey today.</p>
-<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p></p>
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
 <!-- /wp:paragraph -->
-                    </div>
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

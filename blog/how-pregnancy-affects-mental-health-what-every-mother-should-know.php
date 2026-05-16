@@ -272,7 +272,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>GlobeCoRe, Inc. in Atlanta, GA provides specialized perinatal mental health services, including therapy, psychiatric evaluation, and <a href="https://en.wikipedia.org/wiki/Medication_therapy_management" target="_blank" rel="noreferrer noopener nofollow">medication management</a> for pregnant women. Our compassionate team is dedicated to supporting you through every stage of your pregnancy journey.</p>
+<p>GlobeCoRe, Inc. in Atlanta, GA provides specialized perinatal mental health services, including therapy, <a href="/blog/what-happens-during-a-psychiatric-evaluation.php">psychiatric evaluation</a>, and <a href="https://en.wikipedia.org/wiki/Medication_therapy_management" target="_blank" rel="noreferrer noopener nofollow">medication management</a> for pregnant women. Our compassionate team is dedicated to supporting you through every stage of your pregnancy journey.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -284,45 +284,50 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">How does pregnancy affect mental health?</h3>
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Pregnancy affects mental health through hormonal changes, physical discomfort, sleep disruption, identity shifts, relationship changes, and financial stressors. These factors can trigger or worsen conditions such as depression, anxiety, OCD, and PTSD.</p>
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is it normal to feel emotionally unstable during pregnancy?</h3>
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Mild mood changes are common during pregnancy due to hormonal fluctuations. However, persistent or severe emotional symptoms are not something you should endure without support. Speaking with a mental health professional can help.</p>
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Can stress during pregnancy affect the baby?</h3>
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Chronic, severe stress during pregnancy has been associated with increased risk of preterm birth, low birth weight, and potential effects on the baby's neurological development. Managing stress with professional support is beneficial for both mother and baby.</p>
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What mental health support is available during pregnancy?</h3>
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Support options include individual therapy, cognitive behavioral therapy, medication management (when appropriate), support groups, and perinatal mental health specialists. GlobeCoRe, Inc. in Atlanta provides comprehensive perinatal mental health services.</p>
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">When should I seek help for mental health issues during pregnancy?</h3>
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Seek help if your emotional symptoms last more than two weeks, interfere with daily functioning, or include any thoughts of self-harm. The earlier you reach out for support, the better the outcomes for you and your baby.</p>
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
 <!-- /wp:paragraph -->
-                    </div>
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

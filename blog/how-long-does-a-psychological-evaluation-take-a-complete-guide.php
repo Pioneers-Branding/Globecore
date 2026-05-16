@@ -307,16 +307,51 @@ include_once "../partials/head.php";
 <h2 class="wp-block-heading">Frequently Asked Questions</h2>
 <!-- /wp:heading -->
 
-<!-- wp:wpseopress/faq-block {"faqs":[{"question":"\u003cstrong\u003eHow long does a psychological evaluation take on average?\u003c/strong\u003e","answer":"It usually takes \u003cstrong\u003e1–8 hours\u003c/strong\u003e, depending on the type of evaluation.","image":""},{"question":"\u003cstrong\u003eWhat is the psychological evaluation time for ADHD?\u003c/strong\u003e","answer":"ADHD assessments usually take \u003cstrong\u003e3–5 hours\u003c/strong\u003e.","image":""},{"question":"\u003cstrong\u003eCan a psychological evaluation take multiple days?\u003c/strong\u003e","answer":"Yes. Long evaluations, like autism or neuropsychological testing, may require \u003cstrong\u003e2–3 days\u003c/strong\u003e.","image":""},{"question":"\u003cstrong\u003eIs the evaluation painful or stressful?\u003c/strong\u003e","answer":"No. It involves answering questions, taking tests, and having conversations. It is safe and non-invasive.","image":""},{"question":"\u003cstrong\u003eDoes age affect the evaluation duration?\u003c/strong\u003e","answer":"Yes. Children take more breaks, so their evaluation may take longer.","image":""}]} /-->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
 
+<!-- wp:paragraph -->
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Schedule Your Psychological Evaluation Today</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-                    </div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <!-- wp:paragraph -->
-<p>If you have been referred to a psychiatrist or are considering making an appointment on your own, you may be wondering what to expect. A psychiatric evaluation is often the first step in understanding your mental health and finding the right treatment. Knowing what happens during a psychiatric evaluation can help you feel more prepared and less anxious about the process.</p>
+<p>If you have been referred to a psychiatrist or are considering making an appointment on your own, you may be wondering what to expect. A <a href="/blog/what-happens-during-a-psychiatric-evaluation.php">psychiatric evaluation</a> is often the first step in understanding your mental health and finding the right treatment. Knowing what happens during a psychiatric evaluation can help you feel more prepared and less anxious about the process.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -319,7 +319,7 @@ include_once "../partials/head.php";
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Medication management</li>
+<li><a href="/blog/what-is-medication-management-in-mental-health.php">Medication management</a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -422,49 +422,50 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A psychiatric evaluation typically includes a detailed clinical interview, a mental status examination, and a review of your personal and family mental health history. The goal is to understand your symptoms and develop an appropriate treatment plan.</p>
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">How long does a psychiatric evaluation take?</h3>
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Most psychiatric evaluations last between 45 minutes and 90 minutes. Some evaluations that include psychological testing may be longer or split across multiple sessions.</p>
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Do I need a referral for a psychiatric evaluation?</h3>
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Not always. Many psychiatric practices accept self-referrals. However, some insurance plans may require a referral from a primary care physician before covering the cost of a psychiatric evaluation.</p>
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What questions are asked during a psychiatric evaluation?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Questions typically cover your current symptoms, personal and family mental health history, medical history, medications, sleep, relationships, and any history of trauma or substance use.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Is a psychiatric evaluation the same as a psychological evaluation?</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>They are similar but not the same. A psychiatric evaluation is conducted by a psychiatrist and may result in medication being prescribed. A psychological evaluation is conducted by a psychologist and typically involves more standardized testing.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-                    </div>
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

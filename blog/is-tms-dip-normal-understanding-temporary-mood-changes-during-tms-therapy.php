@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <!-- wp:paragraph -->
-<p><a href="https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation" rel="nofollow" target="_blank">Transcranial Magnetic Stimulation</a> (<strong>TMS therapy</strong>) has become a highly effective non-invasive treatment for depression, anxiety, PTSD, and OCD. While most patients notice improvement over the course of therapy, some may experience a temporary dip in mood, energy, or motivation, often referred to as a <strong>TMS dip</strong>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation" rel="nofollow" target="_blank">Transcranial Magnetic Stimulation</a> (<strong><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a></strong>) has become a highly effective non-invasive treatment for depression, anxiety, PTSD, and OCD. While most patients notice improvement over the course of therapy, some may experience a temporary dip in mood, energy, or motivation, often referred to as a <strong>TMS dip</strong>.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -294,7 +294,57 @@ include_once "../partials/head.php";
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1770013541527","title":"\u003cstrong\u003e What is a TMS dip?\u003c/strong\u003e","content":"A temporary decrease in mood, energy, or motivation experienced during the early stages of TMS therapy.\u003cbr\u003e","visible":true},{"id":"faq-question-1770013558180","title":"\u003cstrong\u003eIs a TMS dip normal?\u003c/strong\u003e","content":"Yes, it is a normal and safe part of the brain’s adaptation to magnetic stimulation.","visible":true},{"id":"faq-question-1770013580610","title":"\u003cstrong\u003eHow long does a TMS dip last?\u003c/strong\u003e","content":"Usually, a few days to one week; symptoms improve as treatment continues.","visible":true},{"id":"faq-question-1770013592839","title":"\u003cstrong\u003eAre there other TMS therapy side effects?\u003c/strong\u003e","content":"Common side effects include mild headaches, scalp discomfort, tingling, and fatigue. Serious complications are very rare.","visible":true},{"id":"faq-question-1770013605993","title":"\u003cstrong\u003eCan TMS therapy help if I experience a dip?\u003c/strong\u003e","content":"Absolutely. Temporary dips do not affect the overall effectiveness of TMS therapy. Experienced clinicians can adjust treatment to ensure safety and optimal results.","visible":true},{"id":"faq-question-1770013617883","title":"\u003cstrong\u003eIs TMS therapy covered by insurance in Greater Atlanta?\u003c/strong\u003e","content":"Many insurance plans cover TMS therapy for FDA-approved conditions like treatment-resistant depression. Coverage varies, so check with your provider.","visible":true}]} -->
 <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong> What is a TMS dip?</strong></h3><div class="rank-math-answer">A temporary decrease in mood, energy, or motivation experienced during the early stages of TMS therapy.<br></div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Is a TMS dip normal?</strong></h3><div class="rank-math-answer">Yes, it is a normal and safe part of the brain’s adaptation to magnetic stimulation.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>How long does a TMS dip last?</strong></h3><div class="rank-math-answer">Usually, a few days to one week; symptoms improve as treatment continues.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Are there other TMS therapy side effects?</strong></h3><div class="rank-math-answer">Common side effects include mild headaches, scalp discomfort, tingling, and fatigue. Serious complications are very rare.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Can TMS therapy help if I experience a dip?</strong></h3><div class="rank-math-answer">Absolutely. Temporary dips do not affect the overall effectiveness of TMS therapy. Experienced clinicians can adjust treatment to ensure safety and optimal results.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Is TMS therapy covered by insurance in Greater Atlanta?</strong></h3><div class="rank-math-answer">Many insurance plans cover TMS therapy for FDA-approved conditions like treatment-resistant depression. Coverage varies, so check with your provider.</div></div></div>
 <!-- /wp:rank-math/faq-block -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What does TMS therapy feel like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients describe TMS therapy as a light tapping sensation on the scalp. It is non-invasive and does not require anesthesia, allowing you to return to normal activities immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How many TMS sessions will I need?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A standard course of TMS therapy typically involves sessions 5 days a week for 4 to 6 weeks, though the exact number depends on your individual treatment plan and response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Are there any side effects of TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most common side effects are mild scalp discomfort or a slight headache during or after the first few sessions. These typically resolve quickly as treatment progresses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is TMS therapy covered by insurance?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, TMS therapy is covered by most major insurance providers, including Medicare and Tricare, for patients who meet specific clinical criteria such as treatment-resistant depression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How quickly will I see results from TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While some patients notice improvements within the first two weeks, significant symptom relief usually occurs between weeks 3 and 6 of the treatment course.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <!-- wp:paragraph -->
-<p>Transcranial Magnetic Stimulation (TMS) offers hope for individuals battling stubborn depression. This article delves into the duration of TMS therapy, exploring its effectiveness and long-term impact on mental health. Discover how TMS can provide lasting relief and improve the quality of life for those seeking a non-invasive treatment option.</p>
+<p>Transcranial Magnetic Stimulation (TMS) offers hope for individuals battling stubborn depression. This article delves into the duration of <a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a>, exploring its effectiveness and long-term impact on mental health. Discover how TMS can provide lasting relief and improve the quality of life for those seeking a non-invasive treatment option.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -412,7 +412,57 @@ include_once "../partials/head.php";
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1767703495501","title":"Is TMS Therapy a Permanent Fix?","content":"\u003cstrong\u003eWhile TMS therapy offers significant symptom relief for many individuals with treatment-resistant depression and other mental health conditions, it's not typically considered a permanent fix.\u003c/strong\u003e The effects of TMS can last for varying periods, and some patients may require maintenance TMS sessions to sustain the benefits of TMS. Long-term maintenance treatments can help manage major depression, but individual responses to therapy can vary.","visible":true},{"id":"faq-question-1767703504267","title":"What Mental Health Conditions Can TMS Help?","content":"\u003cstrong\u003eTMS is primarily used to treat major depressive disorder, particularly in cases of treatment-resistant depression, where antidepressant medications and psychotherapy have not been effective.\u003c/strong\u003e Additionally, TMS is being explored as a potential treatment option for other mental health conditions such as obsessive-compulsive disorder (OCD) and \u003ca href=\u0022/anxiety-treatment-in-atlanta/\u0022\u003eanxie ty disorders\u003c/a\u003e. The uses magnetic pulses to stimulate areas of the brain associated with these conditions, potentially providing symptom relief.","visible":true},{"id":"faq-question-1767703516138","title":"What to Expect During a TMS Treatment Session?","content":"\u003cstrong\u003eDuring a TMS treatment session, a patient sits comfortably while a TMS technician positions a magnetic coil against their scalp. The device delivers magnetic pulses, which may feel like a \u003ca href=\u0022/tms-therapy-atlanta/\u0022\u003etapping sensation\u003c/a\u003e. The treatment session typically lasts between 30 to 60 minutes. Patients remain awake and alert during the procedure and can resume normal activities immediately afterward, making it a convenient treatment option.\u003c/strong\u003e","visible":true}]} -->
 <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">Is TMS Therapy a Permanent Fix?</h3><div class="rank-math-answer"><strong>While TMS therapy offers significant symptom relief for many individuals with treatment-resistant depression and other mental health conditions, it's not typically considered a permanent fix.</strong> The effects of TMS can last for varying periods, and some patients may require maintenance TMS sessions to sustain the benefits of TMS. Long-term maintenance treatments can help manage major depression, but individual responses to therapy can vary.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What Mental Health Conditions Can TMS Help?</h3><div class="rank-math-answer"><strong>TMS is primarily used to treat major depressive disorder, particularly in cases of treatment-resistant depression, where antidepressant medications and psychotherapy have not been effective.</strong> Additionally, TMS is being explored as a potential treatment option for other mental health conditions such as obsessive-compulsive disorder (OCD) and <a href="/anxiety-treatment-in-atlanta/">anxie ty disorders</a>. The uses magnetic pulses to stimulate areas of the brain associated with these conditions, potentially providing symptom relief.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What to Expect During a TMS Treatment Session?</h3><div class="rank-math-answer"><strong>During a TMS treatment session, a patient sits comfortably while a TMS technician positions a magnetic coil against their scalp. The device delivers magnetic pulses, which may feel like a <a href="/tms-therapy-atlanta/">tapping sensation</a>. The treatment session typically lasts between 30 to 60 minutes. Patients remain awake and alert during the procedure and can resume normal activities immediately afterward, making it a convenient treatment option.</strong></div></div></div>
 <!-- /wp:rank-math/faq-block -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What does TMS therapy feel like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients describe TMS therapy as a light tapping sensation on the scalp. It is non-invasive and does not require anesthesia, allowing you to return to normal activities immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How many TMS sessions will I need?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A standard course of TMS therapy typically involves sessions 5 days a week for 4 to 6 weeks, though the exact number depends on your individual treatment plan and response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Are there any side effects of TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most common side effects are mild scalp discomfort or a slight headache during or after the first few sessions. These typically resolve quickly as treatment progresses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is TMS therapy covered by insurance?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, TMS therapy is covered by most major insurance providers, including Medicare and Tricare, for patients who meet specific clinical criteria such as treatment-resistant depression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How quickly will I see results from TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While some patients notice improvements within the first two weeks, significant symptom relief usually occurs between weeks 3 and 6 of the treatment course.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

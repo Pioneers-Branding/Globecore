@@ -204,7 +204,7 @@ include_once "../partials/head.php";
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>This often occurs during the middle phase of treatment, when the brain is actively adjusting. Without proper explanation, this phase can feel frightening and lead to beliefs like <em>TMS therapy ruined my life</em>, even when symptoms later improve.</p>
+<p>This often occurs during the middle phase of treatment, when the brain is actively adjusting. Without proper explanation, this phase can feel frightening and lead to beliefs like <em><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a> ruined my life</em>, even when symptoms later improve.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -310,7 +310,57 @@ include_once "../partials/head.php";
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1769079187753","title":"Why do some people say “TMS ruined my life”?","content":"This usually reflects intense emotional distress during treatment, not permanent harm. Symptoms may feel overwhelming when emotions temporarily worsen or change.\u003cbr\u003e","visible":true},{"id":"faq-question-1769079222376","title":"Can TMS really make symptoms worse?","content":"Yes, some people experience temporary worsening as the brain adjusts to stimulation. This phase often improves as treatment continues.","visible":true},{"id":"faq-question-1769079235652","title":"Is feeling worse during TMS permanent?","content":"In most cases, no. Emotional worsening is usually temporary and resolves with time and proper support.\u003cbr\u003e","visible":true},{"id":"faq-question-1769079248409","title":"Can TMS damage your brain?","content":"No, TMS does not cause structural or permanent brain damage when performed correctly. The magnetic pulses are non-invasive and controlled.","visible":true},{"id":"faq-question-1769079261107","title":"Should I stop TMS if I feel worse?","content":"Not automatically. It’s important to discuss symptoms with your treatment team before making any decisions.","visible":true},{"id":"faq-question-1769079288233","title":"Does everyone feel worse during TMS?","content":"No, many patients experience gradual improvement without emotional worsening. Responses vary from person to person.","visible":true},{"id":"faq-question-1769079298691","title":"When should I seek help during TMS?","content":"If symptoms become severe, overwhelming, or include thoughts of self-harm, immediate support from your care team is essential.","visible":true}]} -->
 <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">Why do some people say “TMS ruined my life”?</h3><div class="rank-math-answer">This usually reflects intense emotional distress during treatment, not permanent harm. Symptoms may feel overwhelming when emotions temporarily worsen or change.<br></div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Can TMS really make symptoms worse?</h3><div class="rank-math-answer">Yes, some people experience temporary worsening as the brain adjusts to stimulation. This phase often improves as treatment continues.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Is feeling worse during TMS permanent?</h3><div class="rank-math-answer">In most cases, no. Emotional worsening is usually temporary and resolves with time and proper support.<br></div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Can TMS damage your brain?</h3><div class="rank-math-answer">No, TMS does not cause structural or permanent brain damage when performed correctly. The magnetic pulses are non-invasive and controlled.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Should I stop TMS if I feel worse?</h3><div class="rank-math-answer">Not automatically. It’s important to discuss symptoms with your treatment team before making any decisions.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Does everyone feel worse during TMS?</h3><div class="rank-math-answer">No, many patients experience gradual improvement without emotional worsening. Responses vary from person to person.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">When should I seek help during TMS?</h3><div class="rank-math-answer">If symptoms become severe, overwhelming, or include thoughts of self-harm, immediate support from your care team is essential.</div></div></div>
 <!-- /wp:rank-math/faq-block -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What does TMS therapy feel like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients describe TMS therapy as a light tapping sensation on the scalp. It is non-invasive and does not require anesthesia, allowing you to return to normal activities immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How many TMS sessions will I need?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A standard course of TMS therapy typically involves sessions 5 days a week for 4 to 6 weeks, though the exact number depends on your individual treatment plan and response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Are there any side effects of TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most common side effects are mild scalp discomfort or a slight headache during or after the first few sessions. These typically resolve quickly as treatment progresses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is TMS therapy covered by insurance?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, TMS therapy is covered by most major insurance providers, including Medicare and Tricare, for patients who meet specific clinical criteria such as treatment-resistant depression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How quickly will I see results from TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While some patients notice improvements within the first two weeks, significant symptom relief usually occurs between weeks 3 and 6 of the treatment course.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

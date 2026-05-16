@@ -138,7 +138,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Psychiatrists often treat conditions such as depression, anxiety disorders, bipolar disorder, schizophrenia, ADHD, and PTSD. Their medical training allows them to understand how brain chemistry, physical health, and mental well-being intersect. This is particularly important for patients who require medication management alongside therapy or innovative treatments such as <a href="https://globecoreinc.com/"><strong><a href="https://globecoreinc.com/what-is-tms-therapy/">TMS therapy</a> in Atlanta</strong></a> to address treatment-resistant depression and other mental health conditions.</p>
+<p>Psychiatrists often treat conditions such as depression, anxiety disorders, bipolar disorder, schizophrenia, ADHD, and PTSD. Their medical training allows them to understand how brain chemistry, physical health, and mental well-being intersect. This is particularly important for patients who require <a href="/blog/what-is-medication-management-in-mental-health.php">medication management</a> alongside therapy or innovative treatments such as <a href="https://globecoreinc.com/"><strong><a href="https://globecoreinc.com/what-is-tms-therapy/">TMS therapy</a> in Atlanta</strong></a> to address treatment-resistant depression and other mental health conditions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -146,7 +146,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>When you find a psychiatrist in Atlanta that accept Medicaid, you’re not just gaining access to medication—you’re gaining a partner in your mental health journey, someone equipped to guide you through challenges with medical expertise and compassion.</p>
+<p>When you find a <a href="/blog/best-psychiatrist-in-atlanta-expert-mental-health-care-you-can-trust.php">psychiatrist in Atlanta</a> that accept Medicaid, you’re not just gaining access to medication—you’re gaining a partner in your mental health journey, someone equipped to guide you through challenges with medical expertise and compassion.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -368,7 +368,57 @@ include_once "../partials/head.php";
 <!-- wp:paragraph -->
 <p><strong>5. What if I can’t find a psychiatrist who accepts Medicaid?</strong><strong><br></strong> Community mental health centers and hospital systems are good alternatives.</p>
 <!-- /wp:paragraph -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What is the difference between a psychiatrist and a therapist?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A psychiatrist is a medical doctor who can diagnose mental health conditions and prescribe medications. A therapist typically provides counseling and behavioral interventions but does not prescribe medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I know if I need medication for my mental health?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your symptoms significantly impair your daily life, sleep, or work, and therapy alone isn&#039;t providing enough relief, a psychiatric evaluation can determine if medication is right for you.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens during a psychiatric evaluation?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>An evaluation involves a comprehensive review of your symptoms, medical history, and lifestyle to establish an accurate diagnosis and create a personalized treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Will I have to be on medication forever?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not necessarily. Many people take medication for a specific period to stabilize their symptoms, while others may need long-term management. Your psychiatrist will continuously monitor your progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do psychiatrists offer telehealth appointments?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, many psychiatric services, including initial evaluations and follow-up medication management, can be securely and effectively conducted via telehealth.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <a href="https://en.wikipedia.org/wiki/Recovery_approach" rel="nofollow" target="_blank">Mental health recovery</a> is a deeply personal journey. It’s a process that involves understanding emotions, building resilience, and finding meaning after <a href="https://globecoreinc.com/specialties/grief-loss/">experiencing distress</a>. While recovery often looks different for everyone, one element that consistently plays a vital role is counseling. In a world where mental health challenges are becoming increasingly recognized, counseling offers a safe space for healing, growth, and empowerment.
-But what exactly does counseling do? How does it help in mental health recovery? Let’s dive deeper into the role counseling plays in guiding individuals toward emotional well-being and a brighter future.
+But what exactly does counseling do? How does it help in <a href="/blog/the-role-of-counseling-in-mental-health-recovery.php">mental health recovery</a>? Let’s dive deeper into the role counseling plays in guiding individuals toward emotional well-being and a brighter future.
 <h2>Creating a Safe Space for Expression</h2>
 One of the most significant benefits of counseling is that it provides a safe, non-judgmental space for individuals to express themselves. Mental health struggles can feel isolating, and many people hesitate to open up due to fear of being misunderstood or judged. In counseling, those walls come down.
 A <a href="https://globecoreinc.com/meet-our-team-new/">skilled counselor</a> listens without judgment, creating an environment where emotions, fears, and thoughts can be shared freely. Sometimes, simply being heard is profoundly healing. When emotions that have been bottled up for months or even years finally have an outlet, it can be the first step toward release and relief.
@@ -126,12 +126,57 @@ As individuals <a href="https://globecoreinc.com/wp-content/uploads/2021/03/Pain
 Mental health recovery isn’t a destination — it’s a journey. And while no one can walk that path for you, counseling ensures you don’t have to walk it alone. It offers understanding when the world feels confusing, guidance when the road seems unclear, and hope when darkness feels overwhelming.
 If you’re struggling, remember this: <a href="https://globecoreinc.com/">Seeking help</a> is not a sign of weakness but of incredible strength. Counseling is more than just talking; it’s about reclaiming your life, one step at a time. Whether you’re at the beginning of your journey or somewhere along the way, counseling can be a light guiding you back to yourself.
 
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How do I choose the right mental health professional?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Look for a licensed provider whose expertise aligns with your specific needs, whether it&#039;s anxiety, relationships, or medication management. A good therapeutic fit is essential for progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What should I expect in my first therapy session?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your first session is primarily about getting to know each other. The therapist will ask about your history, what brings you to therapy, and discuss your goals for treatment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is therapy completely confidential?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, therapy is strictly confidential under HIPAA laws. Information is only released with your written consent, except in rare emergencies where there is a risk of harm.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How often should I attend therapy sessions?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients start with weekly sessions to build momentum and rapport. As you progress, sessions may transition to biweekly or monthly check-ins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does insurance cover mental health counseling?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most health insurance plans offer behavioral health benefits that cover therapy and psychiatric services. It&#039;s best to verify your specific coverage with your provider or the clinic.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Begin Your Mental Health Recovery Journey</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-                    </div>
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

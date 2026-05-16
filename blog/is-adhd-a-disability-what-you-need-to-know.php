@@ -437,7 +437,7 @@ include_once "../partials/head.php";
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>Medication management:</strong> If medication is right for you, a psychiatrist can monitor dosage and side effects safely.</li>
+<li><strong><a href="/blog/what-is-medication-management-in-mental-health.php">Medication management</a>:</strong> If medication is right for you, a psychiatrist can monitor dosage and side effects safely.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -454,7 +454,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1776408434773","title":"Is ADHD considered a disability under the ADA?","content":"Yes. ADHD can qualify as a disability under the Americans with Disabilities Act if it substantially limits one or more major life activities, such as working, learning, or concentrating. Each case is evaluated individually.","visible":true},{"id":"faq-question-1776408442120","title":"Can adults get ADHD disability benefits?","content":"Yes, adults with severe ADHD may qualify for Social Security disability benefits (SSI or SSDI) if the condition significantly prevents them from holding a job. You will need a formal psychiatric evaluation and documentation to apply.","visible":true},{"id":"faq-question-1776408450690","title":"What are the most common adult ADHD symptoms?","content":"Common adult ADHD symptoms include difficulty concentrating, forgetfulness, impulsive decision-making, disorganization, emotional dysregulation, and trouble completing tasks. These symptoms must be persistent and present in multiple settings to qualify for a diagnosis.","visible":true},{"id":"faq-question-1776408463809","title":"Is ADHD a mental disability or a learning disability?","content":"ADHD is classified as a neurodevelopmental disorder. It is not technically a learning disability, but it can affect learning significantly. It may be treated as a disability in school settings through plans like IEPs or 504 plans.","visible":true},{"id":"faq-question-1776408471295","title":"How is ADHD diagnosed?","content":"ADHD is diagnosed through a comprehensive evaluation by a licensed mental health professional or psychiatrist. This typically includes clinical interviews, behavioral rating scales, and a review of symptoms across multiple settings and over time.","visible":true}]} -->
-<div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">Is ADHD considered a disability under the ADA?</h3><div class="rank-math-answer">Yes. ADHD can qualify as a disability under the Americans with Disabilities Act if it substantially limits one or more major life activities, such as working, learning, or concentrating. Each case is evaluated individually.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Can adults get ADHD disability benefits?</h3><div class="rank-math-answer">Yes, adults with severe ADHD may qualify for Social Security disability benefits (SSI or SSDI) if the condition significantly prevents them from holding a job. You will need a formal psychiatric evaluation and documentation to apply.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What are the most common adult ADHD symptoms?</h3><div class="rank-math-answer">Common adult ADHD symptoms include difficulty concentrating, forgetfulness, impulsive decision-making, disorganization, emotional dysregulation, and trouble completing tasks. These symptoms must be persistent and present in multiple settings to qualify for a diagnosis.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Is ADHD a mental disability or a learning disability?</h3><div class="rank-math-answer">ADHD is classified as a neurodevelopmental disorder. It is not technically a learning disability, but it can affect learning significantly. It may be treated as a disability in school settings through plans like IEPs or 504 plans.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">How is ADHD diagnosed?</h3><div class="rank-math-answer">ADHD is diagnosed through a comprehensive evaluation by a licensed mental health professional or psychiatrist. This typically includes clinical interviews, behavioral rating scales, and a review of symptoms across multiple settings and over time.</div></div></div>
+<div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question">Is ADHD considered a disability under the ADA?</h3><div class="rank-math-answer">Yes. ADHD can qualify as a disability under the Americans with Disabilities Act if it substantially limits one or more major life activities, such as working, learning, or concentrating. Each case is evaluated individually.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Can adults get ADHD disability benefits?</h3><div class="rank-math-answer">Yes, adults with severe ADHD may qualify for Social Security disability benefits (SSI or SSDI) if the condition significantly prevents them from holding a job. You will need a formal <a href="/blog/what-happens-during-a-psychiatric-evaluation.php">psychiatric evaluation</a> and documentation to apply.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">What are the most common adult ADHD symptoms?</h3><div class="rank-math-answer">Common adult ADHD symptoms include difficulty concentrating, forgetfulness, impulsive decision-making, disorganization, emotional dysregulation, and trouble completing tasks. These symptoms must be persistent and present in multiple settings to qualify for a diagnosis.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">Is ADHD a mental disability or a learning disability?</h3><div class="rank-math-answer">ADHD is classified as a neurodevelopmental disorder. It is not technically a learning disability, but it can affect learning significantly. It may be treated as a disability in school settings through plans like IEPs or 504 plans.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question">How is ADHD diagnosed?</h3><div class="rank-math-answer">ADHD is diagnosed through a comprehensive evaluation by a licensed mental health professional or psychiatrist. This typically includes clinical interviews, behavioral rating scales, and a review of symptoms across multiple settings and over time.</div></div></div>
 <!-- /wp:rank-math/faq-block -->
 
 <!-- wp:heading -->
@@ -500,9 +500,59 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Connect with the best psychiatrist in Atlanta, GA for ADHD care today. Schedule your consultation and explore expert psychological services in Atlanta, GA.</p>
+<p>Connect with the best <a href="/blog/best-psychiatrist-in-atlanta-expert-mental-health-care-you-can-trust.php">psychiatrist in Atlanta</a>, GA for ADHD care today. Schedule your consultation and explore expert psychological services in Atlanta, GA.</p>
 <!-- /wp:paragraph -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What are the most common signs of an anxiety disorder?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Common signs include excessive worrying, restlessness, increased heart rate, difficulty concentrating, and sleep disturbances that persist for months.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How is depression different from feeling sad?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While sadness is a temporary emotional reaction, depression is a persistent condition characterized by a loss of interest in activities, hopelessness, and significant fatigue lasting for weeks or more.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can anxiety and depression happen at the same time?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, it is very common for anxiety and depression to co-occur. Treatment plans often address both conditions simultaneously through therapy and sometimes medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What are the best therapies for anxiety and depression?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cognitive Behavioral Therapy (CBT) is highly effective for both, helping patients identify and change negative thought patterns. Other approaches include mindfulness and TMS therapy for resistant cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How can I support a loved one with depression?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen without judgment, encourage them to seek professional help, and be patient. Small gestures of support and maintaining a steady presence can make a significant difference.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

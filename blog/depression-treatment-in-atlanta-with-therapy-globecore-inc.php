@@ -98,7 +98,7 @@ include_once "../partials/head.php";
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Reaching out for help with depression can feel like standing at the edge of a busy Atlanta street, trying to decide when it is safe to step forward. The traffic of thoughts, expectations, and fears may feel nonstop. Looking for&nbsp;<strong>depression treatment in Atlanta</strong>&nbsp;that respects culture, identity, and lived experience can add another layer to an already heavy load.</p>
+<p>Reaching out for help with depression can feel like standing at the edge of a busy Atlanta street, trying to decide when it is safe to step forward. The traffic of thoughts, expectations, and fears may feel nonstop. Looking for&nbsp;<strong><a href="/blog/depression-treatment-in-atlanta-with-therapy-globecore-inc.php">depression treatment</a> in Atlanta</strong>&nbsp;that respects culture, identity, and lived experience can add another layer to an already heavy load.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -308,11 +308,11 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Medication management is available when needed. Psychiatrists and other prescribing providers at GlobeCoRe work with you to explore whether medication is right for you, review options, and monitor how you respond. Some people use medication for a short time to steady mood so they can fully take part in therapy. Others may need longer-term support. Either way, decisions are made together, based on your values and goals.</p>
+<p><a href="/blog/what-is-medication-management-in-mental-health.php">Medication management</a> is available when needed. Psychiatrists and other prescribing providers at GlobeCoRe work with you to explore whether medication is right for you, review options, and monitor how you respond. Some people use medication for a short time to steady mood so they can fully take part in therapy. Others may need longer-term support. Either way, decisions are made together, based on your values and goals.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>For people facing&nbsp;<strong>treatment-resistant depression</strong>, GlobeCoRe offers&nbsp;<strong>TMS therapy</strong>&nbsp;as an FDA-approved, non-invasive option. Group and family therapy give space to strengthen support systems, improve communication, and heal relationship patterns that may feed depression. Telehealth counseling across 42 states makes services reachable even if you live outside metro Atlanta, work long hours, or prefer the privacy of home. Through every part of care, GlobeCoRe aims to bridge the gap between needing help and receiving care that truly fits who you are.</p>
+<p>For people facing&nbsp;<strong>treatment-resistant depression</strong>, GlobeCoRe offers&nbsp;<strong><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a></strong>&nbsp;as an FDA-approved, non-invasive option. Group and family therapy give space to strengthen support systems, improve communication, and heal relationship patterns that may feed depression. Telehealth counseling across 42 states makes services reachable even if you live outside metro Atlanta, work long hours, or prefer the privacy of home. Through every part of care, GlobeCoRe aims to bridge the gap between needing help and receiving care that truly fits who you are.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
@@ -516,7 +516,57 @@ include_once "../partials/head.php";
 <!-- wp:paragraph -->
 <p><strong>GlobeCoRe, Inc.</strong>&nbsp;offers a comprehensive path forward. With psychological evaluation, evidence-based counseling, trauma-informed care, medication management, advanced options like TMS therapy, and flexible telehealth across 42 states, GlobeCoRe weaves together many strands of support. The team’s deep commitment to cultural humility and inclusion means you are not asked to leave parts of yourself at the door.</p>
 <!-- /wp:paragraph -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What are the most common signs of an anxiety disorder?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Common signs include excessive worrying, restlessness, increased heart rate, difficulty concentrating, and sleep disturbances that persist for months.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How is depression different from feeling sad?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While sadness is a temporary emotional reaction, depression is a persistent condition characterized by a loss of interest in activities, hopelessness, and significant fatigue lasting for weeks or more.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can anxiety and depression happen at the same time?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, it is very common for anxiety and depression to co-occur. Treatment plans often address both conditions simultaneously through therapy and sometimes medication.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What are the best therapies for anxiety and depression?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cognitive Behavioral Therapy (CBT) is highly effective for both, helping patients identify and change negative thought patterns. Other approaches include mindfulness and TMS therapy for resistant cases.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How can I support a loved one with depression?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Listen without judgment, encourage them to seek professional help, and be patient. Small gestures of support and maintaining a steady presence can make a significant difference.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

@@ -98,7 +98,7 @@ include_once "../partials/head.php";
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">TMS Therapy</h2>
+<h2 class="wp-block-heading"><a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS Therapy</a></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3} -->
@@ -480,7 +480,57 @@ include_once "../partials/head.php";
 <!-- wp:rank-math/faq-block {"questions":[{"id":"faq-question-1767779053383","title":"\u003cstrong\u003eDoes TMS therapy really help with anxiety?\u003c/strong\u003e","content":"Yes, TMS therapy can help reduce anxiety symptoms by stimulating brain regions involved in mood regulation, especially when medications or talk therapy have not worked well.","visible":true},{"id":"faq-question-1767779096721","title":"\u003cstrong\u003eHow does TMS therapy work for anxiety?\u003c/strong\u003e","content":"TMS uses magnetic pulses to stimulate specific areas of the brain, such as the prefrontal cortex, to normalize activity and help reduce anxiety symptoms over time.","visible":true},{"id":"faq-question-1767779108033","title":"\u003cstrong\u003eWho is a good candidate for TMS for anxiety?\u003c/strong\u003e","content":"TMS is often recommended for people with anxiety disorders who have not responded adequately to traditional treatments like medication and cognitive behavioral therapy.","visible":true},{"id":"faq-question-1767779122033","title":"\u003cstrong\u003eIs TMS therapy safe for treating anxiety?\u003c/strong\u003e","content":"TMS is a non‑invasive, FDA‑cleared treatment with no anesthesia or surgery, and it is generally considered safe with mostly mild and temporary side effects.","visible":true},{"id":"faq-question-1767779132393","title":"\u003cstrong\u003eWhat are the common side effects of TMS therapy?\u003c/strong\u003e","content":"Common side effects include mild headache or scalp discomfort at the treatment site, which usually improve quickly after the session.","visible":true}]} -->
 <div class="wp-block-rank-math-faq-block"><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Does TMS therapy really help with anxiety?</strong></h3><div class="rank-math-answer">Yes, TMS therapy can help reduce anxiety symptoms by stimulating brain regions involved in mood regulation, especially when medications or talk therapy have not worked well.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>How does TMS therapy work for anxiety?</strong></h3><div class="rank-math-answer">TMS uses magnetic pulses to stimulate specific areas of the brain, such as the prefrontal cortex, to normalize activity and help reduce anxiety symptoms over time.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Who is a good candidate for TMS for anxiety?</strong></h3><div class="rank-math-answer">TMS is often recommended for people with anxiety disorders who have not responded adequately to traditional treatments like medication and cognitive behavioral therapy.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>Is TMS therapy safe for treating anxiety?</strong></h3><div class="rank-math-answer">TMS is a non‑invasive, FDA‑cleared treatment with no anesthesia or surgery, and it is generally considered safe with mostly mild and temporary side effects.</div></div><div class="rank-math-faq-item"><h3 class="rank-math-question"><strong>What are the common side effects of TMS therapy?</strong></h3><div class="rank-math-answer">Common side effects include mild headache or scalp discomfort at the treatment site, which usually improve quickly after the session.</div></div></div>
 <!-- /wp:rank-math/faq-block -->
-                    </div>
+                    
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What does TMS therapy feel like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients describe TMS therapy as a light tapping sensation on the scalp. It is non-invasive and does not require anesthesia, allowing you to return to normal activities immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How many TMS sessions will I need?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A standard course of TMS therapy typically involves sessions 5 days a week for 4 to 6 weeks, though the exact number depends on your individual treatment plan and response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Are there any side effects of TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most common side effects are mild scalp discomfort or a slight headache during or after the first few sessions. These typically resolve quickly as treatment progresses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is TMS therapy covered by insurance?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, TMS therapy is covered by most major insurance providers, including Medicare and Tricare, for patients who meet specific clinical criteria such as treatment-resistant depression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How quickly will I see results from TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While some patients notice improvements within the first two weeks, significant symptom relief usually occurs between weeks 3 and 6 of the treatment course.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">

@@ -94,7 +94,7 @@ include_once "../partials/head.php";
 
                     <div id="introduction" class="article-content text-[17px] md:text-[18px]">
                         <!-- wp:paragraph -->
-<p>Transcranial Magnetic Stimulation (TMS) Therapy has grown rapidly in popularity as a non-invasive mental health treatment, but many people still ask: <strong>“Is TMS therapy legitimate?”</strong> If you’re considering this innovative treatment for depression, anxiety, PTSD, OCD, or other conditions, it’s important to understand the science, the evidence, and how it works.  </p>
+<p>Transcranial Magnetic Stimulation (TMS) Therapy has grown rapidly in popularity as a non-invasive mental health treatment, but many people still ask: <strong>“Is <a href="/blog/what-is-tms-therapy-how-it-works-benefits-what-to-expect-2026.php">TMS therapy</a> legitimate?”</strong> If you’re considering this innovative treatment for depression, anxiety, PTSD, OCD, or other conditions, it’s important to understand the science, the evidence, and how it works.  </p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>In this comprehensive guide, we’ll break down exactly what TMS is, why it’s considered a legitimate treatment, and what real patients and clinicians are saying. We’ll also answer common questions people search for online, like costs, effectiveness, side effects, and whether it really works when other treatments haven’t.</p>
 <!-- /wp:paragraph --><!-- wp:heading -->
@@ -197,12 +197,57 @@ include_once "../partials/head.php";
 <p> </p>
 <!-- /wp:paragraph -->
 
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What does TMS therapy feel like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most patients describe TMS therapy as a light tapping sensation on the scalp. It is non-invasive and does not require anesthesia, allowing you to return to normal activities immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How many TMS sessions will I need?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A standard course of TMS therapy typically involves sessions 5 days a week for 4 to 6 weeks, though the exact number depends on your individual treatment plan and response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Are there any side effects of TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The most common side effects are mild scalp discomfort or a slight headache during or after the first few sessions. These typically resolve quickly as treatment progresses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is TMS therapy covered by insurance?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, TMS therapy is covered by most major insurance providers, including Medicare and Tricare, for patients who meet specific clinical criteria such as treatment-resistant depression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How quickly will I see results from TMS?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>While some patients notice improvements within the first two weeks, significant symptom relief usually occurs between weeks 3 and 6 of the treatment course.</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-cyan-blue","textColor":"white","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Start Legitimate, Evidence-Based TMS Treatment</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-vivid-cyan-blue-background-color has-text-color has-background wp-element-button" href="https://globecoreinc.com/request-appointment/">Book a Consultation Today</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
-                    </div>
+</div>
 
                     <div class="mt-20 p-10 bg-gray-50 rounded-[2.5rem] border border-gray-100 flex flex-col md:flex-row items-center gap-10">
                         <div class="md:w-1/3">
