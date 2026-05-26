@@ -12,6 +12,9 @@ $ASSET_URL = $BASE_URL;
 $scriptPath = dirname($_SERVER['PHP_SELF']);
 $depth = max(0, substr_count($scriptPath, '/') - 1);
 $P = str_repeat('../', $depth);
+
+// Pages with their own FAQPage schema should set $hasPageSpecificFAQ = true before including this file
+$hasPageSpecificFAQ = $hasPageSpecificFAQ ?? false;
 ?>
     <!-- <base href="https://globecoreinc.com/"> -->
     <meta charset="UTF-8">
@@ -42,7 +45,8 @@ $P = str_repeat('../', $depth);
     <meta name="geo.position" content="33.846;-84.362">
     <meta name="ICBM" content="33.846, -84.362">
 
-    <!-- JSON-LD Structured Data: FAQPage -->
+    <!-- JSON-LD Structured Data: FAQPage (only if page doesn't have its own) -->
+    <?php if (!$hasPageSpecificFAQ): ?>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -99,6 +103,7 @@ $P = str_repeat('../', $depth);
         ]
     }
     </script>
+    <?php endif; ?>
 
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="<?php echo $ASSET_URL; ?>/assets/favicon.jpg">

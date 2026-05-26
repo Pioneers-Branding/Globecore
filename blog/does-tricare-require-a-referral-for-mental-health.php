@@ -3,6 +3,7 @@
 <head>
 <?php
 $pageTitle = "Does TRICARE Require a Referral for Mental Health? | GlobeCoRe Inc.";
+$hasPageSpecificFAQ = true;
 include_once "../partials/head.php";
 ?>
 <!-- Custom Structured Data (JSON-LD) for SEO & AI Search Engines -->

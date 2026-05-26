@@ -3,6 +3,7 @@
 <head>
 <?php
 $pageTitle = "Mental Health Awareness Month: A Complete Guide to Wellness | GlobeCoRe Inc.";
+$hasPageSpecificFAQ = true;
 include_once "../partials/head.php";
 ?>
 <!-- Custom Structured Data (JSON-LD) for SEO & AI Search Engines -->
