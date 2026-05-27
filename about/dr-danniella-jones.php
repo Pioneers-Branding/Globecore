@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <?php
-$pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
+$pageTitle = "Dr. Danniella Jones | GlobeCoRe Inc. Atlanta, GA";
 include_once "../partials/head.php";
 ?>
 </head>
@@ -60,20 +60,19 @@ include_once "../partials/head.php";
                 </a>
 </div>
 <!-- Two-column layout: left sticky card + right scrolling content -->
-<div class="flex flex-col lg:flex-row gap-12 xl:gap-16 w-full">
+<div class="flex flex-col lg:flex-row gap-8 xl:gap-12 w-full">
 <!-- LEFT COLUMN: Sticky Info Card -->
 <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
 <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-<img alt="Dr. Sharon Belhamel, LMFT, ND" class="w-full aspect-[4/5] object-cover object-top" src="/assets/images/brick-background-69-768x960.png"/>
+<img alt="Dr. Danniella Jones" class="w-full aspect-[4/5] object-cover object-top" src="/assets/images/brick-background-59-768x960.png"/>
 </div>
 <div class="text-center w-full px-2">
-<span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">LMFT,
-                                ND</span>
-<h2 class="text-2xl font-bold text-[#071e26] mb-6">Sharon Belhamel, LMFT, ND</h2>
+<span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">Licensed Psychologist</span>
+<h2 class="text-2xl font-bold text-[#071e26] mb-6">Dr. Danniella Jones</h2>
 <a class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300" href="/contact.php">
-                            Book Consultation
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                Book Consultation
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 </a>
 </div>
 </div>
@@ -85,24 +84,19 @@ include_once "../partials/head.php";
 <h2 class="text-3xl font-extrabold text-[#071e26] mb-6">Education</h2>
 <div class="grid grid-cols-1 gap-4">
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Naturopathic Doctorate Degree (ND, 2014)</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Doctor of Naturopathy</p>
-<p class="text-sm text-gray-500">Trinity School of Natural Health.</p>
+<h3 class="font-bold text-[#027289] text-base mb-2">Doctoral Degree (Psy.D., 2018)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Clinical Psychology (Child/Adolescent/Family &amp; Adult)</p>
+<p class="text-sm text-gray-500">Spalding University</p>
 </div>
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Master’s Degree (MBA, 2012)</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Business Administration</p>
-<p class="text-sm text-gray-500">Columbia Southern University,</p>
+<h3 class="font-bold text-[#027289] text-base mb-2">Master’s Degree (MA&lt; 2015)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Clinical Psychology (Child/Adolescent/Family &amp; Adult)</p>
+<p class="text-sm text-gray-500">Spalding University</p>
 </div>
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Master’s Degree (MA, 1996)</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Psychology</p>
-<p class="text-sm text-gray-500">Georgia School of Professional Psychology</p>
-</div>
-<div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Bachelor’s Degree (BS, 1988)</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Psychology</p>
-<p class="text-sm text-gray-500">Iowa State University</p>
+<h3 class="font-bold text-[#027289] text-base mb-2">Bachelor’s Degree (BS, 2013)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Psychology &amp; Women’s Studies</p>
+<p class="text-sm text-gray-500">Berry College</p>
 </div>
 </div>
 </div>
@@ -112,31 +106,15 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Licensed Marriage &amp; Family Therapist (LMFT) – Georgia</span>
+<span class="font-medium text-[#071e26]">Licensed Psychologist – Georgia</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Board Certified Holistic Health Practitioner under the American Association of Drugless Practitioners (AADP) – National</span>
+<span class="font-medium text-[#071e26]">Licensed Psychologist – Florida</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Professional in Human Resources (PHR) – National</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Certified National Health Professional (CNHP) – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Paralegal Certification (Emory University) – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Georgia Registered Mediator Arbitrator – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Certified SixSignmaLean &amp; DFSS – Georgia</span>
+<span class="font-medium text-[#071e26]">Certified Parent Child Interaction Therapy (PCIT) Therapist</span>
 </li>
 </ul>
 </div>
@@ -146,11 +124,15 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">National Society of Leadership and Success</span>
+<span class="font-medium text-[#071e26]">Golden Palm Award, Palm Beach County, Florida</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Who’s Who Among Executive and Professional Women in the Field of Counseling and Development</span>
+<span class="font-medium text-[#071e26]">The National Association of Counties (NACo) Achievement Award</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">The International Honor Society in Psychology (PSI CHI)</span>
 </li>
 </ul>
 </div>
@@ -160,39 +142,43 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Depression and Anxiety</span>
+<span class="font-medium text-[#071e26]">Depression and Self-Injurious Behaviors</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Relationship, Identity, And Marriage Issues</span>
+<span class="font-medium text-[#071e26]">Substance Misuse</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Racial, Ethnic, And Religious Stressors</span>
+<span class="font-medium text-[#071e26]">Child Sexual Abuse/Sexual Assault</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Addictions</span>
+<span class="font-medium text-[#071e26]">Intimate Partner Violence</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Dietary and Lifestyle Counseling</span>
+<span class="font-medium text-[#071e26]">LGBTQ+ related concerns</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Issues Tied to Self-Esteem/Identity</span>
+<span class="font-medium text-[#071e26]">Race-Related Trauma and/or Stress</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Grief &amp; Loss</span>
+<span class="font-medium text-[#071e26]">Stress Related to Intersectionality</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Work-Related or Academic Stressors</span>
+<span class="font-medium text-[#071e26]">Communication Issues</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Finding Love</span>
+<span class="font-medium text-[#071e26]">Family Conflict</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">Parenting and Behavior Management</span>
 </li>
 </ul>
 </div>
@@ -206,11 +192,7 @@ include_once "../partials/head.php";
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Workshops, Trainings, and Retreats: Holistic Health for Treating Mood Disorders, Tips to Reducing Healthcare Costs, Tips for Improving Work Environments,  Racial, Ethnic and Religious stressors in the Workplace</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Supervision: Aimed toward Associate Professional Counselors (APC’s)</span>
+<span class="font-medium text-[#071e26]">Workshops &amp; Trainings:  Implicit Bias, Racial/Ethnic Microaggressions, Equity, Diversity, and Inclusion, Trauma, Child Sexual Abuse, Intimate Partner Violence</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
@@ -225,8 +207,40 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">I see you as more than a diagnosis. I provide a holistic focus on your individual physical, emotional, and family health. Not every therapist looks at the whole picture. I assess the entire person, not just their clinical diagnosis. This applies to all my services, as well. I have a very system-focused approach. I look at you within the context of your system. This includes how you interact differently or the same in various places and with various people. Your system is everything and everyone around you. This approach helps me find the triggers in your life that may be missed when only the individual is looked at. Your life around you can also impact the decisions you make as a person, professional, friend, colleague, employee or any role you take on in your life.</p>
-<p class="leading-relaxed">We do not live in a vacuum. The way you see yourself impacts those around you and your system. We all connect with each other in various ways, and these connections bleed into our own lives and personality. You are not completely detached from those around you. The people you talk to in your daily life are constantly affecting you, whether it is positive or negative.</p>
+<p class="leading-relaxed">As a person with diverse intersectional identities who has been exposed to adversity, it is my goal to create a safe space that supports others on their personal journey to healing and transformation. I understand that while I have expertise in the areas of mental health, relationships, diversity, and trauma, you are the most knowledgeable on your needs, challenges, and lived experiences. As a result, I take a collaborative approach to treatment which allows me to actively listen to my client’s needs and foster their strengths while also allowing me the opportunity to provide guidance, offer feedback, and challenge my clients when needed.</p>
+<p class="leading-relaxed">Additionally, I utilize an integrative approach to therapy using evidence-based interventions such as CBT, ACT, and attachment theory. This means that I help manage your concerns by examining and challenging the ways your thoughts/beliefs impact your emotions and behaviors.</p>
+<p class="leading-relaxed">When indicated, I help clients identify their values and the way their relationships with important figures in early life have impacted their current relationships with themselves and others. Moreover, I approach therapy from a systemic lens which allows me to consider the influence of structural variables as well as the impact of your family of origin, cultural context, and positionality on the way that you show up with yourself, others, and the world.</p>
+<p class="leading-relaxed">I enjoy working with parents and families utilizing PCIT which helps to improve your child’s behavior and your relationship with your child. I also enjoy working with clients who have experienced trauma, substance misuse, depression, and/or relational concerns and I am passionate about working with individuals from diverse and marginalized communities. I exercise flexibility and adaptability in my approach so that I can provide support in a way that meets the needs of the individual or individuals in front of me. I enter the therapeutic space authentically and strive for cultural humility in order to create an atmosphere of safety and trust where my clients feel seen, valued, and empowered.</p>
+</div>
+</div>
+<!-- What is Parent Child Interaction Therapy (PCIT)? -->
+<div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
+<div class="flex items-center mb-6">
+<h2 class="text-3xl font-extrabold text-[#071e26]">What is Parent Child Interaction Therapy (PCIT)?</h2>
+<div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
+</div>
+<div class="prose prose-lg max-w-none text-gray-600 space-y-5">
+<p class="leading-relaxed">PCIT is an evidence-based behavioral parent training therapy. It teaches parents and caregivers skills that enhance their relationship with their child as well as manage their child’s difficult behaviors. In addition, PCIT has been shown to reduce parenting stress.</p>
+</div>
+</div>
+<!-- Who is a good fit for PCIT? -->
+<div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
+<div class="flex items-center mb-6">
+<h2 class="text-3xl font-extrabold text-[#071e26]">Who is a good fit for PCIT?</h2>
+<div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
+</div>
+<div class="prose prose-lg max-w-none text-gray-600 space-y-5">
+<p class="leading-relaxed">Ideal clients for PCIT have children ages 2-7 that are displaying disruptive behaviors and would like to learn skills to manage those behaviors and improve interactions with their child.</p>
+</div>
+</div>
+<!-- What to expect? -->
+<div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
+<div class="flex items-center mb-6">
+<h2 class="text-3xl font-extrabold text-[#071e26]">What to expect?</h2>
+<div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
+</div>
+<div class="prose prose-lg max-w-none text-gray-600 space-y-5">
+<p class="leading-relaxed">PCIT is offered virtually through telehealth. Families enrolled in PCIT will be meet with a certified PCIT therapist for one hour each week who will serve as their coach. Using headphones and video, parents are coached while interacting and playing with their children. The length of treatment is typically 12-18 sessions, but also depends on how quickly the family learns PCIT skills and how quickly their child’s behavior improves.</p>
 </div>
 </div>
 <!-- Personal Highlights -->
@@ -236,7 +250,7 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">I specialize in using holistic health methods, counseling, and naturopathy to manage mood disorders. I am trained as a Licensed Marriage and Family Therapist (LMFT), a Doctor of Naturopathy (ND) , certified as a Professional in Human Resources (PHR), and credentialed as a Substance Abuse Professional (SAP). This allows me to help individuals, families, and work environments improve relationships, culture, and overall health and wellness.</p>
+<p class="leading-relaxed">I am a Licensed Clinical Psychologist and Certified Parent Child Interaction Therapy (PCIT) Therapist with over a decade of experience working in the advocacy and mental health field. I am passionate about working with diverse populations, parents and families, and individuals who have been exposed to adversity and/or trauma. My aim is to increase access to and reduce the stigma of mental health in marginalized communities. In addition, my goal is to encourage positive changes related to equity and inclusion in the community at large through workshops, training, and consultation.</p>
 </div>
 </div>
 <!-- Testimonials -->
@@ -246,19 +260,20 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">I suppose I could talk about all the good things that Dr. Belhamel has offered, but it would be too much to write. The truth is, she is a phenomenal young woman who serves the community to the best of her ability. She possesses the skills of working well with others. ~Anonymous</p>
-<p class="leading-relaxed">Dr. Belhamel is a highly competent professional, and totally dependable. I found [her] to be of the highest ethical standards. She treats clients with respect and positive regard. She was always courteous and professional. It was enjoyable to work with her. ~Anonymous</p>
-<p class="leading-relaxed">Thank you, Dr. Sharon, for this past year of guidance, growth, and advice that you have provided. We are in a much better place now than we were before seeing you. Thank you for challenging us to be better and do better. You have been such a blessing to our marriage. We pray that God continues to work through you. ~Anonymous</p>
+<p class="leading-relaxed">“I LOVED EVERYTHING about this training. I was glued to my laptop screen. I will DEFINITELY be joining plenty of Dr. Jones classes.”</p>
+<p class="leading-relaxed">“Dr. Jones is an excellent presenter. The sensitive information is provided in a genuine and “easy to understand” manner that welcomes more insight and open mindedness. It continues to open my mind and my awareness on how long this has been a problem for and how much work it is going to take to continue to make changes for improvement. Great job once again Dr. Jones! I admire your courage and strength! You have helped me become more self-aware, more open minded, and more courageous to work on these problems with my clients. I appreciate you.”</p>
+<p class="leading-relaxed">“I felt like I could strongly connect with Dr. Jones and the staff was extremely helpful and supportive in all situations.”</p>
+<p class="leading-relaxed">“I cannot express my appreciation and gratitude for Dr. Jones and her supervisee. They were wonderful and so helpful during this program. They have made a huge impact on not just my son but us as parents as well.”</p>
 </div>
 </div>
-<!-- Hobbies -->
+<!-- My hobbies -->
 <div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
 <div class="flex items-center mb-6">
-<h2 class="text-3xl font-extrabold text-[#071e26]">Hobbies</h2>
+<h2 class="text-3xl font-extrabold text-[#071e26]">My hobbies</h2>
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">In my spare time, I enjoy walking in the park, playing tennis, and playing with cats and dogs.</p>
+<p class="leading-relaxed">In my spare time, I enjoy creating new recipes and trying new food, watching thrillers, and dancing. I also enjoy spending time with loved ones and relaxing near large bodies of water.</p>
 </div>
 </div>
 </div>
@@ -267,4 +282,5 @@ include_once "../partials/head.php";
 </section>
 </main>
 <?php include "../partials/footer.php"; ?>
-</body></html>
+</body>
+</html>

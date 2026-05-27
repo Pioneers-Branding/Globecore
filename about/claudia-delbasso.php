@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <?php
-$pageTitle = "Meet Our Team | GlobeCoRe Inc. Atlanta, GA";
+$pageTitle = "Claudia Delbasso | GlobeCoRe Inc. Atlanta, GA";
 include_once "../partials/head.php";
 ?>
 </head>
@@ -54,11 +54,11 @@ include_once "../partials/head.php";
 <div class="lg:w-1/3 xl:w-1/3 flex-shrink-0">
 <div class="sticky top-32 bg-white rounded-[32px] p-4 sm:p-5 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100 flex flex-col items-center">
 <div class="w-full rounded-[24px] overflow-hidden mb-6 bg-gray-100">
-<img alt="Dr. Anna Hurlebaus, DNP, APRN, BC" class="w-full aspect-[4/5] object-cover object-top" src="/assets/images/brick-background-54-768x960.png"/>
+<img alt="Claudia Delbasso" class="w-full aspect-[4/5] object-cover object-top" src="/assets/images/brick-background-59-768x960.png"/>
 </div>
 <div class="text-center w-full px-2">
-<span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">DNP, APRN</span>
-<h2 class="text-2xl font-bold text-[#071e26] mb-6">Dr. Anna Hurlebaus, DNP, APRN, BC</h2>
+<span class="inline-block bg-[#F1F6EC] text-[#7A9E3F] font-bold text-[11px] tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">MA</span>
+<h2 class="text-2xl font-bold text-[#071e26] mb-6">Claudia Delbasso</h2>
 <a class="flex items-center justify-center w-full gap-2 bg-[#071e26] text-white py-4 px-6 rounded-2xl font-semibold hover:bg-[#041116] transition-colors duration-300" href="/contact.php">
                             Book Consultation
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
@@ -73,45 +73,21 @@ include_once "../partials/head.php";
 <h2 class="text-3xl font-extrabold text-[#071e26] mb-6">Education</h2>
 <div class="grid grid-cols-1 gap-4">
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Doctorate (2017)</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Doctor of Nursing Practice</p>
-<p class="text-sm text-gray-500">Master’s Degree (1990)</p>
+<h3 class="font-bold text-[#027289] text-base mb-2">Doctoral Candidate (PhD Expected 2024)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Clinical and Community Psychology</p>
+<p class="text-sm text-gray-500">Georgia State University (GSU)</p>
 </div>
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Psychiatric Mental Health Nursing</h3>
-<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Bachelor’s Degree (1986)</p>
-<p class="text-sm text-gray-500">Bachelor of Science in Nursing</p>
+<h3 class="font-bold text-[#027289] text-base mb-2">Master’s Degree (MA, 2019)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Clinical and Community Psychology</p>
+<p class="text-sm text-gray-500">Georgia State University (GSU)</p>
 </div>
 <div class="bg-[#f4f8f9] rounded-2xl p-6 border border-[#027289]/10 hover:shadow-md transition-shadow">
-<h3 class="font-bold text-[#027289] text-base mb-2">Ashley Martinez, LPC Clinician</h3>
+<h3 class="font-bold text-[#027289] text-base mb-2">Bachelor’s Degree (BS, 2014)</h3>
+<p class="text-[#071e26] font-semibold mb-1 leading-snug text-sm">Psychology</p>
+<p class="text-sm text-gray-500">Georgia College &amp; State University</p>
 </div>
 </div>
-</div>
-<!-- Licenses -->
-<div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
-<h2 class="text-3xl font-extrabold text-[#071e26] mb-6">Licenses</h2>
-<ul class="space-y-4">
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Licensed Advance Practice Registered Nurse (APRN, BC) – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Licensed Clinical Nurse Specialist (CNS ) – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Licensed Registered Nurse – Georgia</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Certified Basic Life Support (BLS) and Advance Cardiac Life Support (ACLS)</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">DEA License</span>
-</li>
-</ul>
 </div>
 <!-- Honors, Awards & Memberships -->
 <div class="bg-white rounded-[32px] p-8 md:p-10 shadow-sm border border-gray-100">
@@ -119,19 +95,31 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Scholarship from Emory University in 1992</span>
+<span class="font-medium text-[#071e26]">Georgia State University Provost Dissertation Fellow</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Conducted Research in Scotland</span>
+<span class="font-medium text-[#071e26]">Health Resources and Services Administration (HRSA) Educating Psychologists in Innovative Care – Child and Adolescent Research and Evidence-based Services (EPIC-CARES) Fellow</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Speaker at “The Spanish and Latin American Woman in the World: History, Successes, and Challenges.” – 1994</span>
+<span class="font-medium text-[#071e26]">HRSA Training in Integrated Pediatric Psychology Services (TIPPS) Fellow</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Presented, in Spanish, “The Role of the Nurse in the Hispanic Community in Atlanta, Georgia.” -July 25-August 1, 1995</span>
+<span class="font-medium text-[#071e26]">Mental Health and Substance Abuse Services (MHSAS) Predoctoral Fellowship, Honorable Mention</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">Jesse Mercer Steward</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">Ked’s Brave Life Career Grant Recipient</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">Clinic Diversity Committee, Georgia State University</span>
 </li>
 </ul>
 </div>
@@ -141,35 +129,31 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Psychiatry</span>
+<span class="font-medium text-[#071e26]">Anxiety, Stress, and Depression</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Medication Management</span>
+<span class="font-medium text-[#071e26]">Trauma</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Mood Disorders</span>
+<span class="font-medium text-[#071e26]">Relationship/Interpersonal Issues</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Thought Disorders</span>
+<span class="font-medium text-[#071e26]">Work-Related or Academic Stressors</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Addictions</span>
+<span class="font-medium text-[#071e26]">Life Management and Effective Communication Skills</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">TBI</span>
+<span class="font-medium text-[#071e26]">Issues Tied to Self-Esteem/Identity</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Medical/surgical nursing</span>
-</li>
-<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
-<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Death and dying</span>
+<span class="font-medium text-[#071e26]">Racial, Ethnic, Bicultural, and Immigration-Related Stressors</span>
 </li>
 </ul>
 </div>
@@ -179,19 +163,23 @@ include_once "../partials/head.php";
 <ul class="space-y-4">
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Variety of patient settings</span>
+<span class="font-medium text-[#071e26]">Individual, Family, and Group Therapy</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Clinical</span>
+<span class="font-medium text-[#071e26]">Workshops, Training, and Retreats: Women’s Wellness and Empowerment; Diversity Equity, &amp; Inclusion; Cultural Sensitivity and Cultural Considerations in Treatment</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Management</span>
+<span class="font-medium text-[#071e26]">Psychological Evaluations</span>
 </li>
 <li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
 <span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
-<span class="font-medium text-[#071e26]">Research</span>
+<span class="font-medium text-[#071e26]">Empowerment, Resilience, and Positive Development</span>
+</li>
+<li class="flex items-start gap-4 bg-[#f4f8f9] p-4 rounded-2xl">
+<span class="w-2.5 h-2.5 rounded-full bg-[#027289] flex-shrink-0 mt-1.5 ring-4 ring-[#027289]/10"></span>
+<span class="font-medium text-[#071e26]">Cultural Immersion</span>
 </li>
 </ul>
 </div>
@@ -202,8 +190,7 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">I enjoy working in a variety of patient settings. I have experience in clinical, management, research, and education. A primary focus of mine is holistic health. I focus on educating patients about medications and alternative treatments. I encourage patients to take charge of their own health.  I like to create an atmosphere where people feel safe, where clients can build trust with staff. I also like collaborative work relationships. Health is far more than taking medications. I learn about all about patients’ lifestyles in order to help them achieve balance and harmony while attaining their goals.  I strive to assist clients in feeling comfortable with themselves,  and continue personal growth in their lives. My personal philosophy is we never stop learning and growing. Everyone can always improve.</p>
-<p class="leading-relaxed">Co-workers will say they enjoy working with me. They like my sense of humor, creativity, knowledge and experience.</p>
+<p class="leading-relaxed">Through the use of culturally sensitive and evidence-based interventions, I strive to create a space where clients feel safe, heard, and empowered. Services typically focus on culturally-informed interpersonal effectiveness, identity development, diversity equity and inclusion, and making wellness strategies accessible and sustainable.</p>
 </div>
 </div>
 <!-- Personal Highlights -->
@@ -213,7 +200,7 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">I am the mother of three daughters. I have traveled to numerous countries, including much of Europe, Latin America, Russia, South Korea, Israel and Egypt. I have also served on several mission trips to Honduras with Atlanta-based nonprofit HOI. I taught mental health nursing internationally. I enjoy trying new ethic foods. My passions are my family, cats and traveling. I love to meet residents of other countries and to learn about their culture. Reading is a favorite past time, especially mystery.</p>
+<p class="leading-relaxed">I am a Clinical and Community Psychology PhD student, working under the supervision of Kelly Lewis-Arthur, Ph.D. I have experience working with diverse organizations and clients in both Spanish and English. My research focuses on individual and contextual factors that influence positive development, mental health, and resilience among immigrant-origin youth of color.</p>
 </div>
 </div>
 <!-- My hobbies -->
@@ -223,7 +210,7 @@ include_once "../partials/head.php";
 <div class="h-px bg-gray-200 flex-grow ml-6 hidden sm:block"></div>
 </div>
 <div class="prose prose-lg max-w-none text-gray-600 space-y-5">
-<p class="leading-relaxed">In my free time, I enjoy walking, yoga, hiking, reading, and knitting. I hope one day to become a yoga instructor.</p>
+<p class="leading-relaxed">In my spare time, I enjoy being active outdoors, dancing, spending time with friends, reading, and listening to podcasts and music.</p>
 </div>
 </div>
 </div>
@@ -231,4 +218,5 @@ include_once "../partials/head.php";
 </section>
 </main>
 <?php include "../partials/footer.php"; ?>
-</body></html>
+</body>
+</html>
