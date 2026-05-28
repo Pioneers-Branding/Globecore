@@ -172,7 +172,6 @@ include_once "partials/head.php";
                 <h1
                     class="hero-up delay-1 text-4xl md:text-5xl lg:text-[3.2rem] xl:text-[3.8rem] font-bold text-white leading-[1.1] tracking-tight mb-6 relative">
                     Mental Health & Psychological Services in Atlanta
-                    <span class="absolute bottom-2 left-0 w-48 h-2 bg-primary/40 -skew-x-12 rounded-full"></span>
                 </h1>
 
                 <p
@@ -544,7 +543,7 @@ include_once "partials/head.php";
 
                 <!-- Card 4: Racial Healing and Hope -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
-                    <img src="/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
+                    <img src="/assets/assets/wp-content/uploads/2023/08/group-therapy-racial-healing-and-hope-2-1-724x1024.png"
                         alt="Racial Healing and Hope group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -562,7 +561,7 @@ include_once "partials/head.php";
 
                 <!-- Card 5: The Roaring 20s -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-80 block">
-                    <img src="/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
+                    <img src="/assets/assets/wp-content/uploads/2023/07/Group-Therapy-The-Roaring-20s-1-791x1024.png"
                         alt="The Roaring 20s group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -580,7 +579,7 @@ include_once "partials/head.php";
 
                 <!-- Card 6: Self Esteem Building for Women -->
                 <a href="/services/counseling.php" class="group relative rounded-3xl overflow-hidden cursor-pointer h-64 lg:h-72 block">
-                    <img src="/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
+                    <img src="/assets/assets/wp-content/uploads/2023/07/Group-Therapy-Self-Esteem-Building-1-724x1024.png"
                         alt="Self Esteem Building for Women group therapy"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
