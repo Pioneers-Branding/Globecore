@@ -87,8 +87,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="/about/dr-sharon.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/brick-background-69-768x960.png"
-                            alt="Dr. Sharon Belhamel LMFT, ND"
+                        <img src="/assets/images/brick-background-69-768x960.png" alt="Dr. Sharon Belhamel LMFT, ND"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="/about/dr-sharon.php"
@@ -103,8 +102,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="/about/brad-johns.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/brick-background-59-768x960.png"
-                            alt="Dr. Brad Johns"
+                        <img src="/assets/images/brick-background-59-768x960.png" alt="Dr. Brad Johns"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="/about/brad-johns.php"
@@ -150,8 +148,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="/about/sueellen-hollowell.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/sueallen.webp"
-                            alt="SueEllen HollowellLPC, NCC"
+                        <img src="/assets/images/sueallen.webp" alt="SueEllen HollowellLPC, NCC"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="/about/sueellen-hollowell.php"
@@ -165,8 +162,7 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="/about/affiniti-harris-mordecai.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/brick-background-74-768x960.png"
-                            alt="Affiniti Harris-Mordecai"
+                        <img src="/assets/images/brick-background-74-768x960.png" alt="Affiniti Harris-Mordecai"
                             class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
                     </a>
                     <a href="/about/affiniti-harris-mordecai.php"
@@ -194,12 +190,26 @@
                 <div
                     class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
                     <a href="/about/gail.php" class="block w-full mb-5 overflow-hidden rounded-xl">
-                        <img src="/assets/images/Gail-foorman.webp"
-                            alt="Gail Foorman"
+                        <img src="/assets/images/Gail-foorman.webp" alt="Gail Foorman"
                             class="w-full aspect-[4/5] object-cover object-top hover:scale-105 transition-transform duration-500">
                     </a>
-                    <a href="/about/gail.php" class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
+                    <a href="/about/gail.php"
+                        class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
                         <h3 class="text-xl font-bold mb-2">Gail Foorman</h3>
+                    </a>
+                    <p class="text-secondary font-medium text-sm">Clinician</p>
+                </div>
+
+                <!-- Jasmine Harden -->
+                <div
+                    class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
+                    <a href="/about/jasmine-harden.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/J-Harden.webp" alt="Jasmine Harden"
+                            class="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-500">
+                    </a>
+                    <a href="/about/jasmine-harden.php"
+                        class="inline-block mt-auto text-[#071e26] hover:text-primary transition-colors">
+                        <h3 class="text-xl font-bold mb-2">Jasmine Harden</h3>
                     </a>
                     <p class="text-secondary font-medium text-sm">Clinician</p>
                 </div>
@@ -304,6 +314,20 @@
                         <h3 class="text-xl font-bold mb-2">Eden Levites</h3>
                     </a>
                     <p class="text-gray-500 font-medium text-sm pt-2">TMS Coordinator and Treater</p>
+                </div>
+
+                <!-- Mary Joyce Juarez -->
+                <div
+                    class="bg-white rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm flex flex-col items-center text-center">
+                    <a href="/about/mary-joyce-juarez.php" class="block w-full mb-5 overflow-hidden rounded-xl">
+                        <img src="/assets/images/M-J-Juarez.webp" alt="Mary Joyce Juarez"
+                            class="w-full aspect-[4/5] object-cover object-center hover:scale-105 transition-transform duration-500">
+                    </a>
+                    <a href="/about/mary-joyce-juarez.php"
+                        class="inline-block mt-auto text-[#071e26] hover:text-[#027289] transition-colors">
+                        <h3 class="text-xl font-bold mb-2">Mary Joyce Juarez</h3>
+                    </a>
+                    <p class="text-gray-500 font-medium text-sm pt-2">Insurance Coordinator</p>
                 </div>
             </div>
         </section>
